@@ -1,0 +1,40 @@
+---
+import { Icon } from 'astro-icon/components';
+import { twMerge } from 'tailwind-merge';
+import { getSettings, toLocale } from '~/utils/site';
+import { buildWaLink, type WaType } from '~/utils/whatsapp';
+
+// زر واتساب موحَّد (7.1): نفس الرابط في كل المواضع، ووسم مصدر في الرسالة، وسمات data للتتبع (19.2).
+export interface Props {
+  type?: WaType;
+  pageName?: string;
+  position?: 'header' | 'top' | 'mid' | 'end';
+  /** يستبدل نص الزر (الرأس يستخدم النص العام ورابط الصفحة) */
+  label?: string;
+  class?: string;
+}
+
+const { type = 'category', pageName, position = 'top', label, class: className = '' } = Astro.props;
+const settings = await getSettings();
+const locale = toLocale(Astro.currentLocale);
+const wa = settings?.whatsapp ? buildWaLink(settings.whatsapp, locale, type, pageName) : null;
+const text = label ?? wa?.label;
+---
+
+{
+  wa && (
+    <a
+      href={wa.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      class={twMerge('btn-primary inline-flex items-center justify-center gap-2 min-h-11', className)}
+      data-wa
+      data-wa-type={type}
+      data-wa-page={wa.source}
+      data-wa-position={position}
+    >
+      <Icon name="tabler:brand-whatsapp" class="w-5 h-5 shrink-0" aria-hidden="true" />
+      <span>{text}</span>
+    </a>
+  )
+}

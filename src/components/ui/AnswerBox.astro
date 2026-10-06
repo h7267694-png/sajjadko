@@ -1,0 +1,27 @@
+---
+// صندوق الإجابة المباشرة (17.2 وبند 8): 40–100 كلمة أعلى الصفحة التجارية، مع تاريخ تحديث عند وجود سعر.
+export interface Props {
+  answer: string;
+  updated?: string; // YYYY-MM-DD
+  label?: string;
+}
+const { answer, updated, label } = Astro.props;
+const words = answer.trim().split(/\s+/).length;
+if (import.meta.env.DEV && (words < 40 || words > 100)) {
+  console.warn(`AnswerBox: ${words} كلمة، المطلوب 40–100`);
+}
+---
+
+<div data-answer class="rounded-xl border border-accent/40 bg-accent/5 p-4 md:p-5 my-6">
+  {label && <p class="text-sm font-semibold text-primary mb-1">{label}</p>}
+  <p class="text-base md:text-lg leading-relaxed">{answer}</p>
+  {
+    updated && (
+      <p class="text-xs text-muted mt-2">
+        <time datetime={updated} dir="ltr">
+          {updated}
+        </time>
+      </p>
+    )
+  }
+</div>

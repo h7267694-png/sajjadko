@@ -1,0 +1,13 @@
+brand:
+  en: Sajjadko Kuwait
+  ar: سجادكو الكويت
+# رقم واتساب والهاتف (نفس الرقم) بصيغة دولية بلا +
+whatsapp: '96565061072'
+address:
+  ar: الكويت – الضجيج – مجمع علي عبدالوهاب – السرداب – مخزن رقم 3
+  en: Kuwait – Al Dajeej – Ali Abdulwahab Complex – Basement – Warehouse No. 3
+# أيام العمل لم تُحدَّد بعد، فلا تُكتب في النص ولا في Schema (openingHoursSpecification تتطلب الأيام)
+hours:
+  ar: 'ساعات العمل: من 8 صباحًا حتى 8 مساءً'
+  en: 'Hours: 8 AM to 8 PM'
+# تُضاف عند توفرها من العميل (لا تخمين): social.instagram

@@ -1,0 +1,17 @@
+{
+  "ci": {
+    "collect": {
+      "staticDistDir": "./dist",
+      "url": ["http://localhost/index.html", "http://localhost/ar/index.html"],
+      "numberOfRuns": 3,
+      "settings": { "preset": "mobile" }
+    },
+    "assert": {
+      "assertions": {
+        "largest-contentful-paint": ["error", { "maxNumericValue": 2000, "aggregationMethod": "median" }],
+        "cumulative-layout-shift": ["error", { "maxNumericValue": 0.05, "aggregationMethod": "median" }]
+      }
+    },
+    "upload": { "target": "temporary-public-storage" }
+  }
+}

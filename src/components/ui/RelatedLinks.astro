@@ -1,0 +1,28 @@
+---
+// روابط ذات صلة (17.2): الأم، الخدمة، الدليل، الصفحتان الشقيقتان. تُمرَّر من القالب ولا تُكتب هنا.
+export interface Props {
+  title: string;
+  links: { text: string; href: string }[];
+}
+const { title, links } = Astro.props;
+---
+
+{
+  links.length > 0 && (
+    <nav class="my-10" aria-label={title}>
+      <h2 class="text-xl font-bold mb-3">{title}</h2>
+      <ul class="flex flex-wrap gap-2">
+        {links.map((l) => (
+          <li>
+            <a
+              href={l.href}
+              class="inline-flex items-center min-h-11 px-4 rounded-full border border-primary/30 hover:bg-primary/5"
+            >
+              {l.text}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  )
+}

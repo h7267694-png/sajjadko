@@ -1,0 +1,52 @@
+---
+// الخط: Alexandria مستضاف محليًا (public/fonts)، وقواعد @font-face في Layout.astro.
+---
+
+<style is:inline>
+  :root {
+    --aw-font-sans: 'Alexandria', 'Alexandria Fallback', system-ui, sans-serif;
+    --aw-font-serif: 'Alexandria', 'Alexandria Fallback', system-ui, sans-serif;
+    --aw-font-heading: 'Alexandria', 'Alexandria Fallback', system-ui, sans-serif;
+
+    /* ألوان الهوية (مستخرجة من الشعار). التباين على الأبيض: كحلي 13.9، ذهبي-نص 4.56 */
+    --aw-color-primary: rgb(2 46 79);
+    --aw-color-secondary: rgb(10 62 102);
+    --aw-color-accent: rgb(143 113 63);
+    --brand-navy: rgb(2 46 79);
+    --brand-gold: rgb(199 157 88); /* للزخرفة والخلفيات فقط: تباينه 2.5 على الأبيض فلا يُستخدم لنص */
+    --brand-gold-text: rgb(143 113 63); /* ذهبي للنص على الفاتح (4.56) */
+
+    --aw-color-text-heading: rgb(2 46 79);
+    --aw-color-text-default: rgb(16 16 16);
+    --aw-color-text-muted: rgb(16 16 16 / 66%);
+    --aw-color-bg-page: rgb(255 255 255);
+
+    --aw-color-bg-page-dark: rgb(8 9 10);
+
+    ::selection {
+      background-color: rgb(199 157 88 / 35%);
+    }
+  }
+
+  .dark {
+    --aw-font-sans: 'Alexandria', 'Alexandria Fallback', system-ui, sans-serif;
+    --aw-font-serif: 'Alexandria', 'Alexandria Fallback', system-ui, sans-serif;
+    --aw-font-heading: 'Alexandria', 'Alexandria Fallback', system-ui, sans-serif;
+
+    /* الداكن: أزرق أفتح (أبيض عليه 4.59، وهو على الخلفية 4.35). يُراجع بصريًا */
+    --aw-color-primary: rgb(60 120 185);
+    --aw-color-secondary: rgb(46 110 176);
+    --aw-color-accent: rgb(199 157 88); /* ذهبي على الداكن 7.96 */
+    --brand-gold-text: rgb(199 157 88);
+
+    --aw-color-text-heading: rgb(247, 248, 248);
+    --aw-color-text-default: rgb(229 236 246);
+    --aw-color-text-muted: rgb(229 236 246 / 66%);
+    --aw-color-bg-page: rgb(8 9 10);
+
+    ::selection {
+      background-color: black;
+      color: snow;
+    }
+  }
+</style>

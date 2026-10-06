@@ -1,0 +1,68 @@
+import type { Locale } from '~/utils/site';
+
+// القسم 17.1 والروابط المجمّدة من 4.1.
+// live:false = الصفحة لم تُبنَ بعد، فلا تظهر في القائمة (حاجز الجودة يفشل البناء عند أي رابط داخلي مكسور).
+// عند بناء صفحة غيّر live إلى true.
+interface Item {
+  text: { en: string; ar: string };
+  href: { en: string; ar: string };
+  live?: boolean;
+  children?: Item[];
+}
+
+const item = (en: string, ar: string, hEn: string, hAr: string, live = false, children?: Item[]): Item => ({
+  text: { en, ar },
+  href: { en: hEn, ar: hAr },
+  live,
+  children,
+});
+
+const NAV: Item[] = [
+  item('Carpets', 'السجاد', '/carpets/', '/ar/carpets/', false, [
+    item('Mosque carpets', 'سجاد المساجد', '/mosque-carpet/', '/ar/mosque-carpets/'),
+    item('Prayer rooms', 'المصلى', '/prayer-room-carpet/', '/ar/mosque-carpets/musalla/'),
+    item('Majlis & diwaniya', 'المجالس والديوانيات', '/majlis-diwaniya-carpet/', '/ar/carpets/diwaniya-majlis/'),
+    item('Hallway runners', 'الممرات', '/hallway-runners/', '/ar/carpets/hallway/'),
+    item('Stairs', 'الدرج', '/stair-carpet/', '/ar/carpets/stairs/'),
+    item('Bedrooms', 'غرف النوم', '/bedroom-carpet/', '/ar/carpets/bedroom/'),
+    item('Kids rugs', 'الأطفال', '/kids-rugs/', '/ar/carpets/kids/'),
+  ]),
+  item('Wall-to-wall carpet', 'الموكيت', '/wall-to-wall-carpet/', '/ar/moquette/'),
+  item('Zawali rugs', 'الزوالي', '/zawali-rugs/', '/ar/zawali/'),
+  item('Offices & commercial', 'التجاري والمكاتب', '/office-carpet/', '/ar/commercial-flooring/offices/'),
+  item('Services', 'الخدمات', '/services/carpet-cutting/', '/ar/services/carpet-cutting/', false, [
+    item('Carpet cutting', 'قص السجاد', '/services/carpet-cutting/', '/ar/services/carpet-cutting/'),
+    item('Hand-carved rugs', 'حفر السجاد', '/services/hand-carved-rugs/', '/ar/services/hand-carving/'),
+    item('Installation', 'التركيب', '/services/carpet-installation/', '/ar/services/carpet-installation/'),
+  ]),
+  item('Projects', 'المشاريع', '/projects/', '/ar/projects/'),
+  item('Guides', 'الأدلة', '/guides/', '/ar/guides/'),
+  item('Contact', 'تواصل', '/contact/', '/ar/contact/'),
+];
+
+type Link = { text: string; href: string; links?: Link[] };
+
+const resolve = (items: Item[], l: Locale): Link[] =>
+  items.flatMap((i) => {
+    const children = i.children
+      ? resolve(
+          i.children.map((c) => ({ ...c, live: c.live ?? false })),
+          l
+        )
+      : undefined;
+    if (children?.length) return [{ text: i.text[l], href: i.href[l], links: children }];
+    return i.live ? [{ text: i.text[l], href: i.href[l] }] : [];
+  });
+
+export const getHeaderLinks = (l: Locale) => resolve(NAV, l);
+
+export const getFooterData = (l: Locale) => ({
+  links: [] as { title?: string; links: { text: string; href: string }[] }[],
+  secondaryLinks: [] as { text: string; href: string }[],
+  socialLinks: [] as { ariaLabel?: string; href: string; icon?: string }[],
+  footNote:
+    l === 'ar' ? `© ${new Date().getFullYear()} سجادكو الكويت` : `© ${new Date().getFullYear()} Sajjadko Kuwait`,
+});
+
+export const headerData = { links: getHeaderLinks('en'), actions: [] };
+export const footerData = getFooterData('en');

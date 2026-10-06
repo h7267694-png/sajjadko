@@ -1,0 +1,32 @@
+---
+// علامة SVG مضمّنة (بلا طلب شبكة، لا أثر على LCP) + اسم نصي حي.
+const isAr = Astro.currentLocale === 'ar';
+---
+
+<span class="flex items-center gap-2">
+  <svg viewBox="0 0 64 64" width="38" height="38" aria-hidden="true" class="shrink-0">
+    <g class="fill-[#022E4F] dark:fill-white">
+      <rect x="6" y="12" width="52" height="10" rx="5"></rect>
+      <rect x="6" y="26" width="52" height="10" rx="5"></rect>
+      <rect x="6" y="40" width="52" height="10" rx="5"></rect>
+    </g>
+    <g fill="#C79D58">
+      <rect x="12" y="6" width="10" height="52" rx="5"></rect>
+      <rect x="26" y="6" width="10" height="52" rx="5"></rect>
+      <rect x="40" y="6" width="10" height="52" rx="5"></rect>
+    </g>
+    <g class="fill-[#022E4F] dark:fill-white">
+      <rect x="12" y="12" width="10" height="10"></rect>
+      <rect x="40" y="12" width="10" height="10"></rect>
+      <rect x="26" y="26" width="10" height="10"></rect>
+      <rect x="12" y="40" width="10" height="10"></rect>
+      <rect x="40" y="40" width="10" height="10"></rect>
+    </g>
+  </svg>
+  <span class="flex flex-col leading-tight whitespace-nowrap">
+    <span class="text-xl font-bold text-heading">{isAr ? 'سجادكو' : 'Sajjadko'}</span>
+    <span class="text-[0.7rem] font-semibold tracking-[0.25em] text-[var(--brand-gold-text)]">
+      {isAr ? 'الكويت' : 'KUWAIT'}
+    </span>
+  </span>
+</span>

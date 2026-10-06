@@ -1,0 +1,64 @@
+---
+import '~/assets/styles/tailwind.css';
+
+import { I18N, SITE } from 'astrowind:config';
+
+import CommonMeta from '~/components/common/CommonMeta.astro';
+import Favicons from '~/components/Favicons.astro';
+import CustomStyles from '~/components/CustomStyles.astro';
+import ApplyColorMode from '~/components/common/ApplyColorMode.astro';
+import Metadata from '~/components/common/Metadata.astro';
+import SiteVerification from '~/components/common/SiteVerification.astro';
+import Analytics from '~/components/common/Analytics.astro';
+import Intersect from '~/components/common/Intersect.astro';
+
+import type { MetaData as MetaDataType } from '~/types';
+
+export interface Props {
+  metadata?: MetaDataType;
+  // روابط النسخ المقابلة للصفحة (مسارات تبدأ بـ /). غيابها يعني صفحة بلا مقابل.
+  alternates?: { en?: string; ar?: string };
+}
+
+const { metadata = {}, alternates } = Astro.props;
+const siteUrl = (SITE.site ?? 'https://sajjadko.com').replace(/\/$/, '');
+const language = Astro.currentLocale ?? I18N.language;
+const textDirection = language === 'ar' ? 'rtl' : 'ltr';
+---
+
+<!doctype html>
+<html lang={language} dir={textDirection} class="2xl:text-[20px]">
+  <head>
+    <CommonMeta />
+    <Favicons />
+    <link
+      rel="preload"
+      href={language === 'ar' ? '/fonts/alexandria-arabic.woff2' : '/fonts/alexandria-latin.woff2'}
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <style
+      is:inline
+      set:html={`@font-face{font-family:'Alexandria Fallback';src:local('Arial'),local('Liberation Sans'),local('Helvetica');size-adjust:110.45%;ascent-override:87.64%;descent-override:22.73%;line-gap-override:0%}@font-face{font-family:'Alexandria';font-style:normal;font-weight:400 700;font-display:swap;src:url('/fonts/alexandria-latin.woff2') format('woff2');unicode-range:U+0020-007E,U+00A0,U+00D7,U+2013,U+2014,U+2018,U+2019,U+201C,U+201D,U+2022,U+2026}${language === 'ar' ? "@font-face{font-family:'Alexandria';font-style:normal;font-weight:400 700;font-display:swap;src:url('/fonts/alexandria-arabic.woff2') format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0898-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC}" : ''}`}
+    ></style>
+    <CustomStyles />
+    <ApplyColorMode />
+    <Metadata {...metadata} />
+    <SiteVerification />
+    <Analytics />
+
+    {alternates?.en && <link rel="alternate" hreflang="en-KW" href={siteUrl + alternates.en} />}
+    {alternates?.ar && <link rel="alternate" hreflang="ar-KW" href={siteUrl + alternates.ar} />}
+    {alternates?.en && <link rel="alternate" hreflang="x-default" href={siteUrl + alternates.en} />}
+
+    <!-- Extra head content from pages: structured data, rel=prev/next, … -->
+    <slot name="head" />
+  </head>
+
+  <body class="antialiased text-default bg-page tracking-tight min-h-screen flex flex-col">
+    <slot />
+
+    <Intersect />
+  </body>
+</html>

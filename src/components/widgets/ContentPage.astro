@@ -1,0 +1,33 @@
+---
+// يعرض صفحة من مجموعة pages بقالب التصنيف (6.1). البيانات من getPageProps.
+import { render } from 'astro:content';
+import CategoryLayout from '~/layouts/CategoryLayout.astro';
+import type { PageEntry } from '~/utils/pages';
+
+export interface Props {
+  entry: PageEntry;
+  alternates: { en?: string; ar?: string };
+  breadcrumbs: { text: string; href?: string }[];
+  related: { text: string; href: string }[];
+}
+
+const { entry, alternates, breadcrumbs, related } = Astro.props;
+const d = entry.data;
+const { Content } = await render(entry);
+---
+
+<CategoryLayout
+  title={d.title}
+  description={d.description}
+  h1={d.h1}
+  directAnswer={d.directAnswer}
+  updated={d.updated?.toISOString().slice(0, 10)}
+  faq={d.faq}
+  breadcrumbs={breadcrumbs}
+  related={related}
+  alternates={alternates}
+  pageType={d.waType ?? 'category'}
+  pageName={d.h1}
+>
+  <div class="prose dark:prose-invert max-w-none"><Content /></div>
+</CategoryLayout>
