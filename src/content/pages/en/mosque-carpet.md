@@ -99,6 +99,8 @@ The area is calculated after measuring on site. Mosque carpet prices are the sam
 
 These prices are for mosque carpet only. Turkish carpet and wall-to-wall carpet for other uses cost 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), by thickness, pile pressure and density.
 
+**Example: what does it cost to carpet a 180 m² mosque?** A prayer hall 15 m (49.2 ft) long and 12 m (39.4 ft) wide is 180 m² (1,937.5 sq ft). The carpet costs 1,080 KWD in light, 1,260 KWD in medium or 1,440 KWD in thick, before installation. This is an illustration. The real area is set by measuring on site, net of columns and the mihrab.
+
 Installation is negotiated based on the area and location.
 
 ## Ordering mosque carpet yourself
