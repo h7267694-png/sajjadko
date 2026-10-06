@@ -2661,6 +2661,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - **نشر تجريبي للأربع عشرة معًا** (`status: published` و`reviewed: true` مؤقتًا) ثم `npm run verify`: فحص المحتوى سليم، 17 صفحة مبنية، حواجز الجودة سليمة على 16 صفحة (H1، canonical، عنوان ووصف فريدان، hreflang متبادل، JSON-LD، روابط داخلية). يثبت أن `kind: service` ومسارات `services/...` تعمل، وأن الأزواج السبعة مقترنة.
 - لقطات Chromium على جوال 390px لصفحتي `/ar/red-carpet/` و`/services/carpet-installation/`: بلا تمرير أفقي، والجداول لا تفيض.
 - أُعيدت الصفحات كلها مسودة و`reviewed: false` بعد التجربة.
+- **إصلاح النشر:** `lighthouserc.json` كان فيه `"preset": "mobile"` وهي قيمة غير صالحة (المسموح perf وexperimental وdesktop)، فكانت خطوة Lighthouse تفشل دائمًا وتمنع النشر. حُذف الإعداد لأن الجوال افتراضي. شُغّل `lhci collect` و`assert` محليًا بالإعداد نفسه: LCP جوال 0.9–1.2 ثانية (الحد 2.0)، CLS نحو 0 (الحد 0.05)، أداء 100، للصفحتين الرئيسيتين. **16.1 LCP وCLS: [تم]** للصفحات الحالية. فُعّل GitHub Pages بمصدر GitHub Actions والدومين `sajjadko.com` (سجلات DNS في Hostinger متحقق منها).
 
 **الخطوة 18 المرشحة:** قرار العميل في صفحة «طلب فرش مسجد» (أعلاه)، ثم صفحة من الموجة A تتوفر بياناتها (الممرات). النشر الفعلي لأي صفحة ينتظر: مراجعة الإنجليزي، والصور، وفحص SERP اليدوي.
 **مؤجل بقرار العميل:** رابط موقع سالفورد. **تذكير:** لا ملف GBP.
