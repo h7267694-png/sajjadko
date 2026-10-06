@@ -12,4 +12,4 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 16
 
 - Offline checks only. `scripts/check-content.mjs` passes (run with a locally available js-yaml), and all 14 page files pass the schema limits by script. No build was run (no network).
-- Open client decision: the standalone mosque-order page (plan 23.1) is not written, because its intent now overlaps the mosque hub page. Recommended: merge into the hub.
+- Decided (client, 2026-10-07): the standalone mosque-order page is cancelled and merged into the mosque hub `/ar/mosque-carpets/`. Do not create `/ar/mosque-carpets/order/`.
