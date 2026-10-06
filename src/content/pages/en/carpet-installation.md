@@ -32,17 +32,17 @@ faq:
 
 ## What the service includes
 
-| Item                                     | Status                                                |
-| ---------------------------------------- | ----------------------------------------------------- |
-| Installing carpet and wall-to-wall carpet | Included                                              |
-| Site visit and measuring                 | When needed                                           |
-| Fixing in mosques and prayer rooms       | Botex, double-sided tape, or an iron carpet edge strip |
-| Installation outside working hours       | Available                                             |
-| Follow-up after installation             | Two days, to fix any installation error              |
-| Carpet or wall-to-wall carpet price      | Per m², at the price of the type chosen              |
-| Installation fee                         | Separate, agreed by area and location                |
-| Carpet bought from another seller        | We do not install it                                  |
-| How to order                             | On WhatsApp only, no online ordering                 |
+| Item                                      | Status                                                 |
+| ----------------------------------------- | ------------------------------------------------------ |
+| Installing carpet and wall-to-wall carpet | Included                                               |
+| Site visit and measuring                  | When needed                                            |
+| Fixing in mosques and prayer rooms        | Botex, double-sided tape, or an iron carpet edge strip |
+| Installation outside working hours        | Available                                              |
+| Follow-up after installation              | Two days, to fix any installation error                |
+| Carpet or wall-to-wall carpet price       | Per m², at the price of the type chosen                |
+| Installation fee                          | Separate, agreed by area and location                  |
+| Carpet bought from another seller         | We do not install it                                   |
+| How to order                              | On WhatsApp only, no online ordering                   |
 
 ## Steps from message to handover
 

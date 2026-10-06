@@ -28,14 +28,14 @@ faq:
 
 ## What the service includes
 
-| Item              | Details                                       |
-| ----------------- | --------------------------------------------- |
-| Service           | Hand carving of a pattern, to your design     |
-| What we carve     | Carpets and zawali rugs                       |
-| Reference         | Your pattern, as a photo or file              |
-| Size              | As you request                                |
-| Price             | Set once we know the pattern and the size     |
-| How to order      | On WhatsApp only, no online ordering          |
+| Item          | Details                                   |
+| ------------- | ----------------------------------------- |
+| Service       | Hand carving of a pattern, to your design |
+| What we carve | Carpets and zawali rugs                   |
+| Reference     | Your pattern, as a photo or file          |
+| Size          | As you request                            |
+| Price         | Set once we know the pattern and the size |
+| How to order  | On WhatsApp only, no online ordering      |
 
 ## Steps to order
 

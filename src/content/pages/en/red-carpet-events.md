@@ -28,17 +28,17 @@ faq:
 
 ## Red Carpet Specifications
 
-| Item                  | Details                                              |
-| --------------------- | ---------------------------------------------------- |
-| Service               | Rental and sale                                      |
-| Material              | Amazon-type carpet                                   |
-| Thickness             | Light, 6 mm (0.24 in)                                |
-| Colours               | More than 12                                         |
-| Rental price, indoor  | 0.750 KWD per m² (0.070 KWD per sq ft)               |
-| Rental price, outdoor | 1 KWD per m² (0.093 KWD per sq ft)                   |
-| Rental includes       | Delivery, laying and removal after the event         |
-| Sale price            | Depends on quantity, send it on WhatsApp             |
-| Price updated         | 7 October 2026                                       |
+| Item                  | Details                                      |
+| --------------------- | -------------------------------------------- |
+| Service               | Rental and sale                              |
+| Material              | Amazon-type carpet                           |
+| Thickness             | Light, 6 mm (0.24 in)                        |
+| Colours               | More than 12                                 |
+| Rental price, indoor  | 0.750 KWD per m² (0.070 KWD per sq ft)       |
+| Rental price, outdoor | 1 KWD per m² (0.093 KWD per sq ft)           |
+| Rental includes       | Delivery, laying and removal after the event |
+| Sale price            | Depends on quantity, send it on WhatsApp     |
+| Price updated         | 7 October 2026                               |
 
 ## How Much Does Red Carpet Rental Cost?
 
@@ -55,12 +55,12 @@ Example: 30 m² (323 sq ft) costs 22.5 KWD in an indoor venue and 30 KWD in an o
 
 ## Rent or Buy?
 
-| Question                      | Rent                                 | Buy                                    |
-| ----------------------------- | ------------------------------------ | -------------------------------------- |
-| Number of events              | One event or a few                   | Events repeated through the year       |
-| Delivery, laying and removal  | Included in the price                | Agreed on request                      |
-| Price                         | 0.750 or 1 KWD per m²                | Depends on quantity, via WhatsApp      |
-| Storage after the event       | We handle it                         | You handle it                          |
+| Question                     | Rent                  | Buy                               |
+| ---------------------------- | --------------------- | --------------------------------- |
+| Number of events             | One event or a few    | Events repeated through the year  |
+| Delivery, laying and removal | Included in the price | Agreed on request                 |
+| Price                        | 0.750 or 1 KWD per m² | Depends on quantity, via WhatsApp |
+| Storage after the event      | We handle it          | You handle it                     |
 
 ## How to Order
 

@@ -30,15 +30,15 @@ faq:
 
 ## What the service includes
 
-| Item                                       | Status                                   |
-| ------------------------------------------ | ---------------------------------------- |
-| Cutting carpet and wall-to-wall carpet     | Included                                 |
-| Checking the measurements before cutting   | Included                                 |
-| Cutting around columns, openings, corners  | Included                                 |
-| Aligning mosque rows with the qibla        | Included for mosques and prayer rooms    |
-| Carpet price                               | Per m², at the price of the type chosen  |
-| Installation                               | Separate, fee agreed by area and location |
-| How to order                               | On WhatsApp only, no online ordering     |
+| Item                                      | Status                                    |
+| ----------------------------------------- | ----------------------------------------- |
+| Cutting carpet and wall-to-wall carpet    | Included                                  |
+| Checking the measurements before cutting  | Included                                  |
+| Cutting around columns, openings, corners | Included                                  |
+| Aligning mosque rows with the qibla       | Included for mosques and prayer rooms     |
+| Carpet price                              | Per m², at the price of the type chosen   |
+| Installation                              | Separate, fee agreed by area and location |
+| How to order                              | On WhatsApp only, no online ordering      |
 
 ## Steps from message to handover
 

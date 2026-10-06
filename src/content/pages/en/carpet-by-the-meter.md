@@ -30,15 +30,15 @@ faq:
 
 ## Price and options table
 
-| Item                    | Details                                              |
-| ----------------------- | ---------------------------------------------------- |
-| Sale method             | By the square meter, or cut to your size             |
-| Types                   | Turkish carpet and wall-to-wall carpet               |
-| Price per m²            | 5 to 15 KWD (0.465 to 1.394 KWD per sq ft)           |
-| What sets the price     | Thickness, pile pressure and density                 |
-| Mosque carpet           | Priced separately: 6, 7 or 8 KWD per m²              |
-| Installation fee        | Separate, agreed by area and location                |
-| How to order            | On WhatsApp only, no online ordering                 |
+| Item                | Details                                    |
+| ------------------- | ------------------------------------------ |
+| Sale method         | By the square meter, or cut to your size   |
+| Types               | Turkish carpet and wall-to-wall carpet     |
+| Price per m²        | 5 to 15 KWD (0.465 to 1.394 KWD per sq ft) |
+| What sets the price | Thickness, pile pressure and density       |
+| Mosque carpet       | Priced separately: 6, 7 or 8 KWD per m²    |
+| Installation fee    | Separate, agreed by area and location      |
+| How to order        | On WhatsApp only, no online ordering       |
 
 ## How carpet by the meter is priced
 
@@ -62,11 +62,11 @@ These factors come together in each type, so we agree the price once we know the
 
 These are illustrative calculations between the lowest and the highest price per m². They do not include the installation fee, and the real price depends on the type you choose.
 
-| Area                                      | At 5 KWD per m² | At 15 KWD per m² |
-| ----------------------------------------- | --------------- | ---------------- |
-| 12 m² (129 sq ft), a room of 3 × 4 m      | 60 KWD          | 180 KWD          |
-| 20 m² (215 sq ft), a room of 4 × 5 m      | 100 KWD         | 300 KWD          |
-| 35 m² (377 sq ft), a hall of 5 × 7 m      | 175 KWD         | 525 KWD          |
+| Area                                 | At 5 KWD per m² | At 15 KWD per m² |
+| ------------------------------------ | --------------- | ---------------- |
+| 12 m² (129 sq ft), a room of 3 × 4 m | 60 KWD          | 180 KWD          |
+| 20 m² (215 sq ft), a room of 4 × 5 m | 100 KWD         | 300 KWD          |
+| 35 m² (377 sq ft), a hall of 5 × 7 m | 175 KWD         | 525 KWD          |
 
 ## How to measure your space
 
