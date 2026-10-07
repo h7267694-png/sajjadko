@@ -2,7 +2,7 @@
 lang: en
 translationKey: by-meter
 urlPath: carpet-by-the-meter
-status: draft
+status: published
 kind: category
 waType: by-meter
 productGrid:
@@ -12,7 +12,7 @@ description: 'Turkish carpet and wall-to-wall carpet by the meter in Kuwait, 5 t
 h1: 'Carpet by the Meter in Kuwait (and by the Foot)'
 directAnswer: 'Sajjadko Kuwait sells Turkish carpet and wall-to-wall carpet by the square meter and cuts it to your room size. Prices run from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), set by thickness, pile pressure and density. The cost is area times price per m², and installation is separate. A 4 × 5 m room (13.1 × 16.4 ft) is 20 m² (215 sq ft), so the carpet costs 100 to 300 KWD. Send the length and width on WhatsApp.'
 updated: 2026-10-07
-reviewed: false
+reviewed: true
 faq:
   - q: 'How much is carpet by the meter in Kuwait?'
     a: 'Turkish carpet costs 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), set by thickness, pile pressure and density. Multiply the area by the price per m² to get the carpet cost. Installation is separate. A room of 20 m² (215 sq ft) costs 100 to 300 KWD for the carpet. Send the length and width on WhatsApp.'
