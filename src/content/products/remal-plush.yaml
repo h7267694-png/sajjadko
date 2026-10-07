@@ -1,6 +1,6 @@
 slug: remal-plush
 sku: SJ-MQ-REMAL
-status: draft
+status: published
 category: moquette
 places:
   - bedroom
@@ -53,7 +53,7 @@ en:
   care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
   seoTitle: Remal Plush Carpet by the m² in Kuwait | Sajjadko Kuwait
   seoDescription: Turkish plush wall-to-wall carpet in seven earth tones for bedrooms, living rooms and majlis rooms, cut to size from 5 to 15 KWD per m².
-  reviewed: false
+  reviewed: true
   faq:
     - q: How much is Remal Plush Carpet per m²?
       a: It is sold by the m², from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Multiply your floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.

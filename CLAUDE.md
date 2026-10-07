@@ -27,3 +27,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Admin at `/admin/` (Sveltia CMS). Config is generated at build from the schema lists in `src/pages/admin/config.yml.ts`; uploads become WebP (q80, max 1600px). Temporary password gate in `public/admin/index.html` (cosmetic, not security; saving needs a GitHub token). Admin is noindex, disallowed in robots, out of sitemap and quality gates.
 - Product pages `/products/<slug>/` (`ProductPage.astro`, full Product + AggregateOffer + FAQPage JSON-LD). EN product page builds only when `en.reviewed: true`. New product fields: `slug`, `priceRange`, `latestWork` (Kuwait area from `src/data/kuwait-areas.json`). Latest works page `/projects/` builds only when a product has `latestWork.show`.
+
+## Step 21
+
+- 8 products published and locked (5 moquette collections + 3 hallway runners with rich English copy). Watermark/brand removed from images. Colour codes on swatch boards are samples only (client); do not chase them.

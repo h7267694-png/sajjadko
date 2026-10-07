@@ -1,7 +1,6 @@
-# صورة اللوحة مستبعدة: عليها علامة مائية لنشاط آخر. تُضاف صورة أصلية بلا علامة.
 slug: naseem-textured
 sku: SJ-MQ-NASEEM
-status: draft
+status: published
 category: moquette
 places:
   - bedroom
@@ -11,6 +10,12 @@ places:
 specs:
   material: موكيت تركي / Turkish wall-to-wall carpet
   origin: تركيا / Turkey
+images:
+  - src: ../../assets/products/naseem-swatches.jpg
+    original: true
+    alt:
+      ar: لوحة عينات موكيت نسيم بألوان عاجي وبيج ورمادي وكحلي وأزرق وبرتقالي وزيتي
+      en: Naseem carpet swatch board in ivory, beige, grey, navy, blue, orange and olive
 priceRange:
   min: 5
   max: 15
@@ -50,7 +55,7 @@ en:
   care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
   seoTitle: Naseem Carpet by the m² in Kuwait, Many Colours | Sajjadko Kuwait
   seoDescription: Turkish wall-to-wall carpet in neutral and bold colours for bedrooms, kids rooms and offices, cut to size from 5 to 15 KWD per m².
-  reviewed: false
+  reviewed: true
   faq:
     - q: How much is Naseem Carpet in per m²?
       a: It is sold by the m², from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Multiply your floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
