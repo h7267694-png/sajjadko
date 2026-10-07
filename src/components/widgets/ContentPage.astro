@@ -3,6 +3,7 @@
 import { render } from 'astro:content';
 import CategoryLayout from '~/layouts/CategoryLayout.astro';
 import type { PageEntry } from '~/utils/pages';
+import ProductGrid from '~/components/widgets/ProductGrid.astro';
 
 export interface Props {
   entry: PageEntry;
@@ -30,4 +31,5 @@ const { Content } = await render(entry);
   pageName={d.h1}
 >
   <div class="prose dark:prose-invert max-w-none"><Content /></div>
+  {d.productGrid && <ProductGrid categories={d.productGrid.categories} places={d.productGrid.places} pageName={d.h1} />}
 </CategoryLayout>

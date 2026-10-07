@@ -1,0 +1,41 @@
+sku: SJ-MQ-REMAL
+status: draft
+category: moquette
+places:
+  - bedroom
+  - living-room
+  - majlis-diwaniya
+  - hallway
+specs:
+  material: Turkish wall-to-wall carpet / موكيت تركي
+  origin: Turkey / تركيا
+colors:
+  - 0004 كريمي / Cream
+  - 0003 بيج رملي / Sand beige
+  - 0002 جملي ذهبي / Golden camel
+  - 0001 بني فاتح / Light brown
+  - 0012 بني قهوة / Coffee brown
+  - 0010 رمادي فضي / Silver grey
+  - 0006 رمادي فحمي / Charcoal
+images:
+  - src: ../../assets/products/remal-plush-swatches.jpg
+    original: true
+    alt:
+      ar: 'لوحة عينات موكيت رمال المخملي بسبعة ألوان: كريمي وبيج رملي وجملي وبني فاتح وبني قهوة ورمادي فضي وفحمي'
+      en: 'Remal plush carpet swatch board in seven colours: cream, sand beige, camel, light brown, coffee brown, silver grey and charcoal'
+ar:
+  name: موكيت رمال المخملي بسبعة ألوان ترابية
+  directAnswer: رمال موكيت تركي بوبر مقصوص كثيف وملمس مخملي ناعم، بسبعة ألوان ترابية من الكريمي إلى الفحمي. يناسب غرف النوم والصالات والمجالس والممرات. يُباع بالمتر المربع ويُقص على مقاس المكان، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
+  usage: اختره لغرفة النوم أو الصالة حين تريد أرضية دافئة ناعمة تحت القدم. الألوان الترابية الهادئة (الكريمي والبيج الرملي والجملي) تناسب الأثاث الخشبي والجدران الفاتحة، والبني والفحمي تخفي آثار الاستعمال اليومي في الممرات.
+  care: نظّفه بالمكنسة الكهربائية بانتظام، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
+  seoTitle: موكيت رمال المخملي بالمتر في الكويت — سجادكو الكويت
+  seoDescription: موكيت تركي مخملي بسبعة ألوان ترابية لغرف النوم والصالات والمجالس، يُقص على المقاس بسعر من 5 إلى 15 د.ك للمتر المربع.
+  reviewed: false
+en:
+  name: Remal Plush Carpet in Seven Earth Tones
+  directAnswer: Remal is a Turkish wall-to-wall carpet with a dense cut pile and a soft, velvety feel, in seven earth tones from cream to charcoal. It suits bedrooms, living rooms, majlis rooms and hallways. Sold per m² and cut to your room size, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density.
+  usage: Choose it for a bedroom or living room when you want a warm, soft floor underfoot. The light earth tones (cream, sand, camel) sit well with wood furniture and pale walls, while the browns and charcoal hide everyday wear in hallways.
+  care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
+  seoTitle: Remal Plush Carpet by the m² in Kuwait | Sajjadko Kuwait
+  seoDescription: Turkish plush wall-to-wall carpet in seven earth tones for bedrooms, living rooms and majlis rooms, cut to size from 5 to 15 KWD per m².
+  reviewed: false

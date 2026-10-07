@@ -1,0 +1,42 @@
+sku: SJ-MQ-SIDRA
+status: draft
+category: moquette
+places:
+  - living-room
+  - bedroom
+  - majlis-diwaniya
+  - hotel
+specs:
+  material: Turkish wall-to-wall carpet / موكيت تركي
+  origin: Turkey / تركيا
+colors:
+  - S-100 بيج ذهبي فاتح / Light golden beige
+  - S-102 رمادي حجري / Stone grey
+  - S-103 عاجي / Ivory
+  - S-104 بيج / Beige
+  - S-105 جملي / Camel
+  - S-106 بني نحاسي / Copper brown
+  - S-107 رمادي فضي / Silver grey
+  - S-108 رمادي فحمي / Charcoal grey
+images:
+  - src: ../../assets/products/sidra-soft-touch-swatches.jpg
+    original: true
+    alt:
+      ar: لوحة عينات موكيت سدرة الناعم بألوان عاجي وبيج وجملي وبني نحاسي ورمادي فضي وفحمي
+      en: Sidra soft-touch carpet swatch board in ivory, beige, camel, copper brown, silver grey and charcoal
+ar:
+  name: موكيت سدرة الناعم بألوان محايدة
+  directAnswer: سدرة موكيت تركي بوبر مقصوص قصير متراص ولمعة خفيفة، بثمانية ألوان محايدة بين العاجي والجملي والرمادي الفحمي. يناسب الصالات وغرف النوم والمجالس والغرف الفندقية. يُباع بالمتر المربع ويُقص على مقاس المكان، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
+  usage: سطحه المتراص يعطي مظهرًا مرتبًا وهادئًا، فيناسب المجالس والصالات الواسعة التي تُفرش من الجدار إلى الجدار. العاجي والبيج يوسعان الغرفة بصريًا، والرمادي الفضي والفحمي يناسبان الأثاث العصري.
+  care: نظّفه بالمكنسة الكهربائية بانتظام، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
+  seoTitle: موكيت سدرة الناعم بالمتر في الكويت — سجادكو الكويت
+  seoDescription: موكيت تركي ناعم بثمانية ألوان محايدة للصالات والمجالس وغرف النوم، يُقص ويُركّب على المقاس من 5 إلى 15 د.ك للمتر المربع.
+  reviewed: false
+en:
+  name: Sidra Soft-Touch Carpet in Neutral Tones
+  directAnswer: Sidra is a Turkish wall-to-wall carpet with a short, tightly packed cut pile and a light sheen, in eight neutral shades from ivory and camel to charcoal grey. It suits living rooms, bedrooms, majlis rooms and hotel rooms. Sold per m² and cut to your room size, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density.
+  usage: Its tight surface looks neat and calm, so it works well in large living rooms and majlis rooms carpeted wall to wall. Ivory and beige make a room feel larger, while silver and charcoal grey suit modern furniture.
+  care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
+  seoTitle: Sidra Soft-Touch Carpet by the m² in Kuwait | Sajjadko Kuwait
+  seoDescription: Soft Turkish wall-to-wall carpet in eight neutral shades for living rooms, majlis rooms and bedrooms, cut and fitted from 5 to 15 KWD per m².
+  reviewed: false

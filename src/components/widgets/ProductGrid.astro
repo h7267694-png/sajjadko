@@ -1,0 +1,130 @@
+---
+// شبكة النماذج (6.1 بند 5): بطاقة لكل منتج (الصورة، الاسم، الألوان، طريقة البيع) وزر واتساب باسم المنتج.
+// تعرض المنشور فقط، والمسودات في التطوير. ItemList في JSON-LD من النص الظاهر نفسه.
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import { getSettings, toLocale } from '~/utils/site';
+
+export interface Props {
+  categories?: string[];
+  places?: string[];
+  pageName: string;
+}
+
+const { categories, places, pageName } = Astro.props;
+const locale = toLocale(Astro.currentLocale);
+const settings = await getSettings();
+
+const visible = (p: CollectionEntry<'products'>) =>
+  p.data.status === 'published' || (import.meta.env.DEV && p.data.status === 'draft');
+
+const items = (await getCollection('products'))
+  .filter(visible)
+  .filter((p) => p.data[locale])
+  .filter((p) => !categories?.length || categories.includes(p.data.category))
+  .filter((p) => !places?.length || p.data.places.some((x) => places.includes(x)))
+  .sort((a, b) => a.data.sku.localeCompare(b.data.sku));
+
+const t =
+  locale === 'ar'
+    ? {
+        title: 'النماذج والألوان المتوفرة',
+        colors: 'الألوان',
+        ask: 'اسأل عن هذا الموكيت',
+        code: 'رمز اللون',
+        size: 'المقاس',
+      }
+    : {
+        title: 'Available collections and colours',
+        colors: 'Colours',
+        ask: 'Ask about this carpet',
+        code: 'Colour code',
+        size: 'Size',
+      };
+
+const colorLabel = (c: string) => {
+  const [code, rest = ''] = c.split(/ (.+)/);
+  const [ar, en] = rest.split(' / ');
+  return { code, name: (locale === 'ar' ? ar : en) ?? rest };
+};
+
+const waHref = (name: string) => {
+  if (!settings?.whatsapp) return null;
+  const msg =
+    locale === 'ar'
+      ? `مرحبًا، أرغب بالاستفسار عن ${name}. ${t.code}: [الرمز]. ${t.size}: [الطول × العرض]. (من صفحة: ${pageName})`
+      : `Hello, I would like to ask about ${name}. ${t.code}: [code]. ${t.size}: [length × width]. (From page: ${pageName})`;
+  return `https://wa.me/${settings.whatsapp}?text=${encodeURIComponent(msg)}`;
+};
+
+const schema = items.length
+  ? {
+      '@context': 'https://schema.org',
+      '@type': 'ItemList',
+      name: t.title,
+      itemListElement: items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.data[locale]!.name })),
+    }
+  : null;
+---
+
+{
+  items.length > 0 && (
+    <section class="not-prose my-10" aria-labelledby="product-grid-title">
+      <h2 id="product-grid-title" class="text-2xl font-bold mb-4">
+        {t.title}
+      </h2>
+      <ul class="grid gap-6 sm:grid-cols-2">
+        {items.map((p) => {
+          const tx = p.data[locale]!;
+          const img = p.data.images[0];
+          const href = waHref(tx.name);
+          return (
+            <li class="rounded-lg border border-gray-200 dark:border-slate-700 overflow-hidden flex flex-col">
+              {img && (
+                <Image
+                  src={img.src}
+                  alt={img.alt[locale] ?? ''}
+                  widths={[360, 640]}
+                  sizes="(min-width: 640px) 360px, 100vw"
+                  loading="lazy"
+                  class="w-full aspect-[4/3] object-contain bg-gray-50 dark:bg-slate-800"
+                />
+              )}
+              <div class="p-4 flex flex-col gap-2 grow">
+                <h3 class="text-lg font-semibold">{tx.name}</h3>
+                <p class="text-sm text-muted">{tx.directAnswer}</p>
+                <p class="text-sm">
+                  <span class="font-semibold">
+                    {t.colors} ({p.data.colors.length}):{' '}
+                  </span>
+                  {p.data.colors.map((c) => {
+                    const l = colorLabel(c);
+                    return (
+                      <span class="inline-block me-2" dir="auto">
+                        <bdi>{l.code}</bdi> {l.name}
+                      </span>
+                    );
+                  })}
+                </p>
+                {href && (
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn-secondary mt-auto inline-flex justify-center min-h-11"
+                    data-wa-type="product"
+                    data-wa-position="card"
+                    data-wa-source={tx.name}
+                  >
+                    {t.ask}
+                  </a>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ul>
+      {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+    </section>
+  )
+}

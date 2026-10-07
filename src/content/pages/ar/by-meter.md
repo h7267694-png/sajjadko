@@ -5,6 +5,8 @@ urlPath: by-meter
 status: draft
 kind: category
 waType: by-meter
+productGrid:
+  categories: [moquette, carpet]
 title: 'سجاد وموكيت بالمتر في الكويت — سجادكو الكويت'
 description: 'سجاد تركي وموكيت بالمتر في الكويت من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. أرسل الطول والعرض عبر واتساب.'
 h1: 'سجاد وموكيت بالمتر في الكويت'

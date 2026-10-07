@@ -5,6 +5,8 @@ urlPath: carpets/hallway
 status: draft
 kind: category
 waType: hallway
+productGrid:
+  places: [hallway]
 title: 'سجاد ممرات ومدات في الكويت بالطول الذي تحتاجه — سجادكو الكويت'
 description: 'سجاد ممرات ومدات تُقص بالطول والعرض الذي تحتاجه في الكويت، من 5 إلى 15 د.ك للمتر المربع، ومدات السدو متوفرة. أرسل المقاس عبر واتساب.'
 h1: 'سجاد ممرات ومدات بالطول الذي تحتاجه'

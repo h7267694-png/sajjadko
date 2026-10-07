@@ -5,6 +5,8 @@ urlPath: hallway-runners
 status: draft
 kind: category
 waType: hallway
+productGrid:
+  places: [hallway]
 title: 'Hallway Runners in Kuwait, Any Length | Sajjadko Kuwait'
 description: 'Carpet runners for hallways in Kuwait, cut to your length and width. 5 to 15 KWD per m². Sadu runners also available. Send your measurements on WhatsApp.'
 h1: 'Hallway Runners Cut to Any Length'

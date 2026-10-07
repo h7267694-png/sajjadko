@@ -5,6 +5,8 @@ urlPath: carpet-by-the-meter
 status: draft
 kind: category
 waType: by-meter
+productGrid:
+  categories: [moquette, carpet]
 title: 'Carpet by the Meter in Kuwait | Sajjadko Kuwait'
 description: 'Turkish carpet and wall-to-wall carpet by the meter in Kuwait, 5 to 15 KWD per m² by thickness, pile pressure and density. Cut to your size.'
 h1: 'Carpet by the Meter in Kuwait (and by the Foot)'

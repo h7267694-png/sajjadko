@@ -1,0 +1,41 @@
+sku: SJ-MQ-HARIR
+status: draft
+category: moquette
+places:
+  - living-room
+  - bedroom
+  - majlis-diwaniya
+specs:
+  material: Turkish wall-to-wall carpet / موكيت تركي
+  origin: Turkey / تركيا
+colors:
+  - SF-10 عاجي / Ivory
+  - SF-11 أسود فحمي / Charcoal black
+  - SF-12 بني زيتوني / Olive brown
+  - SF-13 رمادي أردوازي / Slate grey
+  - SF-14 بيج رملي / Sand beige
+  - SF-17 بيج رمادي / Greige
+  - SF-18 رمادي لؤلؤي / Pearl grey
+  - SF-19 بني شوكولاتة / Chocolate brown
+images:
+  - src: ../../assets/products/harir-silk-touch-swatches.jpg
+    original: true
+    alt:
+      ar: لوحة عينات موكيت حرير اللامع بألوان عاجي ولؤلؤي وبيج رملي ورمادي أردوازي وبني شوكولاتة وأسود فحمي
+      en: Harir silk-touch carpet swatch board in ivory, pearl grey, sand beige, slate grey, chocolate brown and charcoal black
+ar:
+  name: موكيت حرير اللامع بملمس حريري
+  directAnswer: حرير موكيت تركي بوبر ناعم لامع يعكس الضوء فيبدو حريري الملمس، بثمانية ألوان بين العاجي واللؤلؤي والبني الشوكولاتة والأسود الفحمي. يناسب الصالات وغرف النوم والمجالس الراقية. يُباع بالمتر المربع ويُقص على مقاس المكان، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
+  usage: لمعته تتغير مع اتجاه الضوء، فتعطي الصالة والمجلس مظهرًا فخمًا. الألوان الفاتحة (العاجي واللؤلؤي) للغرف المضيئة، والداكنة (الشوكولاتة والفحمي) لإبراز الأثاث الفاتح.
+  care: نظّفه بالمكنسة الكهربائية بانتظام، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
+  seoTitle: موكيت حرير اللامع بالمتر في الكويت — سجادكو الكويت
+  seoDescription: موكيت تركي لامع بملمس حريري وثمانية ألوان للصالات والمجالس وغرف النوم، يُقص على المقاس من 5 إلى 15 د.ك للمتر المربع.
+  reviewed: false
+en:
+  name: Harir Silk-Touch Carpet with a Soft Sheen
+  directAnswer: Harir is a Turkish wall-to-wall carpet with a soft, lustrous pile that catches the light for a silky look, in eight shades from ivory and pearl to chocolate brown and charcoal black. It suits living rooms, bedrooms and formal majlis rooms. Sold per m² and cut to your room size, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density.
+  usage: Its sheen shifts with the light, giving a living room or majlis a rich look. Light shades (ivory, pearl) suit bright rooms, while dark shades (chocolate, charcoal) set off light furniture.
+  care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
+  seoTitle: Harir Silk-Touch Carpet by the m² in Kuwait | Sajjadko Kuwait
+  seoDescription: Lustrous Turkish wall-to-wall carpet with a silky feel in eight shades for living rooms, majlis rooms and bedrooms, from 5 to 15 KWD per m².
+  reviewed: false

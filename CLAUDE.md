@@ -18,3 +18,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Step 17: first real build of all page files; fixed invalid `"preset": "mobile"` in `lighthouserc.json` (blocked every deploy). Site live on https://sajjadko.com via GitHub Pages (Actions).
 - Step 18: mosque hub cost sections got a worked 180 m² example (merged mosque-order intent). New drafts `ar/hallway.md` (`carpets/hallway`) and `en/hallway-runners.md`, key `hallway`, no parent yet. Trial publish of all 16 page files passes `verify`.
+
+## Step 19
+
+- First products: 5 Turkish moquette collections in `src/content/products/` (draft), images in `src/assets/products/`. `ProductGrid.astro` + `productGrid` field on `pages` (by-meter and hallway pages use it). The Naseem board photo is excluded (another business watermark).

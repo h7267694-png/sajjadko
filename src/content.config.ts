@@ -288,6 +288,13 @@ const pagesCollection = defineCollection({
       kind: z.enum(['home', 'category', 'opportunity', 'local', 'faq', 'about', 'contact', 'service']),
       parent: z.string().optional(), // translationKey للأب الأعلى
       waType: z.enum(WA_TYPES).optional(), // نوع رسالة واتساب (7.2). الافتراضي: category
+      // شبكة النماذج (6.1 بند 5): تعرض المنتجات المطابقة للتصنيف أو المكان
+      productGrid: z
+        .object({
+          categories: z.array(z.enum(PRODUCT_CATEGORIES)).optional(),
+          places: z.array(z.enum(PLACES)).optional(),
+        })
+        .optional(),
     }),
     5 // 6.1: 5 أسئلة على الأقل
   ),
