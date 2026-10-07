@@ -62,5 +62,14 @@ export function buildHomeSchema(s: SettingsData, l: Locale, site: URL) {
     sameAs,
   });
 
-  return [{ '@context': 'https://schema.org', '@graph': [organization, store] }];
+  const website = {
+    '@type': 'WebSite',
+    '@id': `${base}/#website`,
+    name: s.brand[l],
+    url: home,
+    inLanguage: l,
+    publisher: { '@id': orgId },
+  };
+
+  return [{ '@context': 'https://schema.org', '@graph': [organization, store, website] }];
 }

@@ -1,0 +1,419 @@
+---
+// الصفحة الرئيسية (20.14 و16.2 و24.4). عنصر LCP نصي (العنوان والسطر التوضيحي)، بلا صورة بطل.
+// العربية: العلامة + «سجاد وموكيت» (لا تنافس صفحة «سجاد الكويت»). الإنجليزية: carpet kuwait و rugs kuwait.
+// روابط الخدمات والأقسام تظهر تلقائيًا فقط للصفحات المنشورة، فلا رابط مكسور قبل نشرها.
+import { getCollection } from 'astro:content';
+import PageLayout from '~/layouts/PageLayout.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import AnswerBox from '~/components/ui/AnswerBox.astro';
+import FaqList from '~/components/ui/FaqList.astro';
+import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import ProductGrid from '~/components/widgets/ProductGrid.astro';
+import { getSettings, toLocale, formatPhone } from '~/utils/site';
+import { buildHomeSchema } from '~/utils/schema';
+import { pageHref } from '~/utils/pages';
+import { getLatestWorks } from '~/utils/products';
+
+const lang = toLocale(Astro.currentLocale);
+const ar = lang === 'ar';
+const settings = await getSettings();
+const schema = settings ? buildHomeSchema(settings, lang, Astro.site!) : [];
+
+const published = (await getCollection('pages')).filter((p) => p.data.status === 'published' && p.data.lang === lang);
+const linkOf = (key: string) => {
+  const p = published.find((x) => x.data.translationKey === key);
+  return p ? pageHref(lang, p.data.urlPath) : undefined;
+};
+const hasWorks = (await getLatestWorks(lang)).length > 0;
+
+const c = ar
+  ? {
+      title: 'سجاد وموكيت في الكويت، قص وتركيب على المقاس — سجادكو الكويت',
+      desc: 'سجادكو الكويت في الضجيج: سجاد تركي وموكيت ومدات ممرات وسجاد مساجد بالمتر، قص وتركيب على المقاس من 5 إلى 15 د.ك للمتر المربع. اطلب عبر واتساب.',
+      eyebrow: 'سجادكو الكويت · الضجيج',
+      h1: 'سجاد وموكيت في الكويت، قص وتركيب على المقاس',
+      lead: 'توريد وقص وحفر وتركيب السجاد والموكيت للبيوت والمساجد والمكاتب والمشاريع. اختر الخامة واللون، وأرسل مقاس مكانك، ونقص ونركّب.',
+      cta2: 'تصفح السجاد بالمتر',
+      trust: [
+        'محل في الضجيج تزوره وترى الخامات',
+        'سعر بالمتر المربع من 5 إلى 15 د.ك',
+        'قص على مقاس مكانك بالضبط',
+        'تركيب ومتابعة يومين بعده',
+      ],
+      short: 'الإجابة باختصار',
+      answer:
+        'سجادكو الكويت محل سجاد وموكيت في الضجيج يبيع السجاد التركي والموكيت ومدات الممرات وسجاد المساجد بالمتر المربع، ويقصها على مقاس المكان ويركّبها. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، وسجاد المساجد 6 أو 7 أو 8 د.ك. الطلب عبر واتساب: أرسل المقاس والمنطقة ونؤكد لك الخيارات والسعر.',
+      offerTitle: 'ماذا نقدم',
+      products: 'من منتجاتنا',
+      allProducts: 'كل المنتجات والألوان',
+      pricesTitle: 'الأسعار باختصار',
+      priceHead: ['الخدمة أو المنتج', 'السعر', 'الوحدة'],
+      prices: [
+        ['السجاد التركي والموكيت', 'من 5 إلى 15 د.ك', 'للمتر المربع'],
+        ['سجاد المساجد والمصليات', '6 / 7 / 8 د.ك (خفيف / وسط / سميك)', 'للمتر المربع'],
+        ['تأجير الريد كاربت', '1 د.ك خارجي، 0.750 د.ك داخلي', 'للمتر المربع، شامل التوصيل والتركيب والفك'],
+        ['التركيب', 'يُتفق حسب المساحة والموقع', 'منفصل عن سعر السجاد'],
+      ],
+      priceNote: 'آخر تحديث للأسعار',
+      stepsTitle: 'كيف تطلب',
+      steps: [
+        'قس طول المكان وعرضه بالمتر.',
+        'أرسل المقاس والمنطقة ونوع المكان عبر واتساب.',
+        'اختر الخامة واللون، ونؤكد لك السعر.',
+        'نقص ونركّب، ثم نتابع معك يومين.',
+      ],
+      whyTitle: 'لماذا سجادكو الكويت',
+      why: [
+        ['محل حقيقي في الضجيج', 'ترى الخامات وتلمسها قبل الطلب، في مجمع علي عبدالوهاب.'],
+        ['سعر واضح بالمتر', 'نعلن نطاق السعر لكل نوع، وتعرف الكلفة بضرب المساحة في سعر المتر.'],
+        ['قص على المقاس', 'لا يقيدك مقاس جاهز. نراجع المقاس معك قبل القص لأن القص لا يُعاد.'],
+        ['تركيب ومتابعة', 'نركّب ما نوفره، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ.'],
+        ['عربي وإنجليزي', 'نخدم العائلات والشركات والمقيمين بالعربية والإنجليزية.'],
+        ['واتساب مباشر', 'لا حسابات ولا دفع إلكتروني: رسالة واحدة وتصلك الخيارات.'],
+      ],
+      worksTitle: 'من أعمالنا الأخيرة',
+      worksText: 'أعمال نفذناها مؤخرًا في مناطق الكويت، مع المنطقة والخامة المستخدمة.',
+      worksLink: 'شاهد أعمالنا الأخيرة',
+      visitTitle: 'زرنا في الضجيج',
+      visitText: 'نخدم مناطق الكويت كلها من محلنا في الضجيج. تعال لترى الخامات، أو أرسل المقاس عبر واتساب.',
+      faqTitle: 'أسئلة شائعة',
+      faq: [
+        {
+          q: 'ماذا تبيع سجادكو الكويت؟',
+          a: 'نبيع السجاد التركي والموكيت ومدات الممرات وسجاد المساجد والمصليات بالمتر المربع، ونقصها على مقاس المكان ونركّبها. ونؤجر الريد كاربت للمناسبات، ونحفر السجاد حسب النقشة. لا نبيع السجاد الإيراني ولا سجادة الصلاة الفردية ولا الدعاسات.',
+        },
+        {
+          q: 'أين يقع محلكم؟',
+          a: 'محلنا في الكويت، الضجيج، مجمع علي عبدالوهاب، السرداب، مخزن رقم 3، ونعمل من 8 صباحًا حتى 8 مساءً. يمكنك زيارتنا لترى الخامات، أو إرسال المقاس عبر واتساب ونرد عليك بالخيارات والسعر.',
+        },
+        {
+          q: 'كم سعر السجاد والموكيت بالمتر؟',
+          a: 'السجاد التركي والموكيت من 5 إلى 15 د.ك للمتر المربع، بحسب السماكة والضغط والكثافة. سجاد المساجد 6 أو 7 أو 8 د.ك للمتر المربع. اضرب مساحة مكانك في سعر المتر لتعرف الكلفة، وأجرة التركيب منفصلة.',
+        },
+        {
+          q: 'هل تقصون السجاد على مقاس غرفتي وتركّبونه؟',
+          a: 'نعم، نقص السجاد والموكيت على مقاس مكانك بالمتر، ونراجع المقاس معك قبل القص. نركّب ما نوفره، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب.',
+        },
+        {
+          q: 'هل يمكن الشراء من الموقع مباشرة؟',
+          a: 'لا يوجد بيع إلكتروني ولا دفع في الموقع. الموقع كتالوج للخامات والأسعار، والطلب عبر واتساب: ترسل المقاس والمنطقة ونوع المكان، ونؤكد لك الخيارات والسعر وموعد القياس أو التركيب.',
+        },
+        {
+          q: 'هل توفرون سجاد المساجد والمصليات؟',
+          a: 'نعم، نوفر سجاد المساجد والمصليات بالمتر بعرض رول 1.33 م أو 4 م، وبثلاث سماكات: 6 د.ك للخفيف و7 للوسط و8 للسميك للمتر المربع. نقيس في الموقع، ونحاذي الصفوف مع القبلة، ونركّب.',
+        },
+      ],
+    }
+  : {
+      title: 'Carpets & Rugs in Kuwait, Cut & Installed | Sajjadko Kuwait',
+      desc: 'Carpet and rugs in Kuwait from our Al Dajeej store: Turkish carpet, wall-to-wall carpet, hallway runners and mosque carpet, cut to size and installed. 5 to 15 KWD per m².',
+      eyebrow: 'Sajjadko Kuwait · Al Dajeej',
+      h1: 'Carpets and Rugs in Kuwait, Made to Your Size',
+      lead: 'Carpet supply, cutting, hand carving and installation for homes, mosques, offices and projects across Kuwait. Pick a material and colour, send your room size, and we cut and fit it.',
+      cta2: 'Browse carpet by the metre',
+      trust: [
+        'A real store in Al Dajeej to see materials',
+        'Priced per m², from 5 to 15 KWD',
+        'Cut to your exact room size',
+        'Installed, with a two-day follow-up',
+      ],
+      short: 'In short',
+      answer:
+        'Sajjadko Kuwait is a carpet store in Al Dajeej selling Turkish carpet, wall-to-wall carpet, hallway runners and mosque carpet by the square metre, cut to your room size and installed. Prices run from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness and density, and mosque carpet is 6, 7 or 8 KWD per m². Order on WhatsApp: send your size and area, and we confirm options and price.',
+      offerTitle: 'What we do',
+      products: 'Featured products',
+      allProducts: 'All products and colours',
+      pricesTitle: 'Prices at a glance',
+      priceHead: ['Product or service', 'Price', 'Unit'],
+      prices: [
+        ['Turkish carpet and wall-to-wall carpet', '5 to 15 KWD', 'per m² (0.465 to 1.394 KWD per sq ft)'],
+        ['Mosque and prayer room carpet', '6 / 7 / 8 KWD (light / medium / thick)', 'per m²'],
+        ['Red carpet rental', '1 KWD outdoor, 0.750 KWD indoor', 'per m², delivery, laying and removal included'],
+        ['Installation', 'Agreed by area and location', 'separate from the carpet price'],
+      ],
+      priceNote: 'Prices last updated',
+      stepsTitle: 'How to order',
+      steps: [
+        'Measure the length and width of your space, in metres or feet.',
+        'Send the size, your area and the type of space on WhatsApp.',
+        'Choose the material and colour, and we confirm the price.',
+        'We cut and install, then follow up for two days.',
+      ],
+      whyTitle: 'Why Sajjadko Kuwait',
+      why: [
+        ['A real store in Al Dajeej', 'See and feel the materials before you order, at Ali Abdulwahab Complex.'],
+        ['Clear per-m² pricing', 'We publish the price range for each type, so cost is simply area × price per m².'],
+        ['Cut to size', 'No stock sizes to settle for. We check measurements with you before cutting.'],
+        [
+          'Installation and follow-up',
+          'We install what we supply and follow up for two days to fix any installation error.',
+        ],
+        ['Arabic and English', 'We serve families, companies and expats in Arabic and English.'],
+        ['Straight to WhatsApp', 'No accounts, no online payment: one message and you get your options.'],
+      ],
+      worksTitle: 'Our recent work',
+      worksText: 'Jobs we completed recently across Kuwait, with the area and the material used.',
+      worksLink: 'See our recent work',
+      visitTitle: 'Visit us in Al Dajeej',
+      visitText:
+        'We serve all of Kuwait from our store in Al Dajeej. Come and see the materials, or send your measurements on WhatsApp.',
+      faqTitle: 'Frequently asked questions',
+      faq: [
+        {
+          q: 'What does Sajjadko Kuwait sell?',
+          a: 'We sell Turkish carpet, wall-to-wall carpet, hallway runners and mosque and prayer room carpet by the square metre, cut to your size and installed. We also rent red carpet for events and offer hand carving. We do not sell Persian rugs, prayer mats or doormats.',
+        },
+        {
+          q: 'Where is your carpet store in Kuwait?',
+          a: 'Our store is in Al Dajeej, Ali Abdulwahab Complex, basement, warehouse no. 3, open 8 AM to 8 PM. Visit to see the materials, or send your measurements on WhatsApp and we reply with options and prices.',
+        },
+        {
+          q: 'How much does carpet cost per square metre in Kuwait?',
+          a: 'Turkish carpet and wall-to-wall carpet cost 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Mosque carpet is 6, 7 or 8 KWD per m². Multiply your floor area by the price per m²; installation is separate.',
+        },
+        {
+          q: 'Can you cut carpet to my room size and install it?',
+          a: 'Yes. We cut carpet and wall-to-wall carpet to your room size and check the measurements with you before cutting. We install what we supply; installation is agreed by area and location, and we follow up for two days afterwards.',
+        },
+        {
+          q: 'Can I buy carpet online on this site?',
+          a: 'There is no online checkout or payment. The site is a catalogue of materials and prices, and you order on WhatsApp: send your size, area and type of space, and we confirm options, price and a time to measure or install.',
+        },
+        {
+          q: 'Do you supply mosque carpet in Kuwait?',
+          a: 'Yes. We supply mosque and prayer room carpet by the metre on 1.33 m (4.4 ft) or 4 m (13.1 ft) rolls, in three thicknesses at 6, 7 or 8 KWD per m². We measure on site, align the rows with the qibla and install.',
+        },
+      ],
+    };
+
+// الأقسام: تظهر بطاقة لكل خدمة، والرابط فقط إن نُشرت صفحتها
+const offers: { key: string; t: string; d: string }[] = ar
+  ? [
+      {
+        key: 'by-meter',
+        t: 'سجاد وموكيت بالمتر',
+        d: 'سجاد تركي وموكيت من 5 إلى 15 د.ك للمتر المربع، يُقص على المقاس.',
+      },
+      { key: 'hallway', t: 'سجاد الممرات والمدات', d: 'مدات تُقص بطول ممرك، ومدات السدو، بنقشات وألوان متعددة.' },
+      { key: 'mosque-carpets', t: 'سجاد المساجد', d: 'رول 1.33 م أو 4 م، صفوف محاذية للقبلة، بثلاث سماكات.' },
+      { key: 'musalla', t: 'سجاد المصليات', d: 'مصليات الشركات والمدارس والمجمعات، والمصلى المتنقل.' },
+      { key: 'carpet-cutting', t: 'قص السجاد', d: 'قص السجاد والموكيت على المقاس حول الأعمدة والمداخل.' },
+      { key: 'carpet-installation', t: 'تركيب السجاد والموكيت', d: 'تركيب ما نوفره، مع متابعة يومين بعد التركيب.' },
+      { key: 'hand-carving', t: 'حفر السجاد', d: 'حفر النقشة يدويًا في السجاد والزوالي حسب الطلب.' },
+      { key: 'red-carpet', t: 'ريد كاربت للمناسبات', d: 'بيع وتأجير للأعراس والمناسبات، التأجير شامل التركيب والفك.' },
+    ]
+  : [
+      {
+        key: 'by-meter',
+        t: 'Carpet by the metre',
+        d: 'Turkish carpet and wall-to-wall carpet, 5 to 15 KWD per m², cut to size.',
+      },
+      {
+        key: 'hallway',
+        t: 'Hallway runners',
+        d: 'Runners cut to your hallway length, plus Sadu runners, in many designs.',
+      },
+      {
+        key: 'mosque-carpets',
+        t: 'Mosque carpet',
+        d: '1.33 m or 4 m rolls, rows aligned with the qibla, three thicknesses.',
+      },
+      {
+        key: 'musalla',
+        t: 'Prayer room carpet',
+        d: 'Prayer rooms for companies, schools and malls, plus mobile musallas.',
+      },
+      { key: 'carpet-cutting', t: 'Carpet cutting', d: 'Carpet cut to size around columns and doorways.' },
+      {
+        key: 'carpet-installation',
+        t: 'Carpet installation',
+        d: 'We install what we supply, with a two-day follow-up.',
+      },
+      { key: 'hand-carving', t: 'Hand-carved rugs', d: 'Your pattern carved by hand into carpet and rugs.' },
+      {
+        key: 'red-carpet',
+        t: 'Red carpet for events',
+        d: 'Sale and rental for weddings and events, rental includes laying and removal.',
+      },
+    ];
+const byMeter = linkOf('by-meter');
+const projectsHref = ar ? '/ar/projects/' : '/projects/';
+---
+
+<PageLayout
+  pageType="home"
+  pageName={ar ? 'الرئيسية' : 'Home'}
+  alternates={{ en: '/', ar: '/ar/' }}
+  metadata={{ title: c.title, ignoreTitleTemplate: true, description: c.desc }}
+>
+  <StructuredData slot="head" schema={schema} />
+
+  <section class="bg-primary/5 dark:bg-slate-800/40">
+    <div class="mx-auto max-w-5xl px-4 py-12 md:py-20">
+      <p class="text-sm font-semibold text-accent mb-3">{c.eyebrow}</p>
+      <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-4 max-w-3xl">{c.h1}</h1>
+      <p class="text-lg md:text-xl text-muted max-w-2xl mb-6">{c.lead}</p>
+      <div class="flex flex-wrap gap-3">
+        <WhatsAppButton type="home" pageName={ar ? 'الرئيسية' : 'Home'} position="top" />
+        {
+          byMeter && (
+            <a href={byMeter} class="btn-secondary inline-flex items-center min-h-11">
+              {c.cta2}
+            </a>
+          )
+        }
+      </div>
+      <ul class="mt-8 grid gap-2 sm:grid-cols-2 max-w-3xl text-sm md:text-base">
+        {
+          c.trust.map((x) => (
+            <li class="flex items-start gap-2">
+              <span aria-hidden="true" class="text-accent">
+                ✓
+              </span>
+              {x}
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-5xl px-4">
+    <div class="max-w-3xl"><AnswerBox answer={c.answer} label={c.short} /></div>
+
+    <section class="my-12" aria-labelledby="offer">
+      <h2 id="offer" class="text-2xl md:text-3xl font-bold mb-6">{c.offerTitle}</h2>
+      <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          offers.map((o) => {
+            const href = linkOf(o.key);
+            return (
+              <li class="rounded-lg border border-gray-200 dark:border-slate-700 p-4">
+                <h3 class="font-semibold mb-1">
+                  {href ? (
+                    <a href={href} class="hover:underline text-primary dark:text-white">
+                      {o.t}
+                    </a>
+                  ) : (
+                    o.t
+                  )}
+                </h3>
+                <p class="text-sm text-muted">{o.d}</p>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </section>
+
+    <ProductGrid pageName={ar ? 'الرئيسية' : 'Home'} limit={4} title={c.products} compact />
+    {
+      byMeter && (
+        <p class="-mt-4 mb-12">
+          <a href={byMeter} class="font-semibold text-primary dark:text-white hover:underline">
+            {c.allProducts} {ar ? '←' : '→'}
+          </a>
+        </p>
+      )
+    }
+
+    <section class="my-12" aria-labelledby="prices">
+      <h2 id="prices" class="text-2xl md:text-3xl font-bold mb-4">{c.pricesTitle}</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-start text-sm md:text-base border-collapse">
+          <thead>
+            <tr class="border-b-2 border-primary">
+              {
+                c.priceHead.map((h) => (
+                  <th scope="col" class="py-2 pe-4 text-start font-semibold">
+                    {h}
+                  </th>
+                ))
+              }
+            </tr>
+          </thead>
+          <tbody>
+            {
+              c.prices.map((r) => (
+                <tr class="border-b border-gray-200 dark:border-slate-700">
+                  <th scope="row" class="py-2 pe-4 text-start font-medium">
+                    {r[0]}
+                  </th>
+                  <td class="py-2 pe-4">{r[1]}</td>
+                  <td class="py-2 pe-4 text-muted">{r[2]}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+      <p class="text-xs text-muted mt-2">
+        {c.priceNote}: <time datetime="2026-10-07"><bdi dir="ltr">2026-10-07</bdi></time>
+      </p>
+    </section>
+
+    <section class="my-12" aria-labelledby="steps">
+      <h2 id="steps" class="text-2xl md:text-3xl font-bold mb-4">{c.stepsTitle}</h2>
+      <ol class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          c.steps.map((s, i) => (
+            <li class="rounded-lg bg-primary/5 dark:bg-slate-800 p-4">
+              <span class="block text-2xl font-bold text-accent mb-1">{i + 1}</span>
+              {s}
+            </li>
+          ))
+        }
+      </ol>
+      <div class="mt-6"><WhatsAppButton type="home" pageName={ar ? 'الرئيسية' : 'Home'} position="mid" /></div>
+    </section>
+
+    <section class="my-12" aria-labelledby="why">
+      <h2 id="why" class="text-2xl md:text-3xl font-bold mb-6">{c.whyTitle}</h2>
+      <ul class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          c.why.map(([h, d]) => (
+            <li>
+              <h3 class="font-semibold mb-1">{h}</h3>
+              <p class="text-sm text-muted">{d}</p>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    {
+      hasWorks && (
+        <section class="my-12 rounded-lg border border-accent/40 bg-accent/5 p-6" aria-labelledby="works">
+          <h2 id="works" class="text-2xl font-bold mb-2">
+            {c.worksTitle}
+          </h2>
+          <p class="mb-3">{c.worksText}</p>
+          <a href={projectsHref} class="font-semibold text-primary dark:text-white hover:underline">
+            {c.worksLink} {ar ? '←' : '→'}
+          </a>
+        </section>
+      )
+    }
+
+    <div class="max-w-3xl"><FaqList items={c.faq} title={c.faqTitle} /></div>
+
+    <section class="my-12" aria-labelledby="visit">
+      <h2 id="visit" class="text-2xl md:text-3xl font-bold mb-3">{c.visitTitle}</h2>
+      <p class="mb-3 max-w-3xl">{c.visitText}</p>
+      {
+        settings && (
+          <address class="not-italic space-y-1 text-muted">
+            {settings.address?.[lang] && <p>{settings.address[lang]}</p>}
+            {settings.hours?.[lang] && <p>{settings.hours[lang]}</p>}
+            {settings.whatsapp && (
+              <p>
+                <bdi dir="ltr">{formatPhone(settings.whatsapp)}</bdi>
+              </p>
+            )}
+          </address>
+        )
+      }
+      <div class="mt-6"><WhatsAppButton type="home" pageName={ar ? 'الرئيسية' : 'Home'} position="end" /></div>
+    </section>
+  </div>
+</PageLayout>

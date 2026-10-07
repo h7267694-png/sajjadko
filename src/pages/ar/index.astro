@@ -1,20 +1,5 @@
 ---
-import PageLayout from '~/layouts/PageLayout.astro';
-import StructuredData from '~/components/common/StructuredData.astro';
-import { getSettings } from '~/utils/site';
-import { buildHomeSchema } from '~/utils/schema';
-const settings = await getSettings();
-const schema = settings ? buildHomeSchema(settings, 'ar', Astro.site!) : [];
+import HomePage from '~/components/widgets/HomePage.astro';
 ---
 
-<PageLayout
-  pageType="home"
-  pageName="الرئيسية"
-  alternates={{ en: '/', ar: '/ar/' }}
-  metadata={{ title: 'سجادكو الكويت', ignoreTitleTemplate: true, description: 'صفحة مؤقتة' }}
->
-  <StructuredData slot="head" schema={schema} />
-  <section class="mx-auto max-w-3xl px-4 py-16">
-    <h1 class="text-4xl font-bold">سجادكو الكويت</h1>
-  </section>
-</PageLayout>
+<HomePage />
