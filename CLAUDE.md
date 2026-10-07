@@ -35,3 +35,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 23
 
 - Real home pages via `HomePage.astro` (text hero is the LCP element). Service cards link only to published pages (auto). Home grid uses `ProductGrid` with `limit` + `compact` (interleaves categories).
+
+## Step 24
+
+- Sitemap built from `scripts/sitemap-data.mjs`: real `lastmod` from git (CI uses `fetch-depth: 0`), hreflang pairs for pages and products. Product lock violations are warnings (admin can delete/unpublish without breaking deploy); `--lock --prune` cleans the lock.
