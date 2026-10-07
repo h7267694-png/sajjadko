@@ -39,3 +39,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 24
 
 - Sitemap built from `scripts/sitemap-data.mjs`: real `lastmod` from git (CI uses `fetch-depth: 0`), hreflang pairs for pages and products. Product lock violations are warnings (admin can delete/unpublish without breaking deploy); `--lock --prune` cleans the lock.
+
+## Steps 25–26
+
+- Language switcher in header (from `alternates`) + home hero button. 12 products now (added stair: Juman, Wasan; office: Reem, Riwaq). Stair/office pages not written yet; they will pick products via `productGrid.places`.
