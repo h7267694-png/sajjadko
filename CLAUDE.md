@@ -51,3 +51,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 28
 
 - Free home visit (client): `FreeVisit.astro` on every category/service page (via `CategoryLayout`), product page and home; WhatsApp type `visit`; `makesOffer` price 0 in store schema. AI files `/llms.txt` and `/llms-full.txt` generated at build from published content; robots.txt explicitly allows AI crawlers.
+
+## Step 29
+
+- Prices (client): lightweight carpet (Juman, Wasan, Reem, Riwaq; used for offices and stairs) 1.250–3 KWD/m²; office carpet tiles 5–6 KWD/m²; Turkish/thicker carpet stays 5–15. These four products have no stated origin. KWD fractions display with 3 decimals.

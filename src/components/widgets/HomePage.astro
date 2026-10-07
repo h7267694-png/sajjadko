@@ -30,7 +30,7 @@ const hasWorks = (await getLatestWorks(lang)).length > 0;
 const c = ar
   ? {
       title: 'سجاد وموكيت في الكويت، قص وتركيب على المقاس — سجادكو الكويت',
-      desc: 'سجادكو الكويت في الضجيج: سجاد تركي وموكيت ومدات ممرات وسجاد مساجد بالمتر، قص وتركيب على المقاس من 5 إلى 15 د.ك للمتر المربع. اطلب عبر واتساب.',
+      desc: 'سجادكو الكويت في الضجيج: سجاد تركي وموكيت ومدات ممرات وسجاد مساجد بالمتر، قص وتركيب على المقاس ابتداءً من 1.250 د.ك للمتر المربع. اطلب عبر واتساب.',
       eyebrow: 'سجادكو الكويت · الضجيج',
       h1: 'سجاد وموكيت في الكويت، قص وتركيب على المقاس',
       lead: 'توريد وقص وحفر وتركيب السجاد والموكيت للبيوت والمساجد والمكاتب والمشاريع. اختر الخامة واللون، وأرسل مقاس مكانك، ونقص ونركّب.',
@@ -38,7 +38,7 @@ const c = ar
       trust: [
         'زيارة مجانية للقياس وعرض العينات',
         'محل في الضجيج تزوره وترى الخامات',
-        'سعر بالمتر المربع من 5 إلى 15 د.ك',
+        'سعر بالمتر المربع ابتداءً من 1.250 د.ك',
         'قص على مقاس مكانك بالضبط',
         'تركيب ومتابعة يومين بعده',
       ],
@@ -52,6 +52,8 @@ const c = ar
       priceHead: ['الخدمة أو المنتج', 'السعر', 'الوحدة'],
       prices: [
         ['السجاد التركي والموكيت', 'من 5 إلى 15 د.ك', 'للمتر المربع'],
+        ['الموكيت الخفيف (للمكاتب والدرج)', 'من 1.250 إلى 3 د.ك', 'للمتر المربع'],
+        ['بلاط السجاد للمكاتب', 'من 5 إلى 6 د.ك', 'للمتر المربع'],
         ['سجاد المساجد والمصليات', '6 / 7 / 8 د.ك (خفيف / وسط / سميك)', 'للمتر المربع'],
         ['تأجير الريد كاربت', '1 د.ك خارجي، 0.750 د.ك داخلي', 'للمتر المربع، شامل التوصيل والتركيب والفك'],
         ['زيارة المندوب للقياس وعرض العينات', 'مجانًا', 'دون أي رسوم'],
@@ -96,7 +98,7 @@ const c = ar
         },
         {
           q: 'كم سعر السجاد والموكيت بالمتر؟',
-          a: 'السجاد التركي والموكيت من 5 إلى 15 د.ك للمتر المربع، بحسب السماكة والضغط والكثافة. سجاد المساجد 6 أو 7 أو 8 د.ك للمتر المربع. اضرب مساحة مكانك في سعر المتر لتعرف الكلفة، وأجرة التركيب منفصلة.',
+          a: 'السجاد التركي والموكيت من 5 إلى 15 د.ك للمتر المربع، بحسب السماكة والضغط والكثافة، والموكيت الخفيف للمكاتب والدرج من 1.250 إلى 3 د.ك. سجاد المساجد 6 أو 7 أو 8 د.ك للمتر المربع. اضرب مساحة مكانك في سعر المتر لتعرف الكلفة، وأجرة التركيب منفصلة.',
         },
         {
           q: 'هل تقصون السجاد على مقاس غرفتي وتركّبونه؟',
@@ -114,7 +116,7 @@ const c = ar
     }
   : {
       title: 'Carpets & Rugs in Kuwait, Cut & Installed | Sajjadko Kuwait',
-      desc: 'Carpet and rugs in Kuwait from our Al Dajeej store: Turkish carpet, wall-to-wall carpet, hallway runners and mosque carpet, cut to size and installed. 5 to 15 KWD per m².',
+      desc: 'Carpets and rugs in Kuwait from our Al Dajeej store: Turkish carpet, wall-to-wall carpet, runners and mosque carpet, cut and installed from 1.250 KWD/m².',
       eyebrow: 'Sajjadko Kuwait · Al Dajeej',
       h1: 'Carpets and Rugs in Kuwait, Made to Your Size',
       lead: 'Carpet supply, cutting, hand carving and installation for homes, mosques, offices and projects across Kuwait. Pick a material and colour, send your room size, and we cut and fit it.',
@@ -122,7 +124,7 @@ const c = ar
       trust: [
         'Free home visit to measure and show samples',
         'A real store in Al Dajeej to see materials',
-        'Priced per m², from 5 to 15 KWD',
+        'Priced per m², from just 1.250 KWD',
         'Cut to your exact room size',
         'Installed, with a two-day follow-up',
       ],
@@ -136,6 +138,8 @@ const c = ar
       priceHead: ['Product or service', 'Price', 'Unit'],
       prices: [
         ['Turkish carpet and wall-to-wall carpet', '5 to 15 KWD', 'per m² (0.465 to 1.394 KWD per sq ft)'],
+        ['Lightweight carpet (offices and stairs)', '1.250 to 3 KWD', 'per m² (0.116 to 0.279 KWD per sq ft)'],
+        ['Office carpet tiles', '5 to 6 KWD', 'per m² (0.465 to 0.557 KWD per sq ft)'],
         ['Mosque and prayer room carpet', '6 / 7 / 8 KWD (light / medium / thick)', 'per m²'],
         ['Red carpet rental', '1 KWD outdoor, 0.750 KWD indoor', 'per m², delivery, laying and removal included'],
         ['Home visit to measure and show samples', 'Free', 'no charge'],
@@ -184,7 +188,7 @@ const c = ar
         },
         {
           q: 'How much does carpet cost per square metre in Kuwait?',
-          a: 'Turkish carpet and wall-to-wall carpet cost 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Mosque carpet is 6, 7 or 8 KWD per m². Multiply your floor area by the price per m²; installation is separate.',
+          a: 'Turkish carpet and wall-to-wall carpet cost 5 to 15 KWD per m², depending on thickness, pile pressure and density, and lightweight carpet for offices and stairs 1.250 to 3 KWD per m². Mosque carpet is 6, 7 or 8 KWD per m². Multiply your floor area by the price per m²; installation is separate.',
         },
         {
           q: 'Can you cut carpet to my room size and install it?',

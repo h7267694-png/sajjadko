@@ -100,10 +100,12 @@ const t = ar
 
 const fmt = (m?: { value: number; unit: string }) => (m ? `${m.value} ${m.unit.replace('m2', 'm²')}` : undefined);
 const unit = (u: keyof typeof PRICE_UNIT_LABELS) => PRICE_UNIT_LABELS[u][lang];
+// الدينار بثلاث خانات عشرية عند الكسر: 1.250 لا 1.25
+const kwd = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(3));
 const priceText = d.price
-  ? `${d.price.amount} ${t.currency} ${unit(d.price.unit)}`
+  ? `${kwd(d.price.amount)} ${t.currency} ${unit(d.price.unit)}`
   : d.priceRange
-    ? `${t.from} ${d.priceRange.min} ${t.to} ${d.priceRange.max} ${t.currency} ${unit(d.priceRange.unit)}`
+    ? `${t.from} ${kwd(d.priceRange.min)} ${t.to} ${kwd(d.priceRange.max)} ${t.currency} ${unit(d.priceRange.unit)}`
     : undefined;
 const priceUpdated = (d.price?.updated ?? d.priceRange?.updated)?.toISOString().slice(0, 10);
 

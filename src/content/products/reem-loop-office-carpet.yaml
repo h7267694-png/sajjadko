@@ -7,17 +7,16 @@ places:
   - hotel
   - hallway
 specs:
-  material: موكيت تركي / Turkish wall-to-wall carpet
-  origin: تركيا / Turkey
+  material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
   - src: /src/assets/products/reem-office-loop-swatches.jpg
     original: true
     alt:
-      ar: لوحة عينات موكيت ريم الحلقي للمكاتب بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود
+      ar: لوحة عينات موكيت خفيف ريم الحلقي للمكاتب بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود
       en: Reem loop-pile office carpet swatch board in over 19 colours including navy, red, green and black
 priceRange:
-  min: 5
-  max: 15
+  min: 1.25
+  max: 3
   unit: m2
   updated: '2026-10-07'
 colors:
@@ -41,15 +40,15 @@ colors:
   - أزرق سماوي / Sky blue
   - بنفسجي داكن / Dark purple
 ar:
-  name: موكيت ريم الحلقي للمكاتب بأكثر من 19 لونًا
-  directAnswer: ريم موكيت تركي بوبر حلقي متماسك للمكاتب، بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود والرمادي والبيج. يتحمل كثرة المشي وحركة الكراسي، ويناسب المكاتب والممرات والقاعات والفنادق. يُباع بالمتر المربع ويُقص على المقاس، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
+  name: موكيت ريم الخفيف الحلقي للمكاتب بأكثر من 19 لونًا
+  directAnswer: ريم موكيت مكاتب خفيف بوبر حلقي متماسك، وليس بلاط سجاد، بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود والرمادي والبيج. سعره ابتداءً من 1.250 د.ك فقط للمتر المربع. يتحمل كثرة المشي وحركة الكراسي، ويُقص على مقاس المكتب ويُركّب، ويناسب المكاتب والممرات والقاعات والفنادق.
   usage: اختره للمكاتب المفتوحة وغرف الاجتماعات والممرات الطويلة. الألوان الداكنة والمزيجة تخفي الأثر اليومي، والألوان الجريئة مثل الأحمر والأزرق الملكي والأخضر تناسب لون هوية الشركة في الاستقبال والقاعات.
   care: نظّفه بالمكنسة الكهربائية بانتظام، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
   seoTitle: موكيت ريم الحلقي للمكاتب بالمتر في الكويت — سجادكو الكويت
-  seoDescription: موكيت مكاتب تركي بوبر حلقي وأكثر من 19 لونًا للمكاتب والممرات والقاعات، يُقص ويُركّب في الكويت من 5 إلى 15 د.ك للمتر المربع.
+  seoDescription: موكيت مكاتب خفيف بوبر حلقي وأكثر من 19 لونًا، ابتداءً من 1.250 د.ك للمتر المربع، يُقص ويُركّب في الكويت للمكاتب والممرات والقاعات.
   faq:
     - q: كم سعر موكيت ريم بالمتر؟
-      a: يُباع بالمتر المربع من 5 إلى 15 د.ك حسب السماكة والضغط والكثافة. اضرب مساحة المكتب في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع.
+      a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. اضرب مساحة المكتب في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع.
     - q: لماذا يُختار الوبر الحلقي للمكاتب؟
       a: الوبر الحلقي متماسك ويحافظ على شكله مع كثرة المشي وحركة الكراسي، ويخفي الأثر اليومي أكثر من الوبر المقصوص الناعم، لذلك يُختار عادة للمكاتب والممرات والقاعات.
     - q: هل يمكن فرش المكتب كله بلون الهوية؟
@@ -59,20 +58,20 @@ ar:
   reviewed: false
 en:
   name: Reem Loop-Pile Office Carpet in 19+ Colours
-  directAnswer: Reem is a Turkish loop-pile office carpet with a firm surface, in more than 19 colours including navy, red, green, black, grey and beige. It stands up to heavy foot traffic and office chairs, and suits offices, corridors, meeting rooms and hotels. Sold by the m² and cut to size, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density.
+  directAnswer: Reem is a lightweight loop-pile office carpet sold by the roll, not a carpet tile, in more than 19 colours including navy, red, green, black, grey and beige. It starts from just 1.250 KWD per m² (0.116 KWD per sq ft). It stands up to foot traffic and office chairs, is cut to your floor plan and installed, and suits offices, corridors, meeting rooms and hotels.
   usage: Choose it for open-plan offices, meeting rooms and long corridors. Dark and flecked shades hide daily wear, while bold colours such as red, royal blue and green can match your brand colour in reception areas and halls.
   care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
   seoTitle: Reem Loop-Pile Office Carpet, Kuwait | Sajjadko Kuwait
-  seoDescription: Turkish loop-pile commercial carpet in 19+ colours for offices, corridors and meeting rooms, cut and installed in Kuwait. 5 to 15 KWD per m².
+  seoDescription: Lightweight loop-pile office carpet in 19+ colours from just 1.250 KWD per m², cut and installed in Kuwait for offices, corridors and meeting rooms.
   faq:
     - q: How much does Reem office carpet cost per m²?
-      a: It is sold by the m², from 5 to 15 KWD (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density. Multiply your office floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
+      a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. Multiply your office floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
     - q: Why is loop pile carpet used in offices?
       a: A loop pile is firm and keeps its shape under heavy foot traffic and office chairs, and it hides daily wear better than a soft cut pile. That is why it is the usual choice for offices, corridors and meeting rooms.
     - q: Can you carpet an office in our brand colour?
       a: There is a wide range of colours, including blues, reds, greens, greys and black. Send your brand colour or a colour code on WhatsApp and we confirm the closest match in stock.
     - q: How much carpet does a 100 m² office need?
-      a: A 100 m² (1,076 sq ft) open office needs about 100 m² of carpet plus a small allowance for cutting around columns and doorways, which we confirm after measuring. At 5 to 15 KWD per m², the carpet is roughly 500 to 1,500 KWD before installation.
+      a: A 100 m² (1,076 sq ft) open office needs about 100 m² of carpet plus a small allowance for cutting around columns and doorways, which we confirm after measuring. At 1.250 to 3 KWD per m², the carpet is roughly 125 to 300 KWD before installation.
     - q: Do you install office carpet?
       a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location, and we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.
   reviewed: true
