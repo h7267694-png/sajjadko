@@ -1,0 +1,49 @@
+---
+// زيارة المندوب المجانية (قرار العميل، 7 أكتوبر 2026): يزور البيت أو الموقع، يأخذ المقاسات ويعرض العينات، دون رسوم.
+// تظهر في كل صفحة تصنيف وخدمة ومنتج وفي الرئيسية، بزر واتساب برسالة مخصصة ووسم مصدر الصفحة.
+import { Icon } from 'astro-icon/components';
+import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import { toLocale } from '~/utils/site';
+
+export interface Props {
+  pageName: string;
+  class?: string;
+}
+const { pageName, class: className = '' } = Astro.props;
+const ar = toLocale(Astro.currentLocale) === 'ar';
+const t = ar
+  ? {
+      title: 'زيارة مجانية للقياس وعرض العينات',
+      text: 'مندوبنا يزورك في بيتك أو موقعك في الكويت، يأخذ المقاسات بدقة ويعرض عليك عينات الخامات والألوان لتختار على الطبيعة. الزيارة مجانية ودون أي رسوم.',
+      points: ['قياس دقيق في المكان', 'عينات الخامات والألوان معه', 'مجانًا دون أي رسوم'],
+    }
+  : {
+      title: 'Free home visit to measure and show samples',
+      text: 'Our representative visits your home or site in Kuwait, takes accurate measurements and brings material and colour samples so you can choose in your own space. The visit is free, with no charge.',
+      points: ['Accurate on-site measuring', 'Material and colour samples brought to you', 'Free, no charge'],
+    };
+---
+
+<aside
+  class:list={['not-prose my-8 rounded-xl border-2 border-primary/20 bg-primary/5 dark:bg-slate-800 p-5', className]}
+  aria-label={t.title}
+>
+  <p class="flex items-center gap-2 text-lg font-bold mb-2">
+    <Icon name="tabler:home-check" class="w-6 h-6 text-accent shrink-0" aria-hidden="true" />
+    {t.title}
+  </p>
+  <p class="mb-3">{t.text}</p>
+  <ul class="flex flex-wrap gap-x-4 gap-y-1 text-sm mb-4">
+    {
+      t.points.map((x) => (
+        <li class="flex items-center gap-1.5">
+          <span aria-hidden="true" class="text-accent">
+            ✓
+          </span>
+          {x}
+        </li>
+      ))
+    }
+  </ul>
+  <WhatsAppButton type="visit" pageName={pageName} position="visit" />
+</aside>

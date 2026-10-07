@@ -23,6 +23,7 @@ export const WA_TYPES = [
   'project',
   'guide',
   'red-carpet',
+  'visit',
 ] as const;
 export type WaType = (typeof WA_TYPES)[number];
 
@@ -33,6 +34,19 @@ interface Tpl {
 }
 
 export const WA_TEMPLATES: Record<WaType, { ar: Tpl; en: Tpl }> = {
+  // زيارة المندوب المجانية للقياس وعرض العينات (قرار العميل، 7 أكتوبر 2026). الوسم = اسم الصفحة
+  visit: {
+    ar: {
+      label: 'اطلب زيارة مجانية',
+      msg: 'مرحبًا، أرغب بزيارة مجانية من المندوب لأخذ المقاسات ومشاهدة العينات. المنطقة: [المنطقة]. نوع المكان: [النوع].',
+      tag: 'زيارة مجانية',
+    },
+    en: {
+      label: 'Book a free visit',
+      msg: 'Hello, I would like a free visit from your representative to take measurements and see samples. Area: [area]. Type of place: [type].',
+      tag: 'Free visit',
+    },
+  },
   home: {
     ar: {
       label: 'تواصل عبر واتساب',

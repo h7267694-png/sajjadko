@@ -7,6 +7,7 @@ import AnswerBox from '~/components/ui/AnswerBox.astro';
 import FaqList from '~/components/ui/FaqList.astro';
 import RelatedLinks from '~/components/ui/RelatedLinks.astro';
 import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import FreeVisit from '~/components/ui/FreeVisit.astro';
 import { getSettings, toLocale, formatPhone } from '~/utils/site';
 import type { WaType } from '~/utils/whatsapp';
 
@@ -44,6 +45,7 @@ const t =
     <h1 class="text-3xl md:text-4xl font-bold mb-4">{p.h1}</h1>
     <WhatsAppButton type={p.pageType ?? 'category'} pageName={p.pageName} position="top" />
     <AnswerBox answer={p.directAnswer} updated={p.updated} label={t.short} />
+    <FreeVisit pageName={p.pageName} />
     <slot />
     <div class="my-8"><WhatsAppButton type={p.pageType ?? 'category'} pageName={p.pageName} position="mid" /></div>
     <FaqList items={p.faq} title={t.faq} />

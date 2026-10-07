@@ -11,6 +11,7 @@ import SpecTable from '~/components/ui/SpecTable.astro';
 import FaqList from '~/components/ui/FaqList.astro';
 import RelatedLinks from '~/components/ui/RelatedLinks.astro';
 import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import FreeVisit from '~/components/ui/FreeVisit.astro';
 import { getSettings, toLocale } from '~/utils/site';
 import { productHref, pickLang, colorParts, type ProductEntry } from '~/utils/products';
 import { CATEGORY_LABELS, PLACE_LABELS, PRICE_UNIT_LABELS, areaLabel } from '~/utils/taxonomy';
@@ -246,6 +247,7 @@ const waVars: Record<string, string> = ar
 
     <WhatsAppButton type="product" pageName={tx.name} position="top" vars={waVars} />
     <AnswerBox answer={tx.directAnswer} updated={priceUpdated} label={t.short} />
+    <FreeVisit pageName={tx.name} />
 
     <SpecTable
       caption={`${tx.name}: ${t.specs}`}

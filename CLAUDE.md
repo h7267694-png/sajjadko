@@ -47,3 +47,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 27
 
 - Stairs (`carpets/stairs` / `stair-carpet`) and offices (`commercial-flooring/offices` / `office-carpet`) pages published. Home: products carousel right after hero (`ProductGrid carousel`, lazy + `fetchpriority=low` images to keep the text LCP fast; measured LCP 0.98–1.38s).
+
+## Step 28
+
+- Free home visit (client): `FreeVisit.astro` on every category/service page (via `CategoryLayout`), product page and home; WhatsApp type `visit`; `makesOffer` price 0 in store schema. AI files `/llms.txt` and `/llms-full.txt` generated at build from published content; robots.txt explicitly allows AI crawlers.

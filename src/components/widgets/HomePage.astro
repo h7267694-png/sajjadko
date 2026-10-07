@@ -8,6 +8,7 @@ import StructuredData from '~/components/common/StructuredData.astro';
 import AnswerBox from '~/components/ui/AnswerBox.astro';
 import FaqList from '~/components/ui/FaqList.astro';
 import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import FreeVisit from '~/components/ui/FreeVisit.astro';
 import ProductGrid from '~/components/widgets/ProductGrid.astro';
 import { getSettings, toLocale, formatPhone } from '~/utils/site';
 import { buildHomeSchema } from '~/utils/schema';
@@ -35,6 +36,7 @@ const c = ar
       lead: 'توريد وقص وحفر وتركيب السجاد والموكيت للبيوت والمساجد والمكاتب والمشاريع. اختر الخامة واللون، وأرسل مقاس مكانك، ونقص ونركّب.',
       cta2: 'تصفح السجاد بالمتر',
       trust: [
+        'زيارة مجانية للقياس وعرض العينات',
         'محل في الضجيج تزوره وترى الخامات',
         'سعر بالمتر المربع من 5 إلى 15 د.ك',
         'قص على مقاس مكانك بالضبط',
@@ -42,7 +44,7 @@ const c = ar
       ],
       short: 'الإجابة باختصار',
       answer:
-        'سجادكو الكويت محل سجاد وموكيت في الضجيج يبيع السجاد التركي والموكيت ومدات الممرات وسجاد المساجد بالمتر المربع، ويقصها على مقاس المكان ويركّبها. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، وسجاد المساجد 6 أو 7 أو 8 د.ك. الطلب عبر واتساب: أرسل المقاس والمنطقة ونؤكد لك الخيارات والسعر.',
+        'سجادكو الكويت محل سجاد وموكيت في الضجيج يبيع السجاد التركي والموكيت ومدات الممرات وسجاد المساجد بالمتر المربع، ويقصها على مقاس المكان ويركّبها. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، وسجاد المساجد 6 أو 7 أو 8 د.ك. ويزورك مندوبنا مجانًا لأخذ المقاسات وعرض العينات. الطلب عبر واتساب.',
       offerTitle: 'ماذا نقدم',
       products: 'من منتجاتنا',
       allProducts: 'كل المنتجات والألوان',
@@ -52,18 +54,20 @@ const c = ar
         ['السجاد التركي والموكيت', 'من 5 إلى 15 د.ك', 'للمتر المربع'],
         ['سجاد المساجد والمصليات', '6 / 7 / 8 د.ك (خفيف / وسط / سميك)', 'للمتر المربع'],
         ['تأجير الريد كاربت', '1 د.ك خارجي، 0.750 د.ك داخلي', 'للمتر المربع، شامل التوصيل والتركيب والفك'],
+        ['زيارة المندوب للقياس وعرض العينات', 'مجانًا', 'دون أي رسوم'],
         ['التركيب', 'يُتفق حسب المساحة والموقع', 'منفصل عن سعر السجاد'],
       ],
       priceNote: 'آخر تحديث للأسعار',
       stepsTitle: 'كيف تطلب',
       steps: [
-        'قس طول المكان وعرضه بالمتر.',
+        'اطلب زيارة المندوب المجانية، أو قس المكان بنفسك.',
         'أرسل المقاس والمنطقة ونوع المكان عبر واتساب.',
         'اختر الخامة واللون، ونؤكد لك السعر.',
         'نقص ونركّب، ثم نتابع معك يومين.',
       ],
       whyTitle: 'لماذا سجادكو الكويت',
       why: [
+        ['زيارة مجانية', 'مندوبنا يزورك ليقيس ويعرض العينات في مكانك، دون أي رسوم.'],
         ['محل حقيقي في الضجيج', 'ترى الخامات وتلمسها قبل الطلب، في مجمع علي عبدالوهاب.'],
         ['سعر واضح بالمتر', 'نعلن نطاق السعر لكل نوع، وتعرف الكلفة بضرب المساحة في سعر المتر.'],
         ['قص على المقاس', 'لا يقيدك مقاس جاهز. نراجع المقاس معك قبل القص لأن القص لا يُعاد.'],
@@ -81,6 +85,10 @@ const c = ar
         {
           q: 'ماذا تبيع سجادكو الكويت؟',
           a: 'نبيع السجاد التركي والموكيت ومدات الممرات وسجاد المساجد والمصليات بالمتر المربع، ونقصها على مقاس المكان ونركّبها. ونؤجر الريد كاربت للمناسبات، ونحفر السجاد حسب النقشة. لا نبيع السجاد الإيراني ولا سجادة الصلاة الفردية ولا الدعاسات.',
+        },
+        {
+          q: 'هل يزورني مندوب لأخذ المقاسات وعرض العينات؟',
+          a: 'نعم، يزورك مندوبنا في بيتك أو موقعك في الكويت، يأخذ المقاسات بدقة ويعرض عليك عينات الخامات والألوان لتختار على الطبيعة. الزيارة مجانية ودون أي رسوم. اطلبها عبر واتساب مع المنطقة ونوع المكان.',
         },
         {
           q: 'أين يقع محلكم؟',
@@ -112,6 +120,7 @@ const c = ar
       lead: 'Carpet supply, cutting, hand carving and installation for homes, mosques, offices and projects across Kuwait. Pick a material and colour, send your room size, and we cut and fit it.',
       cta2: 'Browse carpet by the metre',
       trust: [
+        'Free home visit to measure and show samples',
         'A real store in Al Dajeej to see materials',
         'Priced per m², from 5 to 15 KWD',
         'Cut to your exact room size',
@@ -119,7 +128,7 @@ const c = ar
       ],
       short: 'In short',
       answer:
-        'Sajjadko Kuwait is a carpet store in Al Dajeej selling Turkish carpet, wall-to-wall carpet, hallway runners and mosque carpet by the square metre, cut to your room size and installed. Prices run from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness and density, and mosque carpet is 6, 7 or 8 KWD per m². Order on WhatsApp: send your size and area, and we confirm options and price.',
+        'Sajjadko Kuwait is a carpet store in Al Dajeej selling Turkish carpet, wall-to-wall carpet, hallway runners and mosque carpet by the square metre, cut to your room size and installed. Prices run from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness and density, and mosque carpet is 6, 7 or 8 KWD per m². Our representative visits free of charge to measure and show samples. Order on WhatsApp.',
       offerTitle: 'What we do',
       products: 'Featured products',
       allProducts: 'All products and colours',
@@ -129,18 +138,20 @@ const c = ar
         ['Turkish carpet and wall-to-wall carpet', '5 to 15 KWD', 'per m² (0.465 to 1.394 KWD per sq ft)'],
         ['Mosque and prayer room carpet', '6 / 7 / 8 KWD (light / medium / thick)', 'per m²'],
         ['Red carpet rental', '1 KWD outdoor, 0.750 KWD indoor', 'per m², delivery, laying and removal included'],
+        ['Home visit to measure and show samples', 'Free', 'no charge'],
         ['Installation', 'Agreed by area and location', 'separate from the carpet price'],
       ],
       priceNote: 'Prices last updated',
       stepsTitle: 'How to order',
       steps: [
-        'Measure the length and width of your space, in metres or feet.',
+        'Book a free visit from our representative, or measure the space yourself.',
         'Send the size, your area and the type of space on WhatsApp.',
         'Choose the material and colour, and we confirm the price.',
         'We cut and install, then follow up for two days.',
       ],
       whyTitle: 'Why Sajjadko Kuwait',
       why: [
+        ['Free home visit', 'Our representative measures and shows samples in your own space, at no charge.'],
         ['A real store in Al Dajeej', 'See and feel the materials before you order, at Ali Abdulwahab Complex.'],
         ['Clear per-m² pricing', 'We publish the price range for each type, so cost is simply area × price per m².'],
         ['Cut to size', 'No stock sizes to settle for. We check measurements with you before cutting.'],
@@ -162,6 +173,10 @@ const c = ar
         {
           q: 'What does Sajjadko Kuwait sell?',
           a: 'We sell Turkish carpet, wall-to-wall carpet, hallway runners and mosque and prayer room carpet by the square metre, cut to your size and installed. We also rent red carpet for events and offer hand carving. We do not sell Persian rugs, prayer mats or doormats.',
+        },
+        {
+          q: 'Do you offer a free home visit to measure and show samples?',
+          a: 'Yes. Our representative visits your home or site in Kuwait, takes accurate measurements and brings material and colour samples so you can choose in your own space. The visit is free, with no charge. Book it on WhatsApp with your area and type of space.',
         },
         {
           q: 'Where is your carpet store in Kuwait?',
@@ -312,7 +327,10 @@ const projectsHref = ar ? '/ar/projects/' : '/projects/';
         ))
       }
     </ul>
-    <div class="max-w-3xl"><AnswerBox answer={c.answer} label={c.short} /></div>
+    <div class="max-w-3xl">
+      <AnswerBox answer={c.answer} label={c.short} />
+      <FreeVisit pageName={ar ? 'الرئيسية' : 'Home'} />
+    </div>
 
     <section class="my-12" aria-labelledby="offer">
       <h2 id="offer" class="text-2xl md:text-3xl font-bold mb-6">{c.offerTitle}</h2>

@@ -60,6 +60,21 @@ export function buildHomeSchema(s: SettingsData, l: Locale, site: URL) {
     areaServed: KUWAIT,
     parentOrganization: { '@id': orgId },
     sameAs,
+    // زيارة المندوب المجانية (قرار العميل): عرض بسعر صفر لخدمة القياس وعرض العينات
+    makesOffer: {
+      '@type': 'Offer',
+      price: 0,
+      priceCurrency: 'KWD',
+      areaServed: KUWAIT,
+      itemOffered: {
+        '@type': 'Service',
+        name: l === 'ar' ? 'زيارة مجانية للقياس وعرض العينات' : 'Free home visit to measure and show samples',
+        description:
+          l === 'ar'
+            ? 'مندوب يزور البيت أو الموقع في الكويت، يأخذ المقاسات ويعرض عينات الخامات والألوان، دون أي رسوم.'
+            : 'A representative visits your home or site in Kuwait to take measurements and show material and colour samples, at no charge.',
+      },
+    },
   });
 
   const website = {
