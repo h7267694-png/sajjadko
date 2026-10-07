@@ -1,0 +1,534 @@
+{
+  "governorates": {
+    "capital": {
+      "ar": "العاصمة",
+      "en": "Capital"
+    },
+    "hawalli": {
+      "ar": "حولي",
+      "en": "Hawalli"
+    },
+    "farwaniya": {
+      "ar": "الفروانية",
+      "en": "Farwaniya"
+    },
+    "mubarak-al-kabeer": {
+      "ar": "مبارك الكبير",
+      "en": "Mubarak Al-Kabeer"
+    },
+    "ahmadi": {
+      "ar": "الأحمدي",
+      "en": "Ahmadi"
+    },
+    "jahra": {
+      "ar": "الجهراء",
+      "en": "Jahra"
+    }
+  },
+  "areas": [
+    {
+      "id": "kuwait-city",
+      "ar": "مدينة الكويت",
+      "en": "Kuwait City",
+      "gov": "capital"
+    },
+    {
+      "id": "sharq",
+      "ar": "شرق",
+      "en": "Sharq",
+      "gov": "capital"
+    },
+    {
+      "id": "qibla",
+      "ar": "القبلة",
+      "en": "Qibla",
+      "gov": "capital"
+    },
+    {
+      "id": "dasma",
+      "ar": "الدسمة",
+      "en": "Dasma",
+      "gov": "capital"
+    },
+    {
+      "id": "daiya",
+      "ar": "الدعية",
+      "en": "Daiya",
+      "gov": "capital"
+    },
+    {
+      "id": "shamiya",
+      "ar": "الشامية",
+      "en": "Shamiya",
+      "gov": "capital"
+    },
+    {
+      "id": "rawda",
+      "ar": "الروضة",
+      "en": "Rawda",
+      "gov": "capital"
+    },
+    {
+      "id": "adailiya",
+      "ar": "العديلية",
+      "en": "Adailiya",
+      "gov": "capital"
+    },
+    {
+      "id": "khaldiya",
+      "ar": "الخالدية",
+      "en": "Khaldiya",
+      "gov": "capital"
+    },
+    {
+      "id": "kaifan",
+      "ar": "كيفان",
+      "en": "Kaifan",
+      "gov": "capital"
+    },
+    {
+      "id": "qadsiya",
+      "ar": "القادسية",
+      "en": "Qadsiya",
+      "gov": "capital"
+    },
+    {
+      "id": "mansouriya",
+      "ar": "المنصورية",
+      "en": "Mansouriya",
+      "gov": "capital"
+    },
+    {
+      "id": "nuzha",
+      "ar": "النزهة",
+      "en": "Nuzha",
+      "gov": "capital"
+    },
+    {
+      "id": "faiha",
+      "ar": "الفيحاء",
+      "en": "Faiha",
+      "gov": "capital"
+    },
+    {
+      "id": "surra",
+      "ar": "السرة",
+      "en": "Surra",
+      "gov": "capital"
+    },
+    {
+      "id": "yarmouk",
+      "ar": "اليرموك",
+      "en": "Yarmouk",
+      "gov": "capital"
+    },
+    {
+      "id": "qurtuba",
+      "ar": "قرطبة",
+      "en": "Qurtuba",
+      "gov": "capital"
+    },
+    {
+      "id": "shuwaikh",
+      "ar": "الشويخ",
+      "en": "Shuwaikh",
+      "gov": "capital"
+    },
+    {
+      "id": "sulaibikhat",
+      "ar": "الصليبخات",
+      "en": "Sulaibikhat",
+      "gov": "capital"
+    },
+    {
+      "id": "doha",
+      "ar": "الدوحة",
+      "en": "Doha",
+      "gov": "capital"
+    },
+    {
+      "id": "granada",
+      "ar": "غرناطة",
+      "en": "Granada",
+      "gov": "capital"
+    },
+    {
+      "id": "abdullah-al-salem",
+      "ar": "ضاحية عبدالله السالم",
+      "en": "Abdullah Al-Salem",
+      "gov": "capital"
+    },
+    {
+      "id": "hawalli",
+      "ar": "حولي",
+      "en": "Hawalli",
+      "gov": "hawalli"
+    },
+    {
+      "id": "salmiya",
+      "ar": "السالمية",
+      "en": "Salmiya",
+      "gov": "hawalli"
+    },
+    {
+      "id": "jabriya",
+      "ar": "الجابرية",
+      "en": "Jabriya",
+      "gov": "hawalli"
+    },
+    {
+      "id": "rumaithiya",
+      "ar": "الرميثية",
+      "en": "Rumaithiya",
+      "gov": "hawalli"
+    },
+    {
+      "id": "bayan",
+      "ar": "بيان",
+      "en": "Bayan",
+      "gov": "hawalli"
+    },
+    {
+      "id": "mishref",
+      "ar": "مشرف",
+      "en": "Mishref",
+      "gov": "hawalli"
+    },
+    {
+      "id": "salwa",
+      "ar": "سلوى",
+      "en": "Salwa",
+      "gov": "hawalli"
+    },
+    {
+      "id": "shaab",
+      "ar": "الشعب",
+      "en": "Shaab",
+      "gov": "hawalli"
+    },
+    {
+      "id": "siddiq",
+      "ar": "الصديق",
+      "en": "Siddiq",
+      "gov": "hawalli"
+    },
+    {
+      "id": "hitteen",
+      "ar": "حطين",
+      "en": "Hitteen",
+      "gov": "hawalli"
+    },
+    {
+      "id": "salam",
+      "ar": "السلام",
+      "en": "Salam",
+      "gov": "hawalli"
+    },
+    {
+      "id": "shuhada",
+      "ar": "الشهداء",
+      "en": "Shuhada",
+      "gov": "hawalli"
+    },
+    {
+      "id": "zahra",
+      "ar": "الزهراء",
+      "en": "Zahra",
+      "gov": "hawalli"
+    },
+    {
+      "id": "mubarak-al-abdullah",
+      "ar": "مبارك العبدالله",
+      "en": "Mubarak Al-Abdullah",
+      "gov": "hawalli"
+    },
+    {
+      "id": "farwaniya",
+      "ar": "الفروانية",
+      "en": "Farwaniya",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "khaitan",
+      "ar": "خيطان",
+      "en": "Khaitan",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "jleeb-al-shuyoukh",
+      "ar": "جليب الشيوخ",
+      "en": "Jleeb Al-Shuyoukh",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "ardiya",
+      "ar": "العارضية",
+      "en": "Ardiya",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "andalous",
+      "ar": "الأندلس",
+      "en": "Andalous",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "rabiya",
+      "ar": "الرابية",
+      "en": "Rabiya",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "rehab",
+      "ar": "الرحاب",
+      "en": "Rehab",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "omariya",
+      "ar": "العمرية",
+      "en": "Omariya",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "ishbiliya",
+      "ar": "إشبيلية",
+      "en": "Ishbiliya",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "abdullah-al-mubarak",
+      "ar": "عبدالله المبارك",
+      "en": "Abdullah Al-Mubarak",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "sabah-al-nasser",
+      "ar": "صباح الناصر",
+      "en": "Sabah Al-Nasser",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "firdous",
+      "ar": "الفردوس",
+      "en": "Firdous",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "dajeej",
+      "ar": "الضجيج",
+      "en": "Al Dajeej",
+      "gov": "farwaniya"
+    },
+    {
+      "id": "mubarak-al-kabeer",
+      "ar": "مبارك الكبير",
+      "en": "Mubarak Al-Kabeer",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "qurain",
+      "ar": "القرين",
+      "en": "Qurain",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "qusour",
+      "ar": "القصور",
+      "en": "Qusour",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "adan",
+      "ar": "العدان",
+      "en": "Adan",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "sabah-al-salem",
+      "ar": "صباح السالم",
+      "en": "Sabah Al-Salem",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "messila",
+      "ar": "المسيلة",
+      "en": "Messila",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "abu-fatira",
+      "ar": "أبو فطيرة",
+      "en": "Abu Fatira",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "fnaitees",
+      "ar": "الفنيطيس",
+      "en": "Fnaitees",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "abu-al-hasaniya",
+      "ar": "أبو الحصانية",
+      "en": "Abu Al-Hasaniya",
+      "gov": "mubarak-al-kabeer"
+    },
+    {
+      "id": "ahmadi",
+      "ar": "الأحمدي",
+      "en": "Ahmadi",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "fahaheel",
+      "ar": "الفحيحيل",
+      "en": "Fahaheel",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "mangaf",
+      "ar": "المنقف",
+      "en": "Mangaf",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "abu-halifa",
+      "ar": "أبو حليفة",
+      "en": "Abu Halifa",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "fintas",
+      "ar": "الفنطاس",
+      "en": "Fintas",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "mahboula",
+      "ar": "المهبولة",
+      "en": "Mahboula",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "egaila",
+      "ar": "العقيلة",
+      "en": "Egaila",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "riqqa",
+      "ar": "الرقة",
+      "en": "Riqqa",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "sabahiya",
+      "ar": "الصباحية",
+      "en": "Sabahiya",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "hadiya",
+      "ar": "هدية",
+      "en": "Hadiya",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "fahad-al-ahmad",
+      "ar": "فهد الأحمد",
+      "en": "Fahad Al-Ahmad",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "ali-sabah-al-salem",
+      "ar": "علي صباح السالم",
+      "en": "Ali Sabah Al-Salem",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "sabah-al-ahmad",
+      "ar": "صباح الأحمد",
+      "en": "Sabah Al-Ahmad",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "khairan",
+      "ar": "الخيران",
+      "en": "Khairan",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "wafra",
+      "ar": "الوفرة",
+      "en": "Wafra",
+      "gov": "ahmadi"
+    },
+    {
+      "id": "jahra",
+      "ar": "الجهراء",
+      "en": "Jahra",
+      "gov": "jahra"
+    },
+    {
+      "id": "saad-al-abdullah",
+      "ar": "سعد العبدالله",
+      "en": "Saad Al-Abdullah",
+      "gov": "jahra"
+    },
+    {
+      "id": "qasr",
+      "ar": "القصر",
+      "en": "Qasr",
+      "gov": "jahra"
+    },
+    {
+      "id": "naeem",
+      "ar": "النعيم",
+      "en": "Naeem",
+      "gov": "jahra"
+    },
+    {
+      "id": "oyoun",
+      "ar": "العيون",
+      "en": "Oyoun",
+      "gov": "jahra"
+    },
+    {
+      "id": "waha",
+      "ar": "الواحة",
+      "en": "Waha",
+      "gov": "jahra"
+    },
+    {
+      "id": "taima",
+      "ar": "تيماء",
+      "en": "Taima",
+      "gov": "jahra"
+    },
+    {
+      "id": "sulaibiya",
+      "ar": "الصليبية",
+      "en": "Sulaibiya",
+      "gov": "jahra"
+    },
+    {
+      "id": "amghara",
+      "ar": "أمغرة",
+      "en": "Amghara",
+      "gov": "jahra"
+    },
+    {
+      "id": "abdali",
+      "ar": "العبدلي",
+      "en": "Abdali",
+      "gov": "jahra"
+    },
+    {
+      "id": "mutlaa",
+      "ar": "المطلاع",
+      "en": "Mutlaa",
+      "gov": "jahra"
+    }
+  ]
+}

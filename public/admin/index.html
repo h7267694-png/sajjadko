@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>إدارة سجادكو</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        background: #f5f6f8;
+        color: #0f2a44;
+      }
+      #gate {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 16px;
+      }
+      #gate form {
+        background: #fff;
+        padding: 24px;
+        border-radius: 12px;
+        width: 100%;
+        max-width: 340px;
+        box-shadow: 0 2px 12px #0001;
+      }
+      #gate h1 {
+        font-size: 20px;
+        margin: 0 0 16px;
+      }
+      #gate input,
+      #gate button {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 8px;
+      }
+      #gate input {
+        border: 1px solid #ccd;
+        margin-bottom: 12px;
+      }
+      #gate button {
+        background: #0f2a44;
+        color: #fff;
+        border: 0;
+        cursor: pointer;
+      }
+      #err {
+        color: #b00020;
+        font-size: 14px;
+        min-height: 20px;
+        margin: 8px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+      بوابة كلمة السر مؤقتة وليست حماية حقيقية (تُقرأ من المصدر). الحماية الفعلية: الحفظ لا يتم
+      إلا بتسجيل الدخول إلى GitHub داخل اللوحة. تُستبدل لاحقًا عند تأمين الإدارة.
+    -->
+    <div id="gate">
+      <form id="f">
+        <h1>إدارة سجادكو</h1>
+        <input id="pw" type="password" placeholder="كلمة السر" autocomplete="current-password" required />
+        <button type="submit">دخول</button>
+        <p id="err"></p>
+      </form>
+    </div>
+    <script>
+      const H = '7571e269dfc5aaf7f3bccff35417b60c640287232c10ba34182e62499438fb67';
+      const KEY = 'sj-admin';
+      const sha = async (s) =>
+        [...new Uint8Array(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)))]
+          .map((b) => b.toString(16).padStart(2, '0'))
+          .join('');
+      const load = () => {
+        document.getElementById('gate').remove();
+        const s = document.createElement('script');
+        s.src = 'https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js';
+        document.body.append(s);
+      };
+      let ok = false;
+      try {
+        ok = sessionStorage.getItem(KEY) === H;
+      } catch {}
+      if (ok) load();
+      document.getElementById('f').addEventListener('submit', async (e) => {
+        e.preventDefault();
+        if ((await sha(document.getElementById('pw').value)) === H) {
+          try {
+            sessionStorage.setItem(KEY, H);
+          } catch {}
+          load();
+        } else document.getElementById('err').textContent = 'كلمة السر غير صحيحة';
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+---
+// «من أعمالنا الأخيرة»: منتجات فعّل فيها صاحب الموقع الخيار من لوحة الإدارة، مع المنطقة والتاريخ.
+// تُبنى الصفحة فقط إن وُجد عمل واحد على الأقل (لا صفحة فارغة).
+import { Image } from 'astro:assets';
+import PageLayout from '~/layouts/PageLayout.astro';
+import Breadcrumbs from '~/components/common/Breadcrumbs.astro';
+import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import { toLocale } from '~/utils/site';
+import { productHref, type ProductEntry } from '~/utils/products';
+import { areaLabel } from '~/utils/taxonomy';
+
+export interface Props {
+  items: ProductEntry[];
+}
+const { items } = Astro.props;
+const lang = toLocale(Astro.currentLocale);
+const ar = lang === 'ar';
+const t = ar
+  ? {
+      title: 'من أعمالنا الأخيرة في الكويت — سجادكو الكويت',
+      desc: 'أحدث أعمال سجادكو الكويت في فرش السجاد والموكيت وتركيبه في مناطق الكويت، مع المنطقة والخامة المستخدمة.',
+      h1: 'من أعمالنا الأخيرة',
+      intro: 'أعمال نفذناها مؤخرًا في مناطق الكويت. اضغط على اسم الخامة لترى مواصفاتها وألوانها.',
+      home: 'الرئيسية',
+      in: 'في',
+    }
+  : {
+      title: 'Our Recent Carpet Work in Kuwait | Sajjadko Kuwait',
+      desc: 'Recent carpet and wall-to-wall carpet fitting jobs by Sajjadko Kuwait across Kuwait, with the area and the material used.',
+      h1: 'Our recent work',
+      intro: 'Jobs we completed recently across Kuwait. Tap a material name to see its specifications and colours.',
+      home: 'Home',
+      in: 'in',
+    };
+---
+
+<PageLayout
+  pageType="project"
+  pageName={t.h1}
+  alternates={{ ar: '/ar/projects/', en: '/projects/' }}
+  metadata={{ title: t.title, ignoreTitleTemplate: true, description: t.desc }}
+>
+  <Breadcrumbs bar items={[{ text: t.home, href: ar ? '/ar/' : '/' }, { text: t.h1 }]} />
+  <section class="mx-auto max-w-4xl px-4 py-8 md:py-12">
+    <h1 class="text-3xl md:text-4xl font-bold mb-3">{t.h1}</h1>
+    <p class="mb-8 text-muted">{t.intro}</p>
+    <ul class="grid gap-6 sm:grid-cols-2">
+      {
+        items.map((p, i) => {
+          const tx = p.data[lang]!;
+          const w = p.data.latestWork!;
+          const img = p.data.images[0];
+          return (
+            <li class="rounded-lg border border-gray-200 dark:border-slate-700 overflow-hidden">
+              {img && (
+                <Image
+                  src={img.src}
+                  alt={img.alt[lang] ?? tx.name}
+                  widths={[360, 640]}
+                  sizes="(min-width: 640px) 420px, 100vw"
+                  loading={i < 2 ? 'eager' : 'lazy'}
+                  class="w-full aspect-[4/3] object-cover"
+                />
+              )}
+              <div class="p-4">
+                <h2 class="text-lg font-semibold">
+                  <a href={productHref(lang, p.id)} class="hover:underline">
+                    {tx.name}
+                  </a>
+                </h2>
+                <p class="text-sm mt-1">
+                  {t.in} {areaLabel(w.area!, lang)}
+                  {w.date && (
+                    <>
+                      {' · '}
+                      <time datetime={w.date.toISOString().slice(0, 10)}>
+                        <bdi dir="ltr">{w.date.toISOString().slice(0, 7)}</bdi>
+                      </time>
+                    </>
+                  )}
+                </p>
+                {w.note[lang] && <p class="text-sm text-muted mt-2">{w.note[lang]}</p>}
+              </div>
+            </li>
+          );
+        })
+      }
+    </ul>
+    <div class="my-10"><WhatsAppButton type="project" pageName={t.h1} position="end" /></div>
+  </section>
+</PageLayout>

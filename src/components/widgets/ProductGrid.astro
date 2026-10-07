@@ -1,9 +1,9 @@
 ---
 // شبكة النماذج (6.1 بند 5): بطاقة لكل منتج (الصورة، الاسم، الألوان، طريقة البيع) وزر واتساب باسم المنتج.
 // تعرض المنشور فقط، والمسودات في التطوير. ItemList في JSON-LD من النص الظاهر نفسه.
-import { getCollection, type CollectionEntry } from 'astro:content';
 import { Image } from 'astro:assets';
 import { getSettings, toLocale } from '~/utils/site';
+import { getProducts, productHref } from '~/utils/products';
 
 export interface Props {
   categories?: string[];
@@ -15,12 +15,7 @@ const { categories, places, pageName } = Astro.props;
 const locale = toLocale(Astro.currentLocale);
 const settings = await getSettings();
 
-const visible = (p: CollectionEntry<'products'>) =>
-  p.data.status === 'published' || (import.meta.env.DEV && p.data.status === 'draft');
-
-const items = (await getCollection('products'))
-  .filter(visible)
-  .filter((p) => p.data[locale])
+const items = (await getProducts(locale))
   .filter((p) => !categories?.length || categories.includes(p.data.category))
   .filter((p) => !places?.length || p.data.places.some((x) => places.includes(x)))
   .sort((a, b) => a.data.sku.localeCompare(b.data.sku));
@@ -62,7 +57,12 @@ const schema = items.length
       '@context': 'https://schema.org',
       '@type': 'ItemList',
       name: t.title,
-      itemListElement: items.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.data[locale]!.name })),
+      itemListElement: items.map((p, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: p.data[locale]!.name,
+        url: new URL(productHref(locale, p.id), Astro.site).href,
+      })),
     }
   : null;
 ---
@@ -91,7 +91,11 @@ const schema = items.length
                 />
               )}
               <div class="p-4 flex flex-col gap-2 grow">
-                <h3 class="text-lg font-semibold">{tx.name}</h3>
+                <h3 class="text-lg font-semibold">
+                  <a href={productHref(locale, p.id)} class="hover:underline">
+                    {tx.name}
+                  </a>
+                </h3>
                 <p class="text-sm text-muted">{tx.directAnswer}</p>
                 <p class="text-sm">
                   <span class="font-semibold">

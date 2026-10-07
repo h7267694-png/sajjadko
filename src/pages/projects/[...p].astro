@@ -1,0 +1,15 @@
+---
+import type { GetStaticPaths } from 'astro';
+import LatestWorksPage from '~/components/widgets/LatestWorksPage.astro';
+import { getLatestWorks } from '~/utils/products';
+
+// تُبنى فقط عند وجود عمل واحد على الأقل
+export const getStaticPaths = (async () => {
+  const items = await getLatestWorks('en');
+  return items.length ? [{ params: { p: undefined }, props: { items } }] : [];
+}) satisfies GetStaticPaths;
+
+const { items } = Astro.props;
+---
+
+<LatestWorksPage items={items} />

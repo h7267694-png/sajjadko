@@ -36,7 +36,9 @@ const fileOf = (url) => {
   return fs.existsSync(idx) ? idx : null;
 };
 
-const htmlFiles = walk(DIST).filter((f) => f.endsWith('.html') && !f.endsWith('404.html'));
+const htmlFiles = walk(DIST).filter(
+  (f) => f.endsWith('.html') && !f.endsWith('404.html') && !f.includes(`${path.sep}admin${path.sep}`) // لوحة الإدارة خارج الحواجز
+);
 const pages = new Map();
 for (const f of htmlFiles) {
   const html = fs.readFileSync(f);

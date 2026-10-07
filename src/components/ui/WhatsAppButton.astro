@@ -11,13 +11,15 @@ export interface Props {
   position?: 'header' | 'top' | 'mid' | 'end';
   /** يستبدل نص الزر (الرأس يستخدم النص العام ورابط الصفحة) */
   label?: string;
+  /** يملأ الحقول بين قوسين في الرسالة (اسم المنتج، الرمز) */
+  vars?: Record<string, string>;
   class?: string;
 }
 
-const { type = 'category', pageName, position = 'top', label, class: className = '' } = Astro.props;
+const { type = 'category', pageName, position = 'top', label, vars = {}, class: className = '' } = Astro.props;
 const settings = await getSettings();
 const locale = toLocale(Astro.currentLocale);
-const wa = settings?.whatsapp ? buildWaLink(settings.whatsapp, locale, type, pageName) : null;
+const wa = settings?.whatsapp ? buildWaLink(settings.whatsapp, locale, type, pageName, vars) : null;
 const text = label ?? wa?.label;
 ---
 

@@ -1,0 +1,11 @@
+---
+import type { GetStaticPaths } from 'astro';
+import ProductPage from '~/components/widgets/ProductPage.astro';
+import { getProductPaths } from '~/utils/products';
+
+export const getStaticPaths = (async () => getProductPaths('ar')) satisfies GetStaticPaths;
+
+const { entry, alternates, similar } = Astro.props;
+---
+
+<ProductPage entry={entry} alternates={alternates} similar={similar} />

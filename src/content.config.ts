@@ -78,6 +78,7 @@ import {
   SPEC_UNITS,
   PRICE_UNITS,
   STATUSES,
+  KUWAIT_AREAS,
 } from './utils/taxonomy';
 
 const status = z.enum(STATUSES).default('draft');
@@ -107,6 +108,11 @@ const productsCollection = defineCollection({
   schema: ({ image }) =>
     z
       .object({
+        // رابط المنتج /products/<slug>/ (محمّل glob يجعله معرّف المدخل). حروف إنجليزية صغيرة وأرقام وشرطات
+        slug: z
+          .string()
+          .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'الرابط: حروف إنجليزية صغيرة وأرقام وشرطات فقط')
+          .optional(),
         sku: z.string().min(2), // التفرد بين الملفات يفحصه حاجز الجودة لاحقًا
         status,
         category: z.enum(PRODUCT_CATEGORIES),
@@ -142,31 +148,38 @@ const productsCollection = defineCollection({
             updated: z.coerce.date(),
           })
           .optional(),
+        // نطاق سعر حقيقي (مثل 5–15 د.ك للمتر المربع). يولّد AggregateOffer في Schema
+        priceRange: z
+          .object({
+            min: z.number().positive(),
+            max: z.number().positive(),
+            unit: z.enum(PRICE_UNITS),
+            updated: z.coerce.date(),
+          })
+          .refine((r) => r.max >= r.min, { message: 'الحد الأعلى أقل من الأدنى' })
+          .optional(),
+        // «من أعمالنا الأخيرة»: يظهر المنتج في صفحة الأعمال مع المنطقة والتاريخ
+        latestWork: z
+          .object({
+            show: z.boolean().default(false),
+            area: z.enum(KUWAIT_AREAS).optional(),
+            date: z.coerce.date().optional(),
+            note: z.object({ ar: z.string().optional(), en: z.string().optional() }).default({}),
+          })
+          .refine((w) => !w.show || w.area, { message: 'حدد المنطقة لعرضه في أعمالنا الأخيرة', path: ['area'] })
+          .optional(),
         en: productText.optional(),
         ar: productText.optional(),
       })
       .superRefine((p, ctx) => {
         if (!p.en && !p.ar) ctx.addIssue({ code: 'custom', message: 'يلزم نص بلغة واحدة على الأقل (en أو ar)' });
-        for (const lang of LANGS) {
-          if (!p[lang]) continue;
-          // 15.5: صورة بلا وصف بديل تفشل البناء
+        // 15.5: الوصف البديل العربي إلزامي لكل صورة. الإنجليزي يُستكمل من اسم المنتج عند غيابه،
+        // والنص الإنجليزي غير المراجَع لا تُبنى صفحته (24.5) بدل أن يفشل البناء عند الإضافة من لوحة الإدارة.
+        if (p.ar)
           p.images.forEach((img, i) => {
-            if (!img.alt[lang])
-              ctx.addIssue({
-                code: 'custom',
-                path: ['images', i, 'alt', lang],
-                message: `الوصف البديل (${lang}) إلزامي`,
-              });
+            if (!img.alt.ar)
+              ctx.addIssue({ code: 'custom', path: ['images', i, 'alt', 'ar'], message: 'الوصف البديل العربي إلزامي' });
           });
-          // 24.5: لا نشر لنص إنجليزي بلا مراجعة
-          if (lang === 'en' && p.status === 'published' && !p.en?.reviewed) {
-            ctx.addIssue({
-              code: 'custom',
-              path: ['en', 'reviewed'],
-              message: 'منتج إنجليزي منشور يتطلب reviewed: true',
-            });
-          }
-        }
       }),
 });
 

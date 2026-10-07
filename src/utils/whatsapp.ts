@@ -255,8 +255,16 @@ export const WA_TEMPLATES: Record<WaType, { ar: Tpl; en: Tpl }> = {
 };
 
 /** رابط واتساب (7.1 بند 7) مع وسم المصدر في نهاية الرسالة (7.1 بند 6). */
-export function buildWaLink(number: string, locale: Locale, type: WaType, pageName?: string) {
-  const t = WA_TEMPLATES[type][locale];
+/** vars يملأ الحقول بين قوسين في الرسالة، مثل { 'اسم المنتج': 'موكيت رمال' } */
+export function buildWaLink(
+  number: string,
+  locale: Locale,
+  type: WaType,
+  pageName?: string,
+  vars: Record<string, string> = {}
+) {
+  const base = WA_TEMPLATES[type][locale];
+  const t = { ...base, msg: Object.entries(vars).reduce((m, [k, v]) => m.replaceAll(`[${k}]`, v), base.msg) };
   const source = pageName ?? t.tag ?? '';
   const tag = locale === 'ar' ? `(من صفحة: ${source})` : `(From page: ${source})`;
   const text = `${t.msg} ${tag}`;

@@ -1,0 +1,348 @@
+---
+// قالب صفحة المنتج (6.3، كتالوج بلا شراء): الاسم والصور وواتساب، إجابة مباشرة، جدول مواصفات،
+// الألوان والمقاسات، السعر عند توفره مع التاريخ، الاستخدامات، العناية والتركيب، الأسئلة، منتجات مشابهة.
+// Schema: Product كامل (صور، SKU، علامة، خامة، ألوان، بلد الصنع، عرض سعر حقيقي فقط) + FAQPage + BreadcrumbList.
+import { getImage, Image } from 'astro:assets';
+import PageLayout from '~/layouts/PageLayout.astro';
+import StructuredData from '~/components/common/StructuredData.astro';
+import Breadcrumbs from '~/components/common/Breadcrumbs.astro';
+import AnswerBox from '~/components/ui/AnswerBox.astro';
+import SpecTable from '~/components/ui/SpecTable.astro';
+import FaqList from '~/components/ui/FaqList.astro';
+import RelatedLinks from '~/components/ui/RelatedLinks.astro';
+import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import { getSettings, toLocale } from '~/utils/site';
+import { productHref, pickLang, colorParts, type ProductEntry } from '~/utils/products';
+import { CATEGORY_LABELS, PLACE_LABELS, PRICE_UNIT_LABELS, areaLabel } from '~/utils/taxonomy';
+
+export interface Props {
+  entry: ProductEntry;
+  alternates: { en?: string; ar?: string };
+  similar: { text: string; href: string }[];
+}
+
+const { entry, alternates, similar } = Astro.props;
+const lang = toLocale(Astro.currentLocale);
+const d = entry.data;
+const tx = d[lang]!;
+const settings = await getSettings();
+const site = Astro.site!;
+const href = productHref(lang, entry.id);
+const ar = lang === 'ar';
+
+const t = ar
+  ? {
+      home: 'الرئيسية',
+      short: 'الإجابة باختصار',
+      specs: 'مواصفات',
+      colors: 'الألوان المتوفرة',
+      sizes: 'المقاسات',
+      price: 'السعر',
+      usage: 'أين يناسب',
+      care: 'العناية والتركيب',
+      faq: 'أسئلة شائعة',
+      similar: 'منتجات مشابهة',
+      work: 'من أعمالنا الأخيرة',
+      sku: 'الرمز',
+      cat: 'النوع',
+      places: 'الأماكن المناسبة',
+      material: 'الخامة',
+      thickness: 'الارتفاع أو السماكة',
+      density: 'الكثافة',
+      weight: 'الوزن',
+      width: 'العرض',
+      origin: 'بلد الصنع',
+      install: 'التركيب',
+      careRow: 'العناية',
+      sale: 'وحدة البيع',
+      currency: 'د.ك',
+      from: 'من',
+      to: 'إلى',
+      updated: 'آخر تحديث للسعر',
+      installDefault: 'يُقص على مقاس المكان، والتركيب منفصل حسب المساحة والموقع',
+      priceNote: 'السعر يتحدد بالخامة والسماكة والمقاس، ونؤكده عبر واتساب. أجرة التركيب منفصلة.',
+      count: (n: number) => `${n} ألوان`,
+    }
+  : {
+      home: 'Home',
+      short: 'In short',
+      specs: 'specifications',
+      colors: 'Available colours',
+      sizes: 'Sizes',
+      price: 'Price',
+      usage: 'Where it works',
+      care: 'Care and installation',
+      faq: 'Frequently asked questions',
+      similar: 'Similar products',
+      work: 'From our recent work',
+      sku: 'Code',
+      cat: 'Type',
+      places: 'Suitable for',
+      material: 'Material',
+      thickness: 'Pile height or thickness',
+      density: 'Density',
+      weight: 'Weight',
+      width: 'Width',
+      origin: 'Made in',
+      install: 'Installation',
+      careRow: 'Care',
+      sale: 'Sold',
+      currency: 'KWD',
+      from: 'from',
+      to: 'to',
+      updated: 'Price last updated',
+      installDefault: 'Cut to your room size; installation priced separately by area and location',
+      priceNote:
+        'The final price depends on material, thickness and size, and we confirm it on WhatsApp. Installation is separate.',
+      count: (n: number) => `${n} colours`,
+    };
+
+const fmt = (m?: { value: number; unit: string }) => (m ? `${m.value} ${m.unit.replace('m2', 'm²')}` : undefined);
+const unit = (u: keyof typeof PRICE_UNIT_LABELS) => PRICE_UNIT_LABELS[u][lang];
+const priceText = d.price
+  ? `${d.price.amount} ${t.currency} ${unit(d.price.unit)}`
+  : d.priceRange
+    ? `${t.from} ${d.priceRange.min} ${t.to} ${d.priceRange.max} ${t.currency} ${unit(d.priceRange.unit)}`
+    : undefined;
+const priceUpdated = (d.price?.updated ?? d.priceRange?.updated)?.toISOString().slice(0, 10);
+
+const rows: [string, string | undefined][] = [
+  [t.sku, d.sku],
+  [t.cat, CATEGORY_LABELS[d.category][lang]],
+  [t.material, pickLang(d.specs.material, lang)],
+  [t.thickness, fmt(d.specs.heightOrThickness)],
+  [t.density, fmt(d.specs.density)],
+  [t.weight, fmt(d.specs.weight)],
+  [t.width, fmt(d.specs.width)],
+  [t.origin, pickLang(d.specs.origin, lang)],
+  [t.colors, d.colors.length ? t.count(d.colors.length) : undefined],
+  [t.places, d.places.map((p) => PLACE_LABELS[p][lang]).join(ar ? '، ' : ', ')],
+  [t.sale, priceText],
+  [t.install, pickLang(d.specs.installation, lang) ?? t.installDefault],
+  [t.careRow, pickLang(d.specs.careSummary, lang)],
+];
+const specRows = rows.filter((r): r is [string, string] => !!r[1]);
+
+const colors = d.colors.map((c) => colorParts(c, lang));
+const alt = (i: number) => d.images[i]?.alt[lang] ?? `${tx.name}${colors[i]?.name ? ` – ${colors[i].name}` : ''}`;
+
+// صور Schema: WebP بعرض 1200 بروابط كاملة
+const schemaImages = await Promise.all(
+  d.images.map(async (img) => new URL((await getImage({ src: img.src, format: 'webp', width: 1200 })).src, site).href)
+);
+
+const work = d.latestWork?.show && d.latestWork.area ? d.latestWork : undefined;
+const brand = settings?.brand[lang] ?? (ar ? 'سجادكو الكويت' : 'Sajjadko Kuwait');
+const url = new URL(href, site).href;
+
+const offers = d.price
+  ? {
+      '@type': 'Offer',
+      price: d.price.amount,
+      priceCurrency: 'KWD',
+      url,
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: d.price.amount,
+        priceCurrency: 'KWD',
+        unitCode: PRICE_UNIT_LABELS[d.price.unit].code,
+      },
+      seller: { '@id': new URL('/#organization', site).href },
+    }
+  : d.priceRange
+    ? {
+        '@type': 'AggregateOffer',
+        lowPrice: d.priceRange.min,
+        highPrice: d.priceRange.max,
+        priceCurrency: 'KWD',
+        offerCount: Math.max(1, d.colors.length),
+        url,
+        priceSpecification: {
+          '@type': 'UnitPriceSpecification',
+          minPrice: d.priceRange.min,
+          maxPrice: d.priceRange.max,
+          priceCurrency: 'KWD',
+          unitCode: PRICE_UNIT_LABELS[d.priceRange.unit].code,
+        },
+        seller: { '@id': new URL('/#organization', site).href },
+      }
+    : undefined;
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  '@id': `${url}#product`,
+  name: tx.name,
+  description: [tx.directAnswer, tx.usage].filter(Boolean).join(' '),
+  sku: d.sku,
+  url,
+  inLanguage: lang,
+  image: schemaImages.length ? schemaImages : undefined,
+  brand: { '@type': 'Brand', name: brand },
+  category: CATEGORY_LABELS[d.category][lang],
+  material: pickLang(d.specs.material, lang),
+  countryOfOrigin: pickLang(d.specs.origin, lang),
+  color: colors.length ? colors.map((c) => (c.code ? `${c.code} ${c.name}` : c.name)).join(', ') : undefined,
+  size: d.sizes.length ? d.sizes.join(', ') : undefined,
+  additionalProperty: d.places.map((p) => ({
+    '@type': 'PropertyValue',
+    name: t.places,
+    value: PLACE_LABELS[p][lang],
+  })),
+  offers,
+};
+
+const crumbs = [{ text: t.home, href: ar ? '/ar/' : '/' }, { text: tx.name }];
+const waVars: Record<string, string> = ar
+  ? { 'اسم المنتج': tx.name, الرمز: d.sku }
+  : { 'product name': tx.name, code: d.sku };
+---
+
+<PageLayout
+  pageType="product"
+  pageName={tx.name}
+  alternates={alternates}
+  metadata={{
+    title: tx.seoTitle ?? tx.name,
+    ignoreTitleTemplate: !!tx.seoTitle,
+    description: tx.seoDescription ?? tx.directAnswer.slice(0, 160),
+    openGraph: schemaImages[0] ? { images: [{ url: schemaImages[0] }] } : undefined,
+  }}
+>
+  <StructuredData slot="head" schema={schema} />
+  <Breadcrumbs bar items={crumbs} />
+  <article class="mx-auto max-w-3xl px-4 py-8 md:py-12">
+    <h1 class="text-3xl md:text-4xl font-bold mb-4">{tx.name}</h1>
+
+    {
+      d.images.length > 0 && (
+        <div class="mb-6">
+          <Image
+            src={d.images[0].src}
+            alt={alt(0)}
+            widths={[400, 768, 1200]}
+            sizes="(min-width: 768px) 768px, 100vw"
+            loading="eager"
+            fetchpriority="high"
+            class="w-full rounded-lg bg-gray-50 dark:bg-slate-800 object-contain max-h-[70vh]"
+          />
+          {d.images.length > 1 && (
+            <div class="grid grid-cols-3 gap-2 mt-2">
+              {d.images.slice(1).map((img, i) => (
+                <Image
+                  src={img.src}
+                  alt={alt(i + 1)}
+                  widths={[240, 400]}
+                  sizes="33vw"
+                  loading="lazy"
+                  class="w-full aspect-square object-cover rounded"
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      )
+    }
+
+    <WhatsAppButton type="product" pageName={tx.name} position="top" vars={waVars} />
+    <AnswerBox answer={tx.directAnswer} updated={priceUpdated} label={t.short} />
+
+    <SpecTable
+      caption={`${tx.name}: ${t.specs}`}
+      headers={[ar ? 'البند' : 'Item', ar ? 'التفاصيل' : 'Details']}
+      rows={specRows}
+    />
+
+    {
+      colors.length > 0 && (
+        <section class="my-8">
+          <h2 class="text-xl font-bold mb-3">{t.colors}</h2>
+          <ul class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-sm">
+            {colors.map((c) => (
+              <li class="rounded border border-gray-200 dark:border-slate-700 px-3 py-2">
+                {c.code && (
+                  <bdi class="font-semibold" dir="ltr">
+                    {c.code}
+                  </bdi>
+                )}
+                {c.code ? ` ${c.name}` : c.name}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      d.sizes.length > 0 && (
+        <section class="my-8">
+          <h2 class="text-xl font-bold mb-3">{t.sizes}</h2>
+          <p>{d.sizes.join(ar ? '، ' : ', ')}</p>
+        </section>
+      )
+    }
+
+    {
+      priceText && (
+        <section class="my-8">
+          <h2 class="text-xl font-bold mb-3">{t.price}</h2>
+          <p class="text-lg font-semibold">{priceText}</p>
+          <p class="text-sm text-muted mt-1">{t.priceNote}</p>
+          {priceUpdated && (
+            <p class="text-xs text-muted mt-1">
+              {t.updated}: <time datetime={priceUpdated}>{priceUpdated}</time>
+            </p>
+          )}
+        </section>
+      )
+    }
+
+    <div class="my-8"><WhatsAppButton type="product" pageName={tx.name} position="mid" vars={waVars} /></div>
+
+    {
+      tx.usage && (
+        <section class="my-8">
+          <h2 class="text-xl font-bold mb-3">{t.usage}</h2>
+          <p class="leading-relaxed">{tx.usage}</p>
+        </section>
+      )
+    }
+
+    {
+      tx.care && (
+        <section class="my-8">
+          <h2 class="text-xl font-bold mb-3">{t.care}</h2>
+          <p class="leading-relaxed">{tx.care}</p>
+        </section>
+      )
+    }
+
+    {
+      work && (
+        <section class="my-8 rounded-lg border border-accent/40 bg-accent/5 p-4">
+          <h2 class="text-xl font-bold mb-2">{t.work}</h2>
+          <p>
+            {ar ? 'نُفّذ في ' : 'Fitted in '}
+            {areaLabel(work.area!, lang)}
+            {work.date && (
+              <>
+                {' '}
+                (
+                <time datetime={work.date.toISOString().slice(0, 10)}>
+                  <bdi dir="ltr">{work.date.toISOString().slice(0, 7)}</bdi>
+                </time>
+                )
+              </>
+            )}
+            .
+          </p>
+          {work.note[lang] && <p class="mt-1">{work.note[lang]}</p>}
+        </section>
+      )
+    }
+
+    <FaqList items={tx.faq} title={t.faq} />
+    <RelatedLinks links={similar} title={t.similar} />
+    <div class="my-8"><WhatsAppButton type="product" pageName={tx.name} position="end" vars={waVars} /></div>
+  </article>
+</PageLayout>

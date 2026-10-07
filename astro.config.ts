@@ -39,6 +39,7 @@ export default defineConfig({
   integrations: [
     // hreflang من translationKey لا من تطابق المسار (24.5)
     sitemap({
+      filter: (page) => !page.includes('/admin/'),
       serialize: (item) => ({ ...item, links: alternates.get(item.url) }),
     }),
     mdx(),

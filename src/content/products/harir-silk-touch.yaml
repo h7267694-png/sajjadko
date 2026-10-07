@@ -1,3 +1,4 @@
+slug: harir-silk-touch
 sku: SJ-MQ-HARIR
 status: draft
 category: moquette
@@ -6,8 +7,13 @@ places:
   - bedroom
   - majlis-diwaniya
 specs:
-  material: Turkish wall-to-wall carpet / موكيت تركي
-  origin: Turkey / تركيا
+  material: موكيت تركي / Turkish wall-to-wall carpet
+  origin: تركيا / Turkey
+priceRange:
+  min: 5
+  max: 15
+  unit: m2
+  updated: 2026-10-07
 colors:
   - SF-10 عاجي / Ivory
   - SF-11 أسود فحمي / Charcoal black
@@ -31,6 +37,15 @@ ar:
   seoTitle: موكيت حرير اللامع بالمتر في الكويت — سجادكو الكويت
   seoDescription: موكيت تركي لامع بملمس حريري وثمانية ألوان للصالات والمجالس وغرف النوم، يُقص على المقاس من 5 إلى 15 د.ك للمتر المربع.
   reviewed: false
+  faq:
+    - q: كم سعر موكيت حرير بالمتر؟
+      a: يُباع بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. اضرب مساحة المكان في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع. نؤكد لك السعر النهائي عبر واتساب.
+    - q: هل يُقص على مقاس غرفتي؟
+      a: نعم، يُقص على مقاس المكان بالمتر، فلا تحتاج مقاسًا جاهزًا. أرسل الطول والعرض عبر واتساب، ونراجع معك المقاس قبل القص لأن القص لا يُعاد، ونقيس في الموقع عند الحاجة.
+    - q: كم لونًا متوفرًا وكيف أختار؟
+      a: تتوفر 8 ألوان بأرقام واضحة في جدول الألوان بالصفحة. أرسل رقم اللون الذي يعجبك عبر واتساب لنؤكد توفره، واختر الفاتح للغرف الصغيرة والداكن للأماكن كثيرة الحركة.
+    - q: هل تركّبونه؟
+      a: نعم، نركّب ما نوفره من سجاد وموكيت، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع. بعد التركيب نتابع معك يومين لمعالجة أي خطأ في التركيب.
 en:
   name: Harir Silk-Touch Carpet with a Soft Sheen
   directAnswer: Harir is a Turkish wall-to-wall carpet with a soft, lustrous pile that catches the light for a silky look, in eight shades from ivory and pearl to chocolate brown and charcoal black. It suits living rooms, bedrooms and formal majlis rooms. Sold per m² and cut to your room size, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density.
@@ -39,3 +54,12 @@ en:
   seoTitle: Harir Silk-Touch Carpet by the m² in Kuwait | Sajjadko Kuwait
   seoDescription: Lustrous Turkish wall-to-wall carpet with a silky feel in eight shades for living rooms, majlis rooms and bedrooms, from 5 to 15 KWD per m².
   reviewed: false
+  faq:
+    - q: How much is Harir Silk-Touch Carpet per m²?
+      a: It is sold by the m², from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Multiply your floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
+    - q: Can it be cut to my room size?
+      a: Yes. It is cut to your room in metres, so you are not limited to stock sizes. Send the length and width on WhatsApp, in metres or feet, and we check the measurements with you before cutting, since a cut cannot be undone.
+    - q: How many colours are there, and how do I choose?
+      a: There are 8 colours, each with a code in the colour table on this page. Send the code you like on WhatsApp and we confirm it is in stock. Light shades suit small rooms, and darker shades suit busy areas.
+    - q: Do you install it?
+      a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location. After installation we follow up for two days to fix any installation error.
