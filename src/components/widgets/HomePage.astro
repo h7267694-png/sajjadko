@@ -249,7 +249,7 @@ const projectsHref = ar ? '/ar/projects/' : '/projects/';
   <StructuredData slot="head" schema={schema} />
 
   <section class="bg-primary/5 dark:bg-slate-800/40">
-    <div class="mx-auto max-w-5xl px-4 py-12 md:py-20">
+    <div class="mx-auto max-w-5xl px-4 pt-6 pb-5 md:pt-14 md:pb-10">
       <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
         <p class="text-sm font-semibold text-accent">{c.eyebrow}</p>
         <a
@@ -273,7 +273,7 @@ const projectsHref = ar ? '/ar/projects/' : '/projects/';
           )
         }
       </div>
-      <ul class="mt-8 grid gap-2 sm:grid-cols-2 max-w-3xl text-sm md:text-base">
+      <ul class="mt-5 hidden md:flex flex-wrap gap-x-5 gap-y-1.5 max-w-3xl text-sm">
         {
           c.trust.map((x) => (
             <li class="flex items-start gap-2">
@@ -289,6 +289,29 @@ const projectsHref = ar ? '/ar/projects/' : '/projects/';
   </section>
 
   <div class="mx-auto max-w-5xl px-4">
+    <ProductGrid pageName={ar ? 'الرئيسية' : 'Home'} limit={8} title={c.products} compact carousel />
+    {
+      byMeter && (
+        <p class="mt-1 mb-10">
+          <a href={byMeter} class="font-semibold text-primary dark:text-white hover:underline">
+            {c.allProducts} {ar ? '←' : '→'}
+          </a>
+        </p>
+      )
+    }
+
+    <ul class="md:hidden -mt-4 mb-8 grid gap-1.5 text-sm">
+      {
+        c.trust.map((x) => (
+          <li class="flex items-start gap-2">
+            <span aria-hidden="true" class="text-accent">
+              ✓
+            </span>
+            {x}
+          </li>
+        ))
+      }
+    </ul>
     <div class="max-w-3xl"><AnswerBox answer={c.answer} label={c.short} /></div>
 
     <section class="my-12" aria-labelledby="offer">
@@ -315,17 +338,6 @@ const projectsHref = ar ? '/ar/projects/' : '/projects/';
         }
       </ul>
     </section>
-
-    <ProductGrid pageName={ar ? 'الرئيسية' : 'Home'} limit={4} title={c.products} compact />
-    {
-      byMeter && (
-        <p class="-mt-4 mb-12">
-          <a href={byMeter} class="font-semibold text-primary dark:text-white hover:underline">
-            {c.allProducts} {ar ? '←' : '→'}
-          </a>
-        </p>
-      )
-    }
 
     <section class="my-12" aria-labelledby="prices">
       <h2 id="prices" class="text-2xl md:text-3xl font-bold mb-4">{c.pricesTitle}</h2>

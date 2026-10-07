@@ -21,6 +21,7 @@ const NAV: Item[] = [
   // مستوى أول مؤقتًا حتى تُبنى صفحة /carpets/ الأم (الرابط الأب لا يُعرض قبلها)
   item('Carpet by the meter', 'سجاد بالمتر', '/carpet-by-the-meter/', '/ar/by-meter/', true),
   item('Hallway runners', 'سجاد الممرات', '/hallway-runners/', '/ar/carpets/hallway/', true),
+  item('Stair carpet', 'سجاد الدرج', '/stair-carpet/', '/ar/carpets/stairs/', true),
   item('Carpets', 'السجاد', '/carpets/', '/ar/carpets/', false, [
     item('Mosque carpets', 'سجاد المساجد', '/mosque-carpet/', '/ar/mosque-carpets/'),
     item('Prayer rooms', 'المصلى', '/prayer-room-carpet/', '/ar/mosque-carpets/musalla/'),
@@ -32,7 +33,7 @@ const NAV: Item[] = [
   ]),
   item('Wall-to-wall carpet', 'الموكيت', '/wall-to-wall-carpet/', '/ar/moquette/'),
   item('Zawali rugs', 'الزوالي', '/zawali-rugs/', '/ar/zawali/'),
-  item('Offices & commercial', 'التجاري والمكاتب', '/office-carpet/', '/ar/commercial-flooring/offices/'),
+  item('Office carpet', 'سجاد المكاتب', '/office-carpet/', '/ar/commercial-flooring/offices/', true),
   item('Services', 'الخدمات', '/services/carpet-cutting/', '/ar/services/carpet-cutting/', false, [
     item('Carpet cutting', 'قص السجاد', '/services/carpet-cutting/', '/ar/services/carpet-cutting/'),
     item('Hand-carved rugs', 'حفر السجاد', '/services/hand-carved-rugs/', '/ar/services/hand-carving/'),
