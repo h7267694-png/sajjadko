@@ -34,6 +34,8 @@ export interface Props {
   position?: string;
   pageType?: WaType;
   pageName?: string;
+  /** رابط الصفحة نفسها باللغة الأخرى (مبدّل اللغة، 24.5). يظهر فقط حين توجد الترجمة */
+  altHref?: string;
 }
 
 const {
@@ -48,8 +50,14 @@ const {
   position = 'center',
   pageType = 'category',
   pageName,
+  altHref,
 } = Astro.props;
 const isAr = Astro.currentLocale === 'ar';
+const altLang = isAr
+  ? { label: 'English', lang: 'en', hreflang: 'en-KW' }
+  : { label: 'العربية', lang: 'ar', hreflang: 'ar-KW' };
+const langLinkClass =
+  'inline-flex items-center min-h-11 px-2.5 sm:px-3 rounded-full border border-primary/30 text-sm font-semibold hover:bg-primary/5';
 
 const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
 
@@ -98,13 +106,21 @@ const persistKey = `header-${Array.from(
         <a class="flex items-center" href={getHomePermalink()}>
           <Logo />
         </a>
-        <div class="flex items-center gap-2 lg:hidden">
+        <div class="flex items-center gap-1.5 sm:gap-2 lg:hidden">
+          {
+            altHref && (
+              <a href={altHref} lang={altLang.lang} hreflang={altLang.hreflang} class={langLinkClass}>
+                {altLang.label}
+              </a>
+            )
+          }
           <WhatsAppButton
             type={pageType}
             pageName={pageName}
             position="header"
             label={isAr ? 'واتساب' : 'WhatsApp'}
-            class="px-3 py-2 text-sm font-semibold"
+            iconOnlyNarrow
+            class="px-2.5 sm:px-3 py-2 text-sm font-semibold min-w-11"
           />
           <ToggleMenu />
         </div>
@@ -184,6 +200,18 @@ const persistKey = `header-${Array.from(
               )
             }
           </div>
+          {
+            altHref && (
+              <a
+                href={altHref}
+                lang={altLang.lang}
+                hreflang={altLang.hreflang}
+                class:list={[langLinkClass, 'max-lg:hidden ms-4']}
+              >
+                {altLang.label}
+              </a>
+            )
+          }
           <WhatsAppButton
             type={pageType}
             pageName={pageName}

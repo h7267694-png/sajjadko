@@ -13,10 +13,20 @@ export interface Props {
   label?: string;
   /** يملأ الحقول بين قوسين في الرسالة (اسم المنتج، الرمز) */
   vars?: Record<string, string>;
+  /** على الشاشات الأضيق من 400px يظهر الرمز وحده (النص يبقى لقارئ الشاشة) */
+  iconOnlyNarrow?: boolean;
   class?: string;
 }
 
-const { type = 'category', pageName, position = 'top', label, vars = {}, class: className = '' } = Astro.props;
+const {
+  type = 'category',
+  pageName,
+  position = 'top',
+  label,
+  vars = {},
+  iconOnlyNarrow = false,
+  class: className = '',
+} = Astro.props;
 const settings = await getSettings();
 const locale = toLocale(Astro.currentLocale);
 const wa = settings?.whatsapp ? buildWaLink(settings.whatsapp, locale, type, pageName, vars) : null;
@@ -36,7 +46,7 @@ const text = label ?? wa?.label;
       data-wa-position={position}
     >
       <Icon name="tabler:brand-whatsapp" class="w-5 h-5 shrink-0" aria-hidden="true" />
-      <span>{text}</span>
+      <span class:list={[{ 'max-[400px]:sr-only': iconOnlyNarrow }]}>{text}</span>
     </a>
   )
 }

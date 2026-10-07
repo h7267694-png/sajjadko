@@ -19,6 +19,7 @@ export interface Props {
 
 const { metadata, alternates, pageType = 'category', pageName } = Astro.props;
 const locale = toLocale(Astro.currentLocale);
+const altHref = alternates?.[locale === 'ar' ? 'en' : 'ar'];
 ---
 
 <Layout metadata={metadata} alternates={alternates}>
@@ -37,7 +38,7 @@ const locale = toLocale(Astro.currentLocale);
     Astro.slots.has('header') ? (
       <slot name="header" />
     ) : (
-      <Header links={getHeaderLinks(locale)} isSticky showToggleTheme {pageType} {pageName} />
+      <Header links={getHeaderLinks(locale)} isSticky showToggleTheme {pageType} {pageName} {altHref} />
     )
   }
   <main class="flex-1">
