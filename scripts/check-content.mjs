@@ -63,8 +63,13 @@ const published = {
 for (const kind of ['products', 'projects', 'pages']) {
   const locked = lock[kind] ?? [];
   for (const slug of locked) {
-    if (!published[kind].includes(slug))
-      errors.push(`${kind}: الرابط المنشور "${slug}" اختفى أو تغيّر أو عاد مسودة. تغيير الرابط بعد النشر يضيع السلطة`);
+    if (!published[kind].includes(slug)) {
+      const msg = `${kind}: الرابط المنشور "${slug}" اختفى أو تغيّر أو عاد مسودة. تغيير الرابط بعد النشر يضيع السلطة`;
+      // المنتجات تُدار من لوحة الإدارة: حذف منتج أو إيقافه لا يوقف النشر (صفحته تختفي وجوجل يسقطها).
+      // الصفحات المكتوبة تبقى صارمة. لإزالة التحذير: node scripts/check-content.mjs --lock --prune
+      if (kind === 'products') warnings.push(msg + ' (تحذير فقط)');
+      else errors.push(msg);
+    }
   }
   const fresh = published[kind].filter((s) => !locked.includes(s));
   if (fresh.length) {
@@ -75,6 +80,8 @@ for (const kind of ['products', 'projects', 'pages']) {
       );
   }
 }
+if (process.argv.includes('--prune'))
+  for (const kind of ['products']) lock[kind] = (lock[kind] ?? []).filter((x) => published[kind].includes(x));
 if (process.argv.includes('--lock')) {
   fs.writeFileSync(LOCK, JSON.stringify(lock, null, 2) + '\n');
   console.log('تم تحديث slugs.lock.json');

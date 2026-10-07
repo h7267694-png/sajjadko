@@ -14,7 +14,7 @@ import compress from 'astro-compress';
 import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
-import { pageAlternates } from './scripts/page-alternates.mjs';
+import { sitemapData } from './scripts/sitemap-data.mjs';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter';
 
@@ -22,7 +22,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const hasExternalScripts = false;
 const SITE = 'https://sajjadko.com';
-const alternates = pageAlternates(__dirname, SITE);
+const sitemapMeta = sitemapData(__dirname, SITE);
 const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroIntegration)[] = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
@@ -40,7 +40,10 @@ export default defineConfig({
     // hreflang من translationKey لا من تطابق المسار (24.5)
     sitemap({
       filter: (page) => !page.includes('/admin/'),
-      serialize: (item) => ({ ...item, links: alternates.get(item.url) }),
+      serialize: (item) => {
+        const m = sitemapMeta.get(item.url);
+        return { ...item, links: m?.links, lastmod: m?.lastmod };
+      },
     }),
     mdx(),
     icon({
