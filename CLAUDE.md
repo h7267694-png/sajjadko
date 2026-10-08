@@ -55,3 +55,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 29
 
 - Prices (client): lightweight carpet (Juman, Wasan, Reem, Riwaq; used for offices and stairs) 1.250–3 KWD/m²; office carpet tiles 5–6 KWD/m²; Turkish/thicker carpet stays 5–15. These four products have no stated origin. KWD fractions display with 3 decimals.
+
+## Step 30
+
+- Search Console: Domain property verified by DNS TXT at Hostinger (GitHub Pages A/AAAA/CNAME records untouched). `https://sajjadko.com/sitemap-index.xml` submitted (status success, 0 discovered pages after a day: normal for a new index). Live sitemap checked: 34 URLs.
