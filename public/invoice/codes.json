@@ -1,0 +1,137 @@
+{
+  "_note": "رموز ثابتة تُستخدم في فواتير سجادكو وفي باركود التحقق. لا تغيّر رقم رمز موجود بعد إصدار فواتير به — أضف رموزًا جديدة فقط.",
+  "units": {
+    "m2": "متر مربع",
+    "m": "متر طولي",
+    "pc": "قطعة",
+    "day": "يوم"
+  },
+  "units_en": {
+    "m2": "m²",
+    "m": "linear m",
+    "pc": "piece",
+    "day": "day"
+  },
+  "categories": {
+    "1": {
+      "name": "موكيت",
+      "unit": "m2",
+      "en": "Wall-to-wall carpet (moquette)"
+    },
+    "2": {
+      "name": "سجاد ممرات",
+      "unit": "m",
+      "en": "Hallway runner"
+    },
+    "3": {
+      "name": "سجاد درج",
+      "unit": "m2",
+      "en": "Stair carpet"
+    },
+    "4": {
+      "name": "سجاد مكاتب",
+      "unit": "m2",
+      "en": "Office carpet"
+    },
+    "5": {
+      "name": "بلاط موكيت 40×40",
+      "unit": "m2",
+      "en": "Carpet tiles 40×40"
+    },
+    "6": {
+      "name": "سجاد مساجد",
+      "unit": "m2",
+      "en": "Mosque carpet"
+    },
+    "11": {
+      "name": "سجاد تركي",
+      "unit": "pc",
+      "en": "Turkish rug"
+    },
+    "9": {
+      "name": "سجاد أحمر — بيع",
+      "unit": "m",
+      "en": "Red carpet — sale"
+    },
+    "10": {
+      "name": "سجاد أحمر — إيجار",
+      "unit": "day",
+      "en": "Red carpet — rental"
+    },
+    "7": {
+      "name": "قص وتفصيل",
+      "unit": "m2",
+      "en": "Cutting & fitting"
+    },
+    "8": {
+      "name": "تركيب",
+      "unit": "m2",
+      "en": "Installation"
+    },
+    "99": {
+      "name": "أخرى",
+      "unit": "pc",
+      "en": "Other"
+    }
+  },
+  "materials": {
+    "1": "بوليبروبيلين",
+    "2": "نايلون",
+    "3": "بوليستر",
+    "4": "صوف",
+    "5": "خليط",
+    "99": "أخرى / غير محدد"
+  },
+  "materials_en": {
+    "1": "Polypropylene",
+    "2": "Nylon",
+    "3": "Polyester",
+    "4": "Wool",
+    "5": "Blend",
+    "99": "Other / unspecified"
+  },
+  "warranty": {
+    "0": "بدون ضمان",
+    "6": "6 أشهر",
+    "12": "سنة واحدة",
+    "24": "سنتان",
+    "36": "ثلاث سنوات",
+    "60": "خمس سنوات"
+  },
+  "warranty_en": {
+    "0": "No warranty",
+    "6": "6 months",
+    "12": "1 year",
+    "24": "2 years",
+    "36": "3 years",
+    "60": "5 years"
+  },
+  "foams": [
+    {
+      "ar": "",
+      "en": ""
+    }
+  ],
+  "categoryOrder": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "11",
+    "9",
+    "10",
+    "7",
+    "8",
+    "99"
+  ],
+  "materialOrder": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "99"
+  ]
+}

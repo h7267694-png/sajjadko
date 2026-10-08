@@ -1,8 +1,9 @@
-# سجادكو الكويت: كل المحتوى العام متاح لمحركات البحث وأدوات الذكاء الاصطناعي، عدا لوحة الإدارة.
+# سجادكو الكويت: كل المحتوى العام متاح لمحركات البحث وأدوات الذكاء الاصطناعي، عدا لوحة الإدارة وتطبيق الفواتير.
 # Summary for AI tools: https://sajjadko.com/llms.txt (full text: /llms-full.txt)
 
 User-agent: *
 Disallow: /admin/
+Disallow: /invoice/
 
 # AI search and assistant crawlers (explicitly allowed)
 User-agent: GPTBot
@@ -18,3 +19,4 @@ User-agent: Applebot-Extended
 User-agent: Bingbot
 Allow: /
 Disallow: /admin/
+Disallow: /invoice/

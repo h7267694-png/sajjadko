@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, follow" />
+<title>Invoice verification</title>
+<style>
+  :root { --ink:#0f2233; --muted:#5b6b7a; --cream:#f3f5f8; --line:#d9e0e8; --ok:#4f6b49; --okbg:#e6efe3; --bad:#9b2c20; --badbg:#fbe9e6; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: system-ui, 'Segoe UI', Tahoma, sans-serif; background: var(--cream); color: var(--ink); line-height: 1.6; }
+  main { max-width: 640px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 18px; }
+  header img { width: 52px; height: 52px; object-fit: contain; background: #fff; border-radius: 12px; }
+  h1 { font-size: 22px; margin: 0; }
+  .box { border-radius: 16px; padding: 18px; border: 2px solid var(--line); background: #fff; }
+  .ok { border-color: var(--ok); background: var(--okbg); }
+  .bad { border-color: var(--bad); background: var(--badbg); }
+  .ok b.t { color: var(--ok); font-size: 18px; }
+  .bad b.t { color: var(--bad); font-size: 18px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 16px; background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid var(--line); font-size: 14px; }
+  th, td { padding: 10px; text-align: start; border-top: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--cream); font-weight: 600; border-top: 0; }
+  small.s { display: block; font-size: 12px; margin-top: 2px; }
+  .live { color: var(--ok); } .ended { color: var(--bad); }
+  .muted { color: var(--muted); font-size: 14px; }
+  a.btn { display: inline-block; margin-top: 16px; background: var(--ok); color: #fff; text-decoration: none; padding: 12px 22px; border-radius: 999px; }
+  .lang { float: inline-end; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header><img id="logo" alt="" /><h1 id="title"></h1></header>
+  <div id="out" class="muted">…</div>
+</main>
+<!-- يقرأ اسم المتجر ورقمه من config.js نفسه الخاص بتطبيق الفواتير -->
+<script src="/invoice/config.js"></script>
+<script>
+(function () {
+  'use strict';
+  var CFG = window.INVOICE_CONFIG;
+  // اللغة: ?lang=en أو ?lang=ar في الرابط، وإلا لغة الموقع الافتراضية من config.js (verifyLang)
+  var lang = (new URLSearchParams(location.search).get('lang') || CFG.verifyLang || 'ar') === 'en' ? 'en' : 'ar';
+  var T = {
+    ar: { title: 'التحقق من فاتورة', empty: 'امسح الباركود المطبوع على الفاتورة بكاميرا الجوال، وستفتح هذه الصفحة وتعرض بيانات الفاتورة والضمان.',
+      okT: function (n) { return '✓ فاتورة صحيحة صادرة من ' + n; }, inv: 'رقم الفاتورة', date: 'بتاريخ', piece: 'القطعة', mat: 'الخامة', war: 'الضمان',
+      live: 'ساري حتى', ended: 'انتهى في', badT: '✗ لم نتمكن من التحقق من هذه الفاتورة',
+      bad: function (p) { return 'الرابط غير مكتمل أو تم تعديله، أو الفاتورة ليست صادرة منا. للتأكد راسلنا على واتساب ' + p + ' برقم الفاتورة.'; },
+      note: '', claim: 'طلب ضمان لهذه الفاتورة عبر واتساب',
+      msg: function (n, s) { return 'مرحبا، استفسار عن ضمان الفاتورة رقم ' + n + ' من ' + s; }, other: 'English' },
+    en: { title: 'Invoice verification', empty: 'Scan the barcode printed on your invoice with your phone camera to see the invoice and warranty details here.',
+      okT: function (n) { return '✓ Genuine invoice issued by ' + n; }, inv: 'Invoice no.', date: 'dated', piece: 'Item', mat: 'Material', war: 'Warranty',
+      live: 'Valid until', ended: 'Ended on', badT: '✗ This invoice could not be verified',
+      bad: function (p) { return 'The link is incomplete or was changed, or the invoice was not issued by us. Message us on WhatsApp ' + p + ' with the invoice number.'; },
+      note: '', claim: 'Request warranty service on WhatsApp',
+      msg: function (n, s) { return 'Hello, a warranty enquiry about invoice no. ' + n + ' from ' + s; }, other: 'العربية' },
+  }[lang];
+  var shop = CFG.shop[lang];
+  document.documentElement.lang = lang;
+  document.documentElement.dir = lang === 'en' ? 'ltr' : 'rtl';
+  document.title = T.title + ' — ' + shop.name;
+  document.getElementById('title').textContent = T.title;
+  document.getElementById('logo').src = CFG.shop.logo;
+  var out = document.getElementById('out');
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function b64u(s) { s = s.replace(/-/g, '+').replace(/_/g, '/'); while (s.length % 4) s += '='; return Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); }); }
+  function addMonths(iso, m) { var t = new Date(iso + 'T00:00:00Z'); t.setUTCMonth(t.getUTCMonth() + m); return t.toISOString().slice(0, 10); }
+  function bad() {
+    var b = el('div', 'box bad'); b.append(el('b', 't', T.badT), el('p', null, T.bad(CFG.shop.phone))); out.replaceChildren(b);
+  }
+  async function run() {
+    var raw = location.hash.replace(/^#/, '');
+    var sw = el('a', 'lang', T.other); sw.href = '?lang=' + (lang === 'en' ? 'ar' : 'en') + location.hash;
+    if (!raw) { var e = el('div', 'box'); e.append(sw, el('p', null, T.empty)); out.replaceChildren(e); return; }
+    var dot = raw.lastIndexOf('.');
+    if (dot < 1) return bad();
+    var data = raw.slice(0, dot), sig = raw.slice(dot + 1), p;
+    try {
+      p = JSON.parse(new TextDecoder().decode(b64u(data)));
+      var res = await Promise.all([fetch('/verify-keys.json', { cache: 'no-store' }).then(function (r) { return r.json(); }), fetch('/invoice/codes.json', { cache: 'no-store' }).then(function (r) { return r.json(); })]);
+      var k = res[0].find(function (x) { return x.kid === p.k; });
+      var C = res[1];
+      if (!k) return bad();
+      var key = await crypto.subtle.importKey('jwk', { kty: 'EC', crv: 'P-256', x: k.x, y: k.y, ext: true }, { name: 'ECDSA', namedCurve: 'P-256' }, false, ['verify']);
+      var ok = await crypto.subtle.verify({ name: 'ECDSA', hash: 'SHA-256' }, key, b64u(sig), new TextEncoder().encode(data));
+      if (!ok) return bad();
+    } catch (e) { return bad(); }
+    var now = new Date().toISOString().slice(0, 10);
+    var head = el('div', 'box ok');
+    var line = el('p'); line.append(T.inv + ' ', el('b', null, p.n), ' ' + T.date + ' ', p.d);
+    head.append(sw, el('b', 't', T.okT(shop.name)), line);
+    var tb = el('table'), tr = el('tr');
+    [T.piece, T.mat, T.war].forEach(function (h) { tr.append(el('th', null, h)); });
+    tb.append(tr);
+    p.i.forEach(function (row) {
+      var c = String(row[0]), m = String(row[1]), w = Number(row[2]);
+      var cat = C.categories[c] || {};
+      var r = el('tr');
+      r.append(el('td', null, (lang === 'en' ? cat.en : cat.name) || cat.name || '—'));
+      r.append(el('td', null, (lang === 'en' && C.materials_en ? C.materials_en[m] : C.materials[m]) || '—'));
+      var wt = el('td', null, (lang === 'en' && C.warranty_en ? C.warranty_en[String(w)] : C.warranty[String(w)]) || '—');
+      if (w > 0) { var end = addMonths(p.d, w); wt.append(el('small', 's ' + (end >= now ? 'live' : 'ended'), (end >= now ? T.live : T.ended) + ' ' + end)); }
+      r.append(wt); tb.append(r);
+    });
+    var a = el('a', 'btn', T.claim);
+    a.href = 'https://wa.me/' + CFG.shop.whatsapp + '?text=' + encodeURIComponent(T.msg(p.n, shop.name)); a.target = '_blank'; a.rel = 'noreferrer';
+    out.replaceChildren.apply(out, [head, tb].concat(T.note ? [el('p', 'muted', T.note)] : [], [a]));
+  }
+  run(); window.addEventListener('hashchange', run);
+})();
+</script>
+</body>
+</html>
