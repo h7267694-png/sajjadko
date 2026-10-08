@@ -26,3 +26,6 @@ pnpm-lock.yaml
 pnpm-workspace.yaml
 
 .astro
+
+# مكتبات تطبيق الفواتير تُجلب وقت البناء (scripts/fetch-invoice-vendor.mjs)
+public/invoice/vendor/

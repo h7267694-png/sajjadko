@@ -37,7 +37,7 @@ const fileOf = (url) => {
 };
 
 const htmlFiles = walk(DIST).filter(
-  (f) => f.endsWith('.html') && !f.endsWith('404.html') && !f.includes(`${path.sep}admin${path.sep}`) // لوحة الإدارة خارج الحواجز
+  (f) => f.endsWith('.html') && !f.endsWith('404.html') && !['admin', 'invoice', 'verify'].some((d) => f.includes(`${path.sep}${d}${path.sep}`)) // لوحة الإدارة وتطبيق الفواتير وصفحة التحقق خارج الحواجز
 );
 const pages = new Map();
 for (const f of htmlFiles) {
