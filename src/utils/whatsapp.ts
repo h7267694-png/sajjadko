@@ -17,6 +17,7 @@ export const WA_TYPES = [
   'hallway',
   'stairs',
   'office',
+  'carpet-tiles',
   'shop',
   'zawali',
   'product',
@@ -204,6 +205,18 @@ export const WA_TEMPLATES: Record<WaType, { ar: Tpl; en: Tpl }> = {
       label: 'Request an office visit',
       msg: 'Hello, I would like a visit and quote for office carpet. Area: [area], number of floors: [number].',
       tag: 'Offices',
+    },
+  },
+  'carpet-tiles': {
+    ar: {
+      label: 'اطلب تسعير بلاط السجاد',
+      msg: 'مرحبًا، أرغب بتسعير بلاط سجاد 40×40. المساحة: [المساحة]، الخامة: [نايلون/بولي بروبلين].',
+      tag: 'بلاط السجاد',
+    },
+    en: {
+      label: 'Get a carpet tiles quote',
+      msg: 'Hello, I would like a quote for 40×40 carpet tiles. Area: [area], material: [nylon/polypropylene].',
+      tag: 'Carpet tiles',
     },
   },
   shop: {

@@ -11,7 +11,7 @@ title: 'Office Carpet in Kuwait, Cut & Installed | Sajjadko Kuwait'
 description: 'Lightweight loop-pile and tweed office carpet from 1.250 to 3 KWD per m², and carpet tiles from 5 to 6 KWD per m², cut and installed in Kuwait.'
 h1: 'Office Carpet in Kuwait'
 directAnswer: 'We supply lightweight office carpet in a firm loop pile and a flecked tweed texture that stand up to foot traffic and office chairs, from just 1.250 to 3 KWD per m², plus carpet tiles at 5 to 6 KWD per m². Many colours, including brand colours. We cut to your floor plan and install; installation is priced separately and can be scheduled outside working hours. Send your office area on WhatsApp.'
-updated: 2026-10-07
+updated: 2026-10-10
 reviewed: true
 faq:
   - q: 'How much does office carpet cost per m² in Kuwait?'
@@ -64,7 +64,7 @@ Grey, beige and black tweed hide daily wear and suit modern offices. Blue, red a
 
 ## Carpet tiles
 
-We also supply nylon and polypropylene carpet tiles, sold by the m² at 5 to 6 KWD (0.465 to 0.557 KWD per sq ft). Their advantage is that a damaged tile can be replaced on its own, without changing the whole floor.
+We also supply nylon and polypropylene carpet tiles, sold by the m² at 5 to 6 KWD (0.465 to 0.557 KWD per sq ft). Their advantage is that a damaged tile can be replaced on its own, without changing the whole floor. Tile counts and a cost example are on the [carpet tiles](/carpet-tiles/) page.
 
 ## How to order
 

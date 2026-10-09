@@ -18,8 +18,10 @@
     "ar:by-meter",
     "ar:carpets/hallway",
     "ar:carpets/stairs",
+    "ar:commercial-flooring/carpet-tiles",
     "ar:commercial-flooring/offices",
     "en:carpet-by-the-meter",
+    "en:carpet-tiles",
     "en:hallway-runners",
     "en:office-carpet",
     "en:stair-carpet"
