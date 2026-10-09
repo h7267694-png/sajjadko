@@ -55,7 +55,8 @@ const NAV: Item[] = [
     item('Installation', 'التركيب', '/en/services/carpet-installation/', '/services/carpet-installation/'),
   ]),
   item('More', 'المزيد', '/en/contact/', '/contact/', false, [
-    item('Projects', 'المشاريع', '/en/projects/', '/projects/'),
+    item('Carpet shop in Al Dajeej', 'محل سجاد الضجيج', '/en/carpet-store-al-dajeej/', '/carpet-shop-dajeej/', 'ar'),
+    item('Our latest work', 'أعمالنا في السجاد', '/en/projects/', '/projects/', true),
     item('Guides', 'الأدلة', '/en/guides/', '/guides/'),
     item('Contact', 'تواصل', '/en/contact/', '/contact/'),
   ]),

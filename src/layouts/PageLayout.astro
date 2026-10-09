@@ -4,7 +4,7 @@ import Header from '~/components/widgets/Header.astro';
 import Footer from '~/components/widgets/Footer.astro';
 
 import { getHeaderLinks, getFooterData } from '~/navigation';
-import { toLocale } from '~/utils/site';
+import { toLocale, homeHref } from '~/utils/site';
 import type { WaType } from '~/utils/whatsapp';
 
 import type { MetaData } from '~/types';
@@ -19,7 +19,9 @@ export interface Props {
 
 const { metadata, alternates, pageType = 'category', pageName } = Astro.props;
 const locale = toLocale(Astro.currentLocale);
-const altHref = alternates?.[locale === 'ar' ? 'en' : 'ar'];
+// زر اللغة ظاهر دائمًا: إلى ترجمة الصفحة إن وُجدت، وإلا إلى رئيسية اللغة الأخرى (صفحات عربية فقط)
+const other = locale === 'ar' ? 'en' : 'ar';
+const altHref = alternates?.[other] ?? homeHref(other);
 ---
 
 <Layout metadata={metadata} alternates={alternates}>

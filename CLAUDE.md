@@ -84,3 +84,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 35
 
 - Arabic-only `ar/bedroom.md` (`carpets/bedroom`). Targeting rule (client): place pages target «سجاد/موكيت + place», never the place alone (keeps out furniture/carpentry searchers). Every Arabic title, H1, H2, nav label and home card for a place carries «سجاد» or «موكيت».
+
+## Step 36
+
+- Arabic-only `ar/carpet-shop-dajeej.md` (`carpet-shop-dajeej`, `kind: local`), NAP copied verbatim from `site.yaml`, Google Maps search link (no embedded map). Nav "More" holds the shop (ar) and projects. Header language button falls back to the other language's home when a page has no translation.
