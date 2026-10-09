@@ -80,3 +80,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - **URL layout reversed (client, 2026-10-10): Arabic at root `/`, English at `/en/`.** `defaultLocale: 'ar'`; routes in `src/pages/` are Arabic, `src/pages/en/` English. Always build links with `localePrefix()`/`homeHref()` from `src/utils/site.ts` (never hard-code `/ar/` or `/en/`). `urlPath` values unchanged, so `slugs.lock.json` is unchanged.
 - Old URLs are frozen in `src/data/legacy-redirects.json` (meta-refresh + canonical pages via Astro `redirects`, excluded from sitemap; quality gate checks targets exist). Never delete entries.
+
+## Step 35
+
+- Arabic-only `ar/bedroom.md` (`carpets/bedroom`). Targeting rule (client): place pages target «سجاد/موكيت + place», never the place alone (keeps out furniture/carpentry searchers). Every Arabic title, H1, H2, nav label and home card for a place carries «سجاد» or «موكيت».
