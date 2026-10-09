@@ -88,3 +88,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 36
 
 - Arabic-only `ar/carpet-shop-dajeej.md` (`carpet-shop-dajeej`, `kind: local`), NAP copied verbatim from `site.yaml`, Google Maps search link (no embedded map). Nav "More" holds the shop (ar) and projects. Header language button falls back to the other language's home when a page has no translation.
+
+## Step 37
+
+- Arabic-only `ar/kids.md` (`carpets/kids`). No claims about printed/character kids rugs or certifications (unconfirmed).
