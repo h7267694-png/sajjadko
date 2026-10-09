@@ -69,3 +69,9 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Moquette pages published and locked: `ar/moquette.md` (`moquette`) and `en/wall-to-wall-carpet.md`, key `moquette`, product grid `categories: [moquette]`. Type/room intent; by-meter keeps the price/cutting intent.
 - Nav rule: at most five top-level items (Carpets, Wall-to-wall carpet, Office carpet, Services, More); every new page goes under its dropdown. Dropdown parents are buttons, so parent pages need not exist. Header WhatsApp button is `whitespace-nowrap`. Checked at 360/390/1024/1280px.
+
+## Step 33
+
+- Language rule (client, 2026-10-10): **70% Arabic, 30% English** (plan 24.2). New pages are Arabic-first; an English pair only when a proven English keyword with buyer intent exists, else `noTranslation: true`. Published URLs unchanged.
+- Nav `live` accepts `'ar'` (or `'en'`) for single-language pages.
+- First real job: product `lujain-silver-grey-plush` with `latestWork` in Qasr (Jahra), 2026-10-09; `/projects/` pages now build. Arabic-only page `ar/diwaniya-majlis.md` (`carpets/diwaniya-majlis`).

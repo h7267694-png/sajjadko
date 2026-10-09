@@ -6,6 +6,7 @@
     "greek-key-border-runner",
     "harir-silk-touch",
     "juman-plush-stair-carpet",
+    "lujain-silver-grey-plush",
     "naseem-textured",
     "reem-loop-office-carpet",
     "remal-plush",
@@ -16,6 +17,7 @@
   "projects": [],
   "pages": [
     "ar:by-meter",
+    "ar:carpets/diwaniya-majlis",
     "ar:carpets/hallway",
     "ar:carpets/stairs",
     "ar:commercial-flooring/carpet-tiles",

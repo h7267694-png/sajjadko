@@ -2,15 +2,22 @@ import type { Locale } from '~/utils/site';
 
 // القسم 17.1 والروابط المجمّدة من 4.1.
 // live:false = الصفحة لم تُبنَ بعد، فلا تظهر في القائمة (حاجز الجودة يفشل البناء عند أي رابط داخلي مكسور).
-// عند بناء صفحة غيّر live إلى true.
+// عند بناء صفحة غيّر live إلى true، أو إلى 'ar' لصفحة عربية فقط (noTranslation، قاعدة 70% العربية في 24.2).
 interface Item {
   text: { en: string; ar: string };
   href: { en: string; ar: string };
-  live?: boolean;
+  live?: boolean | Locale;
   children?: Item[];
 }
 
-const item = (en: string, ar: string, hEn: string, hAr: string, live = false, children?: Item[]): Item => ({
+const item = (
+  en: string,
+  ar: string,
+  hEn: string,
+  hAr: string,
+  live: boolean | Locale = false,
+  children?: Item[]
+): Item => ({
   text: { en, ar },
   href: { en: hEn, ar: hAr },
   live,
@@ -26,7 +33,7 @@ const NAV: Item[] = [
     item('Stair carpet', 'سجاد الدرج', '/stair-carpet/', '/ar/carpets/stairs/', true),
     item('Mosque carpets', 'سجاد المساجد', '/mosque-carpet/', '/ar/mosque-carpets/'),
     item('Prayer rooms', 'المصلى', '/prayer-room-carpet/', '/ar/mosque-carpets/musalla/'),
-    item('Majlis & diwaniya', 'المجالس والديوانيات', '/majlis-diwaniya-carpet/', '/ar/carpets/diwaniya-majlis/'),
+    item('Majlis & diwaniya', 'المجالس والديوانيات', '/majlis-diwaniya-carpet/', '/ar/carpets/diwaniya-majlis/', 'ar'),
     item('Bedrooms', 'غرف النوم', '/bedroom-carpet/', '/ar/carpets/bedroom/'),
     item('Kids rugs', 'الأطفال', '/kids-rugs/', '/ar/carpets/kids/'),
     item('Zawali rugs', 'الزوالي', '/zawali-rugs/', '/ar/zawali/'),
@@ -59,7 +66,7 @@ const resolve = (items: Item[], l: Locale): Link[] =>
         )
       : undefined;
     if (children?.length) return [{ text: i.text[l], href: i.href[l], links: children }];
-    return i.live ? [{ text: i.text[l], href: i.href[l] }] : [];
+    return i.live === true || i.live === l ? [{ text: i.text[l], href: i.href[l] }] : [];
   });
 
 export const getHeaderLinks = (l: Locale) => resolve(NAV, l);
