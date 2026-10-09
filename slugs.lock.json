@@ -20,10 +20,12 @@
     "ar:carpets/stairs",
     "ar:commercial-flooring/carpet-tiles",
     "ar:commercial-flooring/offices",
+    "ar:moquette",
     "en:carpet-by-the-meter",
     "en:carpet-tiles",
     "en:hallway-runners",
     "en:office-carpet",
-    "en:stair-carpet"
+    "en:stair-carpet",
+    "en:wall-to-wall-carpet"
   ]
 }

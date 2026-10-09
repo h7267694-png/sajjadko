@@ -18,21 +18,20 @@ const item = (en: string, ar: string, hEn: string, hAr: string, live = false, ch
 });
 
 const NAV: Item[] = [
-  // مستوى أول مؤقتًا حتى تُبنى صفحة /carpets/ الأم (الرابط الأب لا يُعرض قبلها)
-  item('Carpet by the meter', 'سجاد بالمتر', '/carpet-by-the-meter/', '/ar/by-meter/', true),
-  item('Hallway runners', 'سجاد الممرات', '/hallway-runners/', '/ar/carpets/hallway/', true),
-  item('Stair carpet', 'سجاد الدرج', '/stair-carpet/', '/ar/carpets/stairs/', true),
+  // المستوى الأول خمسة عناصر كحد أقصى (قوائم منسدلة): كل صفحة جديدة تدخل تحت مجموعتها فلا يزدحم الرأس على الشاشات المتوسطة.
+  // الأب المنسدل زر لا رابط، فلا يلزم بناء /carpets/ قبل ظهوره.
   item('Carpets', 'السجاد', '/carpets/', '/ar/carpets/', false, [
+    item('Carpet by the meter', 'سجاد بالمتر', '/carpet-by-the-meter/', '/ar/by-meter/', true),
+    item('Hallway runners', 'سجاد الممرات', '/hallway-runners/', '/ar/carpets/hallway/', true),
+    item('Stair carpet', 'سجاد الدرج', '/stair-carpet/', '/ar/carpets/stairs/', true),
     item('Mosque carpets', 'سجاد المساجد', '/mosque-carpet/', '/ar/mosque-carpets/'),
     item('Prayer rooms', 'المصلى', '/prayer-room-carpet/', '/ar/mosque-carpets/musalla/'),
     item('Majlis & diwaniya', 'المجالس والديوانيات', '/majlis-diwaniya-carpet/', '/ar/carpets/diwaniya-majlis/'),
-    item('Hallway runners', 'الممرات', '/hallway-runners/', '/ar/carpets/hallway/'),
-    item('Stairs', 'الدرج', '/stair-carpet/', '/ar/carpets/stairs/'),
     item('Bedrooms', 'غرف النوم', '/bedroom-carpet/', '/ar/carpets/bedroom/'),
     item('Kids rugs', 'الأطفال', '/kids-rugs/', '/ar/carpets/kids/'),
+    item('Zawali rugs', 'الزوالي', '/zawali-rugs/', '/ar/zawali/'),
   ]),
-  item('Wall-to-wall carpet', 'الموكيت', '/wall-to-wall-carpet/', '/ar/moquette/'),
-  item('Zawali rugs', 'الزوالي', '/zawali-rugs/', '/ar/zawali/'),
+  item('Wall-to-wall carpet', 'الموكيت', '/wall-to-wall-carpet/', '/ar/moquette/', true),
   item('Office carpet', 'سجاد المكاتب', '/office-carpet/', '/ar/commercial-flooring/offices/', true, [
     item('Office carpet', 'سجاد وموكيت المكاتب', '/office-carpet/', '/ar/commercial-flooring/offices/', true),
     item('Carpet tiles 40×40', 'بلاط السجاد 40×40', '/carpet-tiles/', '/ar/commercial-flooring/carpet-tiles/', true),
@@ -42,9 +41,11 @@ const NAV: Item[] = [
     item('Hand-carved rugs', 'حفر السجاد', '/services/hand-carved-rugs/', '/ar/services/hand-carving/'),
     item('Installation', 'التركيب', '/services/carpet-installation/', '/ar/services/carpet-installation/'),
   ]),
-  item('Projects', 'المشاريع', '/projects/', '/ar/projects/'),
-  item('Guides', 'الأدلة', '/guides/', '/ar/guides/'),
-  item('Contact', 'تواصل', '/contact/', '/ar/contact/'),
+  item('More', 'المزيد', '/contact/', '/ar/contact/', false, [
+    item('Projects', 'المشاريع', '/projects/', '/ar/projects/'),
+    item('Guides', 'الأدلة', '/guides/', '/ar/guides/'),
+    item('Contact', 'تواصل', '/contact/', '/ar/contact/'),
+  ]),
 ];
 
 type Link = { text: string; href: string; links?: Link[] };

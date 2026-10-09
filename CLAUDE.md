@@ -64,3 +64,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Carpet tiles pages published and locked: `ar/carpet-tiles.md` (`commercial-flooring/carpet-tiles`) and `en/carpet-tiles.md` (`carpet-tiles`), key `carpet-tiles`, WhatsApp type `carpet-tiles`. Only client facts: 40×40 cm, nylon and PP, 5–6 KWD/m², 6.25 tiles/m². No thickness, colours or per-material price. Nav "Office carpet" is now a dropdown; home offers cards added for stairs, offices, carpet tiles.
 - `npm run build` fetches invoice-app vendor files from a CDN (added 2026-10-09 by another session); in a sandbox without CDN access run `check:content`, `astro build`, `check:quality` separately.
+
+## Step 32
+
+- Moquette pages published and locked: `ar/moquette.md` (`moquette`) and `en/wall-to-wall-carpet.md`, key `moquette`, product grid `categories: [moquette]`. Type/room intent; by-meter keeps the price/cutting intent.
+- Nav rule: at most five top-level items (Carpets, Wall-to-wall carpet, Office carpet, Services, More); every new page goes under its dropdown. Dropdown parents are buttons, so parent pages need not exist. Header WhatsApp button is `whitespace-nowrap`. Checked at 360/390/1024/1280px.
