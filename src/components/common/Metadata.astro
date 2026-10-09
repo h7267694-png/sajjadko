@@ -29,7 +29,8 @@ const mergedOg: MetaDataOpenGraph = merge(
     url: canonical,
     siteName: SITE?.name,
     images: [],
-    locale: I18N?.language || 'en',
+    // لغة الصفحة نفسها لا لغة الموقع الافتراضية (ar_KW / en_KW)
+    locale: (Astro.currentLocale ?? I18N?.language) === 'en' ? 'en_KW' : 'ar_KW',
     type: 'website',
   },
   METADATA?.openGraph,
