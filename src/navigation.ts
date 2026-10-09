@@ -42,7 +42,7 @@ const NAV: Item[] = [
     ),
     item('Bedroom carpet', 'سجاد غرف النوم', '/en/bedroom-carpet/', '/carpets/bedroom/', 'ar'),
     item('Kids rugs', 'سجاد الأطفال', '/en/kids-rugs/', '/carpets/kids/', 'ar'),
-    item('Zawali rugs', 'الزوالي', '/en/zawali-rugs/', '/zawali/'),
+    item('Zawali rugs', 'الزوالي والزل', '/en/zawali-rugs/', '/zawali/', 'ar'),
   ]),
   item('Wall-to-wall carpet', 'الموكيت', '/en/wall-to-wall-carpet/', '/moquette/', true),
   item('Office carpet', 'سجاد المكاتب', '/en/office-carpet/', '/commercial-flooring/offices/', true, [

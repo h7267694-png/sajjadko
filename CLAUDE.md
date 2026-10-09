@@ -92,3 +92,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 37
 
 - Arabic-only `ar/kids.md` (`carpets/kids`). No claims about printed/character kids rugs or certifications (unconfirmed).
+
+## Step 38
+
+- Arabic-only `ar/zawali.md` (`zawali`). Client: zawali are sold three ways — ready-made, cut by the metre (5–15 KWD/m²), and custom-made (تفصيل). No ready-made sizes/prices yet. We do not sell Iranian rugs.

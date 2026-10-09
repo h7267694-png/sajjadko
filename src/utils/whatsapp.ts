@@ -234,12 +234,12 @@ export const WA_TEMPLATES: Record<WaType, { ar: Tpl; en: Tpl }> = {
   zawali: {
     ar: {
       label: 'اسأل عن المتوفر',
-      msg: 'مرحبًا، أرغب بزولية/زل. المقاس واللون المطلوبان: [المقاس] / [اللون].',
+      msg: 'مرحبًا، أرغب بزولية/زل [جاهزة/بالمتر/تفصيل]. المقاس واللون: [المقاس] / [اللون].',
       tag: 'الزوالي',
     },
     en: {
       label: 'Ask what is available',
-      msg: 'Hello, I would like a zawali/rug. Required size and color: [size] / [color].',
+      msg: 'Hello, I would like a zawali/rug [ready-made/by the metre/custom]. Size and colour: [size] / [colour].',
       tag: 'Zawali',
     },
   },
