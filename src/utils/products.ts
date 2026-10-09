@@ -1,11 +1,11 @@
-// صفحات المنتجات (6.3) و«من أعمالنا الأخيرة». الرابط /products/<slug>/ و/ar/products/<slug>/ (4.1).
+// صفحات المنتجات (6.3) و«من أعمالنا الأخيرة». الرابط /products/<slug>/ (عربي) و/en/products/<slug>/ (4.1).
 // النص الإنجليزي لا تُبنى صفحته إلا بعد المراجعة (reviewed: true، 24.5). المسودات تظهر في التطوير فقط.
 import { getCollection, type CollectionEntry } from 'astro:content';
-import type { Locale } from '~/utils/site';
+import { localePrefix, type Locale } from '~/utils/site';
 
 export type ProductEntry = CollectionEntry<'products'>;
 
-export const productHref = (lang: Locale, id: string) => (lang === 'ar' ? `/ar/products/${id}/` : `/products/${id}/`);
+export const productHref = (lang: Locale, id: string) => `${localePrefix(lang)}/products/${id}/`;
 
 const visible = (p: ProductEntry) =>
   p.data.status === 'published' || (import.meta.env.DEV && p.data.status === 'draft');

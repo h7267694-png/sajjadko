@@ -27,31 +27,31 @@ const item = (
 const NAV: Item[] = [
   // المستوى الأول خمسة عناصر كحد أقصى (قوائم منسدلة): كل صفحة جديدة تدخل تحت مجموعتها فلا يزدحم الرأس على الشاشات المتوسطة.
   // الأب المنسدل زر لا رابط، فلا يلزم بناء /carpets/ قبل ظهوره.
-  item('Carpets', 'السجاد', '/carpets/', '/ar/carpets/', false, [
-    item('Carpet by the meter', 'سجاد بالمتر', '/carpet-by-the-meter/', '/ar/by-meter/', true),
-    item('Hallway runners', 'سجاد الممرات', '/hallway-runners/', '/ar/carpets/hallway/', true),
-    item('Stair carpet', 'سجاد الدرج', '/stair-carpet/', '/ar/carpets/stairs/', true),
-    item('Mosque carpets', 'سجاد المساجد', '/mosque-carpet/', '/ar/mosque-carpets/'),
-    item('Prayer rooms', 'المصلى', '/prayer-room-carpet/', '/ar/mosque-carpets/musalla/'),
-    item('Majlis & diwaniya', 'المجالس والديوانيات', '/majlis-diwaniya-carpet/', '/ar/carpets/diwaniya-majlis/', 'ar'),
-    item('Bedrooms', 'غرف النوم', '/bedroom-carpet/', '/ar/carpets/bedroom/'),
-    item('Kids rugs', 'الأطفال', '/kids-rugs/', '/ar/carpets/kids/'),
-    item('Zawali rugs', 'الزوالي', '/zawali-rugs/', '/ar/zawali/'),
+  item('Carpets', 'السجاد', '/en/carpets/', '/carpets/', false, [
+    item('Carpet by the meter', 'سجاد بالمتر', '/en/carpet-by-the-meter/', '/by-meter/', true),
+    item('Hallway runners', 'سجاد الممرات', '/en/hallway-runners/', '/carpets/hallway/', true),
+    item('Stair carpet', 'سجاد الدرج', '/en/stair-carpet/', '/carpets/stairs/', true),
+    item('Mosque carpets', 'سجاد المساجد', '/en/mosque-carpet/', '/mosque-carpets/'),
+    item('Prayer rooms', 'المصلى', '/en/prayer-room-carpet/', '/mosque-carpets/musalla/'),
+    item('Majlis & diwaniya', 'المجالس والديوانيات', '/en/majlis-diwaniya-carpet/', '/carpets/diwaniya-majlis/', 'ar'),
+    item('Bedrooms', 'غرف النوم', '/en/bedroom-carpet/', '/carpets/bedroom/'),
+    item('Kids rugs', 'الأطفال', '/en/kids-rugs/', '/carpets/kids/'),
+    item('Zawali rugs', 'الزوالي', '/en/zawali-rugs/', '/zawali/'),
   ]),
-  item('Wall-to-wall carpet', 'الموكيت', '/wall-to-wall-carpet/', '/ar/moquette/', true),
-  item('Office carpet', 'سجاد المكاتب', '/office-carpet/', '/ar/commercial-flooring/offices/', true, [
-    item('Office carpet', 'سجاد وموكيت المكاتب', '/office-carpet/', '/ar/commercial-flooring/offices/', true),
-    item('Carpet tiles 40×40', 'بلاط السجاد 40×40', '/carpet-tiles/', '/ar/commercial-flooring/carpet-tiles/', true),
+  item('Wall-to-wall carpet', 'الموكيت', '/en/wall-to-wall-carpet/', '/moquette/', true),
+  item('Office carpet', 'سجاد المكاتب', '/en/office-carpet/', '/commercial-flooring/offices/', true, [
+    item('Office carpet', 'سجاد وموكيت المكاتب', '/en/office-carpet/', '/commercial-flooring/offices/', true),
+    item('Carpet tiles 40×40', 'بلاط السجاد 40×40', '/en/carpet-tiles/', '/commercial-flooring/carpet-tiles/', true),
   ]),
-  item('Services', 'الخدمات', '/services/carpet-cutting/', '/ar/services/carpet-cutting/', false, [
-    item('Carpet cutting', 'قص السجاد', '/services/carpet-cutting/', '/ar/services/carpet-cutting/'),
-    item('Hand-carved rugs', 'حفر السجاد', '/services/hand-carved-rugs/', '/ar/services/hand-carving/'),
-    item('Installation', 'التركيب', '/services/carpet-installation/', '/ar/services/carpet-installation/'),
+  item('Services', 'الخدمات', '/en/services/carpet-cutting/', '/services/carpet-cutting/', false, [
+    item('Carpet cutting', 'قص السجاد', '/en/services/carpet-cutting/', '/services/carpet-cutting/'),
+    item('Hand-carved rugs', 'حفر السجاد', '/en/services/hand-carved-rugs/', '/services/hand-carving/'),
+    item('Installation', 'التركيب', '/en/services/carpet-installation/', '/services/carpet-installation/'),
   ]),
-  item('More', 'المزيد', '/contact/', '/ar/contact/', false, [
-    item('Projects', 'المشاريع', '/projects/', '/ar/projects/'),
-    item('Guides', 'الأدلة', '/guides/', '/ar/guides/'),
-    item('Contact', 'تواصل', '/contact/', '/ar/contact/'),
+  item('More', 'المزيد', '/en/contact/', '/contact/', false, [
+    item('Projects', 'المشاريع', '/en/projects/', '/projects/'),
+    item('Guides', 'الأدلة', '/en/guides/', '/guides/'),
+    item('Contact', 'تواصل', '/en/contact/', '/contact/'),
   ]),
 ];
 

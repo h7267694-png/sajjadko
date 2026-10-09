@@ -114,7 +114,7 @@ const config = {
       name: 'products',
       label: 'المنتجات',
       label_singular: 'منتج',
-      description: 'كل منتج صفحة في الموقع /ar/products/الرابط/ . الصور تُحوَّل WebP تلقائيًا.',
+      description: 'كل منتج صفحة في الموقع /products/الرابط/ . الصور تُحوَّل WebP تلقائيًا.',
       folder: 'src/content/products',
       extension: 'yaml',
       format: 'yaml',

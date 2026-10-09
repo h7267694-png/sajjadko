@@ -50,7 +50,11 @@ const textDirection = language === 'ar' ? 'rtl' : 'ltr';
 
     {alternates?.en && <link rel="alternate" hreflang="en-KW" href={siteUrl + alternates.en} />}
     {alternates?.ar && <link rel="alternate" hreflang="ar-KW" href={siteUrl + alternates.ar} />}
-    {alternates?.en && <link rel="alternate" hreflang="x-default" href={siteUrl + alternates.en} />}
+    {
+      (alternates?.ar || alternates?.en) && (
+        <link rel="alternate" hreflang="x-default" href={siteUrl + (alternates.ar ?? alternates.en)} />
+      )
+    }
 
     <!-- Extra head content from pages: structured data, rel=prev/next, … -->
     <slot name="head" />

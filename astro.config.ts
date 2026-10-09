@@ -15,6 +15,7 @@ import type { AstroIntegration } from 'astro';
 
 import astrowind from './vendor/integration';
 import { sitemapData } from './scripts/sitemap-data.mjs';
+import legacy from './src/data/legacy-redirects.json';
 
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin } from './src/utils/frontmatter';
 
@@ -30,16 +31,18 @@ export default defineConfig({
   site: SITE,
   output: 'static',
   trailingSlash: 'always',
+  // الروابط القديمة قبل نقل العربية إلى الجذر (10 أكتوبر 2026): صفحات تحويل مع canonical، خارج الخريطة
+  redirects: legacy.redirects,
   i18n: {
-    locales: ['en', 'ar'],
-    defaultLocale: 'en',
+    locales: ['ar', 'en'],
+    defaultLocale: 'ar',
     routing: { prefixDefaultLocale: false },
   },
 
   integrations: [
     // hreflang من translationKey لا من تطابق المسار (24.5)
     sitemap({
-      filter: (page) => !page.includes('/admin/'),
+      filter: (page) => !page.includes('/admin/') && !(new URL(page).pathname in legacy.redirects),
       serialize: (item) => {
         const m = sitemapMeta.get(item.url);
         return { ...item, links: m?.links, lastmod: m?.lastmod };

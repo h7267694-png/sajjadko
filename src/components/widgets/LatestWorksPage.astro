@@ -37,10 +37,10 @@ const t = ar
 <PageLayout
   pageType="project"
   pageName={t.h1}
-  alternates={{ ar: '/ar/projects/', en: '/projects/' }}
+  alternates={{ ar: '/projects/', en: '/en/projects/' }}
   metadata={{ title: t.title, ignoreTitleTemplate: true, description: t.desc }}
 >
-  <Breadcrumbs bar items={[{ text: t.home, href: ar ? '/ar/' : '/' }, { text: t.h1 }]} />
+  <Breadcrumbs bar items={[{ text: t.home, href: ar ? '/' : '/en/' }, { text: t.h1 }]} />
   <section class="mx-auto max-w-4xl px-4 py-8 md:py-12">
     <h1 class="text-3xl md:text-4xl font-bold mb-3">{t.h1}</h1>
     <p class="mb-8 text-muted">{t.intro}</p>

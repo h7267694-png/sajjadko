@@ -33,7 +33,7 @@ function postalAddress(s: SettingsData, l: Locale) {
 
 export function buildHomeSchema(s: SettingsData, l: Locale, site: URL) {
   const base = site.href.replace(/\/$/, '');
-  const home = l === 'ar' ? `${base}/ar/` : `${base}/`;
+  const home = l === 'en' ? `${base}/en/` : `${base}/`;
   const orgId = `${base}/#organization`;
   const sameAs = s.social?.instagram ? [s.social.instagram] : undefined;
   const telephone = s.whatsapp ? `+${s.whatsapp}` : undefined;

@@ -37,13 +37,23 @@ const fileOf = (url) => {
 };
 
 const htmlFiles = walk(DIST).filter(
-  (f) => f.endsWith('.html') && !f.endsWith('404.html') && !['admin', 'invoice', 'verify'].some((d) => f.includes(`${path.sep}${d}${path.sep}`)) // لوحة الإدارة وتطبيق الفواتير وصفحة التحقق خارج الحواجز
+  (f) =>
+    f.endsWith('.html') &&
+    !f.endsWith('404.html') &&
+    !['admin', 'invoice', 'verify'].some((d) => f.includes(`${path.sep}${d}${path.sep}`)) // لوحة الإدارة وتطبيق الفواتير وصفحة التحقق خارج الحواجز
 );
 const pages = new Map();
 for (const f of htmlFiles) {
   const html = fs.readFileSync(f);
   const root = parse(html.toString('utf8'));
   const robots = root.querySelector('meta[name="robots"]')?.getAttribute('content') ?? '';
+  // صفحات التحويل من الروابط القديمة (legacy-redirects.json): يُفحص أن هدفها موجود فقط
+  const refresh = root.querySelector('meta[http-equiv="refresh"]');
+  if (refresh) {
+    const to = (refresh.getAttribute('content') ?? '').split('url=')[1];
+    if (!to || !fileOf(to)) errors.push(`${urlOf(f)}: تحويل إلى رابط غير موجود ${to}`);
+    continue;
+  }
   pages.set(urlOf(f), { file: f, html, root, noindex: /noindex/i.test(robots) });
 }
 
@@ -57,7 +67,7 @@ for (const [url, p] of pages) {
 
   // lang و dir (بند 38)
   const html = root.querySelector('html');
-  const wantLang = url.startsWith('/ar/') || url === '/ar/' ? 'ar' : 'en';
+  const wantLang = url.startsWith('/en/') ? 'en' : 'ar'; // العربية على الجذر
   if (html?.getAttribute('lang') !== wantLang) e(`lang يجب أن يكون ${wantLang}`);
   if (html?.getAttribute('dir') !== (wantLang === 'ar' ? 'rtl' : 'ltr')) e(`dir خاطئ`);
 
@@ -172,7 +182,7 @@ for (const [url, p] of pages) {
 
 // صفحات يتيمة (تحذير) — الرئيسيتان مستثنيتان
 for (const [u, n] of inbound)
-  if (n === 0 && u !== '/' && u !== '/ar/' && !pages.get(u).noindex) warnings.push(`${u}: صفحة يتيمة بلا روابط واردة`);
+  if (n === 0 && u !== '/' && u !== '/en/' && !pages.get(u).noindex) warnings.push(`${u}: صفحة يتيمة بلا روابط واردة`);
 
 // صور أصلية أكبر من 2.5MB (تحذير)
 for (const dir of ['src/assets', 'public']) {

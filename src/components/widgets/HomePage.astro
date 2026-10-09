@@ -285,13 +285,13 @@ const offers: { key: string; t: string; d: string }[] = ar
       },
     ];
 const byMeter = linkOf('by-meter');
-const projectsHref = ar ? '/ar/projects/' : '/projects/';
+const projectsHref = ar ? '/projects/' : '/en/projects/';
 ---
 
 <PageLayout
   pageType="home"
   pageName={ar ? 'الرئيسية' : 'Home'}
-  alternates={{ en: '/', ar: '/ar/' }}
+  alternates={{ ar: '/', en: '/en/' }}
   metadata={{ title: c.title, ignoreTitleTemplate: true, description: c.desc }}
 >
   <StructuredData slot="head" schema={schema} />
@@ -301,7 +301,7 @@ const projectsHref = ar ? '/ar/projects/' : '/projects/';
       <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
         <p class="text-sm font-semibold text-accent">{c.eyebrow}</p>
         <a
-          href={ar ? '/' : '/ar/'}
+          href={ar ? '/en/' : '/'}
           lang={ar ? 'en' : 'ar'}
           hreflang={ar ? 'en-KW' : 'ar-KW'}
           class="inline-flex items-center gap-2 min-h-11 px-4 rounded-full bg-white dark:bg-slate-900 border-2 border-primary text-primary dark:text-white font-bold shadow-sm hover:bg-primary hover:text-white"

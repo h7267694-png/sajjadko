@@ -64,7 +64,7 @@ Grey, beige and black tweed hide daily wear and suit modern offices. Blue, red a
 
 ## Carpet tiles
 
-We also supply nylon and polypropylene carpet tiles, sold by the m² at 5 to 6 KWD (0.465 to 0.557 KWD per sq ft). Their advantage is that a damaged tile can be replaced on its own, without changing the whole floor. Tile counts and a cost example are on the [carpet tiles](/carpet-tiles/) page.
+We also supply nylon and polypropylene carpet tiles, sold by the m² at 5 to 6 KWD (0.465 to 0.557 KWD per sq ft). Their advantage is that a damaged tile can be replaced on its own, without changing the whole floor. Tile counts and a cost example are on the [carpet tiles](/en/carpet-tiles/) page.
 
 ## How to order
 

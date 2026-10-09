@@ -46,11 +46,11 @@ faq:
 
 **Majlis and diwaniya rooms.** Large rooms need a dense pile that stands up to sitting and foot traffic, in shades that hide daily wear.
 
-**Offices.** Lightweight loop-pile or tweed carpet handles foot traffic and chair castors; see [office carpet](/office-carpet/). If you want to replace parts of the floor later, choose [carpet tiles](/carpet-tiles/).
+**Offices.** Lightweight loop-pile or tweed carpet handles foot traffic and chair castors; see [office carpet](/en/office-carpet/). If you want to replace parts of the floor later, choose [carpet tiles](/en/carpet-tiles/).
 
 **Hotels and halls.** Corridors and rooms need carpet that takes constant traffic, and we suggest the material after a site visit.
 
-**Stairs and hallways.** Carpet is cut to fit each step, or made into a runner the length of your hallway. See [stair carpet](/stair-carpet/) and [hallway runners](/hallway-runners/).
+**Stairs and hallways.** Carpet is cut to fit each step, or made into a runner the length of your hallway. See [stair carpet](/en/stair-carpet/) and [hallway runners](/en/hallway-runners/).
 
 ## How to choose wall-to-wall carpet
 
@@ -64,7 +64,7 @@ faq:
 
 Carpet cost before installation = room length × width × price per m².
 
-**Example:** a 4 × 5 m (13.1 × 16.4 ft) room is 20 m² (215 sq ft). Lightweight carpet costs 25 KWD (1.250 per m²) to 60 KWD (3 per m²), and thicker Turkish carpet 100 to 300 KWD. For several rooms and how to measure, see [carpet by the meter](/carpet-by-the-meter/).
+**Example:** a 4 × 5 m (13.1 × 16.4 ft) room is 20 m² (215 sq ft). Lightweight carpet costs 25 KWD (1.250 per m²) to 60 KWD (3 per m²), and thicker Turkish carpet 100 to 300 KWD. For several rooms and how to measure, see [carpet by the meter](/en/carpet-by-the-meter/).
 
 ## How to order
 

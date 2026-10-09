@@ -61,14 +61,14 @@ export async function llmsTxt() {
   });
   return `# ${settings?.brand.en ?? 'Sajjadko Kuwait'} | ${settings?.brand.ar ?? 'سجادكو الكويت'}
 
-> Carpet store in Al Dajeej, Kuwait: Turkish carpet, wall-to-wall carpet (moquette), hallway and stair runners, office and mosque carpet, sold by the square metre, cut to size and installed. Free home visit to measure and show samples. Orders via WhatsApp. Bilingual site (English at /, Arabic at /ar/).
+> Carpet store in Al Dajeej, Kuwait: Turkish carpet, wall-to-wall carpet (moquette), hallway and stair runners, office and mosque carpet, sold by the square metre, cut to size and installed. Free home visit to measure and show samples. Orders via WhatsApp. Bilingual site (Arabic at /, English at /en/).
 
 ## Key facts
 ${facts(settings)}
 
 ## Home
-- [Home (English)](${abs('/')})
-- [الرئيسية (Arabic)](${abs('/ar/')})
+- [الرئيسية (Arabic, main)](${abs('/')})
+- [Home (English)](${abs('/en/')})
 
 ## Pages
 ${pageLines.join('\n')}

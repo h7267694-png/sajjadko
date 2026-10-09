@@ -2,7 +2,10 @@ import { getEntry } from 'astro:content';
 
 export type Locale = 'en' | 'ar';
 
-export const toLocale = (l?: string): Locale => (l === 'ar' ? 'ar' : 'en');
+// العربية على الجذر والإنجليزية على /en/ (قرار العميل، 10 أكتوبر 2026، 24.2)
+export const toLocale = (l?: string): Locale => (l === 'en' ? 'en' : 'ar');
+export const localePrefix = (l: Locale) => (l === 'en' ? '/en' : '');
+export const homeHref = (l: Locale) => `${localePrefix(l)}/`;
 
 /** إعدادات الموقع من src/content/settings/site.yaml (رقم واتساب، العنوان، الساعات). */
 export async function getSettings() {

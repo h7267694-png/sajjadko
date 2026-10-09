@@ -195,7 +195,7 @@ const schema = {
   offers,
 };
 
-const crumbs = [{ text: t.home, href: ar ? '/ar/' : '/' }, { text: tx.name }];
+const crumbs = [{ text: t.home, href: ar ? '/' : '/en/' }, { text: tx.name }];
 const waVars: Record<string, string> = ar
   ? { 'اسم المنتج': tx.name, الرمز: d.sku }
   : { 'product name': tx.name, code: d.sku };

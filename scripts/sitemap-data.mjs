@@ -9,6 +9,8 @@ import { execFileSync } from 'node:child_process';
 import yaml from 'js-yaml';
 
 const HREFLANG = { en: 'en-KW', ar: 'ar-KW' };
+// العربية على الجذر والإنجليزية على /en/ (10 أكتوبر 2026)
+const pre = (lang) => (lang === 'en' ? '/en' : '');
 
 const gitDate = (root, files) => {
   if (!files.length) return undefined;
@@ -57,8 +59,8 @@ export function sitemapData(root, site) {
   for (const p of products) {
     const id = p.d.slug ?? path.basename(p.f).replace(/\.[^.]+$/, '');
     const entries = [];
-    if (p.d.ar) entries.push({ lang: 'ar', url: url(`/ar/products/${id}/`) });
-    if (p.d.en?.reviewed) entries.push({ lang: 'en', url: url(`/products/${id}/`) });
+    if (p.d.ar) entries.push({ lang: 'ar', url: url(`/products/${id}/`) });
+    if (p.d.en?.reviewed) entries.push({ lang: 'en', url: url(`/en/products/${id}/`) });
     groups.push({ entries, sources: productSources(p) });
   }
 
@@ -68,7 +70,7 @@ export function sitemapData(root, site) {
     const d = frontmatter(f);
     if (!d || d.status !== 'published' || !d.urlPath || d.kind === 'home') continue;
     const g = byKey.get(d.translationKey) ?? { entries: [], sources: [] };
-    g.entries.push({ lang: d.lang, url: url(d.lang === 'ar' ? `/ar/${d.urlPath}/` : `/${d.urlPath}/`) });
+    g.entries.push({ lang: d.lang, url: url(`${pre(d.lang)}/${d.urlPath}/`) });
     g.sources.push(rel(f), ...(d.productGrid ? allProductSources : []));
     byKey.set(d.translationKey, g);
   }
@@ -77,8 +79,8 @@ export function sitemapData(root, site) {
   // الرئيسيتان: تتغيران بقالبها وبالمنتجات والصفحات المنشورة التي تعرضها
   groups.push({
     entries: [
-      { lang: 'en', url: url('/') },
-      { lang: 'ar', url: url('/ar/') },
+      { lang: 'ar', url: url('/') },
+      { lang: 'en', url: url('/en/') },
     ],
     sources: ['src/components/widgets/HomePage.astro', 'src/content/pages', ...allProductSources],
   });
@@ -88,8 +90,8 @@ export function sitemapData(root, site) {
   if (works.length)
     groups.push({
       entries: [
-        { lang: 'en', url: url('/projects/') },
-        { lang: 'ar', url: url('/ar/projects/') },
+        { lang: 'ar', url: url('/projects/') },
+        { lang: 'en', url: url('/en/projects/') },
       ],
       sources: works.flatMap(productSources),
     });

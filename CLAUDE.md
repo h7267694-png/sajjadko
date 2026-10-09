@@ -75,3 +75,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - Language rule (client, 2026-10-10): **70% Arabic, 30% English** (plan 24.2). New pages are Arabic-first; an English pair only when a proven English keyword with buyer intent exists, else `noTranslation: true`. Published URLs unchanged.
 - Nav `live` accepts `'ar'` (or `'en'`) for single-language pages.
 - First real job: product `lujain-silver-grey-plush` with `latestWork` in Qasr (Jahra), 2026-10-09; `/projects/` pages now build. Arabic-only page `ar/diwaniya-majlis.md` (`carpets/diwaniya-majlis`).
+
+## Step 34
+
+- **URL layout reversed (client, 2026-10-10): Arabic at root `/`, English at `/en/`.** `defaultLocale: 'ar'`; routes in `src/pages/` are Arabic, `src/pages/en/` English. Always build links with `localePrefix()`/`homeHref()` from `src/utils/site.ts` (never hard-code `/ar/` or `/en/`). `urlPath` values unchanged, so `slugs.lock.json` is unchanged.
+- Old URLs are frozen in `src/data/legacy-redirects.json` (meta-refresh + canonical pages via Astro `redirects`, excluded from sitemap; quality gate checks targets exist). Never delete entries.

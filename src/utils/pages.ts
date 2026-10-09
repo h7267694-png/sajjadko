@@ -2,14 +2,14 @@
 // كل ملف Markdown لغة واحدة، ويربط الزوجَ translationKey. الرابط من urlPath في الملف نفسه.
 // يفشل البناء (24.5) عند: صفحة منشورة بلا زوج (إلا مع noTranslation)، أب غير موجود، رابط مكرر.
 import { getCollection, type CollectionEntry } from 'astro:content';
-import type { Locale } from '~/utils/site';
+import { localePrefix, type Locale } from '~/utils/site';
 
 export type PageEntry = CollectionEntry<'pages'>;
 
-/** /ar/mosque-carpets/ أو /mosque-carpet/ */
-export const pageHref = (lang: Locale, urlPath: string) => (lang === 'ar' ? `/ar/${urlPath}/` : `/${urlPath}/`);
+/** /mosque-carpets/ (عربي، الجذر) أو /en/mosque-carpet/ */
+export const pageHref = (lang: Locale, urlPath: string) => `${localePrefix(lang)}/${urlPath}/`;
 
-const HOME = { en: { text: 'Home', href: '/' }, ar: { text: 'الرئيسية', href: '/ar/' } };
+const HOME = { en: { text: 'Home', href: '/en/' }, ar: { text: 'الرئيسية', href: '/' } };
 
 // المسودات تظهر في التطوير فقط، ولا تدخل البناء ولا الخريطة.
 const visible = (e: PageEntry) => e.data.status === 'published' || (import.meta.env.DEV && e.data.status === 'draft');

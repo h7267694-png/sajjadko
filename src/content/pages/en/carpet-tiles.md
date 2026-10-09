@@ -61,7 +61,7 @@ Number of tiles = area in m² × 6.25.
 
 ## Carpet tiles or broadloom?
 
-If budget matters most, lightweight broadloom carpet starts at 1.250 KWD per m² and gives a seamless surface; see [office carpet](/office-carpet/). If partial replacement and easy maintenance matter more, carpet tiles are the better choice.
+If budget matters most, lightweight broadloom carpet starts at 1.250 KWD per m² and gives a seamless surface; see [office carpet](/en/office-carpet/). If partial replacement and easy maintenance matter more, carpet tiles are the better choice.
 
 ## How to order
 

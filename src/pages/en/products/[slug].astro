@@ -3,7 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import ProductPage from '~/components/widgets/ProductPage.astro';
 import { getProductPaths } from '~/utils/products';
 
-export const getStaticPaths = (async () => getProductPaths('ar')) satisfies GetStaticPaths;
+export const getStaticPaths = (async () => getProductPaths('en')) satisfies GetStaticPaths;
 
 const { entry, alternates, similar } = Astro.props;
 ---

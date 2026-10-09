@@ -3,7 +3,7 @@ import type { GetStaticPaths } from 'astro';
 import ContentPage from '~/components/widgets/ContentPage.astro';
 import { getPageProps } from '~/utils/pages';
 
-export const getStaticPaths = (async () => getPageProps('en')) satisfies GetStaticPaths;
+export const getStaticPaths = (async () => getPageProps('ar')) satisfies GetStaticPaths;
 
 const { entry, alternates, breadcrumbs, related } = Astro.props;
 ---

@@ -5,7 +5,7 @@ import { getLatestWorks } from '~/utils/products';
 
 // تُبنى فقط عند وجود عمل واحد على الأقل
 export const getStaticPaths = (async () => {
-  const items = await getLatestWorks('en');
+  const items = await getLatestWorks('ar');
   return items.length ? [{ params: { p: undefined }, props: { items } }] : [];
 }) satisfies GetStaticPaths;
 
