@@ -57,6 +57,7 @@ const t = ar
       careRow: 'العناية',
       sale: 'وحدة البيع',
       currency: 'د.ك',
+      onRequest: 'حسب المقاس والتشطيب، نؤكده عبر واتساب',
       from: 'من',
       to: 'إلى',
       updated: 'آخر تحديث للسعر',
@@ -89,6 +90,7 @@ const t = ar
       careRow: 'Care',
       sale: 'Sold',
       currency: 'KWD',
+      onRequest: 'By size and finish, confirmed on WhatsApp',
       from: 'from',
       to: 'to',
       updated: 'Price last updated',
@@ -106,7 +108,7 @@ const priceText = d.price
   ? `${kwd(d.price.amount)} ${t.currency} ${unit(d.price.unit)}`
   : d.priceRange
     ? `${t.from} ${kwd(d.priceRange.min)} ${t.to} ${kwd(d.priceRange.max)} ${t.currency} ${unit(d.priceRange.unit)}`
-    : undefined;
+    : t.onRequest;
 const priceUpdated = (d.price?.updated ?? d.priceRange?.updated)?.toISOString().slice(0, 10);
 
 const rows: [string, string | undefined][] = [
@@ -212,7 +214,8 @@ const waVars: Record<string, string> = ar
     openGraph: schemaImages[0] ? { images: [{ url: schemaImages[0] }] } : undefined,
   }}
 >
-  <StructuredData slot="head" schema={schema} />
+  {/* جوجل يرفض Product بلا offers أو تقييم: منتج «السعر عند الطلب» (تفصيل) يُعرض بلا مخطط Product */}
+  {offers && <StructuredData slot="head" schema={schema} />}
   <Breadcrumbs bar items={crumbs} />
   <article class="mx-auto max-w-3xl px-4 py-8 md:py-12">
     <h1 class="text-3xl md:text-4xl font-bold mb-4">{tx.name}</h1>

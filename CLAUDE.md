@@ -96,3 +96,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 38
 
 - Arabic-only `ar/zawali.md` (`zawali`). Client: zawali are sold three ways — ready-made, cut by the metre (5–15 KWD/m²), and custom-made (تفصيل). No ready-made sizes/prices yet. We do not sell Iranian rugs.
+
+## Step 39
+
+- Zawali page: common ready-made sizes table (market sizes, "we confirm stock"). Products `nasaq-custom-border-zawali` and `kuthban-custom-wave-zawali` (category `zawali`, no price). Products without price/priceRange show "by size and finish" and emit **no** Product JSON-LD (Google requires offers). No `latestWork` without a confirmed area. Never publish photos carrying another business's watermark or phone number.
