@@ -26,13 +26,18 @@ images:
   - src: ../../assets/products/mosque-farwaniya-hall.jpg
     original: true
     alt:
-      ar: قاعة مسجد مفروشة بسجاد صفوف أزرق مخضر محاذٍ للقبلة، الفروانية
-      en: Mosque hall fitted with teal carpet rows aligned with the qibla, Farwaniya
+      ar: قاعة المسجد بعد فرشها بصفوف السجاد الأزرق المخضر المحاذية للقبلة، الفروانية
+      en: The mosque hall after fitting teal carpet rows aligned with the qibla, Farwaniya
   - src: ../../assets/products/mosque-farwaniya-row-borders.jpg
     original: true
     alt:
-      ar: إطار الصف الزخرفي البيج في سجاد المسجد الأزرق المخضر بعد التركيب
-      en: Decorative beige row border on the teal mosque carpet after installation
+      ar: فريق سجادكو يراجع تركيب صفوف سجاد المسجد بعد الفرش في الفروانية
+      en: Sajjadko team checking the mosque carpet rows after fitting in Farwaniya
+  - src: ../../assets/products/mosque-farwaniya-workshop.jpg
+    original: true
+    alt:
+      ar: فريق سجادكو أثناء تركيب صفوف سجاد المسجد الأزرق المخضر وقصها حول الأعمدة في الفروانية
+      en: Sajjadko team fitting the teal mosque carpet rows and cutting around columns in Farwaniya
 latestWork:
   show: true
   area: farwaniya
