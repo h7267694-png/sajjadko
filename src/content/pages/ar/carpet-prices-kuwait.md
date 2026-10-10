@@ -74,3 +74,4 @@ faq:
 - [سجاد وموكيت بالمتر](/by-meter/) و[صفحة الموكيت](/moquette/)
 - [سجاد المساجد](/mosque-carpets/) و[سجاد المكاتب](/commercial-flooring/offices/) و[بلاط السجاد](/commercial-flooring/carpet-tiles/)
 - [الزوالي والزل](/zawali/) و[الريد كاربت](/red-carpet/)
+- [كيف تحسب كمية السجاد](/guides/calculate-carpet-quantity/) و[الفرق بين السجاد والموكيت والزولية](/guides/carpet-vs-moquette/)

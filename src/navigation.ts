@@ -71,6 +71,13 @@ const NAV: Item[] = [
       '/guides/carpet-prices-kuwait/',
       'ar'
     ),
+    item(
+      'Carpet quantity',
+      'حساب كمية السجاد',
+      '/en/guides/calculate-carpet-quantity/',
+      '/guides/calculate-carpet-quantity/',
+      'ar'
+    ),
     item('Our latest work', 'أعمالنا في السجاد', '/en/projects/', '/projects/', true),
     item('About us', 'من نحن', '/en/about/', '/about/', true),
     item('Contact', 'تواصل معنا', '/en/contact/', '/contact/', true),
