@@ -1,6 +1,6 @@
 # سجادكو الكويت | Sajjadko Kuwait — خطة السيو والبحث التوليدي، النسخة التنفيذية v2.3 (ثنائية اللغة)
 
-> **🔴 الأولوية الأولى الآن: سرعة الرئيسية على الجوال (Speed Index 3.8 ث)، بعلاج جذري لا مؤقت. التفاصيل في القسم 29.2.**
+> **✅ سرعة الرئيسية على الجوال: حُلّت من الجذر (الخطوة 49، أكده العميل بقياس PageSpeed في 11 أكتوبر 2026). التفاصيل في القسم 29.2.**
 
 > **ملخص الحالة الحالية وما ينتظر التنفيذ وروابط الفهرسة: القسم 29 في آخر هذا الملف**، ونسخة روابط الفهرسة وحدها في `docs/indexing-checklist.md`.
 
@@ -2506,7 +2506,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ---
 
-# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 49؛ الملخص في القسم 29)
+# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 50؛ الملخص في القسم 29)
 
 ## 28.1 القاعدة الإلزامية
 
@@ -2922,9 +2922,15 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - **جُرّب ورُفض بالقياس:** تحميل صور «تسوق حسب القسم» فورًا أخّر LCP من 1.4 إلى 1.9 ث (نافس خط العنوان). وتضمين CSS في كل صفحة تجاوز ميزانية HTML ‏40 كيلوبايت في الرئيسية والزوالي دون تحسن ثابت. أُلغي الاثنان.
 - **القياس المحلي (Lighthouse جوال، مرتان):** قبل: FCP ‏0.9–1.1، LCP ‏1.2–1.4، Speed Index ‏0.9–1.1. بعد: FCP ‏0.9–1.1، LCP ‏1.4، Speed Index ‏0.9–1.1، TBT ‏10–50 ملي ثانية. القياس الحاسم هو PageSpeed على الموقع المنشور.
 
+**الخطوة 50 (11 أكتوبر 2026) [تم]: أيقونات وخدمات الأقسام الباقية**
+
+- أيقونات من أعمال منفذة: التركيب (غرفة الدوحة أثناء التركيب)، الحفر اليدوي (مجلس الزخرفة الدائرية)، قص السجاد (درج سلوى مقصوص على كل درجة).
+- صفحة قص السجاد صارت تعرض منتجاتها (`productGrid.services: [carpet-cutting]`): درج سلوى، الزولية المثمنة، وزوالي التفصيل الثلاث. وزوليتا التفصيل نسق وكثبان أُضيفتا لصفحة الحفر اليدوي (إطارهما محفور يدويًا حسب وصفهما المنشور).
+- **أقسام بلا منتجات أو قليلة (تنتظر صور العميل):** الريد كاربت (لا منتجات ولا أيقونة)، بلاط السجاد (منتجان)، الدرج (3)، المساجد والمصليات (4). محل الضجيج يبقى بصورة منتج (قرار العميل).
+
 ---
 
-# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 49)
+# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 50)
 
 ## 29.1 ما تم إنجازه
 
@@ -2948,7 +2954,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ## 29.2 بانتظار التنفيذ
 
-**🔴 الأولوية الأولى: سرعة الرئيسية (PageSpeed على الجوال، 11 أكتوبر 2026)**
+**✅ [حُلّت، الخطوة 49، أكدها العميل بقياس PageSpeed] سرعة الرئيسية (PageSpeed على الجوال، 11 أكتوبر 2026)**
 
 قرار العميل: **علاج جذري لا ترقيع مؤقت.** لا يُعتبر البند منجزًا إلا إذا صار كل مقياس أخضر في PageSpeed على الجوال، وثبت ذلك في قياسين متتاليين.
 
@@ -2970,7 +2976,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 **بانتظار العميل**
 
 1. ~~مراجعة الصفحات المكتوبة~~ **[تم، الخطوة 42]**.
-2. **[تم معظمها، الخطوة 48]** ~~تغيير صور «تسوق حسب القسم»~~؛ الباقي: قص السجاد، التركيب، الحفر، الريد كاربت. قسم محل الضجيج يبقى بصورة منتج (لا صورة واجهة، قرار العميل 11 أكتوبر 2026). الأصل: الأقسام تعرض الآن صورة منتج مستعارة (غالبًا لوحة عينات). المطلوب صورة حقيقية لكل قسم: سجاد بالمتر، الموكيت، غرف النوم، الزوالي، الأطفال، المجالس والديوانيات، الممرات، الدرج، المكاتب، بلاط السجاد. تُستبدل في `src/components/widgets/HomePage.astro` (حقل `img`)، والأفضل صورة عمل منفّذ لكل قسم.
+2. **[تم معظمها، الخطوة 48]** ~~تغيير صور «تسوق حسب القسم»~~؛ الباقي: الريد كاربت (القص والتركيب والحفر تمت في الخطوة 50). قسم محل الضجيج يبقى بصورة منتج (لا صورة واجهة، قرار العميل 11 أكتوبر 2026). الأصل: الأقسام تعرض الآن صورة منتج مستعارة (غالبًا لوحة عينات). المطلوب صورة حقيقية لكل قسم: سجاد بالمتر، الموكيت، غرف النوم، الزوالي، الأطفال، المجالس والديوانيات، الممرات، الدرج، المكاتب، بلاط السجاد. تُستبدل في `src/components/widgets/HomePage.astro` (حقل `img`)، والأفضل صورة عمل منفّذ لكل قسم.
 3. **عروض حقيقية** لقسم العروض (المنتج، السعر قبل وبعد، آخر يوم)، أو تُضاف من لوحة الإدارة.
 4. ~~مناطق الأعمال~~ **[تم، الخطوة 48: الجهراء]**؛ الزوليتان التفصيل نسق وكثبان ما زالتا بلا منطقة.
 5. **بيانات ناقصة:** مقاسات وأسعار الزوالي الجاهزة المتوفرة فعلًا، رابط إنستغرام، أيام العمل، سماكة وألوان بلاط السجاد، فيديو تركيب درج، صور مدات السدو.
@@ -2985,7 +2991,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ## 29.3 روابط بانتظار الفهرسة اليدوية في Search Console
 
-**الدفعة التالية (لم تُطلب بعد، الحصة اليومية متجاوزة في 11 أكتوبر 2026):** `/projects/`، `/services/carpet-cutting/`، `/services/carpet-installation/`، `/carpets/`، `/guides/carpet-prices-kuwait/`، `/mosque-carpets/`، `/services/hand-carving/`، `/commercial-flooring/offices/`، `/commercial-flooring/carpet-tiles/`، `/red-carpet/`.
+**فُهرست يدويًا في 11 أكتوبر 2026 (10):** `/projects/`، `/services/carpet-cutting/`، `/services/carpet-installation/`، `/carpets/`، `/guides/carpet-prices-kuwait/`، `/mosque-carpets/`، `/services/hand-carving/`، `/commercial-flooring/offices/`، `/commercial-flooring/carpet-tiles/`، `/red-carpet/`. المجموع المفهرس يدويًا 21 رابطًا.
 
 فُهرست يدويًا (10 أكتوبر 2026): `https://sajjadko.com/`، `https://sajjadko.com/by-meter/`، `https://sajjadko.com/moquette/`، `https://sajjadko.com/en/`، ثم `/zawali/` و`/carpet-shop-dajeej/` و`/carpets/diwaniya-majlis/` و`/carpets/bedroom/` و`/carpets/kids/` و`/carpets/hallway/` و`/carpets/stairs/` (11 رابطًا مفهرسًا يدويًا).
 
@@ -3000,16 +3006,16 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - [x] `https://sajjadko.com/carpets/kids/` (فُهرس 10 أكتوبر 2026)
 - [x] `https://sajjadko.com/carpets/hallway/` (فُهرس 10 أكتوبر 2026)
 - [x] `https://sajjadko.com/carpets/stairs/` (فُهرس 10 أكتوبر 2026)
-- [ ] `https://sajjadko.com/commercial-flooring/offices/`
-- [ ] `https://sajjadko.com/commercial-flooring/carpet-tiles/`
-- [ ] `https://sajjadko.com/projects/`
+- [x] `https://sajjadko.com/commercial-flooring/offices/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/commercial-flooring/carpet-tiles/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/projects/` (فُهرس 11 أكتوبر 2026)
 
 **جديد (الخطوات 43–47)** (8):
 
 - [ ] `https://sajjadko.com/guides/calculate-carpet-quantity/`
 - [ ] `https://sajjadko.com/guides/carpet-vs-moquette/`
-- [ ] `https://sajjadko.com/carpets/`
-- [ ] `https://sajjadko.com/guides/carpet-prices-kuwait/`
+- [x] `https://sajjadko.com/carpets/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/guides/carpet-prices-kuwait/` (فُهرس 11 أكتوبر 2026)
 - [ ] `https://sajjadko.com/contact/`
 - [ ] `https://sajjadko.com/about/`
 - [ ] `https://sajjadko.com/en/contact/`
@@ -3017,12 +3023,12 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 **جديد (الخطوة 42): الصفحات المنشورة اليوم** (8):
 
-- [ ] `https://sajjadko.com/mosque-carpets/`
+- [x] `https://sajjadko.com/mosque-carpets/` (فُهرس 11 أكتوبر 2026)
 - [ ] `https://sajjadko.com/mosque-carpets/musalla/`
-- [ ] `https://sajjadko.com/services/carpet-cutting/`
-- [ ] `https://sajjadko.com/services/carpet-installation/`
-- [ ] `https://sajjadko.com/services/hand-carving/`
-- [ ] `https://sajjadko.com/red-carpet/`
+- [x] `https://sajjadko.com/services/carpet-cutting/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/services/carpet-installation/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/services/hand-carving/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/red-carpet/` (فُهرس 11 أكتوبر 2026)
 - [ ] `https://sajjadko.com/en/mosque-carpet/`
 - [ ] `https://sajjadko.com/en/prayer-room-carpet/`
 

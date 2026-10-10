@@ -15,16 +15,16 @@
 - [x] `https://sajjadko.com/carpets/kids/` (فُهرس 10 أكتوبر 2026)
 - [x] `https://sajjadko.com/carpets/hallway/` (فُهرس 10 أكتوبر 2026)
 - [x] `https://sajjadko.com/carpets/stairs/` (فُهرس 10 أكتوبر 2026)
-- [ ] `https://sajjadko.com/commercial-flooring/offices/`
-- [ ] `https://sajjadko.com/commercial-flooring/carpet-tiles/`
-- [ ] `https://sajjadko.com/projects/`
+- [x] `https://sajjadko.com/commercial-flooring/offices/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/commercial-flooring/carpet-tiles/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/projects/` (فُهرس 11 أكتوبر 2026)
 
 **جديد (الخطوات 43–47)** (8):
 
 - [ ] `https://sajjadko.com/guides/calculate-carpet-quantity/`
 - [ ] `https://sajjadko.com/guides/carpet-vs-moquette/`
-- [ ] `https://sajjadko.com/carpets/`
-- [ ] `https://sajjadko.com/guides/carpet-prices-kuwait/`
+- [x] `https://sajjadko.com/carpets/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/guides/carpet-prices-kuwait/` (فُهرس 11 أكتوبر 2026)
 - [ ] `https://sajjadko.com/contact/`
 - [ ] `https://sajjadko.com/about/`
 - [ ] `https://sajjadko.com/en/contact/`
@@ -32,12 +32,12 @@
 
 **جديد (الخطوة 42): الصفحات المنشورة اليوم** (8):
 
-- [ ] `https://sajjadko.com/mosque-carpets/`
+- [x] `https://sajjadko.com/mosque-carpets/` (فُهرس 11 أكتوبر 2026)
 - [ ] `https://sajjadko.com/mosque-carpets/musalla/`
-- [ ] `https://sajjadko.com/services/carpet-cutting/`
-- [ ] `https://sajjadko.com/services/carpet-installation/`
-- [ ] `https://sajjadko.com/services/hand-carving/`
-- [ ] `https://sajjadko.com/red-carpet/`
+- [x] `https://sajjadko.com/services/carpet-cutting/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/services/carpet-installation/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/services/hand-carving/` (فُهرس 11 أكتوبر 2026)
+- [x] `https://sajjadko.com/red-carpet/` (فُهرس 11 أكتوبر 2026)
 - [ ] `https://sajjadko.com/en/mosque-carpet/`
 - [ ] `https://sajjadko.com/en/prayer-room-carpet/`
 

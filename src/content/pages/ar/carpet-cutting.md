@@ -6,6 +6,8 @@ status: published
 noTranslation: true
 kind: service
 waType: cutting
+productGrid:
+  services: [carpet-cutting]
 title: 'قص سجاد حسب المقاس في الكويت — سجادكو الكويت'
 description: 'قص وتفصيل السجاد والموكيت حسب مقاسك في الكويت، من غرفة منتظمة إلى مسجد. أرسل المقاس عبر واتساب لنؤكد الصنف والسعر.'
 h1: 'قص وتفصيل السجاد والموكيت حسب المقاس في الكويت'
