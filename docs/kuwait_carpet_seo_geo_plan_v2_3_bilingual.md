@@ -2504,7 +2504,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ---
 
-# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 10 أكتوبر 2026، بعد الخطوة 41)
+# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 10 أكتوبر 2026، بعد الخطوة 41؛ الملخص في القسم 29)
 
 ## 28.1 القاعدة الإلزامية
 
@@ -2870,3 +2870,112 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 **الخطوة 42 المرشحة:** نشر الصفحات المكتوبة (المساجد، المصلى، القص، التركيب، الحفر، الريد كاربت) بعد مراجعة العميل.
 **مؤجل بقرار العميل:** رابط موقع سالفورد. **تذكير:** لا ملف GBP.
+
+---
+
+# 29. ملخص الحالة والمتابعة (10 أكتوبر 2026، بعد الخطوة 41)
+
+## 29.1 ما تم إنجازه
+
+**البنية والتقنية**
+
+- موقع Astro ثابت على GitHub Pages بالدومين `sajjadko.com`، نشر آلي مع حواجز جودة (المحتوى، الروابط، `hreflang`، اللغة والاتجاه، الميزانية) وLighthouse، وبناء يومي مجدول.
+- **العربية على الجذر `/` والإنجليزية على `/en/`** (قاعدة 70% عربي و30% إنجليزي، 24.2)، وزر لغة ظاهر دائمًا، وتحويل 28 رابطًا قديمًا بصفحات تحويل مع canonical.
+- خريطة موقع بـ`lastmod` من git وأزواج `hreflang`، وملفا `llms.txt` و`llms-full.txt` لأدوات الذكاء الاصطناعي، و`robots.txt` يسمح لزواحفها.
+- Schema: المنظمة والمتجر (مع الزيارة المجانية)، الموقع، المنتج بالسعر أو العرض (`Offer` بتاريخ انتهاء)، الأسئلة، المسار، قوائم المنتجات. المنتج بلا سعر لا يُصدر `Product`.
+- لوحة إدارة `/admin/` (منتجات، صور WebP تلقائيًا، أعمالنا الأخيرة بالمنطقة، العروض).
+- قائمة بخمسة عناصر أعلى كحد أقصى بقوائم منسدلة، وكل عناوين الأقسام تحمل «سجاد/موكيت» (قاعدة الاستهداف بكلمة المنتج).
+- Search Console: خاصية نطاق متحققة، والخريطة مرسلة.
+
+**الصفحات المنشورة**
+
+- عربي وإنجليزي: سجاد بالمتر، الموكيت، الممرات، الدرج، المكاتب، بلاط السجاد 40×40، الرئيسية، أعمالنا الأخيرة.
+- عربي فقط: الزوالي والزل (جاهزة، بالمتر، تفصيل، مع جدول المقاسات الشائعة)، محل سجاد الضجيج، سجاد المجالس والديوانيات، سجاد غرف النوم، سجاد الأطفال.
+- **الرئيسية بواجهة متجر:** تسوق حسب القسم، العروض (عند وجود عرض ساري)، كل المنتجات ببطاقات وتصفية بالنوع. LCP نصي نحو ثانية على جوال مُبطّأ.
+
+**المنتجات (16) بأسماء رسمية:** 9 موكيت، 3 سجاد ممرات، 3 زوالي تفصيل، وعمل منفّذ في القصر بالجهراء ضمن «أعمالنا الأخيرة».
+
+## 29.2 بانتظار التنفيذ
+
+**بانتظار العميل**
+
+1. **مراجعة الصفحات المكتوبة لنشرها:** المساجد، المصلى، قص السجاد، التركيب، الحفر، الريد كاربت.
+2. **تغيير صور «تسوق حسب القسم» في الرئيسية:** الأقسام تعرض الآن صورة منتج مستعارة (غالبًا لوحة عينات). المطلوب صورة حقيقية لكل قسم: سجاد بالمتر، الموكيت، محل الضجيج (واجهة المحل)، غرف النوم، الزوالي، الأطفال، المجالس والديوانيات، الممرات، الدرج، المكاتب، بلاط السجاد. تُستبدل في `src/components/widgets/HomePage.astro` (حقل `img`)، والأفضل صورة عمل منفّذ لكل قسم.
+3. **عروض حقيقية** لقسم العروض (المنتج، السعر قبل وبعد، آخر يوم)، أو تُضاف من لوحة الإدارة.
+4. **مناطق الزوالي الثلاث المفصلة** لإضافتها إلى «أعمالنا الأخيرة».
+5. **بيانات ناقصة:** مقاسات وأسعار الزوالي الجاهزة المتوفرة فعلًا، صور واجهة المحل وداخله، رابط إنستغرام، أيام العمل، سماكة وألوان بلاط السجاد، فيديو تركيب درج، صور مدات السدو.
+6. **أمان:** حذف التوكن الكامل الذي ظهر في المحادثة، وإنشاء توكن محدود (Contents على مستودع sajjadko فقط)، ثم تأمين لوحة الإدارة.
+
+**الخطوات التقنية القادمة**
+
+1. نشر الصفحات المكتوبة بعد المراجعة (الخطوة 42).
+2. صفحة السجاد الأم `/carpets/`، وصفحة تواصل، وصفحة من نحن.
+3. Bing Webmaster وGA4 ومراقبة التوفر (19.1).
+4. أدلة عربية (أسعار السجاد في الكويت، كيف تقيس الغرفة).
+
+## 29.3 روابط بانتظار الفهرسة اليدوية في Search Console
+
+فُهرست يدويًا (10 أكتوبر 2026): `https://sajjadko.com/`، `https://sajjadko.com/by-meter/`، `https://sajjadko.com/moquette/`، `https://sajjadko.com/en/`.
+
+الباقي 49 رابطًا. الحد اليومي نحو 10 طلبات، فالترتيب حسب الأولوية. ضع علامة ✓ عند الانتهاء:
+
+**اليوم 1: الصفحات العربية (الأعلى طلبًا)** (10):
+
+- [ ] `https://sajjadko.com/zawali/`
+- [ ] `https://sajjadko.com/carpet-shop-dajeej/`
+- [ ] `https://sajjadko.com/carpets/diwaniya-majlis/`
+- [ ] `https://sajjadko.com/carpets/bedroom/`
+- [ ] `https://sajjadko.com/carpets/kids/`
+- [ ] `https://sajjadko.com/carpets/hallway/`
+- [ ] `https://sajjadko.com/carpets/stairs/`
+- [ ] `https://sajjadko.com/commercial-flooring/offices/`
+- [ ] `https://sajjadko.com/commercial-flooring/carpet-tiles/`
+- [ ] `https://sajjadko.com/projects/`
+
+**اليوم 2 و3: منتجات عربية** (16):
+
+- [ ] `https://sajjadko.com/products/ateeq-custom-vintage-zawali/`
+- [ ] `https://sajjadko.com/products/blossom-hallway-runner/`
+- [ ] `https://sajjadko.com/products/classic-dot-runner/`
+- [ ] `https://sajjadko.com/products/dana-loop-pile/`
+- [ ] `https://sajjadko.com/products/greek-key-border-runner/`
+- [ ] `https://sajjadko.com/products/harir-silk-touch/`
+- [ ] `https://sajjadko.com/products/juman-plush-stair-carpet/`
+- [ ] `https://sajjadko.com/products/kuthban-custom-wave-zawali/`
+- [ ] `https://sajjadko.com/products/lujain-silver-grey-plush/`
+- [ ] `https://sajjadko.com/products/nasaq-custom-border-zawali/`
+- [ ] `https://sajjadko.com/products/naseem-textured/`
+- [ ] `https://sajjadko.com/products/reem-loop-office-carpet/`
+- [ ] `https://sajjadko.com/products/remal-plush/`
+- [ ] `https://sajjadko.com/products/riwaq-tweed-office-carpet/`
+- [ ] `https://sajjadko.com/products/sidra-soft-touch/`
+- [ ] `https://sajjadko.com/products/wasan-soft-stair-carpet/`
+
+**اليوم 4: الصفحات الإنجليزية** (7):
+
+- [ ] `https://sajjadko.com/en/carpet-by-the-meter/`
+- [ ] `https://sajjadko.com/en/carpet-tiles/`
+- [ ] `https://sajjadko.com/en/hallway-runners/`
+- [ ] `https://sajjadko.com/en/office-carpet/`
+- [ ] `https://sajjadko.com/en/projects/`
+- [ ] `https://sajjadko.com/en/stair-carpet/`
+- [ ] `https://sajjadko.com/en/wall-to-wall-carpet/`
+
+**اليوم 5 وما بعده: منتجات إنجليزية (اختياري، جوجل يصلها من الخريطة)** (16):
+
+- [ ] `https://sajjadko.com/en/products/ateeq-custom-vintage-zawali/`
+- [ ] `https://sajjadko.com/en/products/blossom-hallway-runner/`
+- [ ] `https://sajjadko.com/en/products/classic-dot-runner/`
+- [ ] `https://sajjadko.com/en/products/dana-loop-pile/`
+- [ ] `https://sajjadko.com/en/products/greek-key-border-runner/`
+- [ ] `https://sajjadko.com/en/products/harir-silk-touch/`
+- [ ] `https://sajjadko.com/en/products/juman-plush-stair-carpet/`
+- [ ] `https://sajjadko.com/en/products/kuthban-custom-wave-zawali/`
+- [ ] `https://sajjadko.com/en/products/lujain-silver-grey-plush/`
+- [ ] `https://sajjadko.com/en/products/nasaq-custom-border-zawali/`
+- [ ] `https://sajjadko.com/en/products/naseem-textured/`
+- [ ] `https://sajjadko.com/en/products/reem-loop-office-carpet/`
+- [ ] `https://sajjadko.com/en/products/remal-plush/`
+- [ ] `https://sajjadko.com/en/products/riwaq-tweed-office-carpet/`
+- [ ] `https://sajjadko.com/en/products/sidra-soft-touch/`
+- [ ] `https://sajjadko.com/en/products/wasan-soft-stair-carpet/`
