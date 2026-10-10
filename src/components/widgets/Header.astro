@@ -95,7 +95,8 @@ const persistKey = `header-${Array.from(
           'lg:flex lg:justify-between': position !== 'center',
         },
         {
-          'lg:grid lg:grid-cols-3 lg:items-center': position === 'center',
+          // الوسط يأخذ المساحة المتبقية فقط (لا ثلث ثابت)، فلا تتداخل القائمة مع الشعار أو الأزرار
+          'lg:grid lg:grid-cols-[auto_minmax(0,1fr)_auto] lg:gap-3 lg:items-center': position === 'center',
         },
         {
           'max-w-7xl': !isFullWidth,
@@ -126,7 +127,7 @@ const persistKey = `header-${Array.from(
         </div>
       </div>
       <nav
-        class="items-center w-full lg:w-auto hidden lg:flex lg:mx-5 text-default overflow-y-auto overflow-x-hidden lg:overflow-visible lg:justify-self-center"
+        class="items-center w-full lg:w-auto hidden lg:flex lg:mx-0 text-default overflow-y-auto overflow-x-hidden lg:overflow-visible lg:justify-self-center"
         aria-label="Main navigation"
       >
         <ul
@@ -139,7 +140,7 @@ const persistKey = `header-${Array.from(
                   <>
                     <button
                       type="button"
-                      class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap"
+                      class="hover:text-link dark:hover:text-white px-4 lg:px-2.5 xl:px-4 py-3 flex items-center whitespace-nowrap"
                     >
                       {text}{' '}
                       <Icon
@@ -166,7 +167,7 @@ const persistKey = `header-${Array.from(
                 ) : (
                   <a
                     class:list={[
-                      'hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap',
+                      'hover:text-link dark:hover:text-white px-4 lg:px-2.5 xl:px-4 py-3 flex items-center whitespace-nowrap',
                       { 'aw-link-active': isActive(href) },
                     ]}
                     href={href}
@@ -187,7 +188,14 @@ const persistKey = `header-${Array.from(
       >
         <div class="items-center flex justify-between w-full lg:w-auto">
           <div class="flex">
-            {showToggleTheme && <ToggleTheme iconClass="w-6 h-6 lg:w-5 lg:h-5 lg:inline-block" />}
+            {/* بين lg و xl يُخفى زر الوضع الداكن ليتسع الرأس لخمسة عناصر (حد القائمة) */}
+            {
+              showToggleTheme && (
+                <span class="lg:max-xl:hidden">
+                  <ToggleTheme iconClass="w-6 h-6 lg:w-5 lg:h-5 lg:inline-block" />
+                </span>
+              )
+            }
             {
               showRssFeed && (
                 <a

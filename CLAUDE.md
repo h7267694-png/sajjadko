@@ -109,3 +109,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Home is a store front: `HomeStore.astro` (category tiles for published pages, offers row, all-products grid with category filter) and `ui/ProductCard.astro`. All store images lazy + `fetchpriority=low`; LCP stays the text hero (~1s throttled mobile).
 - Product `offer` field (active, price, was, unit, until, label). Shown only while active and not past `until`; emits `Offer` + `priceValidUntil`. Daily scheduled deploy (21:05 UTC) + inline script remove expired offers. Never invent offers or "was" prices.
+
+## Step 42
+
+- Published (client-approved) Arabic: mosque-carpets, musalla, services/carpet-cutting, services/carpet-installation, services/hand-carving, red-carpet; English: mosque-carpet, prayer-room-carpet. Other EN drafts stay draft (70/30 rule). No mention of mosque administration or invoices "in your name".
+- Header grid is `auto | minmax(0,1fr) | auto` with tighter link padding and the theme toggle hidden between lg and xl, so five top-level items never overlap the buttons.

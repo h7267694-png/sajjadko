@@ -31,8 +31,8 @@ const NAV: Item[] = [
     item('Carpet by the meter', 'سجاد بالمتر', '/en/carpet-by-the-meter/', '/by-meter/', true),
     item('Hallway runners', 'سجاد الممرات', '/en/hallway-runners/', '/carpets/hallway/', true),
     item('Stair carpet', 'سجاد الدرج', '/en/stair-carpet/', '/carpets/stairs/', true),
-    item('Mosque carpets', 'سجاد المساجد', '/en/mosque-carpet/', '/mosque-carpets/'),
-    item('Prayer rooms', 'سجاد المصليات', '/en/prayer-room-carpet/', '/mosque-carpets/musalla/'),
+    item('Mosque carpets', 'سجاد المساجد', '/en/mosque-carpet/', '/mosque-carpets/', true),
+    item('Prayer rooms', 'سجاد المصليات', '/en/prayer-room-carpet/', '/mosque-carpets/musalla/', true),
     item(
       'Majlis & diwaniya',
       'سجاد المجالس والديوانيات',
@@ -50,9 +50,16 @@ const NAV: Item[] = [
     item('Carpet tiles 40×40', 'بلاط السجاد 40×40', '/en/carpet-tiles/', '/commercial-flooring/carpet-tiles/', true),
   ]),
   item('Services', 'الخدمات', '/en/services/carpet-cutting/', '/services/carpet-cutting/', false, [
-    item('Carpet cutting', 'قص السجاد', '/en/services/carpet-cutting/', '/services/carpet-cutting/'),
-    item('Hand-carved rugs', 'حفر السجاد', '/en/services/hand-carved-rugs/', '/services/hand-carving/'),
-    item('Installation', 'التركيب', '/en/services/carpet-installation/', '/services/carpet-installation/'),
+    item('Carpet cutting', 'قص السجاد', '/en/services/carpet-cutting/', '/services/carpet-cutting/', 'ar'),
+    item('Hand-carved rugs', 'حفر السجاد', '/en/services/hand-carved-rugs/', '/services/hand-carving/', 'ar'),
+    item(
+      'Installation',
+      'تركيب السجاد والموكيت',
+      '/en/services/carpet-installation/',
+      '/services/carpet-installation/',
+      'ar'
+    ),
+    item('Red carpet', 'الريد كاربت للمناسبات', '/en/red-carpet-events/', '/red-carpet/', 'ar'),
   ]),
   item('More', 'المزيد', '/en/contact/', '/contact/', false, [
     item('Carpet shop in Al Dajeej', 'محل سجاد الضجيج', '/en/carpet-store-al-dajeej/', '/carpet-shop-dajeej/', 'ar'),

@@ -2,7 +2,7 @@
 lang: en
 translationKey: mosque-carpets
 urlPath: mosque-carpet
-status: draft
+status: published
 kind: category
 waType: mosque
 title: 'Mosque Carpet in Kuwait: Supply & Installation | Sajjadko Kuwait'
@@ -10,14 +10,14 @@ description: 'Turkish mosque carpet in Kuwait at 6 to 8 KWD per m², sold by the
 h1: 'Mosque Carpet in Kuwait'
 directAnswer: 'Sajjadko Kuwait supplies Turkish mosque carpet by the metre or cut to your hall size. Prices are 6, 7 or 8 KWD per m² (0.557, 0.650 or 0.743 KWD per sq ft) for light, medium or thick. Rolls are 1.33 m (4.4 ft) or 4 m (13.1 ft) wide at the same price. We measure on site and install. Installation is quoted by area and location. Send the area and location on WhatsApp.'
 updated: 2026-10-07
-reviewed: false
+reviewed: true
 faq:
   - q: 'How much does it cost to carpet a mosque?'
     a: 'The cost is area in m² times the price per m² for your thickness, plus installation. Mosque carpet is 6, 7 or 8 KWD per m² (0.557, 0.650 or 0.743 KWD per sq ft) for light, medium or thick. Installation is agreed by area and location. Send the area and location on WhatsApp.'
   - q: 'Do you sell mosque carpet by the metre?'
     a: 'Yes, we sell it by the metre and also cut it to the size of your hall. We measure on site so the cut matches the real floor. Rolls are 1.33 m (4.4 ft) or 4 m (13.1 ft) wide, at the same price per m². We then install it.'
   - q: 'I want to order carpet for a mosque myself. How do I start?'
-    a: 'Send the area and location on WhatsApp. We coordinate with mosque management to arrange the site visit and installation. After the work, the invoice is issued in your name. That keeps the whole process clear, from request to handover.'
+    a: 'Send the area and location on WhatsApp. We agree a time with you for the site visit and measuring, send you the price by thickness and area before we start, then cut, install and follow up for two days.'
   - q: 'Do you have carpet for grand mosques?'
     a: 'Yes. For a grand mosque we supply the 4 m (13.1 ft) wide roll, which means fewer joins across a large hall. We plan the roll layout before cutting so the lines stay straight. Quantity is set after the site visit. Send the area and location on WhatsApp.'
   - q: 'Do you supply carpet for workplace and school musallas?'
@@ -55,7 +55,7 @@ A grand mosque has a wide hall and large crowds on Fridays and at Eid. It needs 
 
 ### Women's prayer area
 
-The women's prayer area is often smaller and sees less traffic than the main hall. We consider comfort for sitting and prostration, and easy cleaning. Mosque management can choose a different colour from the main hall.
+The women's prayer area is often smaller and sees less traffic than the main hall. We consider comfort for sitting and prostration, and easy cleaning. A different colour from the main hall can be chosen if you prefer.
 
 ### Company or school musalla
 
@@ -63,7 +63,7 @@ A musalla is a small prayer room. We supply prayer room carpet for companies and
 
 ## How we set the qibla direction and rows
 
-The qibla is the direction Muslims face in prayer. Carpet lines run parallel to the qibla so worshippers stand in straight rows. We find the qibla on site using the mihrab, the niche that marks the direction, and the mosque's own markings. Row width is 1.33 m (4.4 ft), the width of the narrow roll. We measure the hall length and width in metres on site. Then we check the columns, openings and wall corners. If a wall is not square to the qibla, we cut the edges at an angle that keeps the lines straight. We confirm the measurements with mosque management before cutting, because a cut cannot be undone.
+The qibla is the direction Muslims face in prayer. Carpet lines run parallel to the qibla so worshippers stand in straight rows. We find the qibla on site using the mihrab, the niche that marks the direction, and the mosque's own markings. Row width is 1.33 m (4.4 ft), the width of the narrow roll. We measure the hall length and width in metres on site. Then we check the columns, openings and wall corners. If a wall is not square to the qibla, we cut the edges at an angle that keeps the lines straight. We confirm the measurements with you before cutting, because a cut cannot be undone.
 
 ## Steps to order mosque carpet
 
@@ -102,10 +102,6 @@ These prices are for mosque carpet only. Turkish carpet and wall-to-wall carpet 
 **Example: what does it cost to carpet a 180 m² mosque?** A prayer hall 15 m (49.2 ft) long and 12 m (39.4 ft) wide is 180 m² (1,937.5 sq ft). The carpet costs 1,080 KWD in light, 1,260 KWD in medium or 1,440 KWD in thick, before installation. This is an illustration. The real area is set by measuring on site, net of columns and the mihrab.
 
 Installation is negotiated based on the area and location.
-
-## Ordering mosque carpet yourself
-
-If you want to order carpet for a mosque yourself, we coordinate with mosque management on the site visit and installation. The invoice is issued in your name. Send the area and location on WhatsApp to start the coordination.
 
 ## How to choose the right mosque carpet
 

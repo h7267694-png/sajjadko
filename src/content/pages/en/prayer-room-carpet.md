@@ -3,7 +3,7 @@ lang: en
 translationKey: musalla
 urlPath: prayer-room-carpet
 parent: mosque-carpets
-status: draft
+status: published
 kind: category
 waType: musalla
 title: 'Prayer Room Carpet in Kuwait for Offices & Schools | Sajjadko Kuwait'
@@ -11,7 +11,7 @@ description: 'Turkish prayer room carpet cut to size for offices, schools, hospi
 h1: 'Prayer Room Carpet in Kuwait'
 directAnswer: 'Prayer room carpet from Sajjadko Kuwait is Turkish carpet cut to the size of your room. Prices are 6 KWD/m² for light, 7 for medium and 8 for thick, the same for both roll widths. A musalla, meaning a small prayer room, is carpeted to its own measurements, and a mobile musalla is tailored to your area. Installation is priced by area and location. Send the area and location on WhatsApp.'
 updated: 2026-10-07
-reviewed: false
+reviewed: true
 faq:
   - q: 'How many rows does a mobile musalla have?'
     a: 'There is no fixed number of rows. The rows follow your request and the space you have for the temporary prayer area. Each row is 1.33 m (4.4 ft) wide, and we tailor the carpet to the number you want. Send the area and location on WhatsApp, and we arrange a visit and measuring if needed.'
