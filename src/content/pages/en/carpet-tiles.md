@@ -5,6 +5,8 @@ urlPath: carpet-tiles
 status: published
 kind: category
 waType: carpet-tiles
+productGrid:
+  categories: [carpet-tiles]
 title: '40×40 Carpet Tiles for Offices in Kuwait | Sajjadko Kuwait'
 description: '40×40 cm nylon and polypropylene carpet tiles for offices in Kuwait, 5 to 6 KWD per m², measured and installed. Send your office area on WhatsApp.'
 h1: 'Carpet Tiles in Kuwait'

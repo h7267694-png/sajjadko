@@ -8,6 +8,8 @@ import { CATEGORY_LABELS } from '~/utils/taxonomy';
 import type { Locale } from '~/utils/site';
 
 export interface Tile {
+  /** مفتاح القسم (translationKey): صورته من src/assets/sections/<key>.jpg إن وُجدت */
+  key: string;
   t: string;
   href: string;
   /** slug منتج تُؤخذ صورته الأولى للقسم */
@@ -23,6 +25,18 @@ const { lang, pageName, tiles } = Astro.props;
 const ar = lang === 'ar';
 const products = (await getProducts(lang)).sort((a, b) => a.data.sku.localeCompare(b.data.sku));
 const byId = new Map(products.map((p) => [p.id, p]));
+// صورة القسم الخاصة أولًا (src/assets/sections/<key>.jpg)، وإلا صورة منتج من القسم
+const sectionImgs = import.meta.glob<{ default: ImageMetadata }>('/src/assets/sections/*.{jpg,jpeg,png,webp}', {
+  eager: true,
+});
+const sectionImg = (key: string) =>
+  Object.entries(sectionImgs).find(
+    ([path]) =>
+      path
+        .split('/')
+        .pop()!
+        .replace(/\.\w+$/, '') === key
+  )?.[1].default;
 const offers = products.filter((p) => activeOffer(p));
 const cats = [...new Set(products.map((p) => p.data.category))];
 
@@ -70,7 +84,7 @@ const JS = `(function(){var g=document.querySelector('[data-store-grid]'),c=docu
       </h2>
       <ul class="flex gap-3 overflow-x-auto snap-x pb-2 -mx-4 px-4 md:mx-0 md:px-0 md:grid md:grid-cols-4 lg:grid-cols-6 md:overflow-visible">
         {tiles.map((x) => {
-          const src = x.img ? byId.get(x.img)?.data.images[0]?.src : undefined;
+          const src = sectionImg(x.key) ?? (x.img ? byId.get(x.img)?.data.images[0]?.src : undefined);
           return (
             <li class="snap-start shrink-0 w-28 md:w-auto">
               <a href={x.href} class="group block text-center">

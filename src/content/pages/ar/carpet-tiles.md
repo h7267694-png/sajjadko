@@ -5,6 +5,8 @@ urlPath: commercial-flooring/carpet-tiles
 status: published
 kind: category
 waType: carpet-tiles
+productGrid:
+  categories: [carpet-tiles]
 title: 'بلاط سجاد 40×40 للمكاتب في الكويت بالمتر المربع — سجادكو الكويت'
 description: 'بلاط سجاد 40×40 سم من النايلون والبولي بروبلين للمكاتب في الكويت، من 5 إلى 6 د.ك للمتر المربع، مع القياس والتركيب. أرسل المساحة عبر واتساب.'
 h1: 'بلاط السجاد 40×40 للمكاتب في الكويت'
