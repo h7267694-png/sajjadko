@@ -2,6 +2,7 @@
 lang: ar
 translationKey: mosque-carpets
 urlPath: mosque-carpets
+parent: carpets
 status: published
 kind: category
 waType: mosque

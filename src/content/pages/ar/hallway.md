@@ -2,6 +2,7 @@
 lang: ar
 translationKey: hallway
 urlPath: carpets/hallway
+parent: carpets
 status: published
 kind: category
 waType: hallway

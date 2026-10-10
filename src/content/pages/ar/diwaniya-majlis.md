@@ -2,6 +2,7 @@
 lang: ar
 translationKey: diwaniya-majlis
 urlPath: carpets/diwaniya-majlis
+parent: carpets
 status: published
 kind: category
 waType: diwaniya

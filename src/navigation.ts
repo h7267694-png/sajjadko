@@ -28,6 +28,7 @@ const NAV: Item[] = [
   // المستوى الأول خمسة عناصر كحد أقصى (قوائم منسدلة): كل صفحة جديدة تدخل تحت مجموعتها فلا يزدحم الرأس على الشاشات المتوسطة.
   // الأب المنسدل زر لا رابط، فلا يلزم بناء /carpets/ قبل ظهوره.
   item('Carpets', 'السجاد', '/en/carpets/', '/carpets/', false, [
+    item('All carpet sections', 'كل أقسام السجاد', '/en/carpets/', '/carpets/', 'ar'),
     item('Carpet by the meter', 'سجاد بالمتر', '/en/carpet-by-the-meter/', '/by-meter/', true),
     item('Hallway runners', 'سجاد الممرات', '/en/hallway-runners/', '/carpets/hallway/', true),
     item('Stair carpet', 'سجاد الدرج', '/en/stair-carpet/', '/carpets/stairs/', true),
@@ -63,9 +64,16 @@ const NAV: Item[] = [
   ]),
   item('More', 'المزيد', '/en/contact/', '/contact/', false, [
     item('Carpet shop in Al Dajeej', 'محل سجاد الضجيج', '/en/carpet-store-al-dajeej/', '/carpet-shop-dajeej/', 'ar'),
+    item(
+      'Carpet prices',
+      'أسعار السجاد والموكيت',
+      '/en/guides/carpet-prices-kuwait/',
+      '/guides/carpet-prices-kuwait/',
+      'ar'
+    ),
     item('Our latest work', 'أعمالنا في السجاد', '/en/projects/', '/projects/', true),
-    item('Guides', 'الأدلة', '/en/guides/', '/guides/'),
-    item('Contact', 'تواصل', '/en/contact/', '/contact/'),
+    item('About us', 'من نحن', '/en/about/', '/about/', true),
+    item('Contact', 'تواصل معنا', '/en/contact/', '/contact/', true),
   ]),
 ];
 
@@ -87,7 +95,19 @@ export const getHeaderLinks = (l: Locale) => resolve(NAV, l);
 
 export const getFooterData = (l: Locale) => ({
   links: [] as { title?: string; links: { text: string; href: string }[] }[],
-  secondaryLinks: [] as { text: string; href: string }[],
+  secondaryLinks: (l === 'ar'
+    ? [
+        { text: 'من نحن', href: '/about/' },
+        { text: 'تواصل معنا', href: '/contact/' },
+        { text: 'محل سجاد الضجيج', href: '/carpet-shop-dajeej/' },
+        { text: 'أسعار السجاد والموكيت', href: '/guides/carpet-prices-kuwait/' },
+        { text: 'كل أقسام السجاد', href: '/carpets/' },
+      ]
+    : [
+        { text: 'About us', href: '/en/about/' },
+        { text: 'Contact', href: '/en/contact/' },
+        { text: 'Our recent work', href: '/en/projects/' },
+      ]) as { text: string; href: string }[],
   socialLinks: [] as { ariaLabel?: string; href: string; icon?: string }[],
   footNote:
     l === 'ar' ? `© ${new Date().getFullYear()} سجادكو الكويت` : `© ${new Date().getFullYear()} Sajjadko Kuwait`,

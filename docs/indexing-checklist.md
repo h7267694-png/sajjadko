@@ -4,7 +4,7 @@
 
 فُهرست يدويًا (10 أكتوبر 2026): `https://sajjadko.com/`، `https://sajjadko.com/by-meter/`، `https://sajjadko.com/moquette/`، `https://sajjadko.com/en/`.
 
-الباقي 50 رابطًا (42 سابقة + 8 صفحات الخطوة 42). الحد اليومي نحو 10 طلبات، فالترتيب حسب الأولوية. ضع علامة ✓ عند الانتهاء:
+الباقي 56 رابطًا (42 سابقة + 8 من الخطوة 42 + 6 من الخطوات 43–46). الحد اليومي نحو 10 طلبات، فالترتيب حسب الأولوية. ضع علامة ✓ عند الانتهاء:
 
 **اليوم 1: الصفحات العربية (الأعلى طلبًا)** (10):
 
@@ -18,6 +18,15 @@
 - [ ] `https://sajjadko.com/commercial-flooring/offices/`
 - [ ] `https://sajjadko.com/commercial-flooring/carpet-tiles/`
 - [ ] `https://sajjadko.com/projects/`
+
+**جديد (الخطوات 43–46)** (6):
+
+- [ ] `https://sajjadko.com/carpets/`
+- [ ] `https://sajjadko.com/guides/carpet-prices-kuwait/`
+- [ ] `https://sajjadko.com/contact/`
+- [ ] `https://sajjadko.com/about/`
+- [ ] `https://sajjadko.com/en/contact/`
+- [ ] `https://sajjadko.com/en/about/`
 
 **جديد (الخطوة 42): الصفحات المنشورة اليوم** (8):
 

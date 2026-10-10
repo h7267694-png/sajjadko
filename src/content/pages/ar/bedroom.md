@@ -2,6 +2,7 @@
 lang: ar
 translationKey: bedroom
 urlPath: carpets/bedroom
+parent: carpets
 status: published
 kind: category
 waType: bedroom-kids

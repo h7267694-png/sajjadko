@@ -114,3 +114,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Published (client-approved) Arabic: mosque-carpets, musalla, services/carpet-cutting, services/carpet-installation, services/hand-carving, red-carpet; English: mosque-carpet, prayer-room-carpet. Other EN drafts stay draft (70/30 rule). No mention of mosque administration or invoices "in your name".
 - Header grid is `auto | minmax(0,1fr) | auto` with tighter link padding and the theme toggle hidden between lg and xl, so five top-level items never overlap the buttons.
+
+## Steps 43–46
+
+- Arabic hub `ar/carpets.md` (`carpets`) is the `parent` of hallway, stairs, bedroom, kids, diwaniya-majlis and mosque-carpets (Arabic files only; EN has no hub). Contact and about pages in both languages; Arabic prices guide `ar/carpet-prices-kuwait.md` (`guides/carpet-prices-kuwait`, a `pages` entry). Footer `secondaryLinks` per locale in `navigation.ts`.

@@ -2,6 +2,7 @@
 lang: ar
 translationKey: stairs
 urlPath: carpets/stairs
+parent: carpets
 status: published
 kind: category
 waType: stairs
