@@ -12,13 +12,13 @@ images:
   - src: /src/assets/products/dot-runner-navy.jpg
     original: true
     alt:
-      ar: مدة النقاط الكلاسيكية بلون أزرق داكن وإطار ذهبي مضلع
-      en: Navy dot runner with a ribbed gold and ivory border
+      ar: سجاد ممر منقط بلون أزرق داكن وإطار ذهبي مضلع
+      en: Navy dotted hallway runner with a ribbed gold and ivory border
   - src: /src/assets/products/dot-runner-green.jpg
     original: true
     alt:
-      ar: مدة النقاط الكلاسيكية بلون أخضر وإطار ذهبي مضلع
-      en: Green dot runner with a ribbed gold and ivory border
+      ar: سجاد ممر منقط بلون أخضر وإطار ذهبي مضلع
+      en: Green dotted hallway runner with a ribbed gold and ivory border
 priceRange:
   min: 5
   max: 15
@@ -28,14 +28,14 @@ colors:
   - أزرق داكن / Navy
   - أخضر / Green
 ar:
-  name: مدة النقاط الكلاسيكية بإطار ذهبي مضلع
-  directAnswer: 'مدة النقاط الكلاسيكية سجاد ممرات بأرضية ملونة تتوزع عليها نقاط ذهبية صغيرة، وإطار عاجي وذهبي مضلع على الجانبين، بلونين: أزرق داكن وأخضر. تُقص بالطول الذي تحتاجه للممرات والمجالس والمكاتب. يُباع بالمتر المربع ويُقص على طول ممرك، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
-  usage: النقاط الصغيرة المتكررة تخفي آثار المشي اليومي، والإطار المضلع يحدد الممر بوضوح، فتناسب الممرات كثيرة الحركة والمجالس وممرات المكاتب. الأزرق الداكن للطابع الرسمي، والأخضر للمجالس التقليدية.
-  care: نظّفها بالمكنسة الكهربائية بانتظام، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
-  seoTitle: مدة النقاط الكلاسيكية للممرات بالطول في الكويت — سجادكو الكويت
+  name: سجاد ممر منقط بإطار ذهبي
+  directAnswer: 'سجاد ممرات بأرضية ملونة تتوزع عليها نقاط ذهبية صغيرة، وإطار عاجي وذهبي مضلع على الجانبين، بلونين: أزرق داكن وأخضر. يُقص بالطول الذي تحتاجه للممرات والمجالس والمكاتب. يُباع بالمتر المربع ويُقص على طول ممرك، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
+  usage: النقاط الصغيرة المتكررة تخفي آثار المشي اليومي، والإطار المضلع يحدد الممر بوضوح، فيناسب الممرات كثيرة الحركة والمجالس وممرات المكاتب. الأزرق الداكن للأماكن الرسمية، والأخضر للمجالس التقليدية.
+  care: نظّفه بالمكنسة الكهربائية بانتظام، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
+  seoTitle: سجاد ممر منقط بإطار ذهبي في الكويت — سجادكو الكويت
   seoDescription: سجاد ممرات بنقاط ذهبية وإطار مضلع بالأزرق الداكن والأخضر للممرات والمجالس، يُقص بالطول من 5 إلى 15 د.ك للمتر المربع.
   faq:
-    - q: كم سعر مدة النقاط الكلاسيكية بالمتر؟
+    - q: كم سعر سجاد الممر المنقط بالمتر؟
       a: 'يُسعّر بالمتر المربع من 5 إلى 15 د.ك حسب السماكة والكثافة. اضرب الطول في العرض لتعرف المساحة: مدة 0.8 × 5 م مساحتها 4 م²، فكلفتها بين 20 و60 د.ك قبل التركيب.'
     - q: هل تقصّونها بطول ممر طويل؟
       a: نعم، نقص المدة على الطول الذي تحتاجه بالضبط، فلا يقيدك مقاس جاهز. أرسل طول الممر وعرضه عبر واتساب، ونراجع المقاس معك قبل القص لأن القص لا يُعاد.
@@ -45,19 +45,19 @@ ar:
       a: نعم، نركّب المدات التي نوفرها، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ. ولا نركّب سجادًا اشتريته من غيرنا.
   reviewed: false
 en:
-  name: Classic Dot Runner with Ribbed Gold Border
-  directAnswer: The Classic Dot runner is a carpet runner with small gold dots across a navy or green ground, framed by a ribbed ivory-and-gold border on both sides. It is cut to the length you need for busy hallways, majlis rooms and office corridors. Sold by the m² and cut to your hallway length, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness and density.
+  name: Dotted Hallway Runner with Gold Border
+  directAnswer: This is a carpet runner with small gold dots across a navy or green ground, framed by a ribbed ivory-and-gold border on both sides. It is cut to the length you need for busy hallways, majlis rooms and office corridors. Sold by the m² and cut to your hallway length, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness and density.
   usage: The small repeating dots hide everyday foot traffic, and the ribbed border frames the walkway clearly, so it suits high-traffic hallways, majlis rooms and office corridors. Navy gives a formal look, while green suits traditional majlis rooms.
   care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
-  seoTitle: Classic Dot Hallway Runner, Navy & Green, Kuwait | Sajjadko Kuwait
-  seoDescription: Navy or green carpet runner with gold dots and a ribbed border, cut to any length for hallways, majlis rooms and offices in Kuwait.
+  seoTitle: Dotted Hallway Runner with Gold Border in Kuwait | Sajjadko Kuwait
+  seoDescription: Navy or green carpet runner with gold dots and a ribbed border, cut to any length for hallways, majlis rooms and offices in Kuwait. 5 to 15 KWD per m².
   faq:
-    - q: How much does the Classic Dot Runner cost in Kuwait?
+    - q: How much does the Dotted Hallway Runner cost in Kuwait?
       a: 'Runners are priced per m², from 5 to 15 KWD (0.465 to 1.394 KWD per sq ft) depending on thickness and density. Multiply length by width for the area: a 0.8 × 5 m (2.6 × 16.4 ft) runner is 4 m², so 20 to 60 KWD before installation.'
     - q: Can you cut a long hallway runner, like 15 ft or 20 ft?
       a: Yes. We cut the runner to the exact length you need, so you are not limited to stock sizes. 15 ft is about 4.6 m and 20 ft about 6.1 m. Send your hallway length and width on WhatsApp, in metres or feet, and we confirm before cutting.
     - q: Is this runner suitable for a bedroom or an entrance?
-      a: It is designed more for hallways, majlis rooms and office corridors than bedrooms, because the dotted pattern and border give a formal look. For a softer bedroom runner, the Blossom Branch runner is a closer fit. We cut either to the length you need.
+      a: It is designed more for hallways, majlis rooms and office corridors than bedrooms, because the dotted pattern and border suit formal spaces. For a bedroom, the Floral Hallway Runner is a closer fit. We cut either to the length you need.
     - q: How do I measure my hallway for a runner?
       a: Measure the full length, and the width at the narrowest point. Leave an even strip of floor on each side, usually 10 to 20 cm (4 to 8 in). Check that doors opening over the runner have enough clearance, then send the numbers on WhatsApp.
     - q: Do you install carpet runners?

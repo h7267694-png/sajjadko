@@ -17,7 +17,7 @@ faq:
   - q: 'How much does office carpet cost per m² in Kuwait?'
     a: 'Lightweight office carpet is sold by the m² from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft), and carpet tiles from 5 to 6 KWD per m². A 100 m² (1,076 sq ft) office needs about 100 m² plus a cutting allowance, so roughly 125 to 300 KWD in lightweight carpet, or 500 to 600 KWD in carpet tiles, before installation.'
   - q: 'What is the best commercial carpet for an office?'
-    a: 'Loop pile and flecked tweed textures keep their shape under foot traffic and chair castors and hide daily wear better than a soft cut pile. Our Reem loop-pile and Riwaq tweed carpets are made for this kind of use.'
+    a: 'Loop pile and flecked tweed textures keep their shape under foot traffic and chair castors and hide daily wear better than a soft cut pile. Our Lightweight Loop-Pile Office Carpet and Tweed Office Carpet are made for this kind of use.'
   - q: 'Can you install office carpet without disrupting work?'
     a: 'We agree the installation time with you, and it can be outside working hours. We measure first and prepare the cuts in advance, then install and follow up for two days to fix any installation error.'
   - q: 'Can you carpet our office in our brand colour?'

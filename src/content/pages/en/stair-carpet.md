@@ -21,7 +21,7 @@ faq:
   - q: 'Should I choose full stair carpet or a stair runner?'
     a: 'Full carpet covers each step wall to wall, softens footsteps and feels warm. A stair runner runs down the middle and leaves the marble or wood visible on both sides for a lighter look. Both are cut to size; the choice depends on your staircase and taste.'
   - q: 'What is the best carpet for stairs?'
-    a: 'A dense, short pile holds its shape on the step nose better than a long, loose pile, and heathered shades such as beige and grey hide daily wear. Our Juman and Wasan carpets are good examples for busy family staircases.'
+    a: 'A dense, short pile holds its shape on the step nose better than a long, loose pile, and heathered shades such as beige and grey hide daily wear. Our Lightweight Stair Carpet in Ten Colours and Lightweight Carpet for Stairs and Bedrooms are suitable for busy family staircases.'
   - q: 'Do you install stair carpet and stair treads?'
     a: 'Yes, we install the stair carpet we supply and choose the fixing method for your stairs at the site visit. Installation is agreed by area and location, and we follow up for two days afterwards. We do not install carpet bought elsewhere.'
   - q: 'Can the stairs and bedrooms use the same carpet?'

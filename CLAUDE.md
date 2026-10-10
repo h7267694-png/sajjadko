@@ -100,3 +100,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 39
 
 - Zawali page: common ready-made sizes table (market sizes, "we confirm stock"). Products `nasaq-custom-border-zawali` and `kuthban-custom-wave-zawali` (category `zawali`, no price). Products without price/priceRange show "by size and finish" and emit **no** Product JSON-LD (Google requires offers). No `latestWork` without a confirmed area. Never publish photos carrying another business's watermark or phone number.
+
+## Step 40
+
+- Product naming rule (client, 2026-10-10): formal, type-based names and factual descriptions. No invented brand-style names (Remal, Sidra, Lujain…), no hype words (جريئة، راقي، فاخر، قطعة فنية). Admin hint updated. Slugs/SKUs unchanged (locked URLs).

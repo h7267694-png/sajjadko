@@ -282,7 +282,7 @@ export const WA_TEMPLATES: Record<WaType, { ar: Tpl; en: Tpl }> = {
 };
 
 /** رابط واتساب (7.1 بند 7) مع وسم المصدر في نهاية الرسالة (7.1 بند 6). */
-/** vars يملأ الحقول بين قوسين في الرسالة، مثل { 'اسم المنتج': 'موكيت رمال' } */
+/** vars يملأ الحقول بين قوسين في الرسالة، مثل { 'اسم المنتج': 'موكيت تركي مخملي' } */
 export function buildWaLink(
   number: string,
   locale: Locale,

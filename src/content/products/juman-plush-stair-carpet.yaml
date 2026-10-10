@@ -12,8 +12,8 @@ images:
   - src: /src/assets/products/juman-stair-swatches.jpg
     original: true
     alt:
-      ar: لوحة عينات موكيت خفيف جمان للدرج بعشرة ألوان من الأبيض والبيج والرمادي إلى الأزرق والعنابي
-      en: Juman plush stair carpet swatch board in ten colours from white, beige and grey to blue and burgundy
+      ar: لوحة عينات موكيت خفيف للدرج بعشرة ألوان من الأبيض والبيج والرمادي إلى الأزرق والعنابي
+      en: Swatch board of lightweight stair carpet in ten colours from white, beige and grey to blue and burgundy
 priceRange:
   min: 1.25
   max: 3
@@ -31,14 +31,14 @@ colors:
   - أزرق / Blue
   - عنابي / Burgundy
 ar:
-  name: موكيت جمان الخفيف للدرج بعشرة ألوان
-  directAnswer: جمان موكيت خفيف بوبر مقصوص ناعم متماسك، بعشرة ألوان من الأبيض اللؤلؤي والبيج إلى الأزرق والعنابي. يناسب الدرج وغرف النوم والصالات، ويُقص على مقاس الدرجات. يُباع بالمتر المربع ويُقص على المقاس، والسعر من 1.250 إلى 3 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
-  usage: الوبر الناعم يخفف صوت الخطوات على الدرج ويعطي ملمسًا دافئًا تحت القدم. البيج والرمادي يخفيان الأثر اليومي على الدرجات، والأزرق والعنابي يعطيان الدرج حضورًا في المداخل الواسعة.
+  name: موكيت خفيف للدرج بعشرة ألوان
+  directAnswer: موكيت خفيف بوبر مقصوص ناعم متماسك، بعشرة ألوان من الأبيض اللؤلؤي والبيج إلى الأزرق والعنابي. يناسب الدرج وغرف النوم والصالات، ويُقص على مقاس الدرجات. يُباع بالمتر المربع ويُقص على المقاس، والسعر من 1.250 إلى 3 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
+  usage: الوبر الناعم يخفف صوت الخطوات على الدرج. البيج والرمادي يخفيان الأثر اليومي على الدرجات، والأزرق والعنابي لونان واضحان يناسبان المداخل الواسعة.
   care: نظّفه بالمكنسة الكهربائية بانتظام، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
-  seoTitle: موكيت جمان للدرج بالمتر في الكويت — سجادكو الكويت
+  seoTitle: موكيت خفيف للدرج بعشرة ألوان في الكويت — سجادكو الكويت
   seoDescription: موكيت خفيف ناعم للدرج وغرف النوم بعشرة ألوان، يُقص على مقاس الدرجات ويُركّب في الكويت من 1.250 إلى 3 د.ك للمتر المربع.
   faq:
-    - q: كم سعر موكيت جمان بالمتر؟
+    - q: كم سعر موكيت الدرج الخفيف بالمتر؟
       a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. لحساب الدرج اضرب عرض الدرجة في مجموع عمق الدرجة وارتفاعها، ثم في عدد الدرجات، لتعرف المساحة التقريبية. أجرة التركيب منفصلة.
     - q: كيف أقيس الدرج للموكيت؟
       a: قس عرض الدرجة، وعمقها من الحافة إلى الخلف، وارتفاعها، وعدّ الدرجات. أرسل الأرقام والمنطقة عبر واتساب، ونراجع الحساب معك، ونقيس في الموقع عند الحاجة قبل القص.
@@ -48,14 +48,14 @@ ar:
       a: نعم، نركّب ما نوفره، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ في التركيب. ولا نركّب سجادًا اشتريته من غيرنا.
   reviewed: false
 en:
-  name: Juman Lightweight Stair Carpet in Ten Colours
-  directAnswer: Juman is a lightweight wall-to-wall carpet with a soft, firm cut pile, in ten colours from pearl white and beige to blue and burgundy. It suits stairs, bedrooms and living rooms, and is cut to fit each step. Sold by the m² and cut to size, from 1.250 to 3 KWD per m² (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density.
-  usage: A soft pile softens footsteps on the stairs and feels warm underfoot. Beige and grey hide everyday wear on the treads, while blue and burgundy give the staircase presence in a large entrance hall.
+  name: Lightweight Stair Carpet in Ten Colours
+  directAnswer: This is a lightweight wall-to-wall carpet with a soft, firm cut pile, in ten colours from pearl white and beige to blue and burgundy. It suits stairs, bedrooms and living rooms, and is cut to fit each step. Sold by the m² and cut to size, from 1.250 to 3 KWD per m² (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density.
+  usage: The soft pile reduces the sound of footsteps on the stairs. Beige and grey hide everyday wear on the treads, while blue and burgundy are stronger colours suited to large entrance halls.
   care: Vacuum regularly, and blot spills straight away with a damp cloth without rubbing.
-  seoTitle: Juman Lightweight Stair Carpet by m², Kuwait | Sajjadko Kuwait
+  seoTitle: Lightweight Stair Carpet in Ten Colours in Kuwait | Sajjadko Kuwait
   seoDescription: Soft, lightweight stair carpet in ten colours, cut to fit your steps and installed in Kuwait. 1.250 to 3 KWD per m².
   faq:
-    - q: How much does Juman stair carpet cost per m²?
+    - q: How much does this lightweight stair carpet cost per m²?
       a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. For stairs, multiply step width by (tread depth + riser height), then by the number of steps, for the approximate area. Installation is separate.
     - q: How do I measure stairs for carpet?
       a: Measure the step width, the tread depth from the nose to the back, and the riser height, then count the steps. Send the numbers and your area on WhatsApp, and we check the calculation with you and measure on site if needed before cutting.
