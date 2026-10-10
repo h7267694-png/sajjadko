@@ -13,7 +13,7 @@ import RelatedLinks from '~/components/ui/RelatedLinks.astro';
 import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
 import FreeVisit from '~/components/ui/FreeVisit.astro';
 import { getSettings, toLocale } from '~/utils/site';
-import { productHref, pickLang, colorParts, type ProductEntry } from '~/utils/products';
+import { productHref, pickLang, colorParts, activeOffer, kwd, type ProductEntry } from '~/utils/products';
 import { CATEGORY_LABELS, PLACE_LABELS, PRICE_UNIT_LABELS, areaLabel } from '~/utils/taxonomy';
 
 export interface Props {
@@ -102,8 +102,6 @@ const t = ar
 
 const fmt = (m?: { value: number; unit: string }) => (m ? `${m.value} ${m.unit.replace('m2', 'm²')}` : undefined);
 const unit = (u: keyof typeof PRICE_UNIT_LABELS) => PRICE_UNIT_LABELS[u][lang];
-// الدينار بثلاث خانات عشرية عند الكسر: 1.250 لا 1.25
-const kwd = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(3));
 const priceText = d.price
   ? `${kwd(d.price.amount)} ${t.currency} ${unit(d.price.unit)}`
   : d.priceRange
@@ -140,38 +138,62 @@ const work = d.latestWork?.show && d.latestWork.area ? d.latestWork : undefined;
 const brand = settings?.brand[lang] ?? (ar ? 'سجادكو الكويت' : 'Sajjadko Kuwait');
 const url = new URL(href, site).href;
 
-const offers = d.price
+const offer = activeOffer(entry);
+const offerUntil = offer?.until.toISOString().slice(0, 10);
+const offerText = offer
+  ? ar
+    ? `${offer.label.ar ?? 'عرض'}: ${kwd(offer.price)} د.ك ${unit(offer.unit)}${offer.was ? ` بدل ${kwd(offer.was)} د.ك` : ''}، حتى ${offerUntil}`
+    : `${offer.label.en ?? 'Offer'}: ${kwd(offer.price)} KWD ${unit(offer.unit)}${offer.was ? ` instead of ${kwd(offer.was)} KWD` : ''}, until ${offerUntil}`
+  : undefined;
+
+const offers = offer
   ? {
       '@type': 'Offer',
-      price: d.price.amount,
+      price: offer.price,
       priceCurrency: 'KWD',
+      priceValidUntil: offerUntil,
+      availability: 'https://schema.org/InStock',
       url,
       priceSpecification: {
         '@type': 'UnitPriceSpecification',
-        price: d.price.amount,
+        price: offer.price,
         priceCurrency: 'KWD',
-        unitCode: PRICE_UNIT_LABELS[d.price.unit].code,
+        unitCode: PRICE_UNIT_LABELS[offer.unit].code,
       },
       seller: { '@id': new URL('/#organization', site).href },
     }
-  : d.priceRange
+  : d.price
     ? {
-        '@type': 'AggregateOffer',
-        lowPrice: d.priceRange.min,
-        highPrice: d.priceRange.max,
+        '@type': 'Offer',
+        price: d.price.amount,
         priceCurrency: 'KWD',
-        offerCount: Math.max(1, d.colors.length),
         url,
         priceSpecification: {
           '@type': 'UnitPriceSpecification',
-          minPrice: d.priceRange.min,
-          maxPrice: d.priceRange.max,
+          price: d.price.amount,
           priceCurrency: 'KWD',
-          unitCode: PRICE_UNIT_LABELS[d.priceRange.unit].code,
+          unitCode: PRICE_UNIT_LABELS[d.price.unit].code,
         },
         seller: { '@id': new URL('/#organization', site).href },
       }
-    : undefined;
+    : d.priceRange
+      ? {
+          '@type': 'AggregateOffer',
+          lowPrice: d.priceRange.min,
+          highPrice: d.priceRange.max,
+          priceCurrency: 'KWD',
+          offerCount: Math.max(1, d.colors.length),
+          url,
+          priceSpecification: {
+            '@type': 'UnitPriceSpecification',
+            minPrice: d.priceRange.min,
+            maxPrice: d.priceRange.max,
+            priceCurrency: 'KWD',
+            unitCode: PRICE_UNIT_LABELS[d.priceRange.unit].code,
+          },
+          seller: { '@id': new URL('/#organization', site).href },
+        }
+      : undefined;
 
 const schema = {
   '@context': 'https://schema.org',
@@ -250,6 +272,24 @@ const waVars: Record<string, string> = ar
       )
     }
 
+    {
+      offerText && (
+        <p
+          class="mb-4 rounded-lg border-2 border-accent bg-accent/10 px-4 py-3 font-semibold"
+          data-offer-until={offerUntil}
+        >
+          {offerText}
+        </p>
+      )
+    }
+    {
+      offerText && (
+        <script
+          is:inline
+          set:html={`(function(){var e=document.querySelector('[data-offer-until]');if(e&&e.dataset.offerUntil<new Date().toISOString().slice(0,10))e.remove()})();`}
+        />
+      )
+    }
     <WhatsAppButton type="product" pageName={tx.name} position="top" vars={waVars} />
     <AnswerBox answer={tx.directAnswer} updated={priceUpdated} label={t.short} />
     <FreeVisit pageName={tx.name} />

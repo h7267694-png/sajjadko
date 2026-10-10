@@ -5,6 +5,9 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  # بناء يومي بعد منتصف الليل بتوقيت الكويت: يُخفي العروض المنتهية من HTML و Schema (lastmod من git لا يتأثر)
+  schedule:
+    - cron: '5 21 * * *'
 
 permissions:
   contents: read

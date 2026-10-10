@@ -2,6 +2,7 @@
 // النص الإنجليزي لا تُبنى صفحته إلا بعد المراجعة (reviewed: true، 24.5). المسودات تظهر في التطوير فقط.
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { localePrefix, type Locale } from '~/utils/site';
+import { PRICE_UNIT_LABELS } from '~/utils/taxonomy';
 
 export type ProductEntry = CollectionEntry<'products'>;
 
@@ -17,6 +18,32 @@ export const hasLang = (p: ProductEntry, lang: Locale) =>
 export async function getProducts(lang: Locale) {
   return (await getCollection('products')).filter(visible).filter((p) => hasLang(p, lang));
 }
+
+// الدينار بثلاث خانات عشرية عند الكسر: 1.250 لا 1.25
+export const kwd = (n: number) => (Number.isInteger(n) ? String(n) : n.toFixed(3));
+
+/** العرض الساري اليوم (حتى نهاية يوم until)، وإلا undefined */
+export const activeOffer = (p: ProductEntry, now = new Date()) => {
+  const o = p.data.offer;
+  if (!o?.active) return undefined;
+  const end = new Date(o.until);
+  end.setUTCHours(23, 59, 59, 999);
+  return end >= now ? o : undefined;
+};
+
+/** نص السعر المختصر للبطاقات: «من 5 إلى 15 د.ك للمتر المربع» أو «حسب المقاس» */
+export const priceLine = (p: ProductEntry, lang: Locale) => {
+  const d = p.data;
+  const ar = lang === 'ar';
+  const cur = ar ? 'د.ك' : 'KWD';
+  const u = (x: keyof typeof PRICE_UNIT_LABELS) => PRICE_UNIT_LABELS[x][lang];
+  if (d.price) return `${kwd(d.price.amount)} ${cur} ${u(d.price.unit)}`;
+  if (d.priceRange)
+    return ar
+      ? `من ${kwd(d.priceRange.min)} إلى ${kwd(d.priceRange.max)} ${cur} ${u(d.priceRange.unit)}`
+      : `${kwd(d.priceRange.min)}–${kwd(d.priceRange.max)} ${cur} ${u(d.priceRange.unit)}`;
+  return ar ? 'السعر حسب المقاس' : 'Priced by size';
+};
 
 /** نص ثنائي «عربي / English»: يعيد جزء اللغة المطلوبة */
 export const pickLang = (s: string | undefined, lang: Locale) => {

@@ -9,7 +9,7 @@ import AnswerBox from '~/components/ui/AnswerBox.astro';
 import FaqList from '~/components/ui/FaqList.astro';
 import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
 import FreeVisit from '~/components/ui/FreeVisit.astro';
-import ProductGrid from '~/components/widgets/ProductGrid.astro';
+import HomeStore from '~/components/widgets/HomeStore.astro';
 import { getSettings, toLocale, formatPhone } from '~/utils/site';
 import { buildHomeSchema } from '~/utils/schema';
 import { pageHref } from '~/utils/pages';
@@ -45,7 +45,7 @@ const c = ar
       short: 'الإجابة باختصار',
       answer:
         'سجادكو الكويت محل سجاد وموكيت في الضجيج يبيع السجاد التركي والموكيت ومدات الممرات وسجاد المساجد بالمتر المربع، ويقصها على مقاس المكان ويركّبها. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، وسجاد المساجد 6 أو 7 أو 8 د.ك. ويزورك مندوبنا مجانًا لأخذ المقاسات وعرض العينات. الطلب عبر واتساب.',
-      offerTitle: 'ماذا نقدم',
+      offerTitle: 'خدمات أخرى نقدمها',
       products: 'من منتجاتنا',
       allProducts: 'كل المنتجات والألوان',
       pricesTitle: 'الأسعار باختصار',
@@ -131,7 +131,7 @@ const c = ar
       short: 'In short',
       answer:
         'Sajjadko Kuwait is a carpet store in Al Dajeej selling Turkish carpet, wall-to-wall carpet, hallway runners and mosque carpet by the square metre, cut to your room size and installed. Prices run from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness and density, and mosque carpet is 6, 7 or 8 KWD per m². Our representative visits free of charge to measure and show samples. Order on WhatsApp.',
-      offerTitle: 'What we do',
+      offerTitle: 'Other services',
       products: 'Featured products',
       allProducts: 'All products and colours',
       pricesTitle: 'Prices at a glance',
@@ -206,36 +206,66 @@ const c = ar
     };
 
 // الأقسام: تظهر بطاقة لكل خدمة، والرابط فقط إن نُشرت صفحتها
-const offers: { key: string; t: string; d: string }[] = ar
+const offers: { key: string; t: string; d: string; img?: string }[] = ar
   ? [
       {
         key: 'by-meter',
+        img: 'remal-plush',
         t: 'سجاد وموكيت بالمتر',
         d: 'سجاد تركي وموكيت من 5 إلى 15 د.ك للمتر المربع، يُقص على المقاس.',
       },
-      { key: 'moquette', t: 'موكيت الأرضيات', d: 'موكيت خفيف من 1.250 د.ك وتركي أسمك حتى 15 د.ك للمتر، لكل الغرف.' },
+      {
+        key: 'moquette',
+        img: 'sidra-soft-touch',
+        t: 'موكيت الأرضيات',
+        d: 'موكيت خفيف من 1.250 د.ك وتركي أسمك حتى 15 د.ك للمتر، لكل الغرف.',
+      },
       {
         key: 'carpet-shop-dajeej',
+        img: 'harir-silk-touch',
         t: 'محل السجاد في الضجيج',
         d: 'مجمع علي عبدالوهاب، من 8 صباحًا حتى 8 مساءً. عاين الخامات على الطبيعة.',
       },
       {
         key: 'bedroom',
+        img: 'lujain-silver-grey-plush',
         t: 'سجاد غرف النوم',
         d: 'موكيت ناعم يُقص حول الخزائن، أو قطعة بالمقاس تحت السرير.',
       },
-      { key: 'zawali', t: 'الزوالي والزل', d: 'زولية جاهزة، أو قص بالمتر، أو تفصيل بمقاسك مع حفر النقشة.' },
-      { key: 'kids', t: 'سجاد الأطفال', d: 'موكيت ناعم ثابت لا ينزلق، بألوان هادئة ومبهجة.' },
+      {
+        key: 'zawali',
+        img: 'kuthban-custom-wave-zawali',
+        t: 'الزوالي والزل',
+        d: 'زولية جاهزة، أو قص بالمتر، أو تفصيل بمقاسك مع حفر النقشة.',
+      },
+      { key: 'kids', img: 'naseem-textured', t: 'سجاد الأطفال', d: 'موكيت ناعم ثابت لا ينزلق، بألوان هادئة ومبهجة.' },
       {
         key: 'diwaniya-majlis',
+        img: 'nasaq-custom-border-zawali',
         t: 'سجاد الديوانيات والمجالس',
         d: 'موكيت كثيف يُقص على مقاس الديوانية ويتحمل كثرة الضيوف.',
       },
-      { key: 'hallway', t: 'سجاد الممرات والمدات', d: 'مدات تُقص بطول ممرك، ومدات السدو، بنقشات وألوان متعددة.' },
-      { key: 'stairs', t: 'سجاد الدرج', d: 'فرش كامل أو مدة درج تُقص على مقاس كل درجة.' },
-      { key: 'offices', t: 'سجاد وموكيت المكاتب', d: 'موكيت خفيف من 1.250 د.ك للمتر، وتركيب خارج الدوام.' },
+      {
+        key: 'hallway',
+        img: 'blossom-hallway-runner',
+        t: 'سجاد الممرات والمدات',
+        d: 'مدات تُقص بطول ممرك، ومدات السدو، بنقشات وألوان متعددة.',
+      },
+      {
+        key: 'stairs',
+        img: 'juman-plush-stair-carpet',
+        t: 'سجاد الدرج',
+        d: 'فرش كامل أو مدة درج تُقص على مقاس كل درجة.',
+      },
+      {
+        key: 'offices',
+        img: 'reem-loop-office-carpet',
+        t: 'سجاد وموكيت المكاتب',
+        d: 'موكيت خفيف من 1.250 د.ك للمتر، وتركيب خارج الدوام.',
+      },
       {
         key: 'carpet-tiles',
+        img: 'riwaq-tweed-office-carpet',
         t: 'بلاط السجاد 40×40',
         d: 'نايلون وبولي بروبلين من 5 إلى 6 د.ك للمتر، والبلاطة تُبدل وحدها.',
       },
@@ -249,27 +279,37 @@ const offers: { key: string; t: string; d: string }[] = ar
   : [
       {
         key: 'by-meter',
+        img: 'remal-plush',
         t: 'Carpet by the metre',
         d: 'Turkish carpet and wall-to-wall carpet, 5 to 15 KWD per m², cut to size.',
       },
       {
         key: 'moquette',
+        img: 'sidra-soft-touch',
         t: 'Wall-to-wall carpet',
         d: 'Lightweight from 1.250 KWD and thicker Turkish carpet up to 15 KWD per m², for every room.',
       },
       {
         key: 'hallway',
+        img: 'blossom-hallway-runner',
         t: 'Hallway runners',
         d: 'Runners cut to your hallway length, plus Sadu runners, in many designs.',
       },
-      { key: 'stairs', t: 'Stair carpet', d: 'Full stair carpet or a runner, cut to fit each step.' },
+      {
+        key: 'stairs',
+        img: 'juman-plush-stair-carpet',
+        t: 'Stair carpet',
+        d: 'Full stair carpet or a runner, cut to fit each step.',
+      },
       {
         key: 'offices',
+        img: 'reem-loop-office-carpet',
         t: 'Office carpet',
         d: 'Lightweight carpet from 1.250 KWD per m², installed outside working hours.',
       },
       {
         key: 'carpet-tiles',
+        img: 'riwaq-tweed-office-carpet',
         t: 'Carpet tiles 40×40',
         d: 'Nylon and polypropylene, 5 to 6 KWD per m², replace one tile at a time.',
       },
@@ -297,6 +337,12 @@ const offers: { key: string; t: string; d: string }[] = ar
       },
     ];
 const byMeter = linkOf('by-meter');
+// تسوق حسب القسم: الأقسام المنشورة فقط بصورة منتج منها. والباقي يظهر نصًا في «خدمات أخرى» بلا رابط مكسور
+const tiles = offers.flatMap((o) => {
+  const href = linkOf(o.key);
+  return href ? [{ t: o.t, href, img: o.img }] : [];
+});
+const otherServices = offers.filter((o) => !linkOf(o.key));
 const projectsHref = ar ? '/projects/' : '/en/projects/';
 ---
 
@@ -349,10 +395,10 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
   </section>
 
   <div class="mx-auto max-w-5xl px-4">
-    <ProductGrid pageName={ar ? 'الرئيسية' : 'Home'} limit={8} title={c.products} compact carousel />
+    <HomeStore lang={lang} pageName={ar ? 'الرئيسية' : 'Home'} tiles={tiles} />
     {
       byMeter && (
-        <p class="mt-1 mb-10">
+        <p class="-mt-4 mb-10">
           <a href={byMeter} class="font-semibold text-primary dark:text-white hover:underline">
             {c.allProducts} {ar ? '←' : '→'}
           </a>
@@ -377,30 +423,23 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
       <FreeVisit pageName={ar ? 'الرئيسية' : 'Home'} />
     </div>
 
-    <section class="my-12" aria-labelledby="offer">
-      <h2 id="offer" class="text-2xl md:text-3xl font-bold mb-6">{c.offerTitle}</h2>
-      <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {
-          offers.map((o) => {
-            const href = linkOf(o.key);
-            return (
+    {
+      otherServices.length > 0 && (
+        <section class="my-12" aria-labelledby="offer">
+          <h2 id="offer" class="text-2xl md:text-3xl font-bold mb-6">
+            {c.offerTitle}
+          </h2>
+          <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {otherServices.map((o) => (
               <li class="rounded-lg border border-gray-200 dark:border-slate-700 p-4">
-                <h3 class="font-semibold mb-1">
-                  {href ? (
-                    <a href={href} class="hover:underline text-primary dark:text-white">
-                      {o.t}
-                    </a>
-                  ) : (
-                    o.t
-                  )}
-                </h3>
+                <h3 class="font-semibold mb-1">{o.t}</h3>
                 <p class="text-sm text-muted">{o.d}</p>
               </li>
-            );
-          })
-        }
-      </ul>
-    </section>
+            ))}
+          </ul>
+        </section>
+      )
+    }
 
     <section class="my-12" aria-labelledby="prices">
       <h2 id="prices" class="text-2xl md:text-3xl font-bold mb-4">{c.pricesTitle}</h2>

@@ -104,3 +104,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 40
 
 - Product naming rule (client, 2026-10-10): formal, type-based names and factual descriptions. No invented brand-style names (Remal, Sidra, Lujain…), no hype words (جريئة، راقي، فاخر، قطعة فنية). Admin hint updated. Slugs/SKUs unchanged (locked URLs).
+
+## Step 41
+
+- Home is a store front: `HomeStore.astro` (category tiles for published pages, offers row, all-products grid with category filter) and `ui/ProductCard.astro`. All store images lazy + `fetchpriority=low`; LCP stays the text hero (~1s throttled mobile).
+- Product `offer` field (active, price, was, unit, until, label). Shown only while active and not past `until`; emits `Offer` + `priceValidUntil`. Daily scheduled deploy (21:05 UTC) + inline script remove expired offers. Never invent offers or "was" prices.

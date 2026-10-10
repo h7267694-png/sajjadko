@@ -158,6 +158,22 @@ const productsCollection = defineCollection({
           })
           .refine((r) => r.max >= r.min, { message: 'الحد الأعلى أقل من الأدنى' })
           .optional(),
+        // عرض حقيقي بتاريخ انتهاء: يظهر في «العروض» بالرئيسية وفي صفحة المنتج وSchema (priceValidUntil).
+        // ينتهي تلقائيًا: البناء اليومي يخفيه، وسكربت صغير يخفيه في المتصفح إن انتهى قبل البناء.
+        offer: z
+          .object({
+            active: z.boolean().default(false),
+            price: z.number().positive(), // سعر العرض
+            was: z.number().positive().optional(), // السعر قبل العرض (حقيقي فقط)
+            unit: z.enum(PRICE_UNITS).default('m2'),
+            until: z.coerce.date(), // آخر يوم في العرض
+            label: z.object({ ar: z.string().max(40).optional(), en: z.string().max(40).optional() }).default({}),
+          })
+          .refine((o) => !o.was || o.was > o.price, {
+            message: 'سعر العرض يجب أن يكون أقل من السعر السابق',
+            path: ['price'],
+          })
+          .optional(),
         // «من أعمالنا الأخيرة»: يظهر المنتج في صفحة الأعمال مع المنطقة والتاريخ
         latestWork: z
           .object({
