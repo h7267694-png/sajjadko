@@ -1,0 +1,70 @@
+slug: mosque-carpet-teal-floral-rows
+sku: SJ-MS-TEALFL
+status: published
+category: mosque-carpet
+places:
+  - mosque
+  - musalla
+specs:
+  material: سجاد مساجد تركي بصفوف ونقوش زهور / Turkish mosque carpet in rows with floral motifs
+  installation: بوتكس أو دبل فيس أو نهاية سجاد حديد / Glue, double-sided tape or metal edge trim
+sizes:
+  - رول بعرض 1.33 م أو 4 م / Roll 1.33 m or 4 m wide
+priceRange:
+  min: 6
+  max: 8
+  unit: m2
+  updated: &id001 2026-10-10
+colors:
+  - أزرق مخضر مع إطار بيج / Teal with beige row borders
+images:
+  - src: ../../assets/products/mosque-farwaniya-rows.jpg
+    original: true
+    alt:
+      ar: صفوف سجاد مسجد أزرق مخضر بنقوش زهور وإطارات بيج بعد التركيب في مسجد بمحافظة الفروانية
+      en: Teal floral mosque carpet rows with beige borders after installation in a mosque in Farwaniya
+  - src: ../../assets/products/mosque-farwaniya-hall.jpg
+    original: true
+    alt:
+      ar: قاعة مسجد مفروشة بسجاد صفوف أزرق مخضر محاذٍ للقبلة، الفروانية
+      en: Mosque hall fitted with teal carpet rows aligned with the qibla, Farwaniya
+  - src: ../../assets/products/mosque-farwaniya-row-borders.jpg
+    original: true
+    alt:
+      ar: إطار الصف الزخرفي البيج في سجاد المسجد الأزرق المخضر بعد التركيب
+      en: Decorative beige row border on the teal mosque carpet after installation
+latestWork:
+  show: true
+  area: farwaniya
+  date: *id001
+  note:
+    ar: فرش مسجد في محافظة الفروانية بسجاد صفوف أزرق مخضر بنقوش زهور، مع قص الصفوف حول الأعمدة ومحاذاتها مع القبلة.
+    en: A mosque in Farwaniya fitted with teal floral carpet rows, cut around the columns and aligned with the qibla.
+ar:
+  name: سجاد مسجد أزرق مخضر بنقوش زهور وإطار صفوف
+  directAnswer: سجاد مساجد بصفوف بأرضية زرقاء مخضرة ونقوش زهور وأغصان بالبيج والأبيض، يفصل بين الصفوف إطار زخرفي بيج يحدد كل صف. ركّبناه في مسجد بمحافظة الفروانية. رول بعرض 1.33 م أو 4 م، والسعر 6 أو 7 أو 8 د.ك للمتر المربع حسب السماكة، مع القياس ومحاذاة الصفوف مع القبلة والتركيب.
+  usage: في مسجد الفروانية قصصنا الصفوف حول الأعمدة ومداخل القاعة، وحاذيناها مع القبلة لتبقى مستقيمة على طول القاعة. اللون الأزرق المخضر مع الجدران البيضاء يعطي القاعة إضاءة واتساعًا، والنقوش الكثيفة تخفي آثار الاستعمال اليومي.
+  care: نظّفه بالمكنسة الكهربائية بانتظام باتجاه الصفوف، وامسح البقع فور وقوعها بقطعة قماش مبللة دون فرك.
+  seoTitle: سجاد مسجد أزرق بنقوش زهور وصفوف في الكويت — سجادكو
+  seoDescription: سجاد مساجد بصفوف أزرق مخضر بنقوش زهور وإطار بيج، من أعمالنا في الفروانية. من 6 إلى 8 د.ك للمتر المربع مع محاذاة القبلة والتركيب.
+  reviewed: true
+  faq:
+    - q: كم سعر هذا السجاد للمسجد؟
+      a: 6 د.ك للخفيف و7 للوسط و8 للسميك للمتر المربع. قاعة 180 م² تكلف بين 1,080 و1,440 د.ك قبل التركيب.
+    - q: هل تقصون الصفوف حول الأعمدة؟
+      a: نعم، نقيس القاعة ونقص الصفوف حول الأعمدة والمداخل كما في مسجد الفروانية، مع إبقاء كل صف محاذيًا للقبلة.
+    - q: هل تفرشون المساجد في الفروانية وباقي المحافظات؟
+      a: نعم، نقيس ونركّب في كل محافظات الكويت، ومندوبنا يزور الموقع مجانًا لأخذ المقاسات وعرض العينات.
+en:
+  name: Teal Floral Mosque Carpet with Row Borders
+  directAnswer: This is mosque carpet in prayer rows with a teal ground and floral and scroll motifs in beige and white, with a decorative beige border between rows. We installed it in a mosque in Farwaniya. Rolls are 1.33 m or 4 m wide, at 6, 7 or 8 KWD per m² by thickness, with measuring, qibla alignment and installation.
+  usage: In the Farwaniya mosque we cut the rows around columns and doorways and aligned them with the qibla so they stay straight along the hall. Teal with white walls keeps the hall bright, and the dense pattern hides everyday wear.
+  care: Vacuum regularly along the rows and blot spills straight away with a damp cloth.
+  seoTitle: Teal Floral Mosque Carpet with Row Borders, Kuwait | Sajjadko
+  seoDescription: Teal floral mosque carpet in rows with beige borders, installed in Farwaniya. 6 to 8 KWD per m² with qibla alignment and installation in Kuwait.
+  reviewed: true
+  faq:
+    - q: How much is this mosque carpet?
+      a: 6, 7 or 8 KWD per m² by thickness. A 180 m² hall costs about 1,080 to 1,440 KWD before installation.
+    - q: Do you cut rows around columns?
+      a: Yes. We measure the hall and cut rows around columns and doorways, keeping every row aligned with the qibla.
