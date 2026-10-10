@@ -9,27 +9,27 @@ places:
 specs:
   material: سجاد ممرات يُقص بالمتر / Carpet runner cut to length
 images:
-  - src: /src/assets/products/blossom-runner-grey.jpg
+  - src: /src/assets/products/blossom-runner-grey.webp
     original: true
     alt:
       ar: سجاد ممر مورد بأزهار رمادية على أرضية عاجية في ممر
       en: Floral hallway runner with grey flowers on an ivory ground
-  - src: /src/assets/products/blossom-runner-brown.jpg
+  - src: /src/assets/products/blossom-runner-brown.webp
     original: true
     alt:
       ar: سجاد ممر مورد بأزهار بنية ورمادية
       en: Floral hallway runner with brown and grey flowers on ivory
-  - src: /src/assets/products/blossom-runner-mustard.jpg
+  - src: /src/assets/products/blossom-runner-mustard.webp
     original: true
     alt:
       ar: سجاد ممر مورد بأزهار خردلية ورمادية وبنية
       en: Floral hallway runner with mustard, grey and brown flowers
-  - src: /src/assets/products/blossom-runner-black.jpg
+  - src: /src/assets/products/blossom-runner-black.webp
     original: true
     alt:
       ar: سجاد ممر مورد بأزهار سوداء ورمادية
       en: Floral hallway runner with black and grey flowers on ivory
-  - src: /src/assets/products/blossom-runner-orange.jpg
+  - src: /src/assets/products/blossom-runner-orange.webp
     original: true
     alt:
       ar: سجاد ممر مورد بأزهار برتقالية وخردلية وزيتية

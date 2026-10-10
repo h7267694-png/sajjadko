@@ -15,27 +15,27 @@ colors:
   - بيج بنقش متعرج / Beige chevron
   - كريمي بصرتين / Cream with two medallions
 images:
-  - src: ../../assets/products/zawali-relief-stripes.jpg
+  - src: ../../assets/products/zawali-relief-stripes.webp
     original: true
     alt:
       ar: زولية محفورة بنقش بارز بخطوط فاتحة على أرضية بني رمادي في صالة حديثة
       en: Carved relief rug with light stripes on taupe in a modern living room
-  - src: ../../assets/products/zawali-relief-diamonds.jpg
+  - src: ../../assets/products/zawali-relief-diamonds.webp
     original: true
     alt:
       ar: زولية محفورة بنقش معيّنات بارز بلون بني رمادي
       en: Carved relief rug with a raised diamond pattern in taupe
-  - src: ../../assets/products/zawali-relief-swirl-key.jpg
+  - src: ../../assets/products/zawali-relief-swirl-key.webp
     original: true
     alt:
       ar: زولية محفورة بنقش ملتف وإطار المفتاح اليوناني
       en: Carved relief rug with a swirl pattern and Greek key border
-  - src: ../../assets/products/zawali-relief-chevron.jpg
+  - src: ../../assets/products/zawali-relief-chevron.webp
     original: true
     alt:
       ar: زولية محفورة بنقش متعرج بارز باللون البيج
       en: Carved relief rug with a raised beige chevron pattern
-  - src: ../../assets/products/zawali-relief-medallion-cream.jpg
+  - src: ../../assets/products/zawali-relief-medallion-cream.webp
     original: true
     alt:
       ar: زولية محفورة كريمية بصرتين هندسيتين وأهداب

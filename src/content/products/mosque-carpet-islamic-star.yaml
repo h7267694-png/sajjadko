@@ -20,17 +20,17 @@ colors:
   - كحلي / Navy
   - أزرق مخضر / Teal
 images:
-  - src: ../../assets/products/mosque-carpet-star-burgundy.jpg
+  - src: ../../assets/products/mosque-carpet-star-burgundy.webp
     original: true
     alt:
       ar: سجاد مسجد بنقش نجمة إسلامية بخطوط بيج على أرضية عنابية مع إطار صف
       en: Mosque carpet with an Islamic star pattern in beige lines on burgundy with a row border
-  - src: ../../assets/products/mosque-carpet-star-navy.jpg
+  - src: ../../assets/products/mosque-carpet-star-navy.webp
     original: true
     alt:
       ar: سجاد مسجد بنقش نجمة إسلامية بيج على أرضية كحلية
       en: Mosque carpet with a beige Islamic star pattern on navy
-  - src: ../../assets/products/mosque-carpet-star-teal.jpg
+  - src: ../../assets/products/mosque-carpet-star-teal.webp
     original: true
     alt:
       ar: سجاد مسجد بنقش نجمة إسلامية بيج على أرضية زرقاء مخضرة

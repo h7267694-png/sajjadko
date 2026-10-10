@@ -6,6 +6,8 @@ status: published
 noTranslation: true
 kind: service
 waType: installation
+productGrid:
+  services: [carpet-installation]
 title: 'تركيب سجاد وموكيت في الكويت — سجادكو الكويت'
 description: 'تركيب السجاد والموكيت للبيوت والمساجد والمصليات في الكويت مع معاينة وقياس عند الحاجة. أرسل المساحة والمنطقة عبر واتساب.'
 h1: 'تركيب السجاد والموكيت في الكويت'

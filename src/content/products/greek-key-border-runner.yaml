@@ -9,17 +9,17 @@ places:
 specs:
   material: سجاد ممرات يُقص بالمتر / Carpet runner cut to length
 images:
-  - src: /src/assets/products/greek-key-runner-taupe.jpg
+  - src: /src/assets/products/greek-key-runner-taupe.webp
     original: true
     alt:
       ar: سجاد ممر رمادي بني بإطار المفتاح اليوناني العاجي
       en: Taupe Greek key border runner on a marble hallway floor
-  - src: /src/assets/products/greek-key-runner-teal.jpg
+  - src: /src/assets/products/greek-key-runner-teal.webp
     original: true
     alt:
       ar: سجاد ممر أزرق مخضر بإطار المفتاح اليوناني
       en: Teal Greek key border runner rolled out in a hallway
-  - src: /src/assets/products/greek-key-runner-red.jpg
+  - src: /src/assets/products/greek-key-runner-red.webp
     original: true
     alt:
       ar: سجاد ممر أحمر بإطار المفتاح اليوناني للمداخل والمناسبات

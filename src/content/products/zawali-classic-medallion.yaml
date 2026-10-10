@@ -11,12 +11,12 @@ colors:
   - كريمي مع بني فاتح وأزرق / Cream with light brown and blue
   - رمادي فاتح وبيج / Light grey and beige
 images:
-  - src: ../../assets/products/zawali-classic-medallion-cream.jpg
+  - src: ../../assets/products/zawali-classic-medallion-cream.webp
     original: true
     alt:
       ar: زولية كلاسيكية بصرة بيضاوية ونقوش زهور كثيفة بالكريمي والبني الفاتح والأزرق في صالة
       en: Classic rug with an oval medallion and dense florals in cream, light brown and blue in a living room
-  - src: ../../assets/products/zawali-classic-medallion-grey.jpg
+  - src: ../../assets/products/zawali-classic-medallion-grey.webp
     original: true
     alt:
       ar: زولية كلاسيكية بصرة ونقوش دقيقة بالرمادي الفاتح والبيج في مجلس

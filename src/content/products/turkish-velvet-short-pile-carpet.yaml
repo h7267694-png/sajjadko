@@ -23,17 +23,17 @@ colors:
 - 09 رمادي / Grey
 - 08 رمادي فحمي / Charcoal
 images:
-- src: ../../assets/products/turkish-velvet-short-pile-swatches.jpg
+- src: ../../assets/products/turkish-velvet-short-pile-swatches.webp
   original: true
   alt:
     ar: لوحة عينات موكيت تركي مخملي قصير الوبر بثمانية ألوان من الكريمي إلى الفحمي
     en: Swatch board of Turkish short-pile velvet carpet in eight colours from cream to charcoal
-- src: ../../assets/products/turkish-velvet-short-pile-swatches-angle.jpg
+- src: ../../assets/products/turkish-velvet-short-pile-swatches-angle.webp
   original: true
   alt:
     ar: عينات الموكيت التركي المخملي من زاوية جانبية مع رول البطانة
     en: Turkish velvet carpet swatches from an angle with the underlay roll
-- src: ../../assets/products/turkish-velvet-short-pile-close.jpg
+- src: ../../assets/products/turkish-velvet-short-pile-close.webp
   original: true
   alt:
     ar: قرب لملمس الموكيت التركي المخملي باللون الجملي

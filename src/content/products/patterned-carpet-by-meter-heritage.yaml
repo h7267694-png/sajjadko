@@ -21,17 +21,17 @@ colors:
   - أسود ورمادي مع ذهبي / Black and grey with gold
   - رمادي وأبيض / Grey and white
 images:
-  - src: ../../assets/products/patterned-by-meter-heritage-rolls-1.jpg
+  - src: ../../assets/products/patterned-by-meter-heritage-rolls-1.webp
     original: true
     alt:
       ar: رولات سجاد مشجر بالمتر بنقوش تراثية هندسية بالأزرق الفاتح والأسود والأبيض والعنابي والذهبي
       en: Rolls of patterned carpet by the metre with heritage geometric designs in light blue, black, white, burgundy and gold
-  - src: ../../assets/products/patterned-by-meter-heritage-rolls-2.jpg
+  - src: ../../assets/products/patterned-by-meter-heritage-rolls-2.webp
     original: true
     alt:
       ar: رف رولات سجاد مشجر بنقوش تراثية هندسية متعددة الألوان في المحل
       en: Shelf of patterned carpet rolls with multicoloured heritage geometric designs in the store
-  - src: ../../assets/products/patterned-by-meter-heritage-closeup.jpg
+  - src: ../../assets/products/patterned-by-meter-heritage-closeup.webp
     original: true
     alt:
       ar: لقطة قريبة لنقوش سجاد مشجر تراثية بارزة بالأزرق والرمادي والأسود

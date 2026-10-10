@@ -1,0 +1,78 @@
+slug: ahmadi-apartment-light-grey-carpet
+sku: SJ-WK-AHMADI
+status: published
+category: moquette
+places:
+- hallway
+- bedroom
+- living-room
+services:
+- carpet-installation
+specs:
+  material: موكيت سادة مخملي بوبر مقصوص / Plain plush cut-pile wall-to-wall carpet
+priceRange:
+  min: 5
+  max: 15
+  unit: m2
+  updated: '2026-10-10'
+colors:
+- رمادي فاتح / Light grey
+images:
+- src: ../../assets/products/ahmadi-apartment-hallway-carpet.webp
+  original: true
+  alt:
+    ar: ممر شقة في الأحمدي مفروش بموكيت رمادي فاتح من الجدار للجدار
+    en: Apartment hallway in Ahmadi fitted wall to wall with light grey carpet
+- src: ../../assets/products/ahmadi-apartment-hallway-gold-trim.webp
+  original: true
+  alt:
+    ar: موكيت رمادي فاتح في صالة الشقة مع نهاية ذهبية معدنية عند الانتقال إلى البلاط
+    en: Light grey carpet in the apartment hall with a gold metal trim at the tile edge
+- src: ../../assets/products/ahmadi-apartment-hallway-low-angle.webp
+  original: true
+  alt:
+    ar: الموكيت الرمادي على طول ممر الشقة من مستوى الأرض
+    en: Grey carpet along the apartment hallway from floor level
+- src: ../../assets/products/ahmadi-apartment-room-entrance.webp
+  original: true
+  alt:
+    ar: الموكيت ممتد من الممر إلى مدخل غرفة النوم
+    en: The carpet running from the hallway into the bedroom doorway
+- src: ../../assets/products/ahmadi-apartment-before-install.webp
+  original: true
+  alt:
+    ar: الصالة قبل التركيب على البلاط وبجانبها رول البطانة
+    en: The hall before fitting, on bare tiles with the underlay roll
+latestWork:
+  show: true
+  area: ahmadi
+  date: 2026-10-10
+  note:
+    ar: 'فرش شقة كاملة في الأحمدي بموكيت رمادي فاتح من الجدار للجدار: الممرات والصالة والغرف، مع نهاية ذهبية معدنية عند كل انتقال إلى البلاط.'
+    en: 'A full apartment in Ahmadi fitted wall to wall with light grey carpet: hallways, hall and bedrooms, with a gold metal trim at every change to tiles.'
+ar:
+  name: موكيت شقة رمادي فاتح للممرات والغرف
+  directAnswer: 'موكيت سادة مخملي رمادي فاتح ركّبناه من الجدار للجدار في شقة كاملة بمنطقة الأحمدي: الممرات والصالة وغرف النوم، مع نهاية ذهبية معدنية عند حدود البلاط. اللون الفاتح يوسّع الممرات الضيقة ويتناسق مع الأبواب الداكنة والستائر الرمادية. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
+  usage: نقص الموكيت على مسار الممر وندخله في الغرف بقطعة متصلة قدر الإمكان حتى لا تظهر فواصل عند الأبواب، ونركّب نهاية معدنية حيث يلتقي الموكيت بالبلاط. الرمادي الفاتح يناسب الشقق ذات الجدران البيضاء والأبواب الداكنة.
+  care: نظّفه بالمكنسة الكهربائية مرة أو مرتين أسبوعيًا، خصوصًا في الممرات لأنها الأكثر مرورًا، وامسح البقع فور وقوعها دون فرك.
+  seoTitle: موكيت شقة للممرات والغرف في الأحمدي — سجادكو
+  seoDescription: 'تركيب موكيت رمادي فاتح لشقة كاملة في الأحمدي: ممرات وصالة وغرف، مع نهاية ذهبية معدنية. من 5 إلى 15 د.ك للمتر.'
+  reviewed: true
+  faq:
+  - q: هل تفرشون الشقة كاملة في يوم واحد؟
+    a: يعتمد على المساحة وعدد الغرف. نحدد المدة بعد الزيارة المجانية للقياس.
+  - q: ما فائدة النهاية الذهبية؟
+    a: تحمي طرف الموكيت عند التقائه بالبلاط من التقشر وتعطي حدًا مستقيمًا مرتبًا.
+  - q: كم سعر المتر؟
+    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
+en:
+  name: Light Grey Apartment Carpet for Hallways and Rooms
+  directAnswer: 'Plain light grey plush carpet we fitted wall to wall across a full apartment in Ahmadi: hallways, hall and bedrooms, with a gold metal trim at the tile edges. The light shade opens up narrow hallways and suits dark doors and grey curtains. 5 to 15 KWD per m² depending on thickness and density.'
+  usage: We cut the carpet along the hallway and carry it into the rooms in continuous pieces where possible, so no seams show at doorways, and fit metal trims where carpet meets tile.
+  care: Vacuum once or twice a week, especially hallways, and blot spills straight away without rubbing.
+  seoTitle: Apartment Carpet for Hallways and Rooms in Ahmadi | Sajjadko
+  seoDescription: Light grey wall-to-wall carpet fitted across a full apartment in Ahmadi with gold metal trims. 5 to 15 KWD per m².
+  reviewed: true
+  faq:
+  - q: How much is it per metre?
+    a: 5 to 15 KWD per m² depending on thickness and density.

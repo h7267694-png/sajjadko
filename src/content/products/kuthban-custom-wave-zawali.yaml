@@ -10,17 +10,17 @@ specs:
 colors:
   - عاجي في الوسط مع طبقات بيج وبني رملي ورمادي / Ivory centre with beige, sand brown and grey layers
 images:
-  - src: ../../assets/products/kuthban-custom-zawali-majlis.jpg
+  - src: ../../assets/products/kuthban-custom-zawali-majlis.webp
     original: true
     alt:
       ar: زولية تفصيل بشكل حر وحواف متموجة بالبيج والبني والرمادي في مجلس بكنب أبيض وثريا كريستال
       en: Free-form custom rug with wavy beige, brown and grey edges in a majlis with white sofas and a crystal chandelier
-  - src: ../../assets/products/kuthban-custom-zawali-front.jpg
+  - src: ../../assets/products/kuthban-custom-zawali-front.webp
     original: true
     alt:
       ar: زولية تفصيل بحواف متموجة تحت طاولة وسط خشبية ورخامية في مجلس أبيض
       en: Custom rug with wavy edges under a wood and marble coffee table in a white majlis
-  - src: ../../assets/products/kuthban-custom-zawali-detail.jpg
+  - src: ../../assets/products/kuthban-custom-zawali-detail.webp
     original: true
     alt:
       ar: تفاصيل الحواف المتموجة المحفورة بطبقات في زولية التفصيل

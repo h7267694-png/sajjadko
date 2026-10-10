@@ -23,27 +23,27 @@ colors:
   - كحلي / Navy
   - رمادي / Grey
 images:
-  - src: ../../assets/products/mosque-carpet-plain-border-four.jpg
+  - src: ../../assets/products/mosque-carpet-plain-border-four.webp
     original: true
     alt:
       ar: أربعة صفوف سجاد مسجد سادة بإطار زخرفي سفلي بالعنابي والأزرق الفاتح والكحلي والرمادي
       en: Four rows of plain mosque carpet with a decorative lower border in burgundy, light blue, navy and grey
-  - src: ../../assets/products/mosque-carpet-plain-navy.jpg
+  - src: ../../assets/products/mosque-carpet-plain-navy.webp
     original: true
     alt:
       ar: عينة سجاد مسجد سادة كحلي
       en: Plain navy mosque carpet sample
-  - src: ../../assets/products/mosque-carpet-plain-red.jpg
+  - src: ../../assets/products/mosque-carpet-plain-red.webp
     original: true
     alt:
       ar: عينة سجاد مسجد سادة أحمر
       en: Plain red mosque carpet sample
-  - src: ../../assets/products/mosque-carpet-plain-grey.jpg
+  - src: ../../assets/products/mosque-carpet-plain-grey.webp
     original: true
     alt:
       ar: عينة سجاد مسجد سادة رمادي
       en: Plain grey mosque carpet sample
-  - src: ../../assets/products/mosque-carpet-plain-teal.jpg
+  - src: ../../assets/products/mosque-carpet-plain-teal.webp
     original: true
     alt:
       ar: عينة سجاد مسجد سادة أزرق مخضر

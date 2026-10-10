@@ -10,12 +10,12 @@ specs:
 colors:
   - كريمي مع خطوط أسود وبني رمادي / Cream with black and taupe stripes
 images:
-  - src: ../../assets/products/nasaq-custom-zawali-majlis.jpg
+  - src: ../../assets/products/nasaq-custom-zawali-majlis.webp
     original: true
     alt:
       ar: زولية تفصيل كريمية بإطار خطوط أسود وبني رمادي في مجلس بكنب أبيض وطاولة وسط
       en: Custom cream rug with a black and taupe striped border in a majlis with white sofas
-  - src: ../../assets/products/nasaq-custom-zawali-sofa-view.jpg
+  - src: ../../assets/products/nasaq-custom-zawali-sofa-view.webp
     original: true
     alt:
       ar: زاوية الإطار المتقاطع في زولية التفصيل المخططة على رخام فاتح أمام الكنب

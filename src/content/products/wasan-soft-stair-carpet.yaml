@@ -9,7 +9,7 @@ places:
 specs:
   material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
-  - src: /src/assets/products/wasan-stair-swatches.jpg
+  - src: /src/assets/products/wasan-stair-swatches.webp
     original: true
     alt:
       ar: لوحة عينات موكيت خفيف للدرج وغرف النوم بألوان كريمي وبيج وبني ورمادي وأزرق رمادي

@@ -10,27 +10,27 @@ specs:
 colors:
   - كريمي مع ذهبي ووردي ورمادي / Cream with gold, rose and grey
 images:
-  - src: ../../assets/products/zawali-scroll-medallion-full.jpg
+  - src: ../../assets/products/zawali-scroll-medallion-full.webp
     original: true
     alt:
       ar: زولية جاهزة بأرضية كريمية وصرة دائرية في الوسط وزخارف أوراق ملتفة وورود بالذهبي والوردي
       en: Ready-made cream rug with a round central medallion, scrolling leaves and roses in gold and rose
-  - src: ../../assets/products/zawali-scroll-medallion-room.jpg
+  - src: ../../assets/products/zawali-scroll-medallion-room.webp
     original: true
     alt:
       ar: الزولية الكريمية بالزخارف الملتفة في صالة بكراسي كلاسيكية مذهبة
       en: The cream scroll rug in a room with gilded classic chairs
-  - src: ../../assets/products/zawali-scroll-medallion-center.jpg
+  - src: ../../assets/products/zawali-scroll-medallion-center.webp
     original: true
     alt:
       ar: الصرة الدائرية والزخارف الملتفة في وسط الزولية
       en: Round medallion and scrollwork at the centre of the rug
-  - src: ../../assets/products/zawali-scroll-medallion-angle.jpg
+  - src: ../../assets/products/zawali-scroll-medallion-angle.webp
     original: true
     alt:
       ar: الزولية الكريمية بالصرة والزخارف من زاوية جانبية
       en: The cream medallion rug seen from an angle
-  - src: ../../assets/products/zawali-scroll-medallion-corner.jpg
+  - src: ../../assets/products/zawali-scroll-medallion-corner.webp
     original: true
     alt:
       ar: زاوية الزولية بإطارها والزخارف الملتفة الذهبية

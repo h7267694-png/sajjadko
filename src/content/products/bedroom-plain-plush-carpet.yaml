@@ -17,27 +17,27 @@ colors:
 - رمادي داكن / Charcoal grey
 - بيج / Beige
 images:
-- src: ../../assets/products/bedroom-plush-light-grey-styled.jpg
+- src: ../../assets/products/bedroom-plush-light-grey-styled.webp
   original: true
   alt:
     ar: موكيت سادة مخملي رمادي فاتح في غرفة نوم
     en: Light grey plain plush carpet in a bedroom
-- src: ../../assets/products/bedroom-plush-light-grey-room.jpg
+- src: ../../assets/products/bedroom-plush-light-grey-room.webp
   original: true
   alt:
     ar: غرفة مفروشة بموكيت رمادي فاتح من الجدار للجدار
     en: Room fitted wall to wall with light grey plush carpet
-- src: ../../assets/products/bedroom-plush-dark-grey-room.jpg
+- src: ../../assets/products/bedroom-plush-dark-grey-room.webp
   original: true
   alt:
     ar: موكيت رمادي داكن مخملي مركّب في غرفة نوم فارغة
     en: Charcoal plush carpet fitted in an empty bedroom
-- src: ../../assets/products/bedroom-plush-dark-grey-small-room.jpg
+- src: ../../assets/products/bedroom-plush-dark-grey-small-room.webp
   original: true
   alt:
     ar: موكيت رمادي داكن مقصوص على مقاس غرفة صغيرة
     en: Charcoal plush carpet cut to fit a small room
-- src: ../../assets/products/bedroom-plush-beige-room.jpg
+- src: ../../assets/products/bedroom-plush-beige-room.webp
   original: true
   alt:
     ar: موكيت بيج مخملي في غرفة نوم بخزانة مرايا

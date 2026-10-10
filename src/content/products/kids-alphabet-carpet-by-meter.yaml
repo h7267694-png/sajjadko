@@ -12,17 +12,17 @@ colors:
   - وردي وبيج / Pink and beige
   - رمادي وبيج / Grey and beige
 images:
-  - src: ../../assets/products/kids-alphabet-by-meter-multicolour.jpg
+  - src: ../../assets/products/kids-alphabet-by-meter-multicolour.webp
     original: true
     alt:
       ar: سجاد أطفال بالمتر بمربعات ملونة وحروف إنجليزية بالأزرق والأحمر والأخضر والأصفر
       en: Kids carpet by the metre with colourful squares and English letters
-  - src: ../../assets/products/kids-alphabet-by-meter-pink.jpg
+  - src: ../../assets/products/kids-alphabet-by-meter-pink.webp
     original: true
     alt:
       ar: سجاد أطفال بالمتر بالحروف الإنجليزية بدرجات الوردي والبيج
       en: Kids alphabet carpet by the metre in pink and beige
-  - src: ../../assets/products/kids-alphabet-by-meter-grey.jpg
+  - src: ../../assets/products/kids-alphabet-by-meter-grey.webp
     original: true
     alt:
       ar: سجاد أطفال بالمتر بالحروف الإنجليزية بالرمادي والبيج مع نقاط ملونة

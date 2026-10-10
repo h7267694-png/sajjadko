@@ -10,17 +10,17 @@ specs:
 colors:
   - عاجي مع رمادي وبرتقالي وأزرق فاتح / Ivory with grey, orange and light blue
 images:
-  - src: ../../assets/products/kids-road-rug-top.jpg
+  - src: ../../assets/products/kids-road-rug-top.webp
     original: true
     alt:
       ar: زولية أطفال عاجية بنقش طريق متعرج وسيارة وحافلة وجبال وأشجار
       en: Ivory kids rug with a winding road, car, bus, mountains and trees
-  - src: ../../assets/products/kids-road-rug-room.jpg
+  - src: ../../assets/products/kids-road-rug-room.webp
     original: true
     alt:
       ar: زولية أطفال بنقش طريق وسيارات في غرفة طفل
       en: Kids road rug with cars in a child’s room
-  - src: ../../assets/products/kids-road-rug-angle.jpg
+  - src: ../../assets/products/kids-road-rug-angle.webp
     original: true
     alt:
       ar: زولية أطفال بنقش الطريق من زاوية جانبية

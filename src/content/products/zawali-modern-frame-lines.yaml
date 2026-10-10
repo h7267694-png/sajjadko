@@ -13,17 +13,17 @@ colors:
   - عاجي مع خطوط بني فاتح / Ivory with light brown lines
   - رمادي مع خطوط سوداء وبيضاء / Grey with black and white lines
 images:
-  - src: ../../assets/products/zawali-frame-lines-beige.jpg
+  - src: ../../assets/products/zawali-frame-lines-beige.webp
     original: true
     alt:
       ar: زولية حديثة عاجية بإطارات خطوط متدرجة بالبني الفاتح معلقة في معرض المحل
       en: Modern ivory rug with stepped light brown line frames hanging in the store
-  - src: ../../assets/products/zawali-frame-lines-grey.jpg
+  - src: ../../assets/products/zawali-frame-lines-grey.webp
     original: true
     alt:
       ar: زولية حديثة عاجية ورمادية بإطارات خطوط متدرجة
       en: Modern ivory and grey rug with stepped line frames
-  - src: ../../assets/products/zawali-frame-lines-grey-black.jpg
+  - src: ../../assets/products/zawali-frame-lines-grey-black.webp
     original: true
     alt:
       ar: زولية حديثة رمادية بإطارات خطوط سوداء وبيضاء متدرجة

@@ -9,12 +9,12 @@ places:
 specs:
   material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
-  - src: /src/assets/products/reem-office-loop-swatches.jpg
+  - src: /src/assets/products/reem-office-loop-swatches.webp
     original: true
     alt:
       ar: لوحة عينات موكيت مكاتب خفيف بوبر حلقي بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود
       en: Swatch board of lightweight loop-pile office carpet in over 19 colours including navy, red, green and black
-  - src: /src/assets/products/reem-office-loop-swatches-board.jpg
+  - src: /src/assets/products/reem-office-loop-swatches-board.webp
     original: true
     alt:
       ar: لوحة ألوان موكيت المكاتب الخفيف بوبر حلقي بأرقامها، منها الفحمي والبني والأزرق والعنابي والذهبي والأخضر

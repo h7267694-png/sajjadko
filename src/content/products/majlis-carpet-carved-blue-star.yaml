@@ -12,7 +12,7 @@ specs:
 colors:
 - بيج مع أزرق / Beige with blue
 images:
-- src: ../../assets/products/majlis-carved-blue-star.jpg
+- src: ../../assets/products/majlis-carved-blue-star.webp
   original: true
   alt:
     ar: مجلس بموكيت بيج تتوسطه نجمة إسلامية زرقاء محفورة يدويًا تتناسق مع نقشة المساند

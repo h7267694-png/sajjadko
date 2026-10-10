@@ -17,32 +17,32 @@ priceRange:
 colors:
   - رمادي فضي / Silver grey
 images:
-  - src: ../../assets/products/lujain-qasr-room-window.jpg
+  - src: ../../assets/products/lujain-qasr-room-window.webp
     original: true
     alt:
       ar: موكيت مخملي رمادي فضي مفروش من الجدار إلى الجدار في غرفة بستائر رمادية وبيضاء، القصر، الجهراء
       en: Silver grey plush carpet fitted wall to wall in a room with grey and white curtains, Qasr, Jahra
-  - src: ../../assets/products/lujain-qasr-low-angle-curtains.jpg
+  - src: ../../assets/products/lujain-qasr-low-angle-curtains.webp
     original: true
     alt:
       ar: لقطة قريبة من الأرض لموكيت مخملي رمادي تُظهر وبره في صالة واسعة
       en: Low-angle view of grey plush carpet showing the pile across a large living room
-  - src: ../../assets/products/lujain-qasr-doorway-trim.jpg
+  - src: ../../assets/products/lujain-qasr-doorway-trim.webp
     original: true
     alt:
       ar: 'موكيت رمادي فضي عند مدخل الغرفة مع نهاية معدنية فضية بين الموكيت والرخام'
       en: 'Silver grey carpet at a room entrance with a silver metal edge trim between carpet and marble'
-  - src: ../../assets/products/lujain-qasr-wardrobe-wall.jpg
+  - src: ../../assets/products/lujain-qasr-wardrobe-wall.webp
     original: true
     alt:
       ar: موكيت مخملي رمادي أمام جدار خزائن رمادي في غرفة نوم بعد التركيب
       en: Grey plush carpet in front of a grey built-in wardrobe wall in a bedroom after fitting
-  - src: ../../assets/products/lujain-qasr-through-divider.jpg
+  - src: ../../assets/products/lujain-qasr-through-divider.webp
     original: true
     alt:
       ar: 'غرفة مفروشة بموكيت رمادي فضي تظهر من خلال فاصل خشبي، مع نهاية معدنية عند البلاط'
       en: 'Room fitted with silver grey carpet seen through a wooden slat divider, with a metal trim at the tiles'
-  - src: ../../assets/products/lujain-qasr-edge-trim-corner.jpg
+  - src: ../../assets/products/lujain-qasr-edge-trim-corner.webp
     original: true
     alt:
       ar: زاوية غرفة بموكيت رمادي مقصوص على الوزرة بجانب الستائر

@@ -24,7 +24,7 @@ colors:
   - 0010 رمادي فضي / Silver grey
   - 0006 رمادي فحمي / Charcoal
 images:
-  - src: ../../assets/products/remal-plush-swatches.jpg
+  - src: ../../assets/products/remal-plush-swatches.webp
     original: true
     alt:
       ar: 'لوحة عينات موكيت تركي مخملي بسبعة ألوان: كريمي وبيج رملي وجملي وبني فاتح وبني قهوة ورمادي فضي وفحمي'

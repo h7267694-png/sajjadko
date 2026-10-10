@@ -122,3 +122,5 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Section images batch (local branch section-images, not pushed yet)
 
 - Product field `services` (`hand-carving`, `carpet-cutting`, `carpet-installation`) links a product to a service page; `productGrid.services` filters by it (hand-carving page shows carved works).
+- All source images in `src/assets/products/` and `src/assets/sections/` are WebP q80, max 1600px (same as admin uploads; client 2026-10-10). Section icons are `sections/<translationKey>.webp`, 600×600. New photos must be saved the same way.
+- Real jobs (client, 2026-10-10): one product per job with `latestWork` (area required) and `places` for every section it covers (e.g. hallway + bedroom), `services: [carpet-installation]`; the installation page lists them.

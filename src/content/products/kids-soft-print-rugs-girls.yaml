@@ -13,22 +13,22 @@ colors:
   - منطاد وزهور على أزرق / Hot air balloon and flowers on blue
   - شجرة بألوان هادئة / Tree in soft colours
 images:
-  - src: ../../assets/products/kids-soft-fairy.jpg
+  - src: ../../assets/products/kids-soft-fairy.webp
     original: true
     alt:
       ar: زولية بنات مطبوعة برسم جنية بفستان وردي على أرضية بيضاء
       en: Printed girls rug with a fairy in a pink dress on white
-  - src: ../../assets/products/kids-soft-bunny-rainbow.jpg
+  - src: ../../assets/products/kids-soft-bunny-rainbow.webp
     original: true
     alt:
       ar: زولية بنات مطبوعة بأرنب وقوس قزح وزهور وردية
       en: Printed girls rug with a bunny, rainbow and pink flowers
-  - src: ../../assets/products/kids-soft-balloon.jpg
+  - src: ../../assets/products/kids-soft-balloon.webp
     original: true
     alt:
       ar: زولية أطفال مطبوعة بمنطاد مزهر وزهور على أرضية زرقاء
       en: Printed kids rug with a floral hot air balloon and flowers on blue
-  - src: ../../assets/products/kids-soft-tree.jpg
+  - src: ../../assets/products/kids-soft-tree.webp
     original: true
     alt:
       ar: زولية أطفال مطبوعة بشجرة بأوراق ملونة هادئة على أرضية بيضاء

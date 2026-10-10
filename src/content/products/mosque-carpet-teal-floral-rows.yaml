@@ -18,22 +18,22 @@ priceRange:
 colors:
   - أزرق مخضر مع إطار بيج / Teal with beige row borders
 images:
-  - src: ../../assets/products/mosque-farwaniya-rows.jpg
+  - src: ../../assets/products/mosque-farwaniya-rows.webp
     original: true
     alt:
       ar: صفوف سجاد مسجد أزرق مخضر بنقوش زهور وإطارات بيج بعد التركيب في مسجد بمحافظة الفروانية
       en: Teal floral mosque carpet rows with beige borders after installation in a mosque in Farwaniya
-  - src: ../../assets/products/mosque-farwaniya-hall.jpg
+  - src: ../../assets/products/mosque-farwaniya-hall.webp
     original: true
     alt:
       ar: قاعة المسجد بعد فرشها بصفوف السجاد الأزرق المخضر المحاذية للقبلة، الفروانية
       en: The mosque hall after fitting teal carpet rows aligned with the qibla, Farwaniya
-  - src: ../../assets/products/mosque-farwaniya-row-borders.jpg
+  - src: ../../assets/products/mosque-farwaniya-row-borders.webp
     original: true
     alt:
       ar: فريق سجادكو يراجع تركيب صفوف سجاد المسجد بعد الفرش في الفروانية
       en: Sajjadko team checking the mosque carpet rows after fitting in Farwaniya
-  - src: ../../assets/products/mosque-farwaniya-workshop.jpg
+  - src: ../../assets/products/mosque-farwaniya-workshop.webp
     original: true
     alt:
       ar: فريق سجادكو أثناء تركيب صفوف سجاد المسجد الأزرق المخضر وقصها حول الأعمدة في الفروانية

@@ -11,7 +11,7 @@ specs:
   material: موكيت تركي / Turkish wall-to-wall carpet
   origin: تركيا / Turkey
 images:
-  - src: ../../assets/products/naseem-swatches.jpg
+  - src: ../../assets/products/naseem-swatches.webp
     original: true
     alt:
       ar: لوحة عينات موكيت تركي محبب الملمس بألوان عاجي وبيج ورمادي وكحلي وأزرق وبرتقالي وزيتي

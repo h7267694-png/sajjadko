@@ -20,17 +20,17 @@ colors:
   - أزرق مخضر / Teal
   - عنابي / Burgundy
 images:
-  - src: ../../assets/products/mosque-carpet-medallion-navy.jpg
+  - src: ../../assets/products/mosque-carpet-medallion-navy.webp
     original: true
     alt:
       ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية كحلية مع إطار بيج
       en: Mosque carpet with a medallion and floral motifs on navy with a beige border
-  - src: ../../assets/products/mosque-carpet-medallion-teal.jpg
+  - src: ../../assets/products/mosque-carpet-medallion-teal.webp
     original: true
     alt:
       ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية زرقاء مخضرة
       en: Mosque carpet with a medallion and floral motifs on teal
-  - src: ../../assets/products/mosque-carpet-medallion-burgundy.jpg
+  - src: ../../assets/products/mosque-carpet-medallion-burgundy.webp
     original: true
     alt:
       ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية عنابية

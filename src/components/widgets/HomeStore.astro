@@ -8,7 +8,7 @@ import { CATEGORY_LABELS } from '~/utils/taxonomy';
 import type { Locale } from '~/utils/site';
 
 export interface Tile {
-  /** مفتاح القسم (translationKey): صورته من src/assets/sections/<key>.jpg إن وُجدت */
+  /** مفتاح القسم (translationKey): صورته من src/assets/sections/<key>.webp إن وُجدت */
   key: string;
   t: string;
   href: string;
@@ -25,7 +25,7 @@ const { lang, pageName, tiles } = Astro.props;
 const ar = lang === 'ar';
 const products = (await getProducts(lang)).sort((a, b) => a.data.sku.localeCompare(b.data.sku));
 const byId = new Map(products.map((p) => [p.id, p]));
-// صورة القسم الخاصة أولًا (src/assets/sections/<key>.jpg)، وإلا صورة منتج من القسم
+// صورة القسم الخاصة أولًا (src/assets/sections/<key>.webp)، وإلا صورة منتج من القسم
 const sectionImgs = import.meta.glob<{ default: ImageMetadata }>('/src/assets/sections/*.{jpg,jpeg,png,webp}', {
   eager: true,
 });

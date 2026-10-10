@@ -9,7 +9,7 @@ places:
 specs:
   material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
-  - src: /src/assets/products/riwaq-office-tweed-swatches.jpg
+  - src: /src/assets/products/riwaq-office-tweed-swatches.webp
     original: true
     alt:
       ar: لوحة عينات موكيت مكاتب تويد بألوان بيج ورمادي وأسود مزيج وأزرق وعنابي

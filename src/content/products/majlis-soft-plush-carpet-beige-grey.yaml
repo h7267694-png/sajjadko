@@ -21,17 +21,17 @@ colors:
 - 8284 رمادي بني / Taupe
 - 8442 رمادي فضي / Silver grey
 images:
-- src: ../../assets/products/majlis-soft-plush-beige-grey-swatches.jpg
+- src: ../../assets/products/majlis-soft-plush-beige-grey-swatches.webp
   original: true
   alt:
     ar: لوحة عينات موكيت مجالس ناعم بدرجات البيج والجملي والرمادي
     en: Swatch board of soft majlis plush carpet in beige, camel and grey shades
-- src: ../../assets/products/majlis-soft-plush-beige-grey-angle.jpg
+- src: ../../assets/products/majlis-soft-plush-beige-grey-angle.webp
   original: true
   alt:
     ar: عينات موكيت ناعم كثيف الوبر من زاوية جانبية في المعرض
     en: Soft dense plush swatches from an angle in the showroom
-- src: ../../assets/products/majlis-soft-plush-beige-grey-close.jpg
+- src: ../../assets/products/majlis-soft-plush-beige-grey-close.webp
   original: true
   alt:
     ar: عينات الموكيت الناعم بالبيج والجملي والرمادي الفضي عن قرب

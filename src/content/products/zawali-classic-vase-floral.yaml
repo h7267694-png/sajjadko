@@ -11,22 +11,22 @@ specs:
 colors:
   - عاجي مع أزرق وعنابي وذهبي / Ivory with blue, burgundy and gold
 images:
-  - src: ../../assets/products/zawali-vase-floral-full.jpg
+  - src: ../../assets/products/zawali-vase-floral-full.webp
     original: true
     alt:
       ar: زولية جاهزة بنقش مزهرية وأغصان وزهور بالأزرق والعنابي والذهبي على أرضية عاجية مع أهداب
       en: Ready-made rug with a vase, branches and flowers in blue, burgundy and gold on ivory with fringes
-  - src: ../../assets/products/zawali-vase-floral-top.jpg
+  - src: ../../assets/products/zawali-vase-floral-top.webp
     original: true
     alt:
       ar: نقش الأغصان والزهور في الزولية الكلاسيكية العاجية
       en: Branch and flower pattern on the ivory classic rug
-  - src: ../../assets/products/zawali-vase-floral-detail.jpg
+  - src: ../../assets/products/zawali-vase-floral-detail.webp
     original: true
     alt:
       ar: تفاصيل نقش المزهرية والإطار الزهري في الزولية
       en: Detail of the vase motif and floral border on the rug
-  - src: ../../assets/products/zawali-vase-floral-angle.jpg
+  - src: ../../assets/products/zawali-vase-floral-angle.webp
     original: true
     alt:
       ar: الزولية الكلاسيكية العاجية بنقش الزهور من زاوية جانبية

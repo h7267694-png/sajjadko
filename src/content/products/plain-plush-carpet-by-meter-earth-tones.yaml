@@ -23,27 +23,27 @@ colors:
   - رمادي وردي / Mauve grey
   - بني رمادي / Taupe
 images:
-  - src: ../../assets/products/plain-plush-rolls-stack.jpg
+  - src: ../../assets/products/plain-plush-rolls-stack.webp
     original: true
     alt:
       ar: رولات موكيت سادة مخملي بالمتر في المحل بألوان الأبيض والبني والبيج والذهبي والرمادي
       en: Rolls of plain plush carpet by the metre in the store in white, brown, beige, gold and grey
-  - src: ../../assets/products/plain-plush-rolls-olive-grey.jpg
+  - src: ../../assets/products/plain-plush-rolls-olive-grey.webp
     original: true
     alt:
       ar: رولات موكيت سادة مخملي بالذهبي الزيتي والرمادي المزرق والرمادي الوردي
       en: Plain plush carpet rolls in olive gold, blue grey and mauve grey
-  - src: ../../assets/products/plain-plush-rolls-brown-taupe.jpg
+  - src: ../../assets/products/plain-plush-rolls-brown-taupe.webp
     original: true
     alt:
       ar: رولات موكيت سادة مخملي بالبني الغامق والبني الرمادي والرمادي
       en: Plain plush carpet rolls in dark brown, taupe and grey
-  - src: ../../assets/products/plain-plush-rolls-beige.jpg
+  - src: ../../assets/products/plain-plush-rolls-beige.webp
     original: true
     alt:
       ar: لقطة قريبة لوبر موكيت سادة مخملي بالبيج الرملي والبني الرمادي
       en: Close-up of plain plush carpet pile in sand beige and taupe
-  - src: ../../assets/products/plain-plush-rolls-grey.jpg
+  - src: ../../assets/products/plain-plush-rolls-grey.webp
     original: true
     alt:
       ar: لقطة قريبة لوبر موكيت سادة مخملي بالرمادي

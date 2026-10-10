@@ -10,12 +10,12 @@ specs:
 colors:
   - رمادي فاتح وبيج وعاجي / Light grey, beige and ivory
 images:
-  - src: ../../assets/products/ateeq-custom-zawali-living.jpg
+  - src: ../../assets/products/ateeq-custom-zawali-living.webp
     original: true
     alt:
       ar: زولية تفصيل بنقش كلاسيكي باهت بالرمادي والبيج تحت طاولة وسط خشبية في صالة بكنب بيج ومخدات عنابية
       en: Custom rug with a faded classic pattern in grey and beige under a wooden coffee table in a living room with beige sofas
-  - src: ../../assets/products/ateeq-custom-zawali-sofa.jpg
+  - src: ../../assets/products/ateeq-custom-zawali-sofa.webp
     original: true
     alt:
       ar: زولية تفصيل رمادية بيج أمام كنب زاوية بقاعدة ذهبية وطاولة بيضاء وخشبية

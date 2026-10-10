@@ -9,7 +9,7 @@ places:
 specs:
   material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
-  - src: /src/assets/products/juman-stair-swatches.jpg
+  - src: /src/assets/products/juman-stair-swatches.webp
     original: true
     alt:
       ar: لوحة عينات موكيت خفيف للدرج بعشرة ألوان من الأبيض والبيج والرمادي إلى الأزرق والعنابي

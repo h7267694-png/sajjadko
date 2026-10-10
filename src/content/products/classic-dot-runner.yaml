@@ -9,12 +9,12 @@ places:
 specs:
   material: سجاد ممرات يُقص بالمتر / Carpet runner cut to length
 images:
-  - src: /src/assets/products/dot-runner-navy.jpg
+  - src: /src/assets/products/dot-runner-navy.webp
     original: true
     alt:
       ar: سجاد ممر منقط بلون أزرق داكن وإطار ذهبي مضلع
       en: Navy dotted hallway runner with a ribbed gold and ivory border
-  - src: /src/assets/products/dot-runner-green.jpg
+  - src: /src/assets/products/dot-runner-green.webp
     original: true
     alt:
       ar: سجاد ممر منقط بلون أخضر وإطار ذهبي مضلع
