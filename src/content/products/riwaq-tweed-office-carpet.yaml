@@ -3,32 +3,32 @@ sku: SJ-MQ-RIWAQ
 status: published
 category: moquette
 places:
-  - office
-  - hotel
-  - hallway
+- office
+- hotel
+- hallway
 specs:
   material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
-  - src: /src/assets/products/riwaq-office-tweed-swatches.webp
-    original: true
-    alt:
-      ar: لوحة عينات موكيت مكاتب تويد بألوان بيج ورمادي وأسود مزيج وأزرق وعنابي
-      en: Swatch board of tweed office carpet in beige, grey, black tweed, blue and burgundy
+- src: /src/assets/products/riwaq-office-tweed-swatches.webp
+  original: true
+  alt:
+    ar: لوحة عينات موكيت مكاتب تويد بألوان بيج ورمادي وأسود مزيج وأزرق وعنابي
+    en: Swatch board of tweed office carpet in beige, grey, black tweed, blue and burgundy
 priceRange:
   min: 1.25
   max: 3
   unit: m2
   updated: '2026-10-07'
 colors:
-  - بيج مزيج / Beige tweed
-  - رمادي فاتح / Light grey
-  - أسود مزيج / Black tweed
-  - أزرق / Blue
-  - عنابي / Burgundy
-  - عاجي / Ivory
-  - بيج رمادي / Greige
-  - رمادي متوسط / Mid grey
-  - بيج فاتح / Light beige
+- بيج مزيج / Beige tweed
+- رمادي فاتح / Light grey
+- أسود مزيج / Black tweed
+- أزرق / Blue
+- عنابي / Burgundy
+- عاجي / Ivory
+- بيج رمادي / Greige
+- رمادي متوسط / Mid grey
+- بيج فاتح / Light beige
 ar:
   name: موكيت مكاتب تويد
   directAnswer: موكيت خفيف للمكاتب بنسيج تويد مزيج تظهر فيه خيوط بلونين، بتسعة ألوان بين البيج والرمادي والأسود المزيج والأزرق والعنابي. سطحه المتماسك يناسب المكاتب والممرات والفنادق ويخفي آثار الاستعمال. يُباع بالمتر المربع ويُقص على المقاس، والسعر من 1.250 إلى 3 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
@@ -37,14 +37,16 @@ ar:
   seoTitle: موكيت مكاتب تويد بالمتر في الكويت — سجادكو الكويت
   seoDescription: موكيت مكاتب خفيف بنسيج تويد مزيج بتسعة ألوان للمكاتب والممرات والفنادق، يُقص ويُركّب في الكويت من 1.250 إلى 3 د.ك للمتر المربع.
   faq:
-    - q: كم سعر موكيت المكاتب التويد بالمتر؟
-      a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. اضرب مساحة المكتب في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع.
-    - q: لماذا يُختار الوبر الحلقي للمكاتب؟
-      a: الوبر الحلقي متماسك ويحافظ على شكله مع كثرة المشي وحركة الكراسي، ويخفي الأثر اليومي أكثر من الوبر المقصوص الناعم، لذلك يُختار عادة للمكاتب والممرات والقاعات.
-    - q: هل يمكن فرش المكتب كله بلون الهوية؟
-      a: نعم، تتوفر ألوان كثيرة بينها الأزرق والأحمر والأخضر والرمادي والأسود. أرسل لون هويتك أو رقم اللون عبر واتساب، ونؤكد لك الأقرب المتوفر.
-    - q: هل تركّبون الموكيت في المكاتب؟
-      a: نعم، نركّب ما نوفره، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ في التركيب. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: كم سعر موكيت المكاتب التويد بالمتر؟
+    a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. اضرب مساحة المكتب في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع.
+  - q: لماذا يُختار الوبر الحلقي للمكاتب؟
+    a: الوبر الحلقي متماسك ويحافظ على شكله مع كثرة المشي وحركة الكراسي، ويخفي الأثر اليومي أكثر من الوبر المقصوص الناعم، لذلك يُختار عادة للمكاتب والممرات والقاعات.
+  - q: هل يمكن فرش المكتب كله بلون الهوية؟
+    a: نعم، تتوفر ألوان كثيرة بينها الأزرق والأحمر والأخضر والرمادي والأسود. أرسل لون هويتك أو رقم اللون عبر واتساب، ونؤكد لك الأقرب المتوفر.
+  - q: هل تركّبون الموكيت في المكاتب؟
+    a: نعم، نركّب ما نوفره، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ في التركيب. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
   reviewed: false
 en:
   name: Tweed Office Carpet
@@ -54,14 +56,16 @@ en:
   seoTitle: Tweed Office Carpet by the m² in Kuwait | Sajjadko Kuwait
   seoDescription: Lightweight tweed-texture commercial carpet in nine shades for offices, corridors and hotels, cut and installed in Kuwait. 1.250 to 3 KWD per m².
   faq:
-    - q: How much does the tweed office carpet cost per m²?
-      a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. Multiply your office floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
-    - q: Why is loop pile carpet used in offices?
-      a: A loop pile is firm and keeps its shape under heavy foot traffic and office chairs, and it hides daily wear better than a soft cut pile. That is why it is the usual choice for offices, corridors and meeting rooms.
-    - q: Can you carpet an office in our brand colour?
-      a: There is a wide range of colours, including blues, reds, greens, greys and black. Send your brand colour or a colour code on WhatsApp and we confirm the closest match in stock.
-    - q: How much carpet does a 100 m² office need?
-      a: A 100 m² (1,076 sq ft) open office needs about 100 m² of carpet plus a small allowance for cutting around columns and doorways, which we confirm after measuring. At 1.250 to 3 KWD per m², the carpet is roughly 125 to 300 KWD before installation.
-    - q: Do you install office carpet?
-      a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location, and we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.
+  - q: How much does the tweed office carpet cost per m²?
+    a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. Multiply your office floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
+  - q: Why is loop pile carpet used in offices?
+    a: A loop pile is firm and keeps its shape under heavy foot traffic and office chairs, and it hides daily wear better than a soft cut pile. That is why it is the usual choice for offices, corridors and meeting rooms.
+  - q: Can you carpet an office in our brand colour?
+    a: There is a wide range of colours, including blues, reds, greens, greys and black. Send your brand colour or a colour code on WhatsApp and we confirm the closest match in stock.
+  - q: How much carpet does a 100 m² office need?
+    a: A 100 m² (1,076 sq ft) open office needs about 100 m² of carpet plus a small allowance for cutting around columns and doorways, which we confirm after measuring. At 1.250 to 3 KWD per m², the carpet is roughly 125 to 300 KWD before installation.
+  - q: Do you install office carpet?
+    a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location, and we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
   reviewed: true

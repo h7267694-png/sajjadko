@@ -30,6 +30,8 @@ ar:
     a: نعم. ترسل صورة النقشة أو فكرتها مع مقاس المجلس عبر واتساب، ونؤكد معك الألوان والمقاس والسعر قبل البدء.
   - q: كم سعره؟
     a: السعر حسب مساحة المجلس وحجم النقشة وعدد ألوانها. نزورك مجانًا للقياس وعرض العينات، ثم نرسل السعر.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Grey Diwaniya Carpet with a Carved Black Medallion
   directAnswer: Silver grey plush carpet fitted wall to wall in a large diwaniya, with a long black medallion outlined in white and hand-carved in the centre. One of our hand-carving jobs; priced by area and design size.
@@ -41,3 +43,5 @@ en:
   faq:
   - q: Can I choose another design or colour?
     a: Yes. Send the design and your majlis size on WhatsApp and we confirm colours, size and price before starting.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

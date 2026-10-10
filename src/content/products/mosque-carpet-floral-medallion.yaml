@@ -3,38 +3,38 @@ sku: SJ-MS-MEDAL
 status: published
 category: mosque-carpet
 places:
-  - mosque
-  - musalla
+- mosque
+- musalla
 specs:
   material: سجاد مساجد تركي بصفوف / Turkish mosque carpet in prayer rows
   installation: بوتكس أو دبل فيس أو نهاية سجاد حديد / Glue, double-sided tape or metal edge trim
 sizes:
-  - رول بعرض 1.33 م أو 4 م / Roll 1.33 m or 4 m wide
+- رول بعرض 1.33 م أو 4 م / Roll 1.33 m or 4 m wide
 priceRange:
   min: 6
   max: 8
   unit: m2
   updated: 2026-10-10
 colors:
-  - كحلي / Navy
-  - أزرق مخضر / Teal
-  - عنابي / Burgundy
+- كحلي / Navy
+- أزرق مخضر / Teal
+- عنابي / Burgundy
 images:
-  - src: ../../assets/products/mosque-carpet-medallion-navy.webp
-    original: true
-    alt:
-      ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية كحلية مع إطار بيج
-      en: Mosque carpet with a medallion and floral motifs on navy with a beige border
-  - src: ../../assets/products/mosque-carpet-medallion-teal.webp
-    original: true
-    alt:
-      ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية زرقاء مخضرة
-      en: Mosque carpet with a medallion and floral motifs on teal
-  - src: ../../assets/products/mosque-carpet-medallion-burgundy.webp
-    original: true
-    alt:
-      ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية عنابية
-      en: Mosque carpet with a medallion and floral motifs on burgundy
+- src: ../../assets/products/mosque-carpet-medallion-navy.webp
+  original: true
+  alt:
+    ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية كحلية مع إطار بيج
+    en: Mosque carpet with a medallion and floral motifs on navy with a beige border
+- src: ../../assets/products/mosque-carpet-medallion-teal.webp
+  original: true
+  alt:
+    ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية زرقاء مخضرة
+    en: Mosque carpet with a medallion and floral motifs on teal
+- src: ../../assets/products/mosque-carpet-medallion-burgundy.webp
+  original: true
+  alt:
+    ar: سجاد مسجد بصرة زخرفية ونقوش زهور على أرضية عنابية
+    en: Mosque carpet with a medallion and floral motifs on burgundy
 ar:
   name: سجاد مسجد بصرة زخرفية ونقوش زهور
   directAnswer: 'سجاد مساجد بصفوف بتصميم كلاسيكي: صرة زخرفية في وسط كل صف ونقوش زهور صغيرة وإطار سفلي بزخارف متصلة، بثلاثة ألوان: الكحلي والأزرق المخضر والعنابي. رول بعرض 1.33 م أو 4 م، والسعر 6 أو 7 أو 8 د.ك للمتر المربع حسب السماكة، مع القياس ومحاذاة الصفوف مع القبلة والتركيب.'
@@ -44,12 +44,14 @@ ar:
   seoDescription: سجاد مساجد بصفوف بصرة زخرفية ونقوش زهور بالكحلي والأزرق والعنابي، رول 1.33 أو 4 م، من 6 إلى 8 د.ك للمتر المربع مع التركيب.
   reviewed: true
   faq:
-    - q: كم سعر سجاد المسجد بالمتر؟
-      a: 6 د.ك للخفيف و7 للوسط و8 للسميك للمتر المربع، والسعر نفسه لرول 1.33 م ورول 4 م. قاعة 180 م² تكلف بين 1,080 و1,440 د.ك قبل التركيب.
-    - q: هل تُحاذى الصفوف مع القبلة؟
-      a: نعم، نقيس القاعة في الموقع ونحدد القبلة، ونقص الرول بحيث يكون كل صف بعرض 1.33 م ومحاذيًا للقبلة، ونراجع القياس مع صاحب الطلب قبل القص.
-    - q: هل يناسب الجوامع الكبيرة؟
-      a: نعم، ويُفضل فيها رول بعرض 4 م لتقليل الفواصل في القاعة، مع تخطيط الصفوف قبل القص.
+  - q: كم سعر سجاد المسجد بالمتر؟
+    a: 6 د.ك للخفيف و7 للوسط و8 للسميك للمتر المربع، والسعر نفسه لرول 1.33 م ورول 4 م. قاعة 180 م² تكلف بين 1,080 و1,440 د.ك قبل التركيب.
+  - q: هل تُحاذى الصفوف مع القبلة؟
+    a: نعم، نقيس القاعة في الموقع ونحدد القبلة، ونقص الرول بحيث يكون كل صف بعرض 1.33 م ومحاذيًا للقبلة، ونراجع القياس مع صاحب الطلب قبل القص.
+  - q: هل يناسب الجوامع الكبيرة؟
+    a: نعم، ويُفضل فيها رول بعرض 4 م لتقليل الفواصل في القاعة، مع تخطيط الصفوف قبل القص.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Mosque Carpet with a Medallion and Floral Motifs
   directAnswer: 'This is mosque carpet in prayer rows with a classic design: a central medallion in each row, small floral motifs and a lower border of continuous ornament, in navy, teal and burgundy. Rolls are 1.33 m or 4 m wide, at 6, 7 or 8 KWD per m² by thickness, with measuring, qibla alignment and installation.'
@@ -59,7 +61,9 @@ en:
   seoDescription: Mosque carpet in rows with a medallion and floral motifs in navy, teal and burgundy, 1.33 or 4 m rolls, 6 to 8 KWD per m² with fitting in Kuwait.
   reviewed: true
   faq:
-    - q: How much is mosque carpet per m²?
-      a: 6 KWD light, 7 medium and 8 thick per m², the same for 1.33 m and 4 m rolls. A 180 m² hall costs about 1,080 to 1,440 KWD before installation.
-    - q: Are the rows aligned with the qibla?
-      a: Yes. We measure the hall on site, find the qibla and cut the roll so each 1.33 m row is aligned with it, confirming measurements before cutting.
+  - q: How much is mosque carpet per m²?
+    a: 6 KWD light, 7 medium and 8 thick per m², the same for 1.33 m and 4 m rolls. A 180 m² hall costs about 1,080 to 1,440 KWD before installation.
+  - q: Are the rows aligned with the qibla?
+    a: Yes. We measure the hall on site, find the qibla and cut the roll so each 1.33 m row is aligned with it, confirming measurements before cutting.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

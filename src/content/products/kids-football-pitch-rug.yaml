@@ -3,18 +3,18 @@ sku: SJ-KD-FOOTBALL
 status: published
 category: zawali
 places:
-  - kids
-  - bedroom
+- kids
+- bedroom
 specs:
   material: سجاد أطفال / Kids carpet
 colors:
-  - رمادي وأبيض / Grey and white
+- رمادي وأبيض / Grey and white
 images:
-  - src: ../../assets/products/kids-football-pitch-rug.webp
-    original: true
-    alt:
-      ar: زولية أطفال رمادية بنقش ملعب كرة قدم بارز بخطوط بيضاء وكرة في الوسط وأهداب
-      en: Grey kids rug with a raised football pitch in white lines, a ball in the centre and tassels
+- src: ../../assets/products/kids-football-pitch-rug.webp
+  original: true
+  alt:
+    ar: زولية أطفال رمادية بنقش ملعب كرة قدم بارز بخطوط بيضاء وكرة في الوسط وأهداب
+    en: Grey kids rug with a raised football pitch in white lines, a ball in the centre and tassels
 ar:
   name: زولية أطفال بنقش ملعب كرة قدم بارز
   directAnswer: زولية أطفال جاهزة بأرضية رمادية ونقش ملعب كرة قدم بخطوط بيضاء بارزة، وكرة في دائرة المنتصف، وأهداب بيضاء في الطرفين. تناسب غرف الأولاد ومحبي كرة القدم. السعر حسب المقاس، ونؤكده عبر واتساب.
@@ -24,10 +24,12 @@ ar:
   seoDescription: زولية أطفال جاهزة رمادية بنقش ملعب كرة قدم بارز وأهداب لغرف الأولاد. السعر حسب المقاس عبر واتساب.
   reviewed: true
   faq:
-    - q: كم سعره؟
-      a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
-    - q: هل تناسب غرف الأولاد؟
-      a: نعم، نقش ملعب الكرة من أكثر التصاميم طلبًا لغرف الأولاد، والرمادي يخفي آثار اللعب.
+  - q: كم سعره؟
+    a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
+  - q: هل تناسب غرف الأولاد؟
+    a: نعم، نقش ملعب الكرة من أكثر التصاميم طلبًا لغرف الأولاد، والرمادي يخفي آثار اللعب.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Kids Rug with a Raised Football Pitch Design
   directAnswer: This is a ready-made kids rug on a grey ground with a football pitch in raised white lines, a ball in the centre circle and white tassels at both ends. It suits boys rooms and football fans. Priced by size, confirmed on WhatsApp.
@@ -37,5 +39,7 @@ en:
   seoDescription: Ready-made grey kids rug with a raised football pitch and tassels for boys rooms. Priced by size on WhatsApp.
   reviewed: true
   faq:
-    - q: How much is it?
-      a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
+  - q: How much is it?
+    a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

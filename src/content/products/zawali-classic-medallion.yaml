@@ -3,24 +3,24 @@ sku: SJ-ZR-MEDAL
 status: published
 category: zawali
 places:
-  - majlis-diwaniya
-  - living-room
+- majlis-diwaniya
+- living-room
 specs:
   material: زولية جاهزة / Ready-made rug
 colors:
-  - كريمي مع بني فاتح وأزرق / Cream with light brown and blue
-  - رمادي فاتح وبيج / Light grey and beige
+- كريمي مع بني فاتح وأزرق / Cream with light brown and blue
+- رمادي فاتح وبيج / Light grey and beige
 images:
-  - src: ../../assets/products/zawali-classic-medallion-cream.webp
-    original: true
-    alt:
-      ar: زولية كلاسيكية بصرة بيضاوية ونقوش زهور كثيفة بالكريمي والبني الفاتح والأزرق في صالة
-      en: Classic rug with an oval medallion and dense florals in cream, light brown and blue in a living room
-  - src: ../../assets/products/zawali-classic-medallion-grey.webp
-    original: true
-    alt:
-      ar: زولية كلاسيكية بصرة ونقوش دقيقة بالرمادي الفاتح والبيج في مجلس
-      en: Classic rug with a medallion and fine patterns in light grey and beige in a majlis
+- src: ../../assets/products/zawali-classic-medallion-cream.webp
+  original: true
+  alt:
+    ar: زولية كلاسيكية بصرة بيضاوية ونقوش زهور كثيفة بالكريمي والبني الفاتح والأزرق في صالة
+    en: Classic rug with an oval medallion and dense florals in cream, light brown and blue in a living room
+- src: ../../assets/products/zawali-classic-medallion-grey.webp
+  original: true
+  alt:
+    ar: زولية كلاسيكية بصرة ونقوش دقيقة بالرمادي الفاتح والبيج في مجلس
+    en: Classic rug with a medallion and fine patterns in light grey and beige in a majlis
 ar:
   name: زولية كلاسيكية بصرة ونقوش زهور دقيقة
   directAnswer: 'زولية جاهزة بتصميم كلاسيكي: صرة في الوسط ونقوش زهور وأغصان دقيقة وإطار متعدد الطبقات، بلونين: الكريمي مع البني الفاتح والأزرق، والرمادي الفاتح مع البيج. تناسب المجالس والصالات. السعر حسب المقاس، ونؤكده عبر واتساب.'
@@ -30,10 +30,12 @@ ar:
   seoDescription: زولية جاهزة كلاسيكية بصرة ونقوش زهور دقيقة بالكريمي والبني والأزرق أو الرمادي والبيج للمجالس والصالات. السعر حسب المقاس.
   reviewed: true
   faq:
-    - q: كم سعر هذه الزولية؟
-      a: السعر حسب المقاس المتوفر أو المطلوب. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
-    - q: ما المقاسات المتوفرة؟
-      a: 'نؤكد المقاسات المتوفرة من هذا التصميم عبر واتساب. والمقاسات الشائعة للزوالي الجاهزة: 160×230 و200×300 و240×340 و300×400 سم.'
+  - q: كم سعر هذه الزولية؟
+    a: السعر حسب المقاس المتوفر أو المطلوب. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
+  - q: ما المقاسات المتوفرة؟
+    a: 'نؤكد المقاسات المتوفرة من هذا التصميم عبر واتساب. والمقاسات الشائعة للزوالي الجاهزة: 160×230 و200×300 و240×340 و300×400 سم.'
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Classic Rug with a Medallion and Fine Floral Pattern
   directAnswer: 'This is a ready-made rug with a classic design: a central medallion, fine floral and branch patterns and a layered border, in cream with light brown and blue, or light grey with beige. It suits majlis rooms and living rooms. Priced by size, confirmed on WhatsApp.'
@@ -43,5 +45,7 @@ en:
   seoDescription: Ready-made classic rug with a medallion and fine florals in cream, brown and blue or grey and beige for majlis and living rooms. Priced by size.
   reviewed: true
   faq:
-    - q: How much is this rug?
-      a: The price depends on the size available or requested. Send the size you need on WhatsApp and we confirm stock and price.
+  - q: How much is this rug?
+    a: The price depends on the size available or requested. Send the size you need on WhatsApp and we confirm stock and price.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

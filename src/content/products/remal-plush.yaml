@@ -3,10 +3,10 @@ sku: SJ-MQ-REMAL
 status: published
 category: moquette
 places:
-  - bedroom
-  - living-room
-  - majlis-diwaniya
-  - hallway
+- bedroom
+- living-room
+- majlis-diwaniya
+- hallway
 specs:
   material: موكيت تركي / Turkish wall-to-wall carpet
   origin: تركيا / Turkey
@@ -16,19 +16,19 @@ priceRange:
   unit: m2
   updated: 2026-10-07
 colors:
-  - 0004 كريمي / Cream
-  - 0003 بيج رملي / Sand beige
-  - 0002 جملي ذهبي / Golden camel
-  - 0001 بني فاتح / Light brown
-  - 0012 بني قهوة / Coffee brown
-  - 0010 رمادي فضي / Silver grey
-  - 0006 رمادي فحمي / Charcoal
+- 0004 كريمي / Cream
+- 0003 بيج رملي / Sand beige
+- 0002 جملي ذهبي / Golden camel
+- 0001 بني فاتح / Light brown
+- 0012 بني قهوة / Coffee brown
+- 0010 رمادي فضي / Silver grey
+- 0006 رمادي فحمي / Charcoal
 images:
-  - src: ../../assets/products/remal-plush-swatches.webp
-    original: true
-    alt:
-      ar: 'لوحة عينات موكيت تركي مخملي بسبعة ألوان: كريمي وبيج رملي وجملي وبني فاتح وبني قهوة ورمادي فضي وفحمي'
-      en: 'Swatch board of Turkish cut-pile plush carpet in seven colours: cream, sand beige, camel, light brown, coffee brown, silver grey and charcoal'
+- src: ../../assets/products/remal-plush-swatches.webp
+  original: true
+  alt:
+    ar: 'لوحة عينات موكيت تركي مخملي بسبعة ألوان: كريمي وبيج رملي وجملي وبني فاتح وبني قهوة ورمادي فضي وفحمي'
+    en: 'Swatch board of Turkish cut-pile plush carpet in seven colours: cream, sand beige, camel, light brown, coffee brown, silver grey and charcoal'
 ar:
   name: موكيت تركي مخملي بوبر مقصوص بسبعة ألوان
   directAnswer: موكيت تركي بوبر مقصوص كثيف وملمس مخملي، بسبعة ألوان ترابية من الكريمي إلى الفحمي. يناسب غرف النوم والصالات والمجالس والممرات. يُباع بالمتر المربع ويُقص على مقاس المكان، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
@@ -38,14 +38,16 @@ ar:
   seoDescription: موكيت تركي مخملي بسبعة ألوان ترابية لغرف النوم والصالات والمجالس، يُقص على المقاس بسعر من 5 إلى 15 د.ك للمتر المربع.
   reviewed: false
   faq:
-    - q: كم سعر الموكيت التركي المخملي بالمتر؟
-      a: يُباع بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. اضرب مساحة المكان في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع. نؤكد لك السعر النهائي عبر واتساب.
-    - q: هل يُقص على مقاس غرفتي؟
-      a: نعم، يُقص على مقاس المكان بالمتر، فلا تحتاج مقاسًا جاهزًا. أرسل الطول والعرض عبر واتساب، ونراجع معك المقاس قبل القص لأن القص لا يُعاد، ونقيس في الموقع عند الحاجة.
-    - q: كم لونًا متوفرًا وكيف أختار؟
-      a: تتوفر 7 ألوان بأرقام واضحة في جدول الألوان بالصفحة. أرسل رقم اللون الذي يعجبك عبر واتساب لنؤكد توفره، واختر الفاتح للغرف الصغيرة والداكن للأماكن كثيرة الحركة.
-    - q: هل تركّبونه؟
-      a: نعم، نركّب ما نوفره من سجاد وموكيت، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع. بعد التركيب نتابع معك يومين لمعالجة أي خطأ في التركيب.
+  - q: كم سعر الموكيت التركي المخملي بالمتر؟
+    a: يُباع بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. اضرب مساحة المكان في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع. نؤكد لك السعر النهائي عبر واتساب.
+  - q: هل يُقص على مقاس غرفتي؟
+    a: نعم، يُقص على مقاس المكان بالمتر، فلا تحتاج مقاسًا جاهزًا. أرسل الطول والعرض عبر واتساب، ونراجع معك المقاس قبل القص لأن القص لا يُعاد، ونقيس في الموقع عند الحاجة.
+  - q: كم لونًا متوفرًا وكيف أختار؟
+    a: تتوفر 7 ألوان بأرقام واضحة في جدول الألوان بالصفحة. أرسل رقم اللون الذي يعجبك عبر واتساب لنؤكد توفره، واختر الفاتح للغرف الصغيرة والداكن للأماكن كثيرة الحركة.
+  - q: هل تركّبونه؟
+    a: نعم، نركّب ما نوفره من سجاد وموكيت، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع. بعد التركيب نتابع معك يومين لمعالجة أي خطأ في التركيب.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Turkish Cut-Pile Plush Carpet in Seven Colours
   directAnswer: This is a Turkish wall-to-wall carpet with a dense cut pile and a velvety feel, in seven earth tones from cream to charcoal. It suits bedrooms, living rooms, majlis rooms and hallways. Sold per m² and cut to your room size, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density.
@@ -55,11 +57,13 @@ en:
   seoDescription: Turkish plush wall-to-wall carpet in seven earth tones for bedrooms, living rooms and majlis rooms, cut to size from 5 to 15 KWD per m².
   reviewed: true
   faq:
-    - q: How much is the Turkish plush carpet per m²?
-      a: It is sold by the m², from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Multiply your floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
-    - q: Can it be cut to my room size?
-      a: Yes. It is cut to your room in metres, so you are not limited to stock sizes. Send the length and width on WhatsApp, in metres or feet, and we check the measurements with you before cutting, since a cut cannot be undone.
-    - q: How many colours are there, and how do I choose?
-      a: There are 7 colours, each with a code in the colour table on this page. Send the code you like on WhatsApp and we confirm it is in stock. Light shades suit small rooms, and darker shades suit busy areas.
-    - q: Do you install it?
-      a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location. After installation we follow up for two days to fix any installation error.
+  - q: How much is the Turkish plush carpet per m²?
+    a: It is sold by the m², from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Multiply your floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
+  - q: Can it be cut to my room size?
+    a: Yes. It is cut to your room in metres, so you are not limited to stock sizes. Send the length and width on WhatsApp, in metres or feet, and we check the measurements with you before cutting, since a cut cannot be undone.
+  - q: How many colours are there, and how do I choose?
+    a: There are 7 colours, each with a code in the colour table on this page. Send the code you like on WhatsApp and we confirm it is in stock. Light shades suit small rooms, and darker shades suit busy areas.
+  - q: Do you install it?
+    a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location. After installation we follow up for two days to fix any installation error.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

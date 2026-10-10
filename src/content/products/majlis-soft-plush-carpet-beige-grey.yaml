@@ -49,6 +49,8 @@ ar:
     a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
   - q: هل يمكن حفر نقشة في وسطه؟
     a: نعم، نحفر النقشة يدويًا وندمجها في الموكيت بالألوان التي تختارها، والسعر حسب حجم النقشة.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Soft Plush Majlis Carpet in Beige and Grey
   directAnswer: 'A dense soft plush with a textured surface in six colours: greige, light beige, beige, camel, taupe and silver grey. Cut to the majlis or living room and fitted wall to wall. 5 to 15 KWD per m² depending on thickness and density.'
@@ -60,3 +62,5 @@ en:
   faq:
   - q: How much is it per metre?
     a: 5 to 15 KWD per m² depending on thickness and density.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

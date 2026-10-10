@@ -3,36 +3,36 @@ sku: SJ-RN-GREEKKEY
 status: published
 category: carpet
 places:
-  - hallway
-  - majlis-diwaniya
-  - hotel
+- hallway
+- majlis-diwaniya
+- hotel
 specs:
   material: سجاد ممرات يُقص بالمتر / Carpet runner cut to length
 images:
-  - src: /src/assets/products/greek-key-runner-taupe.webp
-    original: true
-    alt:
-      ar: سجاد ممر رمادي بني بإطار المفتاح اليوناني العاجي
-      en: Taupe Greek key border runner on a marble hallway floor
-  - src: /src/assets/products/greek-key-runner-teal.webp
-    original: true
-    alt:
-      ar: سجاد ممر أزرق مخضر بإطار المفتاح اليوناني
-      en: Teal Greek key border runner rolled out in a hallway
-  - src: /src/assets/products/greek-key-runner-red.webp
-    original: true
-    alt:
-      ar: سجاد ممر أحمر بإطار المفتاح اليوناني للمداخل والمناسبات
-      en: Red Greek key border runner for entrances and events
+- src: /src/assets/products/greek-key-runner-taupe.webp
+  original: true
+  alt:
+    ar: سجاد ممر رمادي بني بإطار المفتاح اليوناني العاجي
+    en: Taupe Greek key border runner on a marble hallway floor
+- src: /src/assets/products/greek-key-runner-teal.webp
+  original: true
+  alt:
+    ar: سجاد ممر أزرق مخضر بإطار المفتاح اليوناني
+    en: Teal Greek key border runner rolled out in a hallway
+- src: /src/assets/products/greek-key-runner-red.webp
+  original: true
+  alt:
+    ar: سجاد ممر أحمر بإطار المفتاح اليوناني للمداخل والمناسبات
+    en: Red Greek key border runner for entrances and events
 priceRange:
   min: 5
   max: 15
   unit: m2
   updated: '2026-10-07'
 colors:
-  - رمادي بني / Taupe
-  - أزرق مخضر / Teal
-  - أحمر / Red
+- رمادي بني / Taupe
+- أزرق مخضر / Teal
+- أحمر / Red
 ar:
   name: سجاد ممر بإطار المفتاح اليوناني
   directAnswer: 'سجاد ممرات بلون سادة في الوسط وإطار مزدوج بنقشة المفتاح اليوناني العاجية على الجانبين، بثلاثة ألوان: رمادي بني وأزرق مخضر وأحمر. يُقص بالطول الذي تحتاجه للممرات والمداخل والمجالس. يُباع بالمتر المربع ويُقص على طول ممرك، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
@@ -41,14 +41,16 @@ ar:
   seoTitle: سجاد ممر بإطار المفتاح اليوناني في الكويت — سجادكو الكويت
   seoDescription: سجاد ممرات بإطار المفتاح اليوناني بثلاثة ألوان للممرات والمداخل والمجالس، يُقص بالطول من 5 إلى 15 د.ك للمتر المربع.
   faq:
-    - q: كم سعر سجاد الممر بإطار المفتاح اليوناني بالمتر؟
-      a: 'يُسعّر بالمتر المربع من 5 إلى 15 د.ك حسب السماكة والكثافة. اضرب الطول في العرض لتعرف المساحة: مدة 0.8 × 5 م مساحتها 4 م²، فكلفتها بين 20 و60 د.ك قبل التركيب.'
-    - q: هل تقصّونها بطول ممر طويل؟
-      a: نعم، نقص المدة على الطول الذي تحتاجه بالضبط، فلا يقيدك مقاس جاهز. أرسل طول الممر وعرضه عبر واتساب، ونراجع المقاس معك قبل القص لأن القص لا يُعاد.
-    - q: كيف أقيس الممر؟
-      a: قس الطول كاملًا والعرض في أضيق نقطة، واترك من الأرضية على كل جانب ما بين 10 و20 سم. تأكد أن الأبواب التي تُفتح فوق المدة تتسع لسماكتها، ثم أرسل الأرقام عبر واتساب.
-    - q: هل تركّبون المدات؟
-      a: نعم، نركّب المدات التي نوفرها، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: كم سعر سجاد الممر بإطار المفتاح اليوناني بالمتر؟
+    a: 'يُسعّر بالمتر المربع من 5 إلى 15 د.ك حسب السماكة والكثافة. اضرب الطول في العرض لتعرف المساحة: مدة 0.8 × 5 م مساحتها 4 م²، فكلفتها بين 20 و60 د.ك قبل التركيب.'
+  - q: هل تقصّونها بطول ممر طويل؟
+    a: نعم، نقص المدة على الطول الذي تحتاجه بالضبط، فلا يقيدك مقاس جاهز. أرسل طول الممر وعرضه عبر واتساب، ونراجع المقاس معك قبل القص لأن القص لا يُعاد.
+  - q: كيف أقيس الممر؟
+    a: قس الطول كاملًا والعرض في أضيق نقطة، واترك من الأرضية على كل جانب ما بين 10 و20 سم. تأكد أن الأبواب التي تُفتح فوق المدة تتسع لسماكتها، ثم أرسل الأرقام عبر واتساب.
+  - q: هل تركّبون المدات؟
+    a: نعم، نركّب المدات التي نوفرها، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
   reviewed: false
 en:
   name: Hallway Runner with Greek Key Border
@@ -58,14 +60,16 @@ en:
   seoTitle: Hallway Runner with Greek Key Border in Kuwait | Sajjadko Kuwait
   seoDescription: Carpet runner with a Greek key border in taupe, teal and red, cut to any length for hallways and entrances in Kuwait. 5 to 15 KWD per m².
   faq:
-    - q: How much does the Hallway Runner with Greek Key Border cost in Kuwait?
-      a: 'Runners are priced per m², from 5 to 15 KWD (0.465 to 1.394 KWD per sq ft) depending on thickness and density. Multiply length by width for the area: a 0.8 × 5 m (2.6 × 16.4 ft) runner is 4 m², so 20 to 60 KWD before installation.'
-    - q: Can you cut a long hallway runner, like 15 ft or 20 ft?
-      a: Yes. We cut the runner to the exact length you need, so you are not limited to stock sizes. 15 ft is about 4.6 m and 20 ft about 6.1 m. Send your hallway length and width on WhatsApp, in metres or feet, and we confirm before cutting.
-    - q: Is this runner suitable for a bedroom or an entrance?
-      a: Yes. The red version is commonly chosen for entrances and occasions, and taupe or teal suit a bedroom corridor. Because it is cut to length, it can run the full depth of a villa entrance or fit a short space beside the bed.
-    - q: How do I measure my hallway for a runner?
-      a: Measure the full length, and the width at the narrowest point. Leave an even strip of floor on each side, usually 10 to 20 cm (4 to 8 in). Check that doors opening over the runner have enough clearance, then send the numbers on WhatsApp.
-    - q: Do you install carpet runners?
-      a: Yes, we install the runners we supply. Installation is priced separately and agreed by area and location, and we follow up for two days after installation to fix any installation error. We do not install carpet bought elsewhere.
+  - q: How much does the Hallway Runner with Greek Key Border cost in Kuwait?
+    a: 'Runners are priced per m², from 5 to 15 KWD (0.465 to 1.394 KWD per sq ft) depending on thickness and density. Multiply length by width for the area: a 0.8 × 5 m (2.6 × 16.4 ft) runner is 4 m², so 20 to 60 KWD before installation.'
+  - q: Can you cut a long hallway runner, like 15 ft or 20 ft?
+    a: Yes. We cut the runner to the exact length you need, so you are not limited to stock sizes. 15 ft is about 4.6 m and 20 ft about 6.1 m. Send your hallway length and width on WhatsApp, in metres or feet, and we confirm before cutting.
+  - q: Is this runner suitable for a bedroom or an entrance?
+    a: Yes. The red version is commonly chosen for entrances and occasions, and taupe or teal suit a bedroom corridor. Because it is cut to length, it can run the full depth of a villa entrance or fit a short space beside the bed.
+  - q: How do I measure my hallway for a runner?
+    a: Measure the full length, and the width at the narrowest point. Leave an even strip of floor on each side, usually 10 to 20 cm (4 to 8 in). Check that doors opening over the runner have enough clearance, then send the numbers on WhatsApp.
+  - q: Do you install carpet runners?
+    a: Yes, we install the runners we supply. Installation is priced separately and agreed by area and location, and we follow up for two days after installation to fix any installation error. We do not install carpet bought elsewhere.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
   reviewed: true

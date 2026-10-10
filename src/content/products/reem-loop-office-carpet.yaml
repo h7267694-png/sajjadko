@@ -3,47 +3,47 @@ sku: SJ-MQ-REEM
 status: published
 category: moquette
 places:
-  - office
-  - hotel
-  - hallway
+- office
+- hotel
+- hallway
 specs:
   material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
-  - src: /src/assets/products/reem-office-loop-swatches.webp
-    original: true
-    alt:
-      ar: لوحة عينات موكيت مكاتب خفيف بوبر حلقي بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود
-      en: Swatch board of lightweight loop-pile office carpet in over 19 colours including navy, red, green and black
-  - src: /src/assets/products/reem-office-loop-swatches-board.webp
-    original: true
-    alt:
-      ar: لوحة ألوان موكيت المكاتب الخفيف بوبر حلقي بأرقامها، منها الفحمي والبني والأزرق والعنابي والذهبي والأخضر
-      en: Numbered colour board of lightweight loop-pile office carpet, including charcoal, brown, blue, burgundy, gold and green
+- src: /src/assets/products/reem-office-loop-swatches.webp
+  original: true
+  alt:
+    ar: لوحة عينات موكيت مكاتب خفيف بوبر حلقي بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود
+    en: Swatch board of lightweight loop-pile office carpet in over 19 colours including navy, red, green and black
+- src: /src/assets/products/reem-office-loop-swatches-board.webp
+  original: true
+  alt:
+    ar: لوحة ألوان موكيت المكاتب الخفيف بوبر حلقي بأرقامها، منها الفحمي والبني والأزرق والعنابي والذهبي والأخضر
+    en: Numbered colour board of lightweight loop-pile office carpet, including charcoal, brown, blue, burgundy, gold and green
 priceRange:
   min: 1.25
   max: 3
   unit: m2
   updated: '2026-10-07'
 colors:
-  - كحلي داكن / Dark navy
-  - بني نحاسي / Copper brown
-  - أزرق / Blue
-  - رمادي بيج / Greige
-  - أبيض / White
-  - أرجواني / Plum
-  - أسود / Black
-  - أحمر / Red
-  - بيج / Beige
-  - بني داكن / Dark brown
-  - عنابي / Burgundy
-  - كريمي / Cream
-  - أزرق ملكي / Royal blue
-  - بني فحمي / Charcoal brown
-  - رمادي / Grey
-  - أخضر / Green
-  - ذهبي / Gold
-  - أزرق سماوي / Sky blue
-  - بنفسجي داكن / Dark purple
+- كحلي داكن / Dark navy
+- بني نحاسي / Copper brown
+- أزرق / Blue
+- رمادي بيج / Greige
+- أبيض / White
+- أرجواني / Plum
+- أسود / Black
+- أحمر / Red
+- بيج / Beige
+- بني داكن / Dark brown
+- عنابي / Burgundy
+- كريمي / Cream
+- أزرق ملكي / Royal blue
+- بني فحمي / Charcoal brown
+- رمادي / Grey
+- أخضر / Green
+- ذهبي / Gold
+- أزرق سماوي / Sky blue
+- بنفسجي داكن / Dark purple
 ar:
   name: موكيت مكاتب خفيف بوبر حلقي
   directAnswer: موكيت مكاتب خفيف بوبر حلقي متماسك، وليس بلاط سجاد، بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود والرمادي والبيج. سعره من 1.250 د.ك للمتر المربع. يتحمل كثرة المشي وحركة الكراسي، ويُقص على مقاس المكتب ويُركّب، ويناسب المكاتب والممرات والقاعات والفنادق.
@@ -52,14 +52,16 @@ ar:
   seoTitle: موكيت مكاتب خفيف بوبر حلقي في الكويت — سجادكو الكويت
   seoDescription: موكيت مكاتب خفيف بوبر حلقي وأكثر من 19 لونًا، ابتداءً من 1.250 د.ك للمتر المربع، يُقص ويُركّب في الكويت للمكاتب والممرات والقاعات.
   faq:
-    - q: كم سعر موكيت المكاتب الحلقي الخفيف بالمتر؟
-      a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. اضرب مساحة المكتب في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع.
-    - q: لماذا يُختار الوبر الحلقي للمكاتب؟
-      a: الوبر الحلقي متماسك ويحافظ على شكله مع كثرة المشي وحركة الكراسي، ويخفي الأثر اليومي أكثر من الوبر المقصوص الناعم، لذلك يُختار عادة للمكاتب والممرات والقاعات.
-    - q: هل يمكن فرش المكتب كله بلون الهوية؟
-      a: نعم، تتوفر ألوان كثيرة بينها الأزرق والأحمر والأخضر والرمادي والأسود. أرسل لون هويتك أو رقم اللون عبر واتساب، ونؤكد لك الأقرب المتوفر.
-    - q: هل تركّبون الموكيت في المكاتب؟
-      a: نعم، نركّب ما نوفره، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ في التركيب. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: كم سعر موكيت المكاتب الحلقي الخفيف بالمتر؟
+    a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. اضرب مساحة المكتب في سعر المتر لتعرف الكلفة التقريبية، وأجرة التركيب منفصلة وتُتفق حسب المساحة والموقع.
+  - q: لماذا يُختار الوبر الحلقي للمكاتب؟
+    a: الوبر الحلقي متماسك ويحافظ على شكله مع كثرة المشي وحركة الكراسي، ويخفي الأثر اليومي أكثر من الوبر المقصوص الناعم، لذلك يُختار عادة للمكاتب والممرات والقاعات.
+  - q: هل يمكن فرش المكتب كله بلون الهوية؟
+    a: نعم، تتوفر ألوان كثيرة بينها الأزرق والأحمر والأخضر والرمادي والأسود. أرسل لون هويتك أو رقم اللون عبر واتساب، ونؤكد لك الأقرب المتوفر.
+  - q: هل تركّبون الموكيت في المكاتب؟
+    a: نعم، نركّب ما نوفره، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ في التركيب. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
   reviewed: false
 en:
   name: Lightweight Loop-Pile Office Carpet
@@ -69,14 +71,16 @@ en:
   seoTitle: Lightweight Loop-Pile Office Carpet in Kuwait | Sajjadko Kuwait
   seoDescription: Lightweight loop-pile office carpet in 19+ colours from 1.250 KWD per m², cut and installed in Kuwait for offices, corridors and meeting rooms.
   faq:
-    - q: How much does this loop-pile office carpet cost per m²?
-      a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. Multiply your office floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
-    - q: Why is loop pile carpet used in offices?
-      a: A loop pile is firm and keeps its shape under heavy foot traffic and office chairs, and it hides daily wear better than a soft cut pile. That is why it is the usual choice for offices, corridors and meeting rooms.
-    - q: Can you carpet an office in our brand colour?
-      a: There is a wide range of colours, including blues, reds, greens, greys and black. Send your brand colour or a colour code on WhatsApp and we confirm the closest match in stock.
-    - q: How much carpet does a 100 m² office need?
-      a: A 100 m² (1,076 sq ft) open office needs about 100 m² of carpet plus a small allowance for cutting around columns and doorways, which we confirm after measuring. At 1.250 to 3 KWD per m², the carpet is roughly 125 to 300 KWD before installation.
-    - q: Do you install office carpet?
-      a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location, and we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.
+  - q: How much does this loop-pile office carpet cost per m²?
+    a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. Multiply your office floor area by the price per m² for an estimate. Installation is separate and agreed by area and location.
+  - q: Why is loop pile carpet used in offices?
+    a: A loop pile is firm and keeps its shape under heavy foot traffic and office chairs, and it hides daily wear better than a soft cut pile. That is why it is the usual choice for offices, corridors and meeting rooms.
+  - q: Can you carpet an office in our brand colour?
+    a: There is a wide range of colours, including blues, reds, greens, greys and black. Send your brand colour or a colour code on WhatsApp and we confirm the closest match in stock.
+  - q: How much carpet does a 100 m² office need?
+    a: A 100 m² (1,076 sq ft) open office needs about 100 m² of carpet plus a small allowance for cutting around columns and doorways, which we confirm after measuring. At 1.250 to 3 KWD per m², the carpet is roughly 125 to 300 KWD before installation.
+  - q: Do you install office carpet?
+    a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location, and we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
   reviewed: true

@@ -3,38 +3,38 @@ sku: SJ-MS-STAR
 status: published
 category: mosque-carpet
 places:
-  - mosque
-  - musalla
+- mosque
+- musalla
 specs:
   material: سجاد مساجد تركي بصفوف / Turkish mosque carpet in prayer rows
   installation: بوتكس أو دبل فيس أو نهاية سجاد حديد / Glue, double-sided tape or metal edge trim
 sizes:
-  - رول بعرض 1.33 م أو 4 م / Roll 1.33 m or 4 m wide
+- رول بعرض 1.33 م أو 4 م / Roll 1.33 m or 4 m wide
 priceRange:
   min: 6
   max: 8
   unit: m2
   updated: 2026-10-10
 colors:
-  - عنابي / Burgundy
-  - كحلي / Navy
-  - أزرق مخضر / Teal
+- عنابي / Burgundy
+- كحلي / Navy
+- أزرق مخضر / Teal
 images:
-  - src: ../../assets/products/mosque-carpet-star-burgundy.webp
-    original: true
-    alt:
-      ar: سجاد مسجد بنقش نجمة إسلامية بخطوط بيج على أرضية عنابية مع إطار صف
-      en: Mosque carpet with an Islamic star pattern in beige lines on burgundy with a row border
-  - src: ../../assets/products/mosque-carpet-star-navy.webp
-    original: true
-    alt:
-      ar: سجاد مسجد بنقش نجمة إسلامية بيج على أرضية كحلية
-      en: Mosque carpet with a beige Islamic star pattern on navy
-  - src: ../../assets/products/mosque-carpet-star-teal.webp
-    original: true
-    alt:
-      ar: سجاد مسجد بنقش نجمة إسلامية بيج على أرضية زرقاء مخضرة
-      en: Mosque carpet with a beige Islamic star pattern on teal
+- src: ../../assets/products/mosque-carpet-star-burgundy.webp
+  original: true
+  alt:
+    ar: سجاد مسجد بنقش نجمة إسلامية بخطوط بيج على أرضية عنابية مع إطار صف
+    en: Mosque carpet with an Islamic star pattern in beige lines on burgundy with a row border
+- src: ../../assets/products/mosque-carpet-star-navy.webp
+  original: true
+  alt:
+    ar: سجاد مسجد بنقش نجمة إسلامية بيج على أرضية كحلية
+    en: Mosque carpet with a beige Islamic star pattern on navy
+- src: ../../assets/products/mosque-carpet-star-teal.webp
+  original: true
+  alt:
+    ar: سجاد مسجد بنقش نجمة إسلامية بيج على أرضية زرقاء مخضرة
+    en: Mosque carpet with a beige Islamic star pattern on teal
 ar:
   name: سجاد مسجد بنقش نجمة إسلامية بثلاثة ألوان
   directAnswer: 'سجاد مساجد بصفوف، لكل صف نقش نجمة إسلامية هندسية بخطوط بيج وإطار سفلي يحدد موضع السجود، بثلاثة ألوان: العنابي والكحلي والأزرق المخضر. رول بعرض 1.33 م أو 4 م، والسعر 6 أو 7 أو 8 د.ك للمتر المربع حسب السماكة، مع القياس ومحاذاة الصفوف مع القبلة والتركيب.'
@@ -44,12 +44,14 @@ ar:
   seoDescription: سجاد مساجد بصفوف بنقش نجمة إسلامية بالعنابي والكحلي والأزرق، رول 1.33 أو 4 م، من 6 إلى 8 د.ك للمتر المربع مع محاذاة القبلة والتركيب.
   reviewed: true
   faq:
-    - q: كم سعر سجاد المسجد بالمتر؟
-      a: 6 د.ك للخفيف و7 للوسط و8 للسميك للمتر المربع، والسعر نفسه لرول 1.33 م ورول 4 م. قاعة 180 م² تكلف بين 1,080 و1,440 د.ك قبل التركيب.
-    - q: هل تُحاذى الصفوف مع القبلة؟
-      a: نعم، نقيس القاعة في الموقع ونحدد القبلة، ونقص الرول بحيث يكون كل صف بعرض 1.33 م ومحاذيًا للقبلة، ونراجع القياس مع صاحب الطلب قبل القص.
-    - q: ما الألوان المتوفرة؟
-      a: 'ثلاثة ألوان بهذا النقش: العنابي والكحلي والأزرق المخضر. أرسل اللون والمساحة عبر واتساب لنؤكد الكمية.'
+  - q: كم سعر سجاد المسجد بالمتر؟
+    a: 6 د.ك للخفيف و7 للوسط و8 للسميك للمتر المربع، والسعر نفسه لرول 1.33 م ورول 4 م. قاعة 180 م² تكلف بين 1,080 و1,440 د.ك قبل التركيب.
+  - q: هل تُحاذى الصفوف مع القبلة؟
+    a: نعم، نقيس القاعة في الموقع ونحدد القبلة، ونقص الرول بحيث يكون كل صف بعرض 1.33 م ومحاذيًا للقبلة، ونراجع القياس مع صاحب الطلب قبل القص.
+  - q: ما الألوان المتوفرة؟
+    a: 'ثلاثة ألوان بهذا النقش: العنابي والكحلي والأزرق المخضر. أرسل اللون والمساحة عبر واتساب لنؤكد الكمية.'
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Mosque Carpet with an Islamic Star Pattern in Three Colours
   directAnswer: 'This is mosque carpet in prayer rows, each row with a geometric Islamic star pattern in beige lines and a lower border marking the place of prostration, in three colours: burgundy, navy and teal. Rolls are 1.33 m or 4 m wide, at 6, 7 or 8 KWD per m² by thickness, with measuring, qibla alignment and installation.'
@@ -59,7 +61,9 @@ en:
   seoDescription: Mosque carpet in rows with an Islamic star pattern in burgundy, navy and teal, 1.33 or 4 m rolls, 6 to 8 KWD per m² with qibla alignment and fitting.
   reviewed: true
   faq:
-    - q: How much is mosque carpet per m²?
-      a: 6 KWD light, 7 medium and 8 thick per m², the same for 1.33 m and 4 m rolls. A 180 m² hall costs about 1,080 to 1,440 KWD before installation.
-    - q: Are the rows aligned with the qibla?
-      a: Yes. We measure the hall on site, find the qibla and cut the roll so each 1.33 m row is aligned with it, confirming measurements before cutting.
+  - q: How much is mosque carpet per m²?
+    a: 6 KWD light, 7 medium and 8 thick per m², the same for 1.33 m and 4 m rolls. A 180 m² hall costs about 1,080 to 1,440 KWD before installation.
+  - q: Are the rows aligned with the qibla?
+    a: Yes. We measure the hall on site, find the qibla and cut the roll so each 1.33 m row is aligned with it, confirming measurements before cutting.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

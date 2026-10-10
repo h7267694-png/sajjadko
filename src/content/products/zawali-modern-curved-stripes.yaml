@@ -3,18 +3,18 @@ sku: SJ-ZR-CURVE
 status: published
 category: zawali
 places:
-  - living-room
-  - bedroom
+- living-room
+- bedroom
 specs:
   material: زولية جاهزة / Ready-made rug
 colors:
-  - بيج وعاجي مع بني ورمادي وذهبي وأخضر فاتح / Beige and ivory with brown, grey, gold and sage
+- بيج وعاجي مع بني ورمادي وذهبي وأخضر فاتح / Beige and ivory with brown, grey, gold and sage
 images:
-  - src: ../../assets/products/zawali-curved-stripes.webp
-    original: true
-    alt:
-      ar: زولية حديثة بخطوط منحنية متوازية بالبني والرمادي والذهبي والأخضر الفاتح على أرضية بيج وعاجية
-      en: Modern rug with parallel curved stripes in brown, grey, gold and sage on beige and ivory
+- src: ../../assets/products/zawali-curved-stripes.webp
+  original: true
+  alt:
+    ar: زولية حديثة بخطوط منحنية متوازية بالبني والرمادي والذهبي والأخضر الفاتح على أرضية بيج وعاجية
+    en: Modern rug with parallel curved stripes in brown, grey, gold and sage on beige and ivory
 ar:
   name: زولية حديثة بخطوط منحنية متعددة الألوان
   directAnswer: 'زولية جاهزة بتصميم حديث: خطوط منحنية متوازية بالبني والرمادي الداكن والذهبي والأخضر الفاتح تعبر أرضية بيج وعاجية، وبعض الخطوط بملمس منسوج مختلف. تناسب الصالات وغرف المعيشة الحديثة. السعر حسب المقاس، ونؤكده عبر واتساب.'
@@ -24,10 +24,12 @@ ar:
   seoDescription: زولية جاهزة حديثة بخطوط منحنية بالبني والرمادي والذهبي على أرضية بيج للصالات الحديثة. السعر حسب المقاس عبر واتساب.
   reviewed: true
   faq:
-    - q: كم سعر هذه الزولية؟
-      a: السعر حسب المقاس المتوفر أو المطلوب. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
-    - q: ما المقاسات المتوفرة؟
-      a: 'نؤكد المقاسات المتوفرة من هذا التصميم عبر واتساب. والمقاسات الشائعة للزوالي الجاهزة: 160×230 و200×300 و240×340 و300×400 سم.'
+  - q: كم سعر هذه الزولية؟
+    a: السعر حسب المقاس المتوفر أو المطلوب. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
+  - q: ما المقاسات المتوفرة؟
+    a: 'نؤكد المقاسات المتوفرة من هذا التصميم عبر واتساب. والمقاسات الشائعة للزوالي الجاهزة: 160×230 و200×300 و240×340 و300×400 سم.'
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Modern Rug with Multicoloured Curved Stripes
   directAnswer: 'This is a ready-made rug with a modern design: parallel curved stripes in brown, dark grey, gold and sage crossing a beige and ivory ground, some with a different woven texture. It suits modern living rooms. Priced by size, confirmed on WhatsApp.'
@@ -37,5 +39,7 @@ en:
   seoDescription: Ready-made modern rug with curved stripes in brown, grey and gold on beige for modern living rooms. Priced by size on WhatsApp.
   reviewed: true
   faq:
-    - q: How much is this rug?
-      a: The price depends on the size available or requested. Send the size you need on WhatsApp and we confirm stock and price.
+  - q: How much is this rug?
+    a: The price depends on the size available or requested. Send the size you need on WhatsApp and we confirm stock and price.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

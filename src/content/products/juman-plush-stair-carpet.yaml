@@ -3,33 +3,33 @@ sku: SJ-MQ-JUMAN
 status: published
 category: moquette
 places:
-  - stairs
-  - bedroom
-  - living-room
+- stairs
+- bedroom
+- living-room
 specs:
   material: موكيت خفيف / Lightweight wall-to-wall carpet
 images:
-  - src: /src/assets/products/juman-stair-swatches.webp
-    original: true
-    alt:
-      ar: لوحة عينات موكيت خفيف للدرج بعشرة ألوان من الأبيض والبيج والرمادي إلى الأزرق والعنابي
-      en: Swatch board of lightweight stair carpet in ten colours from white, beige and grey to blue and burgundy
+- src: /src/assets/products/juman-stair-swatches.webp
+  original: true
+  alt:
+    ar: لوحة عينات موكيت خفيف للدرج بعشرة ألوان من الأبيض والبيج والرمادي إلى الأزرق والعنابي
+    en: Swatch board of lightweight stair carpet in ten colours from white, beige and grey to blue and burgundy
 priceRange:
   min: 1.25
   max: 3
   unit: m2
   updated: '2026-10-07'
 colors:
-  - أبيض لؤلؤي / Pearl white
-  - بيج حجري / Stone beige
-  - رمادي أزرق / Blue grey
-  - أبيض ثلجي / Snow white
-  - بيج رملي / Sand beige
-  - عاجي / Ivory
-  - بني فاتح / Light brown
-  - رمادي فضي / Silver grey
-  - أزرق / Blue
-  - عنابي / Burgundy
+- أبيض لؤلؤي / Pearl white
+- بيج حجري / Stone beige
+- رمادي أزرق / Blue grey
+- أبيض ثلجي / Snow white
+- بيج رملي / Sand beige
+- عاجي / Ivory
+- بني فاتح / Light brown
+- رمادي فضي / Silver grey
+- أزرق / Blue
+- عنابي / Burgundy
 ar:
   name: موكيت خفيف للدرج بعشرة ألوان
   directAnswer: موكيت خفيف بوبر مقصوص ناعم متماسك، بعشرة ألوان من الأبيض اللؤلؤي والبيج إلى الأزرق والعنابي. يناسب الدرج وغرف النوم والصالات، ويُقص على مقاس الدرجات. يُباع بالمتر المربع ويُقص على المقاس، والسعر من 1.250 إلى 3 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
@@ -38,14 +38,16 @@ ar:
   seoTitle: موكيت خفيف للدرج بعشرة ألوان في الكويت — سجادكو الكويت
   seoDescription: موكيت خفيف ناعم للدرج وغرف النوم بعشرة ألوان، يُقص على مقاس الدرجات ويُركّب في الكويت من 1.250 إلى 3 د.ك للمتر المربع.
   faq:
-    - q: كم سعر موكيت الدرج الخفيف بالمتر؟
-      a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. لحساب الدرج اضرب عرض الدرجة في مجموع عمق الدرجة وارتفاعها، ثم في عدد الدرجات، لتعرف المساحة التقريبية. أجرة التركيب منفصلة.
-    - q: كيف أقيس الدرج للموكيت؟
-      a: قس عرض الدرجة، وعمقها من الحافة إلى الخلف، وارتفاعها، وعدّ الدرجات. أرسل الأرقام والمنطقة عبر واتساب، ونراجع الحساب معك، ونقيس في الموقع عند الحاجة قبل القص.
-    - q: هل يناسب غرف النوم أيضًا؟
-      a: نعم، الوبر الناعم يناسب غرف النوم والصالات كما يناسب الدرج. يُقص على مقاس الغرفة بالمتر، فيمكن أن يكون الدرج والممر وغرف النوم بالخامة واللون نفسيهما.
-    - q: هل تركّبون موكيت الدرج؟
-      a: نعم، نركّب ما نوفره، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ في التركيب. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: كم سعر موكيت الدرج الخفيف بالمتر؟
+    a: يُباع بالمتر المربع من 1.250 إلى 3 د.ك حسب السماكة والضغط والكثافة. لحساب الدرج اضرب عرض الدرجة في مجموع عمق الدرجة وارتفاعها، ثم في عدد الدرجات، لتعرف المساحة التقريبية. أجرة التركيب منفصلة.
+  - q: كيف أقيس الدرج للموكيت؟
+    a: قس عرض الدرجة، وعمقها من الحافة إلى الخلف، وارتفاعها، وعدّ الدرجات. أرسل الأرقام والمنطقة عبر واتساب، ونراجع الحساب معك، ونقيس في الموقع عند الحاجة قبل القص.
+  - q: هل يناسب غرف النوم أيضًا؟
+    a: نعم، الوبر الناعم يناسب غرف النوم والصالات كما يناسب الدرج. يُقص على مقاس الغرفة بالمتر، فيمكن أن يكون الدرج والممر وغرف النوم بالخامة واللون نفسيهما.
+  - q: هل تركّبون موكيت الدرج؟
+    a: نعم، نركّب ما نوفره، وأجرة التركيب منفصلة عن سعر المتر وتُتفق حسب المساحة والموقع، ونتابع معك يومين بعد التركيب لمعالجة أي خطأ في التركيب. ولا نركّب سجادًا اشتريته من غيرنا.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
   reviewed: false
 en:
   name: Lightweight Stair Carpet in Ten Colours
@@ -55,14 +57,16 @@ en:
   seoTitle: Lightweight Stair Carpet in Ten Colours in Kuwait | Sajjadko Kuwait
   seoDescription: Soft, lightweight stair carpet in ten colours, cut to fit your steps and installed in Kuwait. 1.250 to 3 KWD per m².
   faq:
-    - q: How much does this lightweight stair carpet cost per m²?
-      a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. For stairs, multiply step width by (tread depth + riser height), then by the number of steps, for the approximate area. Installation is separate.
-    - q: How do I measure stairs for carpet?
-      a: Measure the step width, the tread depth from the nose to the back, and the riser height, then count the steps. Send the numbers and your area on WhatsApp, and we check the calculation with you and measure on site if needed before cutting.
-    - q: What is the cost to carpet stairs in Kuwait?
-      a: As an illustration, 14 steps 1 m (3.3 ft) wide, each with a 0.28 m tread and 0.17 m riser, use about 6.3 m² of carpet, so roughly 7.9 to 18.9 KWD before installation, depending on the quality you choose. We confirm the exact figure on WhatsApp.
-    - q: Can I use the same carpet in bedrooms?
-      a: Yes. The soft pile suits bedrooms and living rooms as well as stairs. It is cut to size by the metre, so stairs, landing and bedrooms can share the same material and colour.
-    - q: Do you install stair carpet?
-      a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location, and we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.
+  - q: How much does this lightweight stair carpet cost per m²?
+    a: It is sold by the m², from 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft) depending on thickness, pile pressure and density. For stairs, multiply step width by (tread depth + riser height), then by the number of steps, for the approximate area. Installation is separate.
+  - q: How do I measure stairs for carpet?
+    a: Measure the step width, the tread depth from the nose to the back, and the riser height, then count the steps. Send the numbers and your area on WhatsApp, and we check the calculation with you and measure on site if needed before cutting.
+  - q: What is the cost to carpet stairs in Kuwait?
+    a: As an illustration, 14 steps 1 m (3.3 ft) wide, each with a 0.28 m tread and 0.17 m riser, use about 6.3 m² of carpet, so roughly 7.9 to 18.9 KWD before installation, depending on the quality you choose. We confirm the exact figure on WhatsApp.
+  - q: Can I use the same carpet in bedrooms?
+    a: Yes. The soft pile suits bedrooms and living rooms as well as stairs. It is cut to size by the metre, so stairs, landing and bedrooms can share the same material and colour.
+  - q: Do you install stair carpet?
+    a: Yes, we install the carpet we supply. Installation is priced separately from the per-m² price and agreed by area and location, and we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
   reviewed: true

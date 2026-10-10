@@ -51,6 +51,8 @@ ar:
     a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
   - q: هل يمكن حفر نقشة في وسطه؟
     a: نعم، نحفر النقشة يدويًا وندمجها في الموكيت بالألوان التي تختارها، والسعر حسب حجم النقشة.
+  - q: هل الزيارة والقياس مجانًا؟
+    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Turkish Short-Pile Velvet Carpet in Eight Colours
   directAnswer: A Turkish-made carpet with a dense short pile and a velvet sheen, in eight colours from cream and sand beige to grey and charcoal. Cut to the majlis and fitted wall to wall. 5 to 15 KWD per m² depending on thickness and density.
@@ -62,3 +64,5 @@ en:
   faq:
   - q: How much is it per metre?
     a: 5 to 15 KWD per m² depending on thickness and density.
+  - q: Is the home visit and measuring free?
+    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
