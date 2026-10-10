@@ -1,0 +1,68 @@
+slug: bedroom-plain-plush-carpet
+sku: SJ-BD-PLUSH
+status: published
+category: moquette
+places:
+- bedroom
+- living-room
+specs:
+  material: موكيت سادة مخملي بوبر مقصوص ناعم / Plain soft cut-pile plush wall-to-wall carpet
+priceRange:
+  min: 5
+  max: 15
+  unit: m2
+  updated: '2026-10-10'
+colors:
+- رمادي فاتح / Light grey
+- رمادي داكن / Charcoal grey
+- بيج / Beige
+images:
+- src: ../../assets/products/bedroom-plush-light-grey-styled.jpg
+  original: true
+  alt:
+    ar: موكيت سادة مخملي رمادي فاتح في غرفة نوم
+    en: Light grey plain plush carpet in a bedroom
+- src: ../../assets/products/bedroom-plush-light-grey-room.jpg
+  original: true
+  alt:
+    ar: غرفة مفروشة بموكيت رمادي فاتح من الجدار للجدار
+    en: Room fitted wall to wall with light grey plush carpet
+- src: ../../assets/products/bedroom-plush-dark-grey-room.jpg
+  original: true
+  alt:
+    ar: موكيت رمادي داكن مخملي مركّب في غرفة نوم فارغة
+    en: Charcoal plush carpet fitted in an empty bedroom
+- src: ../../assets/products/bedroom-plush-dark-grey-small-room.jpg
+  original: true
+  alt:
+    ar: موكيت رمادي داكن مقصوص على مقاس غرفة صغيرة
+    en: Charcoal plush carpet cut to fit a small room
+- src: ../../assets/products/bedroom-plush-beige-room.jpg
+  original: true
+  alt:
+    ar: موكيت بيج مخملي في غرفة نوم بخزانة مرايا
+    en: Beige plush carpet in a bedroom with a mirrored wardrobe
+ar:
+  name: موكيت غرف نوم سادة مخملي بالرمادي والبيج
+  directAnswer: موكيت سادة بوبر مقصوص ناعم وملمس مخملي، بالرمادي الفاتح والرمادي الداكن والبيج. يُقص على مقاس الغرفة ويُركّب من الجدار للجدار، فيعطي غرفة النوم أرضية دافئة وهادئة. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
+  usage: يناسب غرف النوم وغرف الأولاد والضيوف. الرمادي الفاتح والبيج يوسّعان الغرفة ويناسبان الأثاث الأبيض والخشبي، والرمادي الداكن يخفي آثار الاستعمال اليومي أكثر.
+  care: نظّفه بالمكنسة الكهربائية مرة أو مرتين أسبوعيًا، وامسح البقع والسوائل فور وقوعها بقطعة قماش مبللة دون فرك.
+  seoTitle: موكيت غرف نوم سادة مخملي في الكويت — سجادكو
+  seoDescription: موكيت غرف نوم سادة مخملي بالرمادي والبيج، يُقص على مقاس الغرفة ويُركّب من الجدار للجدار. من 5 إلى 15 د.ك للمتر المربع.
+  reviewed: true
+  faq:
+  - q: كم أحتاج موكيت لغرفة نوم 4×4؟
+    a: مساحة الغرفة 16 م²، ونضيف هامشًا بسيطًا للقص حسب عرض الرول. نقيس الغرفة في الزيارة المجانية ونحسب الكمية بدقة.
+  - q: كم سعر المتر؟
+    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
+en:
+  name: Plain Plush Bedroom Carpet in Grey and Beige
+  directAnswer: A plain soft cut-pile plush carpet in light grey, charcoal grey and beige. It is cut to the room and fitted wall to wall for a warm, quiet bedroom floor. Price is 5 to 15 KWD per m² depending on thickness and density.
+  usage: Suits bedrooms, kids rooms and guest rooms. Light grey and beige open up a room; charcoal hides daily wear better.
+  care: Vacuum once or twice a week and blot spills straight away with a damp cloth without rubbing.
+  seoTitle: Plain Plush Bedroom Carpet in Kuwait | Sajjadko
+  seoDescription: Plain plush bedroom carpet in grey and beige, cut to size and fitted wall to wall. 5 to 15 KWD per m².
+  reviewed: true
+  faq:
+  - q: How much is it per metre?
+    a: 5 to 15 KWD per m² depending on thickness and density.
