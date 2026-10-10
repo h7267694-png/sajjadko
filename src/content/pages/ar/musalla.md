@@ -4,6 +4,8 @@ translationKey: musalla
 urlPath: mosque-carpets/musalla
 parent: mosque-carpets
 status: published
+productGrid:
+  categories: [mosque-carpet]
 kind: category
 waType: musalla
 title: 'سجاد المصلى للشركات والمدارس والمباني — سجادكو الكويت'

@@ -3,6 +3,8 @@ lang: en
 translationKey: mosque-carpets
 urlPath: mosque-carpet
 status: published
+productGrid:
+  categories: [mosque-carpet]
 kind: category
 waType: mosque
 title: 'Mosque Carpet in Kuwait: Supply & Installation | Sajjadko Kuwait'

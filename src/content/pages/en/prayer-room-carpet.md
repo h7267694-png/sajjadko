@@ -4,6 +4,8 @@ translationKey: musalla
 urlPath: prayer-room-carpet
 parent: mosque-carpets
 status: published
+productGrid:
+  categories: [mosque-carpet]
 kind: category
 waType: musalla
 title: 'Prayer Room Carpet in Kuwait for Offices & Schools | Sajjadko Kuwait'

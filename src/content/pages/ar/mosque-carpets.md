@@ -4,6 +4,8 @@ translationKey: mosque-carpets
 urlPath: mosque-carpets
 parent: carpets
 status: published
+productGrid:
+  categories: [mosque-carpet]
 kind: category
 waType: mosque
 title: 'سجاد المساجد في الكويت، فرش وتركيب حسب المقاس — سجادكو الكويت'
