@@ -2952,6 +2952,8 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 | مدة تخزين قصيرة    | استضافة GitHub Pages تفرض تخزينًا 10 دقائق لكل الملفات، ولا تسمح بتعديل الترويسات.                                                                      | حل على مستوى الاستضافة: وضع Cloudflare (مجاني) أمام الدومين بقاعدة تخزين سنة للملفات ذات البصمة `/_astro/*`، أو نقل النشر إلى استضافة تقبل ملف `_headers`. قرار يحتاج موافقة العميل لأنه يمس إعدادات DNS في Hostinger. |
 | إعادة تدفق إلزامية | سكربت يقرأ أبعاد العناصر (عرض الشريط أو الفلتر أو الهيدر) بعد تعديل الصفحة.                                                                             | تحديد السكربت المسبب من تقرير PageSpeed، وجمع القراءة قبل الكتابة أو استبداله بـCSS.                                                                                                                                   |
 
+**قرار العميل لعرض المنتجات في الرئيسية (11 أكتوبر 2026):** منتجان من كل قسم فقط، وزر «عرض المزيد» يعرض للزائر بقية منتجات القسم (رابط لصفحة القسم أو تحميل عند الطلب دون صور مسبقة). يُنفَّذ في الرسالة التالية من العميل.
+
 **طريقة التنفيذ:** قياس قبل وبعد على الجوال لكل تغيير، وتسجيل الأرقام هنا. ولا يُقبل أي حل يبطئ صفحة أخرى أو يكسر حواجز الجودة.
 
 **بانتظار العميل**
@@ -2971,6 +2973,8 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 4. أدلة عربية: حساب الكمية والسجاد مقابل الموكيت **[تم، 47]**، ودليل سجاد المسجد (التالي).
 
 ## 29.3 روابط بانتظار الفهرسة اليدوية في Search Console
+
+**الدفعة التالية (لم تُطلب بعد، الحصة اليومية متجاوزة في 11 أكتوبر 2026):** `/projects/`، `/services/carpet-cutting/`، `/services/carpet-installation/`، `/carpets/`، `/guides/carpet-prices-kuwait/`، `/mosque-carpets/`، `/services/hand-carving/`، `/commercial-flooring/offices/`، `/commercial-flooring/carpet-tiles/`، `/red-carpet/`.
 
 فُهرست يدويًا (10 أكتوبر 2026): `https://sajjadko.com/`، `https://sajjadko.com/by-meter/`، `https://sajjadko.com/moquette/`، `https://sajjadko.com/en/`، ثم `/zawali/` و`/carpet-shop-dajeej/` و`/carpets/diwaniya-majlis/` و`/carpets/bedroom/` و`/carpets/kids/` و`/carpets/hallway/` و`/carpets/stairs/` (11 رابطًا مفهرسًا يدويًا).
 
