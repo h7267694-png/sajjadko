@@ -3,18 +3,18 @@ sku: SJ-KD-CITY
 status: published
 category: carpet
 places:
-- kids
-- bedroom
+  - kids
+  - bedroom
 specs:
   material: سجاد أطفال / Kids carpet
 colors:
-- رمادي وأخضر متعدد الألوان / Grey and green multicolour
+  - رمادي وأخضر متعدد الألوان / Grey and green multicolour
 images:
-- src: ../../assets/products/kids-city-roads-by-meter.webp
-  original: true
-  alt:
-    ar: سجاد أطفال بالمتر بنقش مدينة وطرق ومواقف ومبانٍ ملونة
-    en: Kids carpet by the metre with a city, roads, parking and colourful buildings
+  - src: ../../assets/products/kids-city-roads-by-meter.webp
+    original: true
+    alt:
+      ar: سجاد أطفال بالمتر بنقش مدينة وطرق ومواقف ومبانٍ ملونة
+      en: Kids carpet by the metre with a city, roads, parking and colourful buildings
 ar:
   name: سجاد أطفال بالمتر بنقش مدينة وطرق
   directAnswer: 'سجاد أطفال يُباع بالمتر بنقش مدينة كاملة: طرق ودوارات ومواقف سيارات ومبانٍ وأشجار وبحيرات بألوان واضحة. يلعب عليه الطفل بالسيارات الصغيرة، ويُقص على مقاس الغرفة أو غرفة اللعب. السعر حسب المساحة، ونؤكده عبر واتساب.'
@@ -24,12 +24,12 @@ ar:
   seoDescription: سجاد أطفال بالمتر بنقش مدينة وطرق ومواقف لغرف الأولاد وغرف اللعب والحضانات، يُقص على المقاس في الكويت.
   reviewed: true
   faq:
-  - q: كم سعره؟
-    a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
-  - q: هل يُقص على مقاس الغرفة كاملة؟
-    a: نعم، يُباع بالمتر ويُقص على مقاس الغرفة أو بمقاس منطقة اللعب فقط.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعره؟
+      a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
+    - q: هل يُقص على مقاس الغرفة كاملة؟
+      a: نعم، يُباع بالمتر ويُقص على مقاس الغرفة أو بمقاس منطقة اللعب فقط.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Kids City Roads Carpet by the Metre
   directAnswer: 'This is kids carpet sold by the metre with a whole city design: roads, roundabouts, parking, buildings, trees and lakes in clear colours. Children play on it with toy cars, and it is cut to fit the room or playroom. Priced by area, confirmed on WhatsApp.'
@@ -39,7 +39,7 @@ en:
   seoDescription: Kids carpet by the metre with a city and roads design for boys rooms, playrooms and nurseries, cut to size in Kuwait.
   reviewed: true
   faq:
-  - q: How much is it?
-    a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it?
+      a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

@@ -3,11 +3,11 @@ sku: SJ-WK-AHMADI
 status: published
 category: moquette
 places:
-- hallway
-- bedroom
-- living-room
+  - hallway
+  - bedroom
+  - living-room
 services:
-- carpet-installation
+  - carpet-installation
 specs:
   material: موكيت سادة مخملي بوبر مقصوص / Plain plush cut-pile wall-to-wall carpet
 priceRange:
@@ -16,33 +16,33 @@ priceRange:
   unit: m2
   updated: '2026-10-10'
 colors:
-- رمادي فاتح / Light grey
+  - رمادي فاتح / Light grey
 images:
-- src: ../../assets/products/ahmadi-apartment-hallway-carpet.webp
-  original: true
-  alt:
-    ar: ممر شقة في الأحمدي مفروش بموكيت رمادي فاتح من الجدار للجدار
-    en: Apartment hallway in Ahmadi fitted wall to wall with light grey carpet
-- src: ../../assets/products/ahmadi-apartment-hallway-gold-trim.webp
-  original: true
-  alt:
-    ar: موكيت رمادي فاتح في صالة الشقة مع نهاية ذهبية معدنية عند الانتقال إلى البلاط
-    en: Light grey carpet in the apartment hall with a gold metal trim at the tile edge
-- src: ../../assets/products/ahmadi-apartment-hallway-low-angle.webp
-  original: true
-  alt:
-    ar: الموكيت الرمادي على طول ممر الشقة من مستوى الأرض
-    en: Grey carpet along the apartment hallway from floor level
-- src: ../../assets/products/ahmadi-apartment-room-entrance.webp
-  original: true
-  alt:
-    ar: الموكيت ممتد من الممر إلى مدخل غرفة النوم
-    en: The carpet running from the hallway into the bedroom doorway
-- src: ../../assets/products/ahmadi-apartment-before-install.webp
-  original: true
-  alt:
-    ar: الصالة قبل التركيب على البلاط وبجانبها رول البطانة
-    en: The hall before fitting, on bare tiles with the underlay roll
+  - src: ../../assets/products/ahmadi-apartment-hallway-carpet.webp
+    original: true
+    alt:
+      ar: ممر شقة في الأحمدي مفروش بموكيت رمادي فاتح من الجدار للجدار
+      en: Apartment hallway in Ahmadi fitted wall to wall with light grey carpet
+  - src: ../../assets/products/ahmadi-apartment-hallway-gold-trim.webp
+    original: true
+    alt:
+      ar: موكيت رمادي فاتح في صالة الشقة مع نهاية ذهبية معدنية عند الانتقال إلى البلاط
+      en: Light grey carpet in the apartment hall with a gold metal trim at the tile edge
+  - src: ../../assets/products/ahmadi-apartment-hallway-low-angle.webp
+    original: true
+    alt:
+      ar: الموكيت الرمادي على طول ممر الشقة من مستوى الأرض
+      en: Grey carpet along the apartment hallway from floor level
+  - src: ../../assets/products/ahmadi-apartment-room-entrance.webp
+    original: true
+    alt:
+      ar: الموكيت ممتد من الممر إلى مدخل غرفة النوم
+      en: The carpet running from the hallway into the bedroom doorway
+  - src: ../../assets/products/ahmadi-apartment-before-install.webp
+    original: true
+    alt:
+      ar: الصالة قبل التركيب على البلاط وبجانبها رول البطانة
+      en: The hall before fitting, on bare tiles with the underlay roll
 latestWork:
   show: true
   area: ahmadi
@@ -59,12 +59,12 @@ ar:
   seoDescription: 'تركيب موكيت رمادي فاتح لشقة كاملة في الأحمدي: ممرات وصالة وغرف، مع نهاية ذهبية معدنية. من 5 إلى 15 د.ك للمتر.'
   reviewed: true
   faq:
-  - q: هل تفرشون الشقة كاملة في يوم واحد؟
-    a: يعتمد على المساحة وعدد الغرف. نحدد المدة بعد الزيارة المجانية للقياس.
-  - q: ما فائدة النهاية الذهبية؟
-    a: تحمي طرف الموكيت عند التقائه بالبلاط من التقشر وتعطي حدًا مستقيمًا مرتبًا.
-  - q: كم سعر المتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
+    - q: هل تفرشون الشقة كاملة في يوم واحد؟
+      a: يعتمد على المساحة وعدد الغرف. نحدد المدة بعد الزيارة المجانية للقياس.
+    - q: ما فائدة النهاية الذهبية؟
+      a: تحمي طرف الموكيت عند التقائه بالبلاط من التقشر وتعطي حدًا مستقيمًا مرتبًا.
+    - q: كم سعر المتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
 en:
   name: Light Grey Apartment Carpet for Hallways and Rooms
   directAnswer: 'Plain light grey plush carpet we fitted wall to wall across a full apartment in Ahmadi: hallways, hall and bedrooms, with a gold metal trim at the tile edges. The light shade opens up narrow hallways and suits dark doors and grey curtains. 5 to 15 KWD per m² depending on thickness and density.'
@@ -74,7 +74,7 @@ en:
   seoDescription: Light grey wall-to-wall carpet fitted across a full apartment in Ahmadi with gold metal trims. 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much is it per metre?
-    a: 5 to 15 KWD per m² depending on thickness and density.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it per metre?
+      a: 5 to 15 KWD per m² depending on thickness and density.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

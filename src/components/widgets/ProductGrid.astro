@@ -21,7 +21,17 @@ export interface Props {
   eager?: number;
 }
 
-const { categories, places, services, pageName, limit, title, compact = false, carousel = false, eager = 0 } = Astro.props;
+const {
+  categories,
+  places,
+  services,
+  pageName,
+  limit,
+  title,
+  compact = false,
+  carousel = false,
+  eager = 0,
+} = Astro.props;
 const locale = toLocale(Astro.currentLocale);
 const settings = await getSettings();
 

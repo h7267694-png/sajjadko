@@ -3,10 +3,10 @@ sku: SJ-PM-GEO
 status: published
 category: carpet
 places:
-- living-room
-- majlis-diwaniya
-- hallway
-- bedroom
+  - living-room
+  - majlis-diwaniya
+  - hallway
+  - bedroom
 priceRange:
   min: 5
   max: 15
@@ -15,37 +15,37 @@ priceRange:
 specs:
   material: سجاد مشجر بالمتر بنقش بارز محفور / Patterned carpet by the metre with a raised carved design
 colors:
-- معيّنات متدرجة بني وبيج / Stepped diamonds in brown and beige
-- معيّنات متدرجة رمادي وأبيض / Stepped diamonds in grey and white
-- مفتاح يوناني بني وبيج / Greek key in brown and beige
-- مفتاح يوناني كحلي وبيج / Greek key in navy and beige
-- نقش تراثي بني وأبيض / Heritage motif in brown and white
+  - معيّنات متدرجة بني وبيج / Stepped diamonds in brown and beige
+  - معيّنات متدرجة رمادي وأبيض / Stepped diamonds in grey and white
+  - مفتاح يوناني بني وبيج / Greek key in brown and beige
+  - مفتاح يوناني كحلي وبيج / Greek key in navy and beige
+  - نقش تراثي بني وأبيض / Heritage motif in brown and white
 images:
-- src: ../../assets/products/patterned-by-meter-geometric-rolls-1.webp
-  original: true
-  alt:
-    ar: رولات سجاد مشجر بالمتر بنقش معيّنات متدرجة بالبني والرمادي ونقش المفتاح اليوناني بالبني والكحلي
-    en: Rolls of patterned carpet by the metre with stepped diamonds in brown and grey and a Greek key in brown and navy
-- src: ../../assets/products/patterned-by-meter-geometric-rolls-2.webp
-  original: true
-  alt:
-    ar: رولات سجاد مشجر محفور بالمتر بنقوش هندسية ومفتاح يوناني ونقش تراثي
-    en: Rolls of carved patterned carpet with geometric, Greek key and heritage designs
-- src: ../../assets/products/patterned-by-meter-greek-key-navy.webp
-  original: true
-  alt:
-    ar: لقطة قريبة لسجاد مشجر بنقش المفتاح اليوناني بالكحلي على أرضية بيج
-    en: Close-up of patterned carpet with a navy Greek key on a beige ground
-- src: ../../assets/products/patterned-by-meter-geometric-rolls-3.webp
-  original: true
-  alt:
-    ar: رولات سجاد مشجر بالمتر بنقش معيّنات بالبني والرمادي
-    en: Rolls of patterned carpet with diamonds in brown and grey
-- src: ../../assets/products/patterned-by-meter-geometric-rolls-4.webp
-  original: true
-  alt:
-    ar: رولات سجاد مشجر بنقش المفتاح اليوناني والمعيّنات المتدرجة
-    en: Rolls of patterned carpet with Greek key and stepped diamond designs
+  - src: ../../assets/products/patterned-by-meter-geometric-rolls-1.webp
+    original: true
+    alt:
+      ar: رولات سجاد مشجر بالمتر بنقش معيّنات متدرجة بالبني والرمادي ونقش المفتاح اليوناني بالبني والكحلي
+      en: Rolls of patterned carpet by the metre with stepped diamonds in brown and grey and a Greek key in brown and navy
+  - src: ../../assets/products/patterned-by-meter-geometric-rolls-2.webp
+    original: true
+    alt:
+      ar: رولات سجاد مشجر محفور بالمتر بنقوش هندسية ومفتاح يوناني ونقش تراثي
+      en: Rolls of carved patterned carpet with geometric, Greek key and heritage designs
+  - src: ../../assets/products/patterned-by-meter-greek-key-navy.webp
+    original: true
+    alt:
+      ar: لقطة قريبة لسجاد مشجر بنقش المفتاح اليوناني بالكحلي على أرضية بيج
+      en: Close-up of patterned carpet with a navy Greek key on a beige ground
+  - src: ../../assets/products/patterned-by-meter-geometric-rolls-3.webp
+    original: true
+    alt:
+      ar: رولات سجاد مشجر بالمتر بنقش معيّنات بالبني والرمادي
+      en: Rolls of patterned carpet with diamonds in brown and grey
+  - src: ../../assets/products/patterned-by-meter-geometric-rolls-4.webp
+    original: true
+    alt:
+      ar: رولات سجاد مشجر بنقش المفتاح اليوناني والمعيّنات المتدرجة
+      en: Rolls of patterned carpet with Greek key and stepped diamond designs
 ar:
   name: سجاد مشجر بالمتر بنقوش هندسية ومفتاح يوناني
   directAnswer: 'سجاد مشجر بالمتر بنقش بارز محفور يجمع وبرًا لامعًا وأرضية منسوجة، بخمسة تصاميم: معيّنات متدرجة بالبني أو الرمادي، ونقش المفتاح اليوناني بالبني أو الكحلي، ونقش تراثي بالبني. يُقص من الرول على مقاس الغرفة أو كزولية، من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.'
@@ -55,14 +55,14 @@ ar:
   seoDescription: سجاد مشجر محفور بالمتر بنقوش هندسية ومفتاح يوناني بالبني والرمادي والكحلي للمجالس والصالات، من 5 إلى 15 د.ك للمتر المربع في الكويت.
   reviewed: true
   faq:
-  - q: كم سعر السجاد المشجر بالمتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. مجلس 4×6 م (24 م²) يكلف بين 120 و360 د.ك قبل التركيب.
-  - q: هل يُقص على مقاس غرفتي أو كزولية؟
-    a: نعم، يُقص بالمتر من الرول على مقاس الغرفة من الجدار إلى الجدار، أو قطعة بمقاس منطقة الجلسة تُستخدم زولية. نراجع المقاس معك قبل القص.
-  - q: كم تصميمًا متوفرًا؟
-    a: 'خمسة تصاميم في المحل: معيّنات متدرجة بالبني وبالرمادي، والمفتاح اليوناني بالبني وبالكحلي، ونقش تراثي بالبني. أرسل صورة التصميم عبر واتساب لنؤكد الكمية.'
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر السجاد المشجر بالمتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. مجلس 4×6 م (24 م²) يكلف بين 120 و360 د.ك قبل التركيب.
+    - q: هل يُقص على مقاس غرفتي أو كزولية؟
+      a: نعم، يُقص بالمتر من الرول على مقاس الغرفة من الجدار إلى الجدار، أو قطعة بمقاس منطقة الجلسة تُستخدم زولية. نراجع المقاس معك قبل القص.
+    - q: كم تصميمًا متوفرًا؟
+      a: 'خمسة تصاميم في المحل: معيّنات متدرجة بالبني وبالرمادي، والمفتاح اليوناني بالبني وبالكحلي، ونقش تراثي بالبني. أرسل صورة التصميم عبر واتساب لنؤكد الكمية.'
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Patterned Carpet by the Metre with Geometric and Greek Key Designs
   directAnswer: 'This is a patterned carpet by the metre with a raised carved design combining a sheen pile and a woven ground, in five designs: stepped diamonds in brown or grey, a Greek key in brown or navy, and a heritage motif in brown. Cut from the roll to your room or as a rug, at 5 to 15 KWD per m² depending on thickness, pile pressure and density.'
@@ -72,9 +72,9 @@ en:
   seoDescription: Carved patterned carpet by the metre with geometric and Greek key designs in brown, grey and navy, 5 to 15 KWD per m² in Kuwait.
   reviewed: true
   faq:
-  - q: How much is patterned carpet per m²?
-    a: 5 to 15 KWD per m². A 24 m² majlis costs about 120 to 360 KWD before installation.
-  - q: Can it be cut to my room or as a rug?
-    a: Yes. It is cut from the roll by the metre to fit the room wall to wall, or to the size of your seating area as a rug. We confirm measurements before cutting.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is patterned carpet per m²?
+      a: 5 to 15 KWD per m². A 24 m² majlis costs about 120 to 360 KWD before installation.
+    - q: Can it be cut to my room or as a rug?
+      a: Yes. It is cut from the roll by the metre to fit the room wall to wall, or to the size of your seating area as a rug. We confirm measurements before cutting.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

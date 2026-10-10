@@ -3,54 +3,54 @@ sku: SJ-KD-ANIMALS
 status: published
 category: zawali
 places:
-- kids
-- bedroom
+  - kids
+  - bedroom
 specs:
   material: سجاد أطفال / Kids carpet
 colors:
-- دب على أخضر داكن / Bear on dark green
-- حيوانات مع قوس قزح على بيج / Animals with rainbow on beige
-- زرافة على أخضر / Giraffe on green
-- دب ببالونات زرقاء / Teddy with blue balloons
-- حيوانات في سلة بالونات / Animals in a balloon basket
-- حيوانات في سيارة وردية / Animals in a pink car
-- حروف وحيوانات / Alphabet animals
+  - دب على أخضر داكن / Bear on dark green
+  - حيوانات مع قوس قزح على بيج / Animals with rainbow on beige
+  - زرافة على أخضر / Giraffe on green
+  - دب ببالونات زرقاء / Teddy with blue balloons
+  - حيوانات في سلة بالونات / Animals in a balloon basket
+  - حيوانات في سيارة وردية / Animals in a pink car
+  - حروف وحيوانات / Alphabet animals
 images:
-- src: ../../assets/products/kids-animals-abc.webp
-  original: true
-  alt:
-    ar: زولية أطفال مطبوعة بالحروف الإنجليزية ورسوم حيوانات
-    en: Printed kids rug with English letters and animal drawings
-- src: ../../assets/products/kids-animals-rainbow.webp
-  original: true
-  alt:
-    ar: زولية أطفال مطبوعة بحيوانات أمام قوس قزح على أرضية بيج
-    en: Printed kids rug with animals in front of a rainbow on beige
-- src: ../../assets/products/kids-animals-giraffe.webp
-  original: true
-  alt:
-    ar: زولية أطفال مطبوعة بزرافة وغيوم على أرضية خضراء
-    en: Printed kids rug with a giraffe and clouds on green
-- src: ../../assets/products/kids-animals-teddy.webp
-  original: true
-  alt:
-    ar: زولية أطفال مطبوعة بدب يحمل بالونات زرقاء فوق غيمة
-    en: Printed kids rug with a teddy holding blue balloons on a cloud
-- src: ../../assets/products/kids-animals-balloon.webp
-  original: true
-  alt:
-    ar: زولية أطفال مطبوعة بأسد وزرافة وحمار وحشي في سلة بالونات
-    en: Printed kids rug with a lion, giraffe and zebra in a balloon basket
-- src: ../../assets/products/kids-animals-jeep.webp
-  original: true
-  alt:
-    ar: زولية أطفال مطبوعة بحيوانات في سيارة وردية
-    en: Printed kids rug with animals in a pink car
-- src: ../../assets/products/kids-animals-bear.webp
-  original: true
-  alt:
-    ar: زولية أطفال مطبوعة برأس دب على أرضية خضراء داكنة
-    en: Printed kids rug with a bear head on dark green
+  - src: ../../assets/products/kids-animals-abc.webp
+    original: true
+    alt:
+      ar: زولية أطفال مطبوعة بالحروف الإنجليزية ورسوم حيوانات
+      en: Printed kids rug with English letters and animal drawings
+  - src: ../../assets/products/kids-animals-rainbow.webp
+    original: true
+    alt:
+      ar: زولية أطفال مطبوعة بحيوانات أمام قوس قزح على أرضية بيج
+      en: Printed kids rug with animals in front of a rainbow on beige
+  - src: ../../assets/products/kids-animals-giraffe.webp
+    original: true
+    alt:
+      ar: زولية أطفال مطبوعة بزرافة وغيوم على أرضية خضراء
+      en: Printed kids rug with a giraffe and clouds on green
+  - src: ../../assets/products/kids-animals-teddy.webp
+    original: true
+    alt:
+      ar: زولية أطفال مطبوعة بدب يحمل بالونات زرقاء فوق غيمة
+      en: Printed kids rug with a teddy holding blue balloons on a cloud
+  - src: ../../assets/products/kids-animals-balloon.webp
+    original: true
+    alt:
+      ar: زولية أطفال مطبوعة بأسد وزرافة وحمار وحشي في سلة بالونات
+      en: Printed kids rug with a lion, giraffe and zebra in a balloon basket
+  - src: ../../assets/products/kids-animals-jeep.webp
+    original: true
+    alt:
+      ar: زولية أطفال مطبوعة بحيوانات في سيارة وردية
+      en: Printed kids rug with animals in a pink car
+  - src: ../../assets/products/kids-animals-bear.webp
+    original: true
+    alt:
+      ar: زولية أطفال مطبوعة برأس دب على أرضية خضراء داكنة
+      en: Printed kids rug with a bear head on dark green
 ar:
   name: زوالي أطفال مطبوعة برسوم حيوانات بسبعة تصاميم
   directAnswer: 'زوالي أطفال جاهزة مطبوعة برسوم حيوانات بسبعة تصاميم: الحروف الإنجليزية مع الحيوانات، وحيوانات أمام قوس قزح، وزرافة، ودب بالبالونات، وحيوانات في سلة بالونات، وحيوانات في سيارة وردية، ورأس دب على أخضر داكن. وبرها قصير وسطحها مستوٍ سهل التنظيف. السعر حسب المقاس، ونؤكده عبر واتساب.'
@@ -60,12 +60,12 @@ ar:
   seoDescription: زوالي أطفال جاهزة مطبوعة برسوم حيوانات بسبعة تصاميم، وبر قصير سهل التنظيف لغرف الأطفال. السعر حسب المقاس.
   reviewed: true
   faq:
-  - q: كم سعره؟
-    a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
-  - q: هل تُغسل بسهولة؟
-    a: الوبر قصير والسطح مستوٍ، فتُنظف بالمكنسة الكهربائية، وتُمسح البقع بقطعة قماش مبللة فور وقوعها.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعره؟
+      a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
+    - q: هل تُغسل بسهولة؟
+      a: الوبر قصير والسطح مستوٍ، فتُنظف بالمكنسة الكهربائية، وتُمسح البقع بقطعة قماش مبللة فور وقوعها.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Printed Kids Rugs with Animal Designs, Seven Styles
   directAnswer: 'These are ready-made printed kids rugs with animal designs in seven styles: alphabet animals, animals with a rainbow, a giraffe, a teddy with balloons, animals in a balloon basket, animals in a pink car, and a bear head on dark green. The short, flat pile is easy to clean. Priced by size, confirmed on WhatsApp.'
@@ -75,7 +75,7 @@ en:
   seoDescription: Ready-made printed kids rugs with animal designs in seven styles, short easy-clean pile for kids rooms. Priced by size.
   reviewed: true
   faq:
-  - q: How much is it?
-    a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it?
+      a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

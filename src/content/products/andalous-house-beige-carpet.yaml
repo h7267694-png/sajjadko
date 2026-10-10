@@ -3,11 +3,11 @@ sku: SJ-WK-ANDALOUS
 status: published
 category: moquette
 places:
-- living-room
-- hallway
-- bedroom
+  - living-room
+  - hallway
+  - bedroom
 services:
-- carpet-installation
+  - carpet-installation
 specs:
   material: موكيت مخملي بوبر مقصوص كثيف / Dense cut-pile plush wall-to-wall carpet
 priceRange:
@@ -16,33 +16,33 @@ priceRange:
   unit: m2
   updated: '2026-10-11'
 colors:
-- بيج فاتح / Light beige
+  - بيج فاتح / Light beige
 images:
-- src: ../../assets/products/andalous-living-room-beige-carpet.webp
-  original: true
-  alt:
-    ar: صالة بجدار ستائر منحني في الأندلس مفروشة بموكيت بيج مخملي من الجدار للجدار
-    en: Living room with a curved curtain wall in Andalous fitted wall to wall with beige plush carpet
-- src: ../../assets/products/andalous-hallway-beige-carpet.webp
-  original: true
-  alt:
-    ar: ممر مفروش بموكيت بيج يؤدي إلى الصالة
-    en: Hallway in beige carpet leading to the living room
-- src: ../../assets/products/andalous-hallway-carpet-gold-trim.webp
-  original: true
-  alt:
-    ar: موكيت الممر البيج مع نهاية ذهبية معدنية عند البلاط
-    en: The beige hallway carpet with a gold metal trim at the tiles
-- src: ../../assets/products/andalous-bedroom-wardrobe-carpet.webp
-  original: true
-  alt:
-    ar: غرفة نوم بخزائن خشبية وموكيت بيج يغطي الأرضية كاملة
-    en: Bedroom with wooden wardrobes and beige carpet covering the whole floor
-- src: ../../assets/products/andalous-dressing-area-carpet.webp
-  original: true
-  alt:
-    ar: موكيت بيج مقصوص بدقة على حواف خزائن غرفة الملابس
-    en: Beige carpet cut neatly to the wardrobe edges in the dressing area
+  - src: ../../assets/products/andalous-living-room-beige-carpet.webp
+    original: true
+    alt:
+      ar: صالة بجدار ستائر منحني في الأندلس مفروشة بموكيت بيج مخملي من الجدار للجدار
+      en: Living room with a curved curtain wall in Andalous fitted wall to wall with beige plush carpet
+  - src: ../../assets/products/andalous-hallway-beige-carpet.webp
+    original: true
+    alt:
+      ar: ممر مفروش بموكيت بيج يؤدي إلى الصالة
+      en: Hallway in beige carpet leading to the living room
+  - src: ../../assets/products/andalous-hallway-carpet-gold-trim.webp
+    original: true
+    alt:
+      ar: موكيت الممر البيج مع نهاية ذهبية معدنية عند البلاط
+      en: The beige hallway carpet with a gold metal trim at the tiles
+  - src: ../../assets/products/andalous-bedroom-wardrobe-carpet.webp
+    original: true
+    alt:
+      ar: غرفة نوم بخزائن خشبية وموكيت بيج يغطي الأرضية كاملة
+      en: Bedroom with wooden wardrobes and beige carpet covering the whole floor
+  - src: ../../assets/products/andalous-dressing-area-carpet.webp
+    original: true
+    alt:
+      ar: موكيت بيج مقصوص بدقة على حواف خزائن غرفة الملابس
+      en: Beige carpet cut neatly to the wardrobe edges in the dressing area
 latestWork:
   show: true
   area: andalous
@@ -59,12 +59,12 @@ ar:
   seoDescription: تركيب موكيت بيج مخملي من الجدار للجدار لصالة وممر وغرفة نوم في الأندلس، مقصوص على الجدار المنحني والخزائن. من 5 إلى 15 د.ك للمتر.
   reviewed: true
   faq:
-  - q: هل تقصون الموكيت على الجدران المنحنية والخزائن؟
-    a: 'نعم، نقص الموكيت على شكل المكان مهما كان: الجدران المنحنية، وحواف الخزائن المثبتة، والأعمدة، حتى يلتصق بالحواف دون فراغات.'
-  - q: كم يكلف فرش صالة وممر وغرفة؟
-    a: نجمع مساحات الأماكن بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر حسب السماكة والكثافة. نقيس مجانًا ونرسل السعر قبل البدء.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: هل تقصون الموكيت على الجدران المنحنية والخزائن؟
+      a: 'نعم، نقص الموكيت على شكل المكان مهما كان: الجدران المنحنية، وحواف الخزائن المثبتة، والأعمدة، حتى يلتصق بالحواف دون فراغات.'
+    - q: كم يكلف فرش صالة وممر وغرفة؟
+      a: نجمع مساحات الأماكن بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر حسب السماكة والكثافة. نقيس مجانًا ونرسل السعر قبل البدء.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Beige Plush Carpet for Living Room, Hallway and Bedroom
   directAnswer: 'Beige plush carpet we fitted wall to wall in a house in Andalous: a living room with a curved wall, a hallway, and a bedroom with a dressing area. It was cut precisely to the curve and the wardrobe edges, with a gold metal trim at the tiles. 5 to 15 KWD per m² depending on thickness and density, with free measuring.'
@@ -74,9 +74,9 @@ en:
   seoDescription: Beige plush wall-to-wall carpet fitted in a living room, hallway and bedroom in Andalous, Kuwait. 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much does it cost?
-    a: We add up the areas in square metres; carpet is 5 to 15 KWD per m². Measuring is free and we send the price before starting.
-  - q: Can you fit carpet around curved walls and wardrobes?
-    a: Yes. We cut the carpet to any shape, including curved walls and fitted wardrobes, so it meets the edges without gaps.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much does it cost?
+      a: We add up the areas in square metres; carpet is 5 to 15 KWD per m². Measuring is free and we send the price before starting.
+    - q: Can you fit carpet around curved walls and wardrobes?
+      a: Yes. We cut the carpet to any shape, including curved walls and fitted wardrobes, so it meets the edges without gaps.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

@@ -3,9 +3,9 @@ sku: SJ-OF-TWEED11
 status: published
 category: moquette
 places:
-- office
-- hotel
-- hallway
+  - office
+  - hotel
+  - hallway
 priceRange:
   min: 1.25
   max: 3
@@ -14,23 +14,23 @@ priceRange:
 specs:
   material: موكيت مكاتب خفيف بوبر حلقي ونسيج مزيج / Lightweight loop-pile office carpet with a blended tweed yarn
 colors:
-- 102 بيج / Beige
-- 111 عنابي مزيج / Burgundy blend
-- 108 أسود مزيج / Black blend
-- 104 رمادي فاتح / Light grey
-- 101 بيج فاتح / Light beige
-- 110 أخضر مزيج / Green blend
-- 109 كحلي مزيج / Navy blend
-- 107 بني مزيج / Brown blend
-- 103 بيج رملي / Sand beige
-- 106 بني وذهبي مزيج / Brown and gold blend
-- 105 رمادي مزيج / Grey blend
+  - 102 بيج / Beige
+  - 111 عنابي مزيج / Burgundy blend
+  - 108 أسود مزيج / Black blend
+  - 104 رمادي فاتح / Light grey
+  - 101 بيج فاتح / Light beige
+  - 110 أخضر مزيج / Green blend
+  - 109 كحلي مزيج / Navy blend
+  - 107 بني مزيج / Brown blend
+  - 103 بيج رملي / Sand beige
+  - 106 بني وذهبي مزيج / Brown and gold blend
+  - 105 رمادي مزيج / Grey blend
 images:
-- src: ../../assets/products/office-tweed-blend-carpet-swatches.webp
-  original: true
-  alt:
-    ar: لوحة عينات موكيت مكاتب تويد مزيج بأحد عشر لونًا مرقمًا منها البيج والرمادي والكحلي والأخضر والعنابي
-    en: Swatch board of blended tweed office carpet in eleven numbered colours including beige, grey, navy, green and burgundy
+  - src: ../../assets/products/office-tweed-blend-carpet-swatches.webp
+    original: true
+    alt:
+      ar: لوحة عينات موكيت مكاتب تويد مزيج بأحد عشر لونًا مرقمًا منها البيج والرمادي والكحلي والأخضر والعنابي
+      en: Swatch board of blended tweed office carpet in eleven numbered colours including beige, grey, navy, green and burgundy
 ar:
   name: موكيت مكاتب تويد مزيج بأحد عشر لونًا
   directAnswer: موكيت مكاتب خفيف بوبر حلقي وخيوط مزيجة من لونين أو أكثر، بأحد عشر لونًا مرقمًا من البيج والرمادي الفاتح إلى الكحلي والأخضر والعنابي والبني والأسود المزيج. الخيوط المزيجة تخفي الغبار والبقع الصغيرة. يُباع بالمتر المربع من 1.250 إلى 3 د.ك، ويُقص على مقاس المكتب ويُركّب.
@@ -40,14 +40,14 @@ ar:
   seoDescription: موكيت مكاتب خفيف تويد بخيوط مزيجة بأحد عشر لونًا للمكاتب وممرات الفنادق وقاعات الانتظار، من 1.250 إلى 3 د.ك للمتر المربع في الكويت.
   reviewed: true
   faq:
-  - q: كم سعر موكيت التويد للمكاتب؟
-    a: من 1.250 إلى 3 د.ك للمتر المربع. مكتب 100 م² يكلف بين 125 و300 د.ك قبل التركيب.
-  - q: لماذا التويد المزيج للمكاتب؟
-    a: لأن الخيوط بلونين أو أكثر تخفي الغبار والبقع الصغيرة وآثار المشي، فيبقى الموكيت نظيفًا في المظهر مدة أطول من الألوان السادة.
-  - q: هل تركّبونه خارج أوقات الدوام؟
-    a: نعم، نتفق معك على الموعد، ويمكن أن يكون خارج أوقات الدوام. أجرة التركيب منفصلة حسب المساحة والموقع.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر موكيت التويد للمكاتب؟
+      a: من 1.250 إلى 3 د.ك للمتر المربع. مكتب 100 م² يكلف بين 125 و300 د.ك قبل التركيب.
+    - q: لماذا التويد المزيج للمكاتب؟
+      a: لأن الخيوط بلونين أو أكثر تخفي الغبار والبقع الصغيرة وآثار المشي، فيبقى الموكيت نظيفًا في المظهر مدة أطول من الألوان السادة.
+    - q: هل تركّبونه خارج أوقات الدوام؟
+      a: نعم، نتفق معك على الموعد، ويمكن أن يكون خارج أوقات الدوام. أجرة التركيب منفصلة حسب المساحة والموقع.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Blended Tweed Office Carpet in Eleven Colours
   directAnswer: This is a lightweight loop-pile office carpet with yarn blended from two or more colours, in eleven numbered colours from beige and light grey to navy, green, burgundy, brown and black blends. The blended yarn hides dust and small marks. Sold by the m² at 1.250 to 3 KWD, cut to your office and installed.
@@ -57,9 +57,9 @@ en:
   seoDescription: Lightweight blended tweed office carpet in eleven colours for offices, hotel corridors and waiting areas, 1.250 to 3 KWD per m² in Kuwait.
   reviewed: true
   faq:
-  - q: How much is tweed office carpet?
-    a: 1.250 to 3 KWD per m². A 100 m² office costs about 125 to 300 KWD before installation.
-  - q: Why a blended tweed for offices?
-    a: Yarn in two or more colours hides dust, small marks and foot traffic, so the carpet looks clean longer than plain colours.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is tweed office carpet?
+      a: 1.250 to 3 KWD per m². A 100 m² office costs about 125 to 300 KWD before installation.
+    - q: Why a blended tweed for offices?
+      a: Yarn in two or more colours hides dust, small marks and foot traffic, so the carpet looks clean longer than plain colours.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

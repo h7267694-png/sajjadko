@@ -3,9 +3,9 @@ sku: SJ-BD-GREEKKEY
 status: published
 category: carpet
 places:
-- bedroom
-- living-room
-- majlis-diwaniya
+  - bedroom
+  - living-room
+  - majlis-diwaniya
 specs:
   material: سجاد بنقش المفتاح اليوناني البارز (وبر محفور بمستويين) / Carved two-level pile carpet with a Greek key relief pattern
 priceRange:
@@ -14,58 +14,58 @@ priceRange:
   unit: m2
   updated: '2026-10-10'
 colors:
-- رمادي فاتح / Light grey
-- بيج / Beige
-- كحلي / Navy
-- أزرق رمادي / Slate blue
-- جملي / Camel
-- وردي رمادي / Dusty pink
+  - رمادي فاتح / Light grey
+  - بيج / Beige
+  - كحلي / Navy
+  - أزرق رمادي / Slate blue
+  - جملي / Camel
+  - وردي رمادي / Dusty pink
 images:
-- src: ../../assets/products/bedroom-greek-key-villa-install.webp
-  original: true
-  alt:
-    ar: سجاد كريمي بنقش المفتاح اليوناني البارز مركّب من الجدار للجدار في غرفة فيلا مع نهاية ذهبية معدنية
-    en: Cream Greek key relief carpet fitted wall to wall in a villa room with a gold metal edge trim
-- src: ../../assets/products/bedroom-greek-key-villa-roll.webp
-  original: true
-  alt:
-    ar: أثناء تركيب سجاد المفتاح اليوناني الكريمي في فيلا ورول السجاد بجانب الجدار
-    en: Fitting cream Greek key carpet in a villa with the roll beside the wall
-- src: ../../assets/products/bedroom-greek-key-villa-close.webp
-  original: true
-  alt:
-    ar: قرب للسجاد بعد القص والتركيب ونهاية الحافة الذهبية عند الباب
-    en: Close view of the fitted carpet and the gold edge trim at the doorway
-- src: ../../assets/products/bedroom-greek-key-light-grey.webp
-  original: true
-  alt:
-    ar: عينة سجاد رمادي فاتح بنقش المفتاح اليوناني البارز
-    en: Light grey Greek key relief carpet sample
-- src: ../../assets/products/bedroom-greek-key-beige.webp
-  original: true
-  alt:
-    ar: عينة سجاد بيج بنقش المفتاح اليوناني البارز
-    en: Beige Greek key relief carpet sample
-- src: ../../assets/products/bedroom-greek-key-navy.webp
-  original: true
-  alt:
-    ar: عينة سجاد كحلي بنقش المفتاح اليوناني الأبيض
-    en: Navy Greek key relief carpet sample with a white pattern
-- src: ../../assets/products/bedroom-greek-key-blue.webp
-  original: true
-  alt:
-    ar: عينة سجاد أزرق رمادي بنقش المفتاح اليوناني
-    en: Slate blue Greek key relief carpet sample
-- src: ../../assets/products/bedroom-greek-key-camel.webp
-  original: true
-  alt:
-    ar: عينة سجاد جملي بنقش المفتاح اليوناني البارز
-    en: Camel Greek key relief carpet sample
-- src: ../../assets/products/bedroom-greek-key-taupe-pink.webp
-  original: true
-  alt:
-    ar: عينة سجاد وردي رمادي بنقش المفتاح اليوناني البارز
-    en: Dusty pink Greek key relief carpet sample
+  - src: ../../assets/products/bedroom-greek-key-villa-install.webp
+    original: true
+    alt:
+      ar: سجاد كريمي بنقش المفتاح اليوناني البارز مركّب من الجدار للجدار في غرفة فيلا مع نهاية ذهبية معدنية
+      en: Cream Greek key relief carpet fitted wall to wall in a villa room with a gold metal edge trim
+  - src: ../../assets/products/bedroom-greek-key-villa-roll.webp
+    original: true
+    alt:
+      ar: أثناء تركيب سجاد المفتاح اليوناني الكريمي في فيلا ورول السجاد بجانب الجدار
+      en: Fitting cream Greek key carpet in a villa with the roll beside the wall
+  - src: ../../assets/products/bedroom-greek-key-villa-close.webp
+    original: true
+    alt:
+      ar: قرب للسجاد بعد القص والتركيب ونهاية الحافة الذهبية عند الباب
+      en: Close view of the fitted carpet and the gold edge trim at the doorway
+  - src: ../../assets/products/bedroom-greek-key-light-grey.webp
+    original: true
+    alt:
+      ar: عينة سجاد رمادي فاتح بنقش المفتاح اليوناني البارز
+      en: Light grey Greek key relief carpet sample
+  - src: ../../assets/products/bedroom-greek-key-beige.webp
+    original: true
+    alt:
+      ar: عينة سجاد بيج بنقش المفتاح اليوناني البارز
+      en: Beige Greek key relief carpet sample
+  - src: ../../assets/products/bedroom-greek-key-navy.webp
+    original: true
+    alt:
+      ar: عينة سجاد كحلي بنقش المفتاح اليوناني الأبيض
+      en: Navy Greek key relief carpet sample with a white pattern
+  - src: ../../assets/products/bedroom-greek-key-blue.webp
+    original: true
+    alt:
+      ar: عينة سجاد أزرق رمادي بنقش المفتاح اليوناني
+      en: Slate blue Greek key relief carpet sample
+  - src: ../../assets/products/bedroom-greek-key-camel.webp
+    original: true
+    alt:
+      ar: عينة سجاد جملي بنقش المفتاح اليوناني البارز
+      en: Camel Greek key relief carpet sample
+  - src: ../../assets/products/bedroom-greek-key-taupe-pink.webp
+    original: true
+    alt:
+      ar: عينة سجاد وردي رمادي بنقش المفتاح اليوناني البارز
+      en: Dusty pink Greek key relief carpet sample
 ar:
   name: سجاد غرف نوم بنقش المفتاح اليوناني البارز
   directAnswer: 'سجاد بوبر محفور بمستويين يُظهر نقش المفتاح اليوناني بارزًا على السطح، بستة ألوان: رمادي فاتح وبيج وكحلي وأزرق رمادي وجملي ووردي رمادي. يُقص بالمتر ويُركّب من الجدار للجدار في غرف النوم والصالات، أو يُقص ويُحبك بمقاس زولية. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، والصور الأولى من تركيب نفّذناه في فيلا مع نهاية ذهبية معدنية.'
@@ -75,14 +75,14 @@ ar:
   seoDescription: سجاد غرف نوم بنقش المفتاح اليوناني البارز بستة ألوان، يُقص بالمتر ويُركّب من الجدار للجدار أو بمقاس زولية. من 5 إلى 15 د.ك للمتر.
   reviewed: true
   faq:
-  - q: هل يُركّب من الجدار للجدار أم يُباع زولية؟
-    a: الاثنان. نقصه بالمتر ونركّبه من الجدار للجدار، أو نقصه ونحبك أطرافه بالمقاس الذي تريده كزولية.
-  - q: كم سعر المتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس الغرفة واللون عبر واتساب ونرسل لك السعر.
-  - q: ما النهاية الذهبية في الصور؟
-    a: نهاية معدنية تُركّب عند حافة السجاد على الأبواب وحدود البلاط، تحمي الطرف من التقشر وتعطي حدًا مرتبًا.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: هل يُركّب من الجدار للجدار أم يُباع زولية؟
+      a: الاثنان. نقصه بالمتر ونركّبه من الجدار للجدار، أو نقصه ونحبك أطرافه بالمقاس الذي تريده كزولية.
+    - q: كم سعر المتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس الغرفة واللون عبر واتساب ونرسل لك السعر.
+    - q: ما النهاية الذهبية في الصور؟
+      a: نهاية معدنية تُركّب عند حافة السجاد على الأبواب وحدود البلاط، تحمي الطرف من التقشر وتعطي حدًا مرتبًا.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Greek Key Relief Bedroom Carpet
   directAnswer: 'A carved two-level pile carpet with a raised Greek key pattern, in six colours: light grey, beige, navy, slate blue, camel and dusty pink. It is cut by the metre and fitted wall to wall in bedrooms and living rooms, or cut and bound to a rug size. Price is 5 to 15 KWD per m² depending on thickness and density. The first photos are from a villa we fitted with a gold metal edge trim.'
@@ -92,12 +92,12 @@ en:
   seoDescription: Greek key relief carpet in six colours, cut by the metre and fitted wall to wall or bound as a rug. 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much is it?
-    a: 5 to 15 KWD per m² depending on thickness and density. Send your size on WhatsApp for an exact price.
-  - q: Is it fitted wall to wall or sold as a rug?
-    a: Both. We cut it by the metre and fit it wall to wall, or cut and bind it to the size you want.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it?
+      a: 5 to 15 KWD per m² depending on thickness and density. Send your size on WhatsApp for an exact price.
+    - q: Is it fitted wall to wall or sold as a rug?
+      a: Both. We cut it by the metre and fit it wall to wall, or cut and bind it to the size you want.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
 latestWork:
   show: true
   area: jahra
@@ -106,4 +106,4 @@ latestWork:
     ar: فرش غرف فيلا في الجهراء بسجاد كريمي بنقش المفتاح اليوناني البارز من الجدار للجدار، مع نهاية ذهبية معدنية عند الأبواب وحدود البلاط.
     en: Villa rooms in Jahra fitted wall to wall with cream Greek key relief carpet, with gold metal trims at doorways and tile edges.
 services:
-- carpet-installation
+  - carpet-installation

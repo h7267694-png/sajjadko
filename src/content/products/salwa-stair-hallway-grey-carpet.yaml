@@ -3,11 +3,11 @@ sku: SJ-WK-SALWA
 status: published
 category: moquette
 places:
-- stairs
-- hallway
+  - stairs
+  - hallway
 services:
-- carpet-installation
-- carpet-cutting
+  - carpet-installation
+  - carpet-cutting
 specs:
   material: موكيت مخملي بوبر مقصوص كثيف للدرج والممرات / Dense cut-pile plush carpet for stairs and hallways
 priceRange:
@@ -16,43 +16,43 @@ priceRange:
   unit: m2
   updated: '2026-10-11'
 colors:
-- رمادي / Grey
+  - رمادي / Grey
 images:
-- src: ../../assets/products/salwa-stair-carpet-top-view.webp
-  original: true
-  alt:
-    ar: سجاد درج رمادي مخملي مركّب على درج داخلي من دورين في سلوى
-    en: Grey plush stair carpet fitted on a two-flight indoor staircase in Salwa
-- src: ../../assets/products/salwa-stair-carpet-steps.webp
-  original: true
-  alt:
-    ar: درجات مكسوة بسجاد رمادي مقصوص على مقاس كل درجة مع ترك حافة الجرانيت ظاهرة
-    en: Steps covered in grey carpet cut to each tread, leaving the granite edge visible
-- src: ../../assets/products/salwa-stair-carpet-flight.webp
-  original: true
-  alt:
-    ar: سجاد الدرج الداخلي من أسفل السلم بعد التركيب
-    en: The indoor stair carpet seen from the foot of the stairs after fitting
-- src: ../../assets/products/salwa-landing-hallway-carpet.webp
-  original: true
-  alt:
-    ar: موكيت رمادي ممتد من بسطة الدرج إلى الممر بقطعة متصلة
-    en: Grey carpet running from the stair landing into the hallway in one piece
-- src: ../../assets/products/salwa-hallway-carpet-doors.webp
-  original: true
-  alt:
-    ar: ممر الدور العلوي مفروش بموكيت رمادي حتى أبواب الغرف
-    en: Upstairs hallway carpeted in grey up to the bedroom doors
-- src: ../../assets/products/salwa-hallway-carpet-doorway.webp
-  original: true
-  alt:
-    ar: الممر والبسطة بموكيت رمادي من مدخل الغرفة
-    en: The hallway and landing in grey carpet seen from a bedroom doorway
-- src: ../../assets/products/salwa-stairs-before-install.webp
-  original: true
-  alt:
-    ar: الدرج قبل التركيب مع البطانة الزرقاء على الدرجات
-    en: The stairs before fitting with blue underlay laid on the steps
+  - src: ../../assets/products/salwa-stair-carpet-top-view.webp
+    original: true
+    alt:
+      ar: سجاد درج رمادي مخملي مركّب على درج داخلي من دورين في سلوى
+      en: Grey plush stair carpet fitted on a two-flight indoor staircase in Salwa
+  - src: ../../assets/products/salwa-stair-carpet-steps.webp
+    original: true
+    alt:
+      ar: درجات مكسوة بسجاد رمادي مقصوص على مقاس كل درجة مع ترك حافة الجرانيت ظاهرة
+      en: Steps covered in grey carpet cut to each tread, leaving the granite edge visible
+  - src: ../../assets/products/salwa-stair-carpet-flight.webp
+    original: true
+    alt:
+      ar: سجاد الدرج الداخلي من أسفل السلم بعد التركيب
+      en: The indoor stair carpet seen from the foot of the stairs after fitting
+  - src: ../../assets/products/salwa-landing-hallway-carpet.webp
+    original: true
+    alt:
+      ar: موكيت رمادي ممتد من بسطة الدرج إلى الممر بقطعة متصلة
+      en: Grey carpet running from the stair landing into the hallway in one piece
+  - src: ../../assets/products/salwa-hallway-carpet-doors.webp
+    original: true
+    alt:
+      ar: ممر الدور العلوي مفروش بموكيت رمادي حتى أبواب الغرف
+      en: Upstairs hallway carpeted in grey up to the bedroom doors
+  - src: ../../assets/products/salwa-hallway-carpet-doorway.webp
+    original: true
+    alt:
+      ar: الممر والبسطة بموكيت رمادي من مدخل الغرفة
+      en: The hallway and landing in grey carpet seen from a bedroom doorway
+  - src: ../../assets/products/salwa-stairs-before-install.webp
+    original: true
+    alt:
+      ar: الدرج قبل التركيب مع البطانة الزرقاء على الدرجات
+      en: The stairs before fitting with blue underlay laid on the steps
 latestWork:
   show: true
   area: salwa
@@ -69,14 +69,14 @@ ar:
   seoDescription: سجاد درج داخلي وممرات رمادي مخملي، مقصوص على مقاس كل درجة ومركّب فوق بطانة في سلوى. من 5 إلى 15 د.ك للمتر، قياس مجاني.
   reviewed: true
   faq:
-  - q: كم تكلفة فرش الدرج بالسجاد؟
-    a: نحسب مساحة الدرجات والبسطة بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر حسب نوع السجاد. نقيس الدرج مجانًا ونرسل السعر قبل البدء.
-  - q: هل تقصون السجاد على مقاس كل درجة؟
-    a: نعم، نقص كل درجة على مقاسها ونثبّت السجاد فوق بطانة، ويمكن ترك حافة الرخام أو الجرانيت ظاهرة أو تغطيتها كاملة حسب رغبتك.
-  - q: هل تركّبون سجاد الدرج والممر معًا؟
-    a: نعم، نفرش الدرج والبسطة والممرات بنفس السجاد حتى يكون اللون متصلًا بين الأدوار.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم تكلفة فرش الدرج بالسجاد؟
+      a: نحسب مساحة الدرجات والبسطة بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر حسب نوع السجاد. نقيس الدرج مجانًا ونرسل السعر قبل البدء.
+    - q: هل تقصون السجاد على مقاس كل درجة؟
+      a: نعم، نقص كل درجة على مقاسها ونثبّت السجاد فوق بطانة، ويمكن ترك حافة الرخام أو الجرانيت ظاهرة أو تغطيتها كاملة حسب رغبتك.
+    - q: هل تركّبون سجاد الدرج والممر معًا؟
+      a: نعم، نفرش الدرج والبسطة والممرات بنفس السجاد حتى يكون اللون متصلًا بين الأدوار.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Grey Plush Stair and Hallway Carpet
   directAnswer: 'Grey plush carpet we fitted on an indoor staircase in Salwa: two flights, the landing and the upstairs hallway up to the bedroom doors. Each step is cut to size and fixed over underlay, leaving the granite side edge visible. 5 to 15 KWD per m² depending on thickness and density, with free measuring.'
@@ -86,9 +86,9 @@ en:
   seoDescription: Grey plush stair carpet and hallway carpet cut to each step and fitted over underlay in Salwa. 5 to 15 KWD per m², free measuring.
   reviewed: true
   faq:
-  - q: What does it cost to carpet stairs?
-    a: We measure the steps and landing in square metres; carpet is 5 to 15 KWD per m² depending on type. Measuring is free and we send the price before starting.
-  - q: Do you cut the carpet to each step?
-    a: Yes. Each step is cut to size and fixed over underlay; the stone edge can stay visible or be fully covered.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: What does it cost to carpet stairs?
+      a: We measure the steps and landing in square metres; carpet is 5 to 15 KWD per m² depending on type. Measuring is free and we send the price before starting.
+    - q: Do you cut the carpet to each step?
+      a: Yes. Each step is cut to size and fixed over underlay; the stone edge can stay visible or be fully covered.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

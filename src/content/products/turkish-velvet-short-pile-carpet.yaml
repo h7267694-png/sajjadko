@@ -3,9 +3,9 @@ sku: SJ-MJ-VELVET
 status: published
 category: moquette
 places:
-- majlis-diwaniya
-- living-room
-- bedroom
+  - majlis-diwaniya
+  - living-room
+  - bedroom
 specs:
   material: موكيت تركي بوبر قصير كثيف بملمس مخملي / Turkish dense short-pile velvet carpet
 priceRange:
@@ -14,30 +14,30 @@ priceRange:
   unit: m2
   updated: '2026-10-10'
 colors:
-- 07 كريمي / Cream
-- 11 بيج رملي / Sand beige
-- 04 بني زيتوني فاتح / Light olive brown
-- 06 رمادي بني / Taupe
-- 10 جملي ذهبي / Golden camel
-- 12 رمادي فاتح / Pale grey
-- 09 رمادي / Grey
-- 08 رمادي فحمي / Charcoal
+  - 07 كريمي / Cream
+  - 11 بيج رملي / Sand beige
+  - 04 بني زيتوني فاتح / Light olive brown
+  - 06 رمادي بني / Taupe
+  - 10 جملي ذهبي / Golden camel
+  - 12 رمادي فاتح / Pale grey
+  - 09 رمادي / Grey
+  - 08 رمادي فحمي / Charcoal
 images:
-- src: ../../assets/products/turkish-velvet-short-pile-swatches.webp
-  original: true
-  alt:
-    ar: لوحة عينات موكيت تركي مخملي قصير الوبر بثمانية ألوان من الكريمي إلى الفحمي
-    en: Swatch board of Turkish short-pile velvet carpet in eight colours from cream to charcoal
-- src: ../../assets/products/turkish-velvet-short-pile-swatches-angle.webp
-  original: true
-  alt:
-    ar: عينات الموكيت التركي المخملي من زاوية جانبية مع رول البطانة
-    en: Turkish velvet carpet swatches from an angle with the underlay roll
-- src: ../../assets/products/turkish-velvet-short-pile-close.webp
-  original: true
-  alt:
-    ar: قرب لملمس الموكيت التركي المخملي باللون الجملي
-    en: Close view of the Turkish velvet carpet texture in camel
+  - src: ../../assets/products/turkish-velvet-short-pile-swatches.webp
+    original: true
+    alt:
+      ar: لوحة عينات موكيت تركي مخملي قصير الوبر بثمانية ألوان من الكريمي إلى الفحمي
+      en: Swatch board of Turkish short-pile velvet carpet in eight colours from cream to charcoal
+  - src: ../../assets/products/turkish-velvet-short-pile-swatches-angle.webp
+    original: true
+    alt:
+      ar: عينات الموكيت التركي المخملي من زاوية جانبية مع رول البطانة
+      en: Turkish velvet carpet swatches from an angle with the underlay roll
+  - src: ../../assets/products/turkish-velvet-short-pile-close.webp
+    original: true
+    alt:
+      ar: قرب لملمس الموكيت التركي المخملي باللون الجملي
+      en: Close view of the Turkish velvet carpet texture in camel
 ar:
   name: موكيت تركي مخملي قصير الوبر بثمانية ألوان
   directAnswer: 'موكيت تركي الصنع بوبر قصير كثيف وملمس مخملي يعكس الضوء، بثمانية ألوان: كريمي وبيج رملي وبني زيتوني فاتح ورمادي بني وجملي ذهبي ورمادي فاتح ورمادي وفحمي. يُقص على مقاس المجلس ويُركّب من الجدار للجدار. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
@@ -47,12 +47,12 @@ ar:
   seoDescription: موكيت تركي مخملي قصير الوبر بثمانية ألوان للمجالس والديوانيات، يُقص ويُركّب. من 5 إلى 15 د.ك للمتر.
   reviewed: true
   faq:
-  - q: كم سعر المتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
-  - q: هل يمكن حفر نقشة في وسطه؟
-    a: نعم، نحفر النقشة يدويًا وندمجها في الموكيت بالألوان التي تختارها، والسعر حسب حجم النقشة.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر المتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
+    - q: هل يمكن حفر نقشة في وسطه؟
+      a: نعم، نحفر النقشة يدويًا وندمجها في الموكيت بالألوان التي تختارها، والسعر حسب حجم النقشة.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Turkish Short-Pile Velvet Carpet in Eight Colours
   directAnswer: A Turkish-made carpet with a dense short pile and a velvet sheen, in eight colours from cream and sand beige to grey and charcoal. Cut to the majlis and fitted wall to wall. 5 to 15 KWD per m² depending on thickness and density.
@@ -62,7 +62,7 @@ en:
   seoDescription: Turkish short-pile velvet carpet in eight colours for majlis and diwaniya. 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much is it per metre?
-    a: 5 to 15 KWD per m² depending on thickness and density.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it per metre?
+      a: 5 to 15 KWD per m² depending on thickness and density.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

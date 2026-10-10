@@ -3,9 +3,9 @@ sku: SJ-WK-JAHRA
 status: published
 category: moquette
 places:
-- bedroom
+  - bedroom
 services:
-- carpet-installation
+  - carpet-installation
 specs:
   material: موكيت مخملي بوبر مقصوص كثيف / Dense cut-pile plush wall-to-wall carpet
 priceRange:
@@ -14,23 +14,23 @@ priceRange:
   unit: m2
   updated: '2026-10-11'
 colors:
-- بيج / Beige
+  - بيج / Beige
 images:
-- src: ../../assets/products/jahra-bedroom-beige-carpet.webp
-  original: true
-  alt:
-    ar: غرفة نوم في الجهراء مفروشة بموكيت بيج مخملي من الجدار للجدار
-    en: Bedroom in Jahra fitted wall to wall with beige plush carpet
-- src: ../../assets/products/jahra-bedroom-beige-carpet-trim.webp
-  original: true
-  alt:
-    ar: موكيت غرفة النوم البيج مع نهاية ذهبية معدنية عند حد الرخام
-    en: The beige bedroom carpet with a gold metal trim at the marble edge
-- src: ../../assets/products/jahra-bedroom-beige-carpet-low.webp
-  original: true
-  alt:
-    ar: ملمس الموكيت البيج المخملي في غرفة النوم من مستوى الأرض
-    en: The beige plush texture in the bedroom from floor level
+  - src: ../../assets/products/jahra-bedroom-beige-carpet.webp
+    original: true
+    alt:
+      ar: غرفة نوم في الجهراء مفروشة بموكيت بيج مخملي من الجدار للجدار
+      en: Bedroom in Jahra fitted wall to wall with beige plush carpet
+  - src: ../../assets/products/jahra-bedroom-beige-carpet-trim.webp
+    original: true
+    alt:
+      ar: موكيت غرفة النوم البيج مع نهاية ذهبية معدنية عند حد الرخام
+      en: The beige bedroom carpet with a gold metal trim at the marble edge
+  - src: ../../assets/products/jahra-bedroom-beige-carpet-low.webp
+    original: true
+    alt:
+      ar: ملمس الموكيت البيج المخملي في غرفة النوم من مستوى الأرض
+      en: The beige plush texture in the bedroom from floor level
 latestWork:
   show: true
   area: jahra
@@ -47,12 +47,12 @@ ar:
   seoDescription: تركيب موكيت غرفة نوم بيج مخملي من الجدار للجدار في الجهراء مع نهاية ذهبية. من 5 إلى 15 د.ك للمتر وقياس مجاني.
   reviewed: true
   faq:
-  - q: كم سعر موكيت غرف النوم في الجهراء؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، والسعر نفسه في كل مناطق الكويت. نقيس مجانًا ونرسل السعر قبل البدء.
-  - q: ما فائدة النهاية الذهبية؟
-    a: تحمي طرف الموكيت عند التقائه بالرخام من التقشر وتعطي حدًا مستقيمًا مرتبًا.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر موكيت غرف النوم في الجهراء؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، والسعر نفسه في كل مناطق الكويت. نقيس مجانًا ونرسل السعر قبل البدء.
+    - q: ما فائدة النهاية الذهبية؟
+      a: تحمي طرف الموكيت عند التقائه بالرخام من التقشر وتعطي حدًا مستقيمًا مرتبًا.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Beige Plush Bedroom Carpet
   directAnswer: Beige plush carpet we fitted wall to wall in a bedroom in Jahra, with a gold metal trim at the marble edge. The plush pile catches the light with a soft sheen and suits gold curtains and dark wood. 5 to 15 KWD per m² depending on thickness and density, with free measuring.
@@ -62,7 +62,7 @@ en:
   seoDescription: Beige plush bedroom carpet fitted wall to wall in Jahra, Kuwait, with a gold trim. 5 to 15 KWD per m², free measuring.
   reviewed: true
   faq:
-  - q: How much is bedroom carpet?
-    a: 5 to 15 KWD per m² depending on thickness and density. Measuring is free.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is bedroom carpet?
+      a: 5 to 15 KWD per m² depending on thickness and density. Measuring is free.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

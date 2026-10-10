@@ -3,10 +3,10 @@ sku: SJ-PM-HERITAGE
 status: published
 category: carpet
 places:
-- living-room
-- majlis-diwaniya
-- hallway
-- bedroom
+  - living-room
+  - majlis-diwaniya
+  - hallway
+  - bedroom
 priceRange:
   min: 5
   max: 15
@@ -15,27 +15,27 @@ priceRange:
 specs:
   material: سجاد مشجر بالمتر بنقش بارز وأرضية منسوجة / Patterned carpet by the metre with a raised design on a woven ground
 colors:
-- أبيض مع أزرق فاتح ورمادي / White with light blue and grey
-- أسود وأبيض مع ذهبي / Black and white with gold
-- أبيض مع أزرق وعنابي وذهبي / White with blue, burgundy and gold
-- أسود ورمادي مع ذهبي / Black and grey with gold
-- رمادي وأبيض / Grey and white
+  - أبيض مع أزرق فاتح ورمادي / White with light blue and grey
+  - أسود وأبيض مع ذهبي / Black and white with gold
+  - أبيض مع أزرق وعنابي وذهبي / White with blue, burgundy and gold
+  - أسود ورمادي مع ذهبي / Black and grey with gold
+  - رمادي وأبيض / Grey and white
 images:
-- src: ../../assets/products/patterned-by-meter-heritage-rolls-1.webp
-  original: true
-  alt:
-    ar: رولات سجاد مشجر بالمتر بنقوش تراثية هندسية بالأزرق الفاتح والأسود والأبيض والعنابي والذهبي
-    en: Rolls of patterned carpet by the metre with heritage geometric designs in light blue, black, white, burgundy and gold
-- src: ../../assets/products/patterned-by-meter-heritage-rolls-2.webp
-  original: true
-  alt:
-    ar: رف رولات سجاد مشجر بنقوش تراثية هندسية متعددة الألوان في المحل
-    en: Shelf of patterned carpet rolls with multicoloured heritage geometric designs in the store
-- src: ../../assets/products/patterned-by-meter-heritage-closeup.webp
-  original: true
-  alt:
-    ar: لقطة قريبة لنقوش سجاد مشجر تراثية بارزة بالأزرق والرمادي والأسود
-    en: Close-up of raised heritage patterns in blue, grey and black
+  - src: ../../assets/products/patterned-by-meter-heritage-rolls-1.webp
+    original: true
+    alt:
+      ar: رولات سجاد مشجر بالمتر بنقوش تراثية هندسية بالأزرق الفاتح والأسود والأبيض والعنابي والذهبي
+      en: Rolls of patterned carpet by the metre with heritage geometric designs in light blue, black, white, burgundy and gold
+  - src: ../../assets/products/patterned-by-meter-heritage-rolls-2.webp
+    original: true
+    alt:
+      ar: رف رولات سجاد مشجر بنقوش تراثية هندسية متعددة الألوان في المحل
+      en: Shelf of patterned carpet rolls with multicoloured heritage geometric designs in the store
+  - src: ../../assets/products/patterned-by-meter-heritage-closeup.webp
+    original: true
+    alt:
+      ar: لقطة قريبة لنقوش سجاد مشجر تراثية بارزة بالأزرق والرمادي والأسود
+      en: Close-up of raised heritage patterns in blue, grey and black
 ar:
   name: سجاد مشجر بالمتر بنقوش تراثية هندسية
   directAnswer: 'سجاد مشجر بالمتر بنقوش تراثية هندسية بارزة على أرضية منسوجة: معيّنات ومثلثات ودوائر متكررة، بخمس مجموعات ألوان منها الأبيض مع الأزرق الفاتح، والأسود والأبيض مع الذهبي، والأبيض مع الأزرق والعنابي. يُقص من الرول على مقاس المكان أو كزولية، من 5 إلى 15 د.ك للمتر المربع.'
@@ -45,14 +45,14 @@ ar:
   seoDescription: سجاد مشجر بالمتر بنقوش تراثية هندسية بالأزرق والأسود والأبيض والذهبي للديوانيات والمجالس والممرات، من 5 إلى 15 د.ك للمتر المربع.
   reviewed: true
   faq:
-  - q: كم سعر السجاد المشجر التراثي بالمتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. ديوانية 6×10 م (60 م²) تكلف بين 300 و900 د.ك قبل التركيب.
-  - q: هل يُقص على مقاس غرفتي أو كزولية؟
-    a: نعم، يُقص بالمتر من الرول على مقاس الغرفة من الجدار إلى الجدار، أو قطعة بمقاس منطقة الجلسة تُستخدم زولية. نراجع المقاس معك قبل القص.
-  - q: هل يناسب الديوانيات؟
-    a: نعم، النقوش التراثية الهندسية تناسب الديوانيات والمجالس العربية، والأرضية المنسوجة متماسكة مع كثرة الجلوس.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر السجاد المشجر التراثي بالمتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. ديوانية 6×10 م (60 م²) تكلف بين 300 و900 د.ك قبل التركيب.
+    - q: هل يُقص على مقاس غرفتي أو كزولية؟
+      a: نعم، يُقص بالمتر من الرول على مقاس الغرفة من الجدار إلى الجدار، أو قطعة بمقاس منطقة الجلسة تُستخدم زولية. نراجع المقاس معك قبل القص.
+    - q: هل يناسب الديوانيات؟
+      a: نعم، النقوش التراثية الهندسية تناسب الديوانيات والمجالس العربية، والأرضية المنسوجة متماسكة مع كثرة الجلوس.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Patterned Carpet by the Metre with Heritage Geometric Designs
   directAnswer: 'This is a patterned carpet by the metre with raised heritage geometric designs on a woven ground: repeating diamonds, triangles and circles, in five colour sets including white with light blue, black and white with gold, and white with blue and burgundy. Cut from the roll to your space or as a rug, at 5 to 15 KWD per m².'
@@ -62,9 +62,9 @@ en:
   seoDescription: Patterned carpet by the metre with heritage geometric designs in blue, black, white and gold for diwaniyas, majlis and hallways, 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much is this carpet per m²?
-    a: 5 to 15 KWD per m². A 60 m² diwaniya costs about 300 to 900 KWD before installation.
-  - q: Can it be cut to my room or as a rug?
-    a: Yes. It is cut from the roll by the metre to fit the room wall to wall, or to the size of your seating area as a rug. We confirm measurements before cutting.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is this carpet per m²?
+      a: 5 to 15 KWD per m². A 60 m² diwaniya costs about 300 to 900 KWD before installation.
+    - q: Can it be cut to my room or as a rug?
+      a: Yes. It is cut from the roll by the metre to fit the room wall to wall, or to the size of your seating area as a rug. We confirm measurements before cutting.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

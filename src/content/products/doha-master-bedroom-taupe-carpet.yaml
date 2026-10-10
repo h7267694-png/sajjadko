@@ -3,9 +3,9 @@ sku: SJ-WK-DOHA
 status: published
 category: moquette
 places:
-- bedroom
+  - bedroom
 services:
-- carpet-installation
+  - carpet-installation
 specs:
   material: موكيت مخملي بوبر مقصوص كثيف / Dense cut-pile plush wall-to-wall carpet
 priceRange:
@@ -14,38 +14,38 @@ priceRange:
   unit: m2
   updated: '2026-10-11'
 colors:
-- رمادي بني فاتح / Light taupe
+  - رمادي بني فاتح / Light taupe
 images:
-- src: ../../assets/products/doha-master-bedroom-carpet.webp
-  original: true
-  alt:
-    ar: غرفة نوم ماستر في الدوحة مفروشة بموكيت رمادي بني مخملي من الجدار للجدار
-    en: Master bedroom in Doha fitted wall to wall with light taupe plush carpet
-- src: ../../assets/products/doha-bedroom-seating-corner-carpet.webp
-  original: true
-  alt:
-    ar: ركن الجلوس في غرفة النوم على موكيت مخملي بلون رمادي بني
-    en: The bedroom seating corner on light taupe plush carpet
-- src: ../../assets/products/doha-bedroom-carpet-full-room.webp
-  original: true
-  alt:
-    ar: موكيت غرفة النوم يغطي الأرضية كاملة من الستائر حتى السرير
-    en: The bedroom carpet covering the whole floor from the curtains to the bed
-- src: ../../assets/products/doha-bedroom-carpet-doorway.webp
-  original: true
-  alt:
-    ar: الموكيت عند باب غرفة النوم مع نهاية معدنية عند البلاط
-    en: The carpet at the bedroom door with a metal trim at the tiles
-- src: ../../assets/products/doha-bedroom-carpet-trim-close.webp
-  original: true
-  alt:
-    ar: قرب لملمس الموكيت المخملي والنهاية المعدنية عند حد الرخام
-    en: Close view of the plush texture and the metal trim at the marble edge
-- src: ../../assets/products/doha-bedroom-during-install.webp
-  original: true
-  alt:
-    ar: غرفة النوم أثناء التركيب ورول الموكيت على الرخام
-    en: The bedroom during fitting with the carpet roll on the marble
+  - src: ../../assets/products/doha-master-bedroom-carpet.webp
+    original: true
+    alt:
+      ar: غرفة نوم ماستر في الدوحة مفروشة بموكيت رمادي بني مخملي من الجدار للجدار
+      en: Master bedroom in Doha fitted wall to wall with light taupe plush carpet
+  - src: ../../assets/products/doha-bedroom-seating-corner-carpet.webp
+    original: true
+    alt:
+      ar: ركن الجلوس في غرفة النوم على موكيت مخملي بلون رمادي بني
+      en: The bedroom seating corner on light taupe plush carpet
+  - src: ../../assets/products/doha-bedroom-carpet-full-room.webp
+    original: true
+    alt:
+      ar: موكيت غرفة النوم يغطي الأرضية كاملة من الستائر حتى السرير
+      en: The bedroom carpet covering the whole floor from the curtains to the bed
+  - src: ../../assets/products/doha-bedroom-carpet-doorway.webp
+    original: true
+    alt:
+      ar: الموكيت عند باب غرفة النوم مع نهاية معدنية عند البلاط
+      en: The carpet at the bedroom door with a metal trim at the tiles
+  - src: ../../assets/products/doha-bedroom-carpet-trim-close.webp
+    original: true
+    alt:
+      ar: قرب لملمس الموكيت المخملي والنهاية المعدنية عند حد الرخام
+      en: Close view of the plush texture and the metal trim at the marble edge
+  - src: ../../assets/products/doha-bedroom-during-install.webp
+    original: true
+    alt:
+      ar: غرفة النوم أثناء التركيب ورول الموكيت على الرخام
+      en: The bedroom during fitting with the carpet roll on the marble
 latestWork:
   show: true
   area: doha
@@ -62,14 +62,14 @@ ar:
   seoDescription: تركيب موكيت غرفة نوم ماستر مخملي رمادي بني من الجدار للجدار في الدوحة مع نهاية معدنية. من 5 إلى 15 د.ك للمتر وقياس مجاني.
   reviewed: true
   faq:
-  - q: كم يكلف فرش غرفة نوم ماستر بالموكيت؟
-    a: نحسب مساحة الغرفة بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر. غرفة 6×5 م (30 م²) مثلًا بين 150 و450 د.ك قبل التركيب.
-  - q: هل تركّبون الموكيت والأثاث موجود في الغرفة؟
-    a: نعم، ننقل الأثاث داخل الغرفة أثناء العمل ونفرش جزءًا بعد جزء، والأفضل أن يكون السرير مفككًا كما في هذا العمل.
-  - q: ما أفضل موكيت لغرف النوم؟
-    a: الموكيت المخملي بوبر مقصوص كثيف هو الأكثر طلبًا لغرف النوم لأنه ناعم ودافئ ويخفف الصوت، والألوان المحايدة كالرمادي البني والبيج تناسب أغلب الأثاث.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم يكلف فرش غرفة نوم ماستر بالموكيت؟
+      a: نحسب مساحة الغرفة بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر. غرفة 6×5 م (30 م²) مثلًا بين 150 و450 د.ك قبل التركيب.
+    - q: هل تركّبون الموكيت والأثاث موجود في الغرفة؟
+      a: نعم، ننقل الأثاث داخل الغرفة أثناء العمل ونفرش جزءًا بعد جزء، والأفضل أن يكون السرير مفككًا كما في هذا العمل.
+    - q: ما أفضل موكيت لغرف النوم؟
+      a: الموكيت المخملي بوبر مقصوص كثيف هو الأكثر طلبًا لغرف النوم لأنه ناعم ودافئ ويخفف الصوت، والألوان المحايدة كالرمادي البني والبيج تناسب أغلب الأثاث.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Light Taupe Plush Master Bedroom Carpet
   directAnswer: Light taupe plush carpet we fitted wall to wall in a large master bedroom in Doha, covering the floor under the bed and seating corner, with a metal trim at the door and marble edge. 5 to 15 KWD per m² depending on thickness and density, with free measuring.
@@ -79,9 +79,9 @@ en:
   seoDescription: Light taupe plush master bedroom carpet fitted wall to wall in Doha, Kuwait, with a metal trim. 5 to 15 KWD per m², free measuring.
   reviewed: true
   faq:
-  - q: How much does it cost to carpet a master bedroom?
-    a: Carpet is 5 to 15 KWD per m². A 6×5 m bedroom (30 m²) is about 150 to 450 KWD before fitting.
-  - q: What is the best carpet for bedrooms?
-    a: 'Dense cut-pile plush is the most requested for bedrooms: soft, warm and quiet. Neutral shades like taupe and beige suit most furniture.'
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much does it cost to carpet a master bedroom?
+      a: Carpet is 5 to 15 KWD per m². A 6×5 m bedroom (30 m²) is about 150 to 450 KWD before fitting.
+    - q: What is the best carpet for bedrooms?
+      a: 'Dense cut-pile plush is the most requested for bedrooms: soft, warm and quiet. Neutral shades like taupe and beige suit most furniture.'
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

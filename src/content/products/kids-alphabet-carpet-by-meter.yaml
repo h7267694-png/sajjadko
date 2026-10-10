@@ -3,30 +3,30 @@ sku: SJ-KD-ABC
 status: published
 category: carpet
 places:
-- kids
-- bedroom
+  - kids
+  - bedroom
 specs:
   material: سجاد أطفال / Kids carpet
 colors:
-- متعدد الألوان / Multicolour
-- وردي وبيج / Pink and beige
-- رمادي وبيج / Grey and beige
+  - متعدد الألوان / Multicolour
+  - وردي وبيج / Pink and beige
+  - رمادي وبيج / Grey and beige
 images:
-- src: ../../assets/products/kids-alphabet-by-meter-multicolour.webp
-  original: true
-  alt:
-    ar: سجاد أطفال بالمتر بمربعات ملونة وحروف إنجليزية بالأزرق والأحمر والأخضر والأصفر
-    en: Kids carpet by the metre with colourful squares and English letters
-- src: ../../assets/products/kids-alphabet-by-meter-pink.webp
-  original: true
-  alt:
-    ar: سجاد أطفال بالمتر بالحروف الإنجليزية بدرجات الوردي والبيج
-    en: Kids alphabet carpet by the metre in pink and beige
-- src: ../../assets/products/kids-alphabet-by-meter-grey.webp
-  original: true
-  alt:
-    ar: سجاد أطفال بالمتر بالحروف الإنجليزية بالرمادي والبيج مع نقاط ملونة
-    en: Kids alphabet carpet by the metre in grey and beige with coloured dots
+  - src: ../../assets/products/kids-alphabet-by-meter-multicolour.webp
+    original: true
+    alt:
+      ar: سجاد أطفال بالمتر بمربعات ملونة وحروف إنجليزية بالأزرق والأحمر والأخضر والأصفر
+      en: Kids carpet by the metre with colourful squares and English letters
+  - src: ../../assets/products/kids-alphabet-by-meter-pink.webp
+    original: true
+    alt:
+      ar: سجاد أطفال بالمتر بالحروف الإنجليزية بدرجات الوردي والبيج
+      en: Kids alphabet carpet by the metre in pink and beige
+  - src: ../../assets/products/kids-alphabet-by-meter-grey.webp
+    original: true
+    alt:
+      ar: سجاد أطفال بالمتر بالحروف الإنجليزية بالرمادي والبيج مع نقاط ملونة
+      en: Kids alphabet carpet by the metre in grey and beige with coloured dots
 ar:
   name: سجاد أطفال بالمتر بنقش الحروف الإنجليزية بثلاثة ألوان
   directAnswer: 'سجاد أطفال يُباع بالمتر بنقش مربعات تحمل الحروف الإنجليزية، تفصل بينها نقاط ملونة، بثلاث مجموعات ألوان: متعدد الألوان، والوردي مع البيج، والرمادي مع البيج. يُقص على مقاس غرفة الأطفال أو الحضانة أو غرفة اللعب. السعر حسب المساحة، ونؤكده عبر واتساب.'
@@ -36,12 +36,12 @@ ar:
   seoDescription: سجاد أطفال بالمتر بنقش الحروف الإنجليزية بثلاثة ألوان لغرف الأطفال والحضانات وغرف اللعب، يُقص على المقاس في الكويت.
   reviewed: true
   faq:
-  - q: كم سعره؟
-    a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
-  - q: هل يناسب الحضانات وغرف اللعب في المدارس؟
-    a: نعم، يُباع بالمتر ويُقص على مقاس القاعة كاملة، ونقش الحروف مناسب لأماكن تعليم الأطفال.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعره؟
+      a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
+    - q: هل يناسب الحضانات وغرف اللعب في المدارس؟
+      a: نعم، يُباع بالمتر ويُقص على مقاس القاعة كاملة، ونقش الحروف مناسب لأماكن تعليم الأطفال.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Kids Alphabet Carpet by the Metre in Three Colours
   directAnswer: 'This is kids carpet sold by the metre with squares carrying English letters separated by coloured dots, in three colour sets: multicolour, pink with beige, and grey with beige. It is cut to fit a kids room, nursery or playroom. Priced by area, confirmed on WhatsApp.'
@@ -51,7 +51,7 @@ en:
   seoDescription: Kids alphabet carpet by the metre in three colours for kids rooms, nurseries and playrooms, cut to size in Kuwait.
   reviewed: true
   faq:
-  - q: How much is it?
-    a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it?
+      a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

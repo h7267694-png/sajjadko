@@ -3,8 +3,8 @@ sku: SJ-BD-PLUSH
 status: published
 category: moquette
 places:
-- bedroom
-- living-room
+  - bedroom
+  - living-room
 specs:
   material: موكيت سادة مخملي بوبر مقصوص ناعم / Plain soft cut-pile plush wall-to-wall carpet
 priceRange:
@@ -13,35 +13,35 @@ priceRange:
   unit: m2
   updated: '2026-10-10'
 colors:
-- رمادي فاتح / Light grey
-- رمادي داكن / Charcoal grey
-- بيج / Beige
+  - رمادي فاتح / Light grey
+  - رمادي داكن / Charcoal grey
+  - بيج / Beige
 images:
-- src: ../../assets/products/bedroom-plush-light-grey-styled.webp
-  original: true
-  alt:
-    ar: موكيت سادة مخملي رمادي فاتح في غرفة نوم
-    en: Light grey plain plush carpet in a bedroom
-- src: ../../assets/products/bedroom-plush-light-grey-room.webp
-  original: true
-  alt:
-    ar: غرفة مفروشة بموكيت رمادي فاتح من الجدار للجدار
-    en: Room fitted wall to wall with light grey plush carpet
-- src: ../../assets/products/bedroom-plush-dark-grey-room.webp
-  original: true
-  alt:
-    ar: موكيت رمادي داكن مخملي مركّب في غرفة نوم فارغة
-    en: Charcoal plush carpet fitted in an empty bedroom
-- src: ../../assets/products/bedroom-plush-dark-grey-small-room.webp
-  original: true
-  alt:
-    ar: موكيت رمادي داكن مقصوص على مقاس غرفة صغيرة
-    en: Charcoal plush carpet cut to fit a small room
-- src: ../../assets/products/bedroom-plush-beige-room.webp
-  original: true
-  alt:
-    ar: موكيت بيج مخملي في غرفة نوم بخزانة مرايا
-    en: Beige plush carpet in a bedroom with a mirrored wardrobe
+  - src: ../../assets/products/bedroom-plush-light-grey-styled.webp
+    original: true
+    alt:
+      ar: موكيت سادة مخملي رمادي فاتح في غرفة نوم
+      en: Light grey plain plush carpet in a bedroom
+  - src: ../../assets/products/bedroom-plush-light-grey-room.webp
+    original: true
+    alt:
+      ar: غرفة مفروشة بموكيت رمادي فاتح من الجدار للجدار
+      en: Room fitted wall to wall with light grey plush carpet
+  - src: ../../assets/products/bedroom-plush-dark-grey-room.webp
+    original: true
+    alt:
+      ar: موكيت رمادي داكن مخملي مركّب في غرفة نوم فارغة
+      en: Charcoal plush carpet fitted in an empty bedroom
+  - src: ../../assets/products/bedroom-plush-dark-grey-small-room.webp
+    original: true
+    alt:
+      ar: موكيت رمادي داكن مقصوص على مقاس غرفة صغيرة
+      en: Charcoal plush carpet cut to fit a small room
+  - src: ../../assets/products/bedroom-plush-beige-room.webp
+    original: true
+    alt:
+      ar: موكيت بيج مخملي في غرفة نوم بخزانة مرايا
+      en: Beige plush carpet in a bedroom with a mirrored wardrobe
 ar:
   name: موكيت غرف نوم سادة مخملي بالرمادي والبيج
   directAnswer: موكيت سادة بوبر مقصوص ناعم وملمس مخملي، بالرمادي الفاتح والرمادي الداكن والبيج. يُقص على مقاس الغرفة ويُركّب من الجدار للجدار، فيعطي غرفة النوم أرضية دافئة وهادئة. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
@@ -51,10 +51,10 @@ ar:
   seoDescription: موكيت غرف نوم سادة مخملي بالرمادي والبيج، يُقص على مقاس الغرفة ويُركّب من الجدار للجدار. من 5 إلى 15 د.ك للمتر المربع.
   reviewed: true
   faq:
-  - q: كم أحتاج موكيت لغرفة نوم 4×4؟
-    a: مساحة الغرفة 16 م²، ونضيف هامشًا بسيطًا للقص حسب عرض الرول. نقيس الغرفة في الزيارة المجانية ونحسب الكمية بدقة.
-  - q: كم سعر المتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
+    - q: كم أحتاج موكيت لغرفة نوم 4×4؟
+      a: مساحة الغرفة 16 م²، ونضيف هامشًا بسيطًا للقص حسب عرض الرول. نقيس الغرفة في الزيارة المجانية ونحسب الكمية بدقة.
+    - q: كم سعر المتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
 en:
   name: Plain Plush Bedroom Carpet in Grey and Beige
   directAnswer: A plain soft cut-pile plush carpet in light grey, charcoal grey and beige. It is cut to the room and fitted wall to wall for a warm, quiet bedroom floor. Price is 5 to 15 KWD per m² depending on thickness and density.
@@ -64,7 +64,7 @@ en:
   seoDescription: Plain plush bedroom carpet in grey and beige, cut to size and fitted wall to wall. 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much is it per metre?
-    a: 5 to 15 KWD per m² depending on thickness and density.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it per metre?
+      a: 5 to 15 KWD per m² depending on thickness and density.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

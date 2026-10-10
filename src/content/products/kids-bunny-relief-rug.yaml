@@ -3,18 +3,18 @@ sku: SJ-KD-BUNNY
 status: published
 category: zawali
 places:
-- kids
-- bedroom
+  - kids
+  - bedroom
 specs:
   material: سجاد أطفال / Kids carpet
 colors:
-- أبيض مع رمادي ووردي / White with grey and pink
+  - أبيض مع رمادي ووردي / White with grey and pink
 images:
-- src: ../../assets/products/kids-bunny-relief-rug.webp
-  original: true
-  alt:
-    ar: زولية أطفال بنقش أرنب بارز ونقاط ملونة بالأبيض والرمادي والوردي في المحل
-    en: Kids rug with a raised bunny design and coloured dots in white, grey and pink in the store
+  - src: ../../assets/products/kids-bunny-relief-rug.webp
+    original: true
+    alt:
+      ar: زولية أطفال بنقش أرنب بارز ونقاط ملونة بالأبيض والرمادي والوردي في المحل
+      en: Kids rug with a raised bunny design and coloured dots in white, grey and pink in the store
 ar:
   name: زولية أطفال بنقش أرنب بارز
   directAnswer: زولية أطفال جاهزة بوبر ناعم ونقش أرنب كبير بارز بالرمادي والوردي على أرضية بيضاء، تحيط به نقاط ملونة. النقش محفور بارتفاعين للوبر فيُلمس باليد. تناسب غرف الأطفال وغرف البنات. السعر حسب المقاس، ونؤكده عبر واتساب.
@@ -24,12 +24,12 @@ ar:
   seoDescription: زولية أطفال جاهزة بوبر ناعم ونقش أرنب بارز بالرمادي والوردي على الأبيض لغرف الأطفال. السعر حسب المقاس عبر واتساب.
   reviewed: true
   faq:
-  - q: كم سعره؟
-    a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
-  - q: هل يمكن رؤيتها في المحل؟
-    a: نعم، هذه الزولية معروضة في محلنا بالضجيج، ويمكن رؤيتها قبل الشراء.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعره؟
+      a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب، ونؤكد لك المتوفر والسعر.
+    - q: هل يمكن رؤيتها في المحل؟
+      a: نعم، هذه الزولية معروضة في محلنا بالضجيج، ويمكن رؤيتها قبل الشراء.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Kids Rug with a Raised Bunny Design
   directAnswer: This is a ready-made kids rug with a soft pile and a large raised bunny in grey and pink on white, surrounded by coloured dots. The design is carved in two pile heights, so it can be felt by hand. It suits kids and girls rooms. Priced by size, confirmed on WhatsApp.
@@ -39,7 +39,7 @@ en:
   seoDescription: Ready-made soft kids rug with a raised bunny in grey and pink on white for kids rooms. Priced by size on WhatsApp.
   reviewed: true
   faq:
-  - q: How much is it?
-    a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it?
+      a: Priced by size. Send the size you need on WhatsApp and we confirm stock and price.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

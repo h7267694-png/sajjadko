@@ -3,20 +3,20 @@ sku: SJ-MJ-CRVGREY
 status: published
 category: moquette
 places:
-- majlis-diwaniya
+  - majlis-diwaniya
 services:
-- hand-carving
-- carpet-installation
+  - hand-carving
+  - carpet-installation
 specs:
   material: موكيت مجالس بحفر يدوي ونقشة ملونة مدمجة / Majlis wall-to-wall carpet with a hand-carved inlaid design
 colors:
-- رمادي فضي مع أسود وأبيض / Silver grey with black and white
+  - رمادي فضي مع أسود وأبيض / Silver grey with black and white
 images:
-- src: ../../assets/products/majlis-carved-grey-black-medallion.webp
-  original: true
-  alt:
-    ar: ديوانية واسعة بموكيت رمادي فضي تتوسطه زخرفة سوداء بإطار أبيض محفورة يدويًا
-    en: Large diwaniya with silver grey carpet and a hand-carved black medallion with a white outline
+  - src: ../../assets/products/majlis-carved-grey-black-medallion.webp
+    original: true
+    alt:
+      ar: ديوانية واسعة بموكيت رمادي فضي تتوسطه زخرفة سوداء بإطار أبيض محفورة يدويًا
+      en: Large diwaniya with silver grey carpet and a hand-carved black medallion with a white outline
 ar:
   name: موكيت ديوانية رمادي بزخرفة سوداء محفورة في الوسط
   directAnswer: موكيت رمادي فضي مخملي مركّب من الجدار للجدار في ديوانية واسعة، تتوسطه زخرفة طولية سوداء بإطار أبيض محفورة يدويًا. التباين بين الأسود والرمادي يُبرز النقشة في القاعات الكبيرة. من أعمالنا في الحفر اليدوي، والسعر حسب المساحة وحجم النقشة.
@@ -26,12 +26,12 @@ ar:
   seoDescription: موكيت ديوانيات رمادي فضي بزخرفة سوداء محفورة يدويًا في الوسط، من أعمالنا في الكويت. السعر حسب المساحة.
   reviewed: true
   faq:
-  - q: هل أستطيع اختيار نقشة أخرى أو لونًا آخر؟
-    a: نعم. ترسل صورة النقشة أو فكرتها مع مقاس المجلس عبر واتساب، ونؤكد معك الألوان والمقاس والسعر قبل البدء.
-  - q: كم سعره؟
-    a: السعر حسب مساحة المجلس وحجم النقشة وعدد ألوانها. نزورك مجانًا للقياس وعرض العينات، ثم نرسل السعر.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: هل أستطيع اختيار نقشة أخرى أو لونًا آخر؟
+      a: نعم. ترسل صورة النقشة أو فكرتها مع مقاس المجلس عبر واتساب، ونؤكد معك الألوان والمقاس والسعر قبل البدء.
+    - q: كم سعره؟
+      a: السعر حسب مساحة المجلس وحجم النقشة وعدد ألوانها. نزورك مجانًا للقياس وعرض العينات، ثم نرسل السعر.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Grey Diwaniya Carpet with a Carved Black Medallion
   directAnswer: Silver grey plush carpet fitted wall to wall in a large diwaniya, with a long black medallion outlined in white and hand-carved in the centre. One of our hand-carving jobs; priced by area and design size.
@@ -41,10 +41,10 @@ en:
   seoDescription: Silver grey diwaniya carpet with a hand-carved black centre medallion.
   reviewed: true
   faq:
-  - q: Can I choose another design or colour?
-    a: Yes. Send the design and your majlis size on WhatsApp and we confirm colours, size and price before starting.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: Can I choose another design or colour?
+      a: Yes. Send the design and your majlis size on WhatsApp and we confirm colours, size and price before starting.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
 latestWork:
   show: true
   area: jahra

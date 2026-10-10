@@ -3,9 +3,9 @@ sku: SJ-CP-CURVE
 status: published
 category: carpet
 places:
-- living-room
-- majlis-diwaniya
-- bedroom
+  - living-room
+  - majlis-diwaniya
+  - bedroom
 specs:
   material: سجاد مشجر بنقش بارز محفور / Patterned carpet with a raised carved design
 priceRange:
@@ -14,20 +14,20 @@ priceRange:
   unit: m2
   updated: 2026-10-10
 colors:
-- بني رمادي / Taupe
-- ذهبي زيتي / Olive gold
-- رمادي / Grey
-- رمادي فاتح / Light grey
-- أبيض / White
-- كريمي / Cream
-- بيج / Beige
-- فحمي / Charcoal
+  - بني رمادي / Taupe
+  - ذهبي زيتي / Olive gold
+  - رمادي / Grey
+  - رمادي فاتح / Light grey
+  - أبيض / White
+  - كريمي / Cream
+  - بيج / Beige
+  - فحمي / Charcoal
 images:
-- src: ../../assets/products/patterned-carpet-curved-lines-swatches.webp
-  original: true
-  alt:
-    ar: عينات سجاد مشجر بنقش خطوط منحنية بارزة بثمانية ألوان من الفحمي إلى الأبيض
-    en: Patterned carpet samples with raised curved lines in eight colours from charcoal to white
+  - src: ../../assets/products/patterned-carpet-curved-lines-swatches.webp
+    original: true
+    alt:
+      ar: عينات سجاد مشجر بنقش خطوط منحنية بارزة بثمانية ألوان من الفحمي إلى الأبيض
+      en: Patterned carpet samples with raised curved lines in eight colours from charcoal to white
 ar:
   name: سجاد مشجر بنقش خطوط منحنية بثمانية ألوان
   directAnswer: سجاد مشجر بنقش خطوط منحنية متقاطعة، بثمانية ألوان من الفحمي والرمادي إلى البيج والكريمي والأبيض، بأرضية ناعمة ونقش بارز محفور. يناسب الصالات والمجالس وغرف النوم. يُباع بالمتر المربع ويُقص على مقاس المكان أو زولية بالمقاس الذي تريده، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.
@@ -37,14 +37,14 @@ ar:
   seoDescription: سجاد مشجر بنقش خطوط منحنية بارزة بثمانية ألوان للصالات والمجالس وغرف النوم، بالمتر أو زولية بالمقاس، من 5 إلى 15 د.ك للمتر المربع.
   reviewed: true
   faq:
-  - q: كم سعر هذا السجاد المشجر بالمتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. غرفة 4×5 م (20 م²) تكلف بين 100 و300 د.ك قبل التركيب. ونؤكد السعر النهائي عبر واتساب.
-  - q: هل يُقص على مقاس غرفتي أو كزولية؟
-    a: نعم، يُقص بالمتر على مقاس الغرفة من الجدار إلى الجدار، أو قطعة بمقاس منطقة الجلسة تُستخدم زولية. نراجع المقاس معك قبل القص.
-  - q: كم لونًا متوفرًا؟
-    a: 'ثمانية ألوان: الفحمي والرمادي والرمادي الفاتح والبني الرمادي والذهبي الزيتي والبيج والكريمي والأبيض. أرسل اللون عبر واتساب لنؤكد المتوفر.'
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر هذا السجاد المشجر بالمتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. غرفة 4×5 م (20 م²) تكلف بين 100 و300 د.ك قبل التركيب. ونؤكد السعر النهائي عبر واتساب.
+    - q: هل يُقص على مقاس غرفتي أو كزولية؟
+      a: نعم، يُقص بالمتر على مقاس الغرفة من الجدار إلى الجدار، أو قطعة بمقاس منطقة الجلسة تُستخدم زولية. نراجع المقاس معك قبل القص.
+    - q: كم لونًا متوفرًا؟
+      a: 'ثمانية ألوان: الفحمي والرمادي والرمادي الفاتح والبني الرمادي والذهبي الزيتي والبيج والكريمي والأبيض. أرسل اللون عبر واتساب لنؤكد المتوفر.'
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Patterned Carpet with Curved Lines in Eight Colours
   directAnswer: This is a patterned carpet with crossing curved lines, in eight colours from charcoal and grey to beige, cream and white, with a soft ground and a raised carved design. It suits living rooms, majlis rooms and bedrooms. Sold by the m² and cut to your room, or made as a rug to the size you want, at 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness, pile pressure and density.
@@ -54,11 +54,11 @@ en:
   seoDescription: Patterned carpet with raised curved lines in eight colours for living rooms, majlis and bedrooms, by the m² or as a rug, 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much is this patterned carpet per m²?
-    a: 5 to 15 KWD per m² depending on thickness, pile pressure and density. A 4 × 5 m (20 m²) room costs about 100 to 300 KWD before installation.
-  - q: Can it be cut to my room or made as a rug?
-    a: Yes. It is cut by the metre to fit the room wall to wall, or cut to the size of your seating area as a rug. We confirm measurements with you before cutting.
-  - q: How many colours are there?
-    a: 'Eight: charcoal, grey, light grey, taupe, olive gold, beige, cream and white. Send your colour on WhatsApp to confirm stock.'
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is this patterned carpet per m²?
+      a: 5 to 15 KWD per m² depending on thickness, pile pressure and density. A 4 × 5 m (20 m²) room costs about 100 to 300 KWD before installation.
+    - q: Can it be cut to my room or made as a rug?
+      a: Yes. It is cut by the metre to fit the room wall to wall, or cut to the size of your seating area as a rug. We confirm measurements with you before cutting.
+    - q: How many colours are there?
+      a: 'Eight: charcoal, grey, light grey, taupe, olive gold, beige, cream and white. Send your colour on WhatsApp to confirm stock.'
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

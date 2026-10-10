@@ -125,3 +125,10 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - All source images in `src/assets/products/` and `src/assets/sections/` are WebP q80, max 1600px (same as admin uploads; client 2026-10-10). Section icons are `sections/<translationKey>.webp`, 600×600. New photos must be saved the same way.
 - Real jobs (client, 2026-10-10): one product per job with `latestWork` (area required) and `places` for every section it covers (e.g. hallway + bedroom), `services: [carpet-installation]`; the installation page lists them.
 - Every product carries full Arabic and English copy (name, direct answer, usage, care, SEO title/description, FAQ with a price and a free-visit question). Job products name the area in the SEO title and target «سجاد + place» keywords from plan sections 2.1 and 22.
+
+## Step 49 (home aisles, speed)
+
+- Home products are category aisles (`HomeStore.astro`): a section sign (brand navy, section photo, count, page link) plus two products; `[data-aisle-more]` reveals the rest (`ProductCard extra` → `hidden`, lazy images not fetched until shown). Jobs first. No filter chips.
+- Keep store images lazy + `fetchpriority=low`: eager section tiles delayed the text LCP (1.4 → 1.9 s). Inlining CSS broke the 40KB HTML budget; not used.
+- Unused AstroWind widgets were deleted (CSS 131 → 86KB). Do not re-add template widgets that are not used.
+- Header sticky state uses an IntersectionObserver sentinel, never `scrollY` reads (forced reflow).

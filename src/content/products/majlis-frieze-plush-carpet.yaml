@@ -3,9 +3,9 @@ sku: SJ-MJ-FRIEZE
 status: published
 category: moquette
 places:
-- majlis-diwaniya
-- living-room
-- bedroom
+  - majlis-diwaniya
+  - living-room
+  - bedroom
 specs:
   material: موكيت بوبر مقصوص كثيف ملتف (فريز) / Dense twisted cut-pile (frieze) carpet
 priceRange:
@@ -14,23 +14,23 @@ priceRange:
   unit: m2
   updated: '2026-10-10'
 colors:
-- 240 أصفر زيتي فاتح / Light olive yellow
-- 640 بيج / Beige
-- 910 رمادي فاتح / Light grey
-- 920 أزرق رمادي / Slate blue
-- 940 رمادي / Grey
-- 780 بني رمادي / Taupe
+  - 240 أصفر زيتي فاتح / Light olive yellow
+  - 640 بيج / Beige
+  - 910 رمادي فاتح / Light grey
+  - 920 أزرق رمادي / Slate blue
+  - 940 رمادي / Grey
+  - 780 بني رمادي / Taupe
 images:
-- src: ../../assets/products/majlis-frieze-plush-swatches.webp
-  original: true
-  alt:
-    ar: لوحة عينات موكيت مجالس بوبر كثيف ملتف بستة ألوان من البيج والرمادي والأزرق الرمادي
-    en: Swatch board of twisted frieze majlis carpet in six beige, grey and slate blue shades
-- src: ../../assets/products/majlis-frieze-plush-swatches-angle.webp
-  original: true
-  alt:
-    ar: عينات موكيت المجالس كثيف الوبر من زاوية جانبية تُظهر ارتفاع الوبر
-    en: Frieze carpet swatches from an angle showing the pile height
+  - src: ../../assets/products/majlis-frieze-plush-swatches.webp
+    original: true
+    alt:
+      ar: لوحة عينات موكيت مجالس بوبر كثيف ملتف بستة ألوان من البيج والرمادي والأزرق الرمادي
+      en: Swatch board of twisted frieze majlis carpet in six beige, grey and slate blue shades
+  - src: ../../assets/products/majlis-frieze-plush-swatches-angle.webp
+    original: true
+    alt:
+      ar: عينات موكيت المجالس كثيف الوبر من زاوية جانبية تُظهر ارتفاع الوبر
+      en: Frieze carpet swatches from an angle showing the pile height
 ar:
   name: موكيت مجالس بوبر كثيف ملتف بستة ألوان
   directAnswer: 'موكيت بوبر كثيف ملتف يعطي سطحًا محببًا ناعمًا تحت القدم، بستة ألوان: أصفر زيتي فاتح وبيج ورمادي فاتح وأزرق رمادي ورمادي وبني رمادي. يُقص على مقاس المجلس أو الديوانية ويُركّب من الجدار للجدار. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
@@ -40,12 +40,12 @@ ar:
   seoDescription: موكيت مجالس وديوانيات بوبر كثيف ملتف بستة ألوان، يُقص ويُركّب من الجدار للجدار. من 5 إلى 15 د.ك للمتر.
   reviewed: true
   faq:
-  - q: كم سعر المتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
-  - q: هل يمكن حفر نقشة في وسطه؟
-    a: نعم، نحفر النقشة يدويًا وندمجها في الموكيت بالألوان التي تختارها، والسعر حسب حجم النقشة.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر المتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
+    - q: هل يمكن حفر نقشة في وسطه؟
+      a: نعم، نحفر النقشة يدويًا وندمجها في الموكيت بالألوان التي تختارها، والسعر حسب حجم النقشة.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Frieze Majlis Carpet in Six Colours
   directAnswer: 'A dense twisted frieze pile with a soft textured surface, in six colours: light olive yellow, beige, light grey, slate blue, grey and taupe. Cut to the majlis or diwaniya and fitted wall to wall. 5 to 15 KWD per m² depending on thickness and density.'
@@ -55,7 +55,7 @@ en:
   seoDescription: Dense twisted frieze carpet in six colours for majlis and diwaniya, fitted wall to wall. 5 to 15 KWD per m².
   reviewed: true
   faq:
-  - q: How much is it per metre?
-    a: 5 to 15 KWD per m² depending on thickness and density.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it per metre?
+      a: 5 to 15 KWD per m² depending on thickness and density.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

@@ -3,18 +3,18 @@ sku: SJ-BD-FLORAL
 status: published
 category: zawali
 places:
-- bedroom
-- majlis-diwaniya
+  - bedroom
+  - majlis-diwaniya
 specs:
   material: زولية غرفة نوم / Bedroom rug
 colors:
-- عاجي مع ذهبي وأزرق فاتح / Ivory with gold and light blue
+  - عاجي مع ذهبي وأزرق فاتح / Ivory with gold and light blue
 images:
-- src: ../../assets/products/bedroom-classic-floral-rug.webp
-  original: true
-  alt:
-    ar: زولية عاجية كلاسيكية بزخارف نباتية ذهبية وزرقاء في غرفة نوم
-    en: Ivory classic rug with gold and blue floral scrolls in a bedroom
+  - src: ../../assets/products/bedroom-classic-floral-rug.webp
+    original: true
+    alt:
+      ar: زولية عاجية كلاسيكية بزخارف نباتية ذهبية وزرقاء في غرفة نوم
+      en: Ivory classic rug with gold and blue floral scrolls in a bedroom
 ar:
   name: زولية غرفة نوم كلاسيكية بزخارف نباتية
   directAnswer: زولية كلاسيكية بأرضية عاجية وزخارف نباتية متداخلة بالذهبي والبيج والأزرق الفاتح، وإطار متصل حول الأطراف. تناسب غرف النوم الكلاسيكية والماستر. السعر حسب المقاس، ونؤكده عبر واتساب.
@@ -24,10 +24,10 @@ ar:
   seoDescription: زولية غرفة نوم كلاسيكية عاجية بزخارف نباتية ذهبية وزرقاء لغرف الماستر. السعر حسب المقاس عبر واتساب.
   reviewed: true
   faq:
-  - q: كم سعرها؟
-    a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب ونؤكد لك المتوفر والسعر.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعرها؟
+      a: السعر حسب المقاس. أرسل المقاس الذي تحتاجه عبر واتساب ونؤكد لك المتوفر والسعر.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Classic Floral Bedroom Rug
   directAnswer: A classic rug on an ivory ground with interlaced floral scrolls in gold, beige and light blue and a continuous border. It suits classic and master bedrooms. Priced by size, confirmed on WhatsApp.
@@ -37,7 +37,7 @@ en:
   seoDescription: Ivory classic bedroom rug with gold and blue floral scrolls. Priced by size.
   reviewed: true
   faq:
-  - q: How much is it?
-    a: Priced by size. Send the size you need on WhatsApp.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is it?
+      a: Priced by size. Send the size you need on WhatsApp.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

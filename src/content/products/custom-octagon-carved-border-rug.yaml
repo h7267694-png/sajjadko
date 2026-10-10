@@ -3,21 +3,21 @@ sku: SJ-ZW-OCTAGON
 status: published
 category: zawali
 places:
-- living-room
-- majlis-diwaniya
+  - living-room
+  - majlis-diwaniya
 services:
-- hand-carving
-- carpet-cutting
+  - hand-carving
+  - carpet-cutting
 specs:
   material: زولية تفصيل بحفر يدوي / Custom hand-carved rug
 colors:
-- عاجي مع بيج وأسود / Ivory with beige and black
+  - عاجي مع بيج وأسود / Ivory with beige and black
 images:
-- src: ../../assets/products/custom-octagon-carved-border-rug.webp
-  original: true
-  alt:
-    ar: زولية تفصيل مثمنة عاجية بإطارين محفورين بالبيج والأسود في صالة جلوس
-    en: Custom octagonal ivory rug with two carved beige and black borders in a living room
+  - src: ../../assets/products/custom-octagon-carved-border-rug.webp
+    original: true
+    alt:
+      ar: زولية تفصيل مثمنة عاجية بإطارين محفورين بالبيج والأسود في صالة جلوس
+      en: Custom octagonal ivory rug with two carved beige and black borders in a living room
 ar:
   name: زولية تفصيل مثمنة بإطار محفور بالبيج والأسود
   directAnswer: زولية تفصيل بشكل مثمن ووسط عاجي سادة، يحيط بها إطاران متداخلان بالبيج والأسود محفوران يدويًا، وتمتد أطرافها خارج الشكل لتعطي حدًا هندسيًا. مقصوصة على مقاس الصالة والكنب. من أعمالنا، ونفّذ الشكل والمقاس والألوان التي تختارها. السعر حسب المقاس.
@@ -27,12 +27,12 @@ ar:
   seoDescription: زولية تفصيل مثمنة عاجية بإطار محفور بالبيج والأسود، تُقص على مقاس الصالة. السعر حسب المقاس عبر واتساب.
   reviewed: true
   faq:
-  - q: هل أستطيع اختيار نقشة أخرى أو لونًا آخر؟
-    a: نعم. ترسل صورة النقشة أو فكرتها مع مقاس المجلس عبر واتساب، ونؤكد معك الألوان والمقاس والسعر قبل البدء.
-  - q: كم سعره؟
-    a: السعر حسب مساحة المجلس وحجم النقشة وعدد ألوانها. نزورك مجانًا للقياس وعرض العينات، ثم نرسل السعر.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: هل أستطيع اختيار نقشة أخرى أو لونًا آخر؟
+      a: نعم. ترسل صورة النقشة أو فكرتها مع مقاس المجلس عبر واتساب، ونؤكد معك الألوان والمقاس والسعر قبل البدء.
+    - q: كم سعره؟
+      a: السعر حسب مساحة المجلس وحجم النقشة وعدد ألوانها. نزورك مجانًا للقياس وعرض العينات، ثم نرسل السعر.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Custom Octagonal Rug with a Carved Border
   directAnswer: A custom octagonal rug with a plain ivory centre and two interlocking beige and black borders, hand-carved, cut to fit the living room and sofas. One of our jobs, made in your shape, size and colours. Priced by size.
@@ -42,10 +42,10 @@ en:
   seoDescription: Custom octagonal ivory rug with a carved beige and black border, cut to your room.
   reviewed: true
   faq:
-  - q: Can I choose another design or colour?
-    a: Yes. Send the design and your majlis size on WhatsApp and we confirm colours, size and price before starting.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: Can I choose another design or colour?
+      a: Yes. Send the design and your majlis size on WhatsApp and we confirm colours, size and price before starting.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
 latestWork:
   show: true
   area: jahra

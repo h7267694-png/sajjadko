@@ -3,20 +3,20 @@ sku: SJ-MJ-CRVROUND
 status: published
 category: moquette
 places:
-- majlis-diwaniya
+  - majlis-diwaniya
 services:
-- hand-carving
-- carpet-installation
+  - hand-carving
+  - carpet-installation
 specs:
   material: موكيت مجالس بحفر يدوي ونقشة ملونة مدمجة / Majlis wall-to-wall carpet with a hand-carved inlaid design
 colors:
-- كريمي مع أزرق وبني وبرتقالي / Cream with blue, brown and orange
+  - كريمي مع أزرق وبني وبرتقالي / Cream with blue, brown and orange
 images:
-- src: ../../assets/products/majlis-carved-round-medallion.webp
-  original: true
-  alt:
-    ar: مجلس عربي مفروش بموكيت كريمي في وسطه زخرفة دائرية محفورة يدويًا بالأزرق والبني والبرتقالي
-    en: Floor-seating majlis with cream carpet and a hand-carved round medallion in blue, brown and orange
+  - src: ../../assets/products/majlis-carved-round-medallion.webp
+    original: true
+    alt:
+      ar: مجلس عربي مفروش بموكيت كريمي في وسطه زخرفة دائرية محفورة يدويًا بالأزرق والبني والبرتقالي
+      en: Floor-seating majlis with cream carpet and a hand-carved round medallion in blue, brown and orange
 ar:
   name: موكيت مجلس كريمي بزخرفة دائرية محفورة يدويًا
   directAnswer: موكيت كريمي مركّب من الجدار للجدار في مجلس عربي، تتوسطه زخرفة دائرية من أغصان متداخلة بالأزرق والبني ولمسات برتقالية، محفورة يدويًا ومدمجة في الموكيت نفسه. من أعمالنا في الحفر اليدوي، ونفّذ مثلها بالنقشة والألوان التي تختارها. السعر حسب مساحة المجلس وحجم النقشة.
@@ -26,12 +26,12 @@ ar:
   seoDescription: موكيت مجالس كريمي بزخرفة دائرية محفورة يدويًا بالأزرق والبني، من أعمالنا في الكويت. ننفذ النقشة والألوان التي تختارها.
   reviewed: true
   faq:
-  - q: هل أستطيع اختيار نقشة أخرى أو لونًا آخر؟
-    a: نعم. ترسل صورة النقشة أو فكرتها مع مقاس المجلس عبر واتساب، ونؤكد معك الألوان والمقاس والسعر قبل البدء.
-  - q: كم سعره؟
-    a: السعر حسب مساحة المجلس وحجم النقشة وعدد ألوانها. نزورك مجانًا للقياس وعرض العينات، ثم نرسل السعر.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: هل أستطيع اختيار نقشة أخرى أو لونًا آخر؟
+      a: نعم. ترسل صورة النقشة أو فكرتها مع مقاس المجلس عبر واتساب، ونؤكد معك الألوان والمقاس والسعر قبل البدء.
+    - q: كم سعره؟
+      a: السعر حسب مساحة المجلس وحجم النقشة وعدد ألوانها. نزورك مجانًا للقياس وعرض العينات، ثم نرسل السعر.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Cream Majlis Carpet with a Hand-Carved Round Medallion
   directAnswer: Cream wall-to-wall carpet in a floor-seating majlis with a round medallion of interlaced scrolls in blue, brown and orange, hand-carved into the carpet itself. One of our hand-carving jobs; we make it in the design and colours you choose. Priced by majlis area and design size.
@@ -41,10 +41,10 @@ en:
   seoDescription: Cream majlis carpet with a hand-carved round medallion in blue and brown. We make your design and colours.
   reviewed: true
   faq:
-  - q: Can I choose another design or colour?
-    a: Yes. Send the design and your majlis size on WhatsApp and we confirm colours, size and price before starting.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: Can I choose another design or colour?
+      a: Yes. Send the design and your majlis size on WhatsApp and we confirm colours, size and price before starting.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
 latestWork:
   show: true
   area: jahra

@@ -3,10 +3,10 @@ sku: SJ-PL-EARTH
 status: published
 category: moquette
 places:
-- bedroom
-- living-room
-- majlis-diwaniya
-- hallway
+  - bedroom
+  - living-room
+  - majlis-diwaniya
+  - hallway
 specs:
   material: موكيت سادة مخملي بوبر مقصوص كثيف / Plain plush cut-pile wall-to-wall carpet
 priceRange:
@@ -15,39 +15,39 @@ priceRange:
   unit: m2
   updated: 2026-10-10
 colors:
-- أبيض / White
-- بني غامق / Dark brown
-- بيج رملي / Sand beige
-- ذهبي زيتي / Olive gold
-- رمادي مزرق / Blue grey
-- رمادي وردي / Mauve grey
-- بني رمادي / Taupe
+  - أبيض / White
+  - بني غامق / Dark brown
+  - بيج رملي / Sand beige
+  - ذهبي زيتي / Olive gold
+  - رمادي مزرق / Blue grey
+  - رمادي وردي / Mauve grey
+  - بني رمادي / Taupe
 images:
-- src: ../../assets/products/plain-plush-rolls-stack.webp
-  original: true
-  alt:
-    ar: رولات موكيت سادة مخملي بالمتر في المحل بألوان الأبيض والبني والبيج والذهبي والرمادي
-    en: Rolls of plain plush carpet by the metre in the store in white, brown, beige, gold and grey
-- src: ../../assets/products/plain-plush-rolls-olive-grey.webp
-  original: true
-  alt:
-    ar: رولات موكيت سادة مخملي بالذهبي الزيتي والرمادي المزرق والرمادي الوردي
-    en: Plain plush carpet rolls in olive gold, blue grey and mauve grey
-- src: ../../assets/products/plain-plush-rolls-brown-taupe.webp
-  original: true
-  alt:
-    ar: رولات موكيت سادة مخملي بالبني الغامق والبني الرمادي والرمادي
-    en: Plain plush carpet rolls in dark brown, taupe and grey
-- src: ../../assets/products/plain-plush-rolls-beige.webp
-  original: true
-  alt:
-    ar: لقطة قريبة لوبر موكيت سادة مخملي بالبيج الرملي والبني الرمادي
-    en: Close-up of plain plush carpet pile in sand beige and taupe
-- src: ../../assets/products/plain-plush-rolls-grey.webp
-  original: true
-  alt:
-    ar: لقطة قريبة لوبر موكيت سادة مخملي بالرمادي
-    en: Close-up of plain plush carpet pile in grey
+  - src: ../../assets/products/plain-plush-rolls-stack.webp
+    original: true
+    alt:
+      ar: رولات موكيت سادة مخملي بالمتر في المحل بألوان الأبيض والبني والبيج والذهبي والرمادي
+      en: Rolls of plain plush carpet by the metre in the store in white, brown, beige, gold and grey
+  - src: ../../assets/products/plain-plush-rolls-olive-grey.webp
+    original: true
+    alt:
+      ar: رولات موكيت سادة مخملي بالذهبي الزيتي والرمادي المزرق والرمادي الوردي
+      en: Plain plush carpet rolls in olive gold, blue grey and mauve grey
+  - src: ../../assets/products/plain-plush-rolls-brown-taupe.webp
+    original: true
+    alt:
+      ar: رولات موكيت سادة مخملي بالبني الغامق والبني الرمادي والرمادي
+      en: Plain plush carpet rolls in dark brown, taupe and grey
+  - src: ../../assets/products/plain-plush-rolls-beige.webp
+    original: true
+    alt:
+      ar: لقطة قريبة لوبر موكيت سادة مخملي بالبيج الرملي والبني الرمادي
+      en: Close-up of plain plush carpet pile in sand beige and taupe
+  - src: ../../assets/products/plain-plush-rolls-grey.webp
+    original: true
+    alt:
+      ar: لقطة قريبة لوبر موكيت سادة مخملي بالرمادي
+      en: Close-up of plain plush carpet pile in grey
 ar:
   name: موكيت سادة مخملي بالمتر بألوان ترابية ورمادية
   directAnswer: 'موكيت سادة مخملي بوبر مقصوص كثيف ولمعة خفيفة، متوفر في المحل رولات بسبعة ألوان: الأبيض والبني الغامق والبيج الرملي والذهبي الزيتي والرمادي المزرق والرمادي الوردي والبني الرمادي. يُباع بالمتر المربع ويُقص على مقاس الغرفة، من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة.'
@@ -57,14 +57,14 @@ ar:
   seoDescription: موكيت سادة مخملي بالمتر بسبعة ألوان ترابية ورمادية لغرف النوم والصالات والمجالس، يُقص على المقاس من 5 إلى 15 د.ك للمتر المربع في الكويت.
   reviewed: true
   faq:
-  - q: كم سعر الموكيت السادة بالمتر؟
-    a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. غرفة 4×5 م (20 م²) تكلف بين 100 و300 د.ك قبل التركيب.
-  - q: ما الألوان المتوفرة؟
-    a: 'سبعة ألوان في المحل: الأبيض، والبني الغامق، والبيج الرملي، والذهبي الزيتي، والرمادي المزرق، والرمادي الوردي، والبني الرمادي. أرسل اللون عبر واتساب لنؤكد الكمية المتوفرة.'
-  - q: لماذا يبدو لون الموكيت المخملي مختلفًا من زاوية لأخرى؟
-    a: الوبر المخملي يعكس الضوء حسب اتجاهه، فيبدو أفتح أو أغمق قليلًا من زاوية لأخرى. هذا طبيعي في الموكيت المخملي ويعطيه لمعته.
-  - q: هل الزيارة والقياس مجانًا؟
-    a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+    - q: كم سعر الموكيت السادة بالمتر؟
+      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. غرفة 4×5 م (20 م²) تكلف بين 100 و300 د.ك قبل التركيب.
+    - q: ما الألوان المتوفرة؟
+      a: 'سبعة ألوان في المحل: الأبيض، والبني الغامق، والبيج الرملي، والذهبي الزيتي، والرمادي المزرق، والرمادي الوردي، والبني الرمادي. أرسل اللون عبر واتساب لنؤكد الكمية المتوفرة.'
+    - q: لماذا يبدو لون الموكيت المخملي مختلفًا من زاوية لأخرى؟
+      a: الوبر المخملي يعكس الضوء حسب اتجاهه، فيبدو أفتح أو أغمق قليلًا من زاوية لأخرى. هذا طبيعي في الموكيت المخملي ويعطيه لمعته.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Plain Plush Carpet by the Metre in Earth and Grey Tones
   directAnswer: 'This is a plain plush carpet with a dense cut pile and a light sheen, stocked in rolls in seven colours: white, dark brown, sand beige, olive gold, blue grey, mauve grey and taupe. Sold by the m² and cut to your room at 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density.'
@@ -74,9 +74,9 @@ en:
   seoDescription: Plain plush carpet by the metre in seven earth and grey tones for bedrooms, living rooms and majlis, cut to size at 5 to 15 KWD per m² in Kuwait.
   reviewed: true
   faq:
-  - q: How much is plain carpet per m²?
-    a: 5 to 15 KWD per m² depending on thickness, pile pressure and density. A 20 m² room costs about 100 to 300 KWD before installation.
-  - q: Why does plush carpet look different from different angles?
-    a: The plush pile reflects light by direction, so it looks slightly lighter or darker from different angles. This shading is normal and gives plush carpet its sheen.
-  - q: Is the home visit and measuring free?
-    a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
+    - q: How much is plain carpet per m²?
+      a: 5 to 15 KWD per m² depending on thickness, pile pressure and density. A 20 m² room costs about 100 to 300 KWD before installation.
+    - q: Why does plush carpet look different from different angles?
+      a: The plush pile reflects light by direction, so it looks slightly lighter or darker from different angles. This shading is normal and gives plush carpet its sheen.
+    - q: Is the home visit and measuring free?
+      a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.
