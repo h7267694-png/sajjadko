@@ -1,0 +1,58 @@
+slug: office-cut-pile-carpet-plain
+sku: SJ-OF-CUT
+status: published
+category: moquette
+places:
+  - office
+  - hotel
+  - hallway
+priceRange:
+  min: 1.25
+  max: 3
+  unit: m2
+  updated: 2026-10-10
+specs:
+  material: موكيت مكاتب خفيف بوبر مقصوص كثيف / Lightweight dense cut-pile office carpet
+colors:
+  - بيج / Beige
+  - بيج فاتح / Light beige
+  - بني رمادي / Taupe
+  - رمادي فاتح / Light grey
+  - رمادي / Grey
+  - أحمر / Red
+  - عنابي / Burgundy
+  - كحلي / Navy
+images:
+  - src: ../../assets/products/office-cut-pile-carpet-swatches.jpg
+    original: true
+    alt:
+      ar: لوحة عينات موكيت مكاتب بوبر مقصوص بألوان سادة منها البيج والرمادي والأحمر والعنابي والكحلي
+      en: Swatch board of cut-pile office carpet in plain colours including beige, grey, red, burgundy and navy
+ar:
+  name: موكيت مكاتب بوبر مقصوص بألوان سادة
+  directAnswer: موكيت مكاتب خفيف بوبر مقصوص كثيف وسطح ناعم متساوٍ، بثمانية ألوان سادة من البيج والرمادي إلى الأحمر والعنابي والكحلي. يناسب مكاتب الإدارة وغرف الاجتماعات والاستقبال وممرات الفنادق. يُباع بالمتر المربع من 1.250 إلى 3 د.ك، ويُقص على مقاس المكتب ويُركّب.
+  usage: 'الوبر المقصوص أنعم من الوبر الحلقي، فيناسب المكاتب التي حركتها أقل والراحة فيها أهم. الألوان السادة تتناسق مع هوية الشركة: الكحلي والعنابي للاستقبال وغرف الاجتماعات، والبيج والرمادي للمكاتب المفتوحة.'
+  care: نظّفه بالمكنسة الكهربائية بانتظام، وامسح البقع فور وقوعها بقطعة قماش مبللة دون فرك.
+  seoTitle: موكيت مكاتب بوبر مقصوص بألوان سادة في الكويت — سجادكو
+  seoDescription: موكيت مكاتب خفيف بوبر مقصوص بثمانية ألوان سادة للمكاتب وغرف الاجتماعات والفنادق، من 1.250 إلى 3 د.ك للمتر المربع، قص وتركيب في الكويت.
+  reviewed: true
+  faq:
+    - q: كم سعر موكيت المكاتب بالوبر المقصوص؟
+      a: من 1.250 إلى 3 د.ك للمتر المربع. مكتب 100 م² يكلف بين 125 و300 د.ك قبل التركيب.
+    - q: ما الفرق بين الوبر المقصوص والحلقي في المكاتب؟
+      a: المقصوص أنعم ويناسب مكاتب الإدارة وغرف الاجتماعات، والحلقي أكثر تماسكًا مع كثرة المشي وعجلات الكراسي ويناسب المكاتب المفتوحة والممرات.
+    - q: هل تركّبونه خارج أوقات الدوام؟
+      a: نعم، نتفق معك على الموعد، ويمكن أن يكون خارج أوقات الدوام. أجرة التركيب منفصلة حسب المساحة والموقع.
+en:
+  name: Cut-Pile Office Carpet in Plain Colours
+  directAnswer: This is a lightweight office carpet with a dense cut pile and an even, soft surface, in eight plain colours from beige and grey to red, burgundy and navy. It suits executive offices, meeting rooms, reception and hotel corridors. Sold by the m² at 1.250 to 3 KWD (0.116 to 0.279 KWD per sq ft), cut to your office and installed.
+  usage: 'Cut pile is softer than loop pile, so it suits offices with lighter traffic where comfort matters more. Plain colours match a company identity: navy and burgundy for reception and meeting rooms, beige and grey for open-plan offices.'
+  care: Vacuum regularly and blot spills straight away with a damp cloth without rubbing.
+  seoTitle: Cut-Pile Office Carpet in Plain Colours, Kuwait | Sajjadko
+  seoDescription: Lightweight cut-pile office carpet in eight plain colours for offices, meeting rooms and hotels, 1.250 to 3 KWD per m², cut and installed in Kuwait.
+  reviewed: true
+  faq:
+    - q: How much is this office carpet?
+      a: 1.250 to 3 KWD per m². A 100 m² office costs about 125 to 300 KWD before installation.
+    - q: Cut pile or loop pile for an office?
+      a: Cut pile is softer and suits executive offices and meeting rooms; loop pile holds up better to foot traffic and chair castors in open-plan offices and corridors.

@@ -14,6 +14,11 @@ images:
     alt:
       ar: لوحة عينات موكيت مكاتب خفيف بوبر حلقي بأكثر من 19 لونًا بينها الكحلي والأحمر والأخضر والأسود
       en: Swatch board of lightweight loop-pile office carpet in over 19 colours including navy, red, green and black
+  - src: /src/assets/products/reem-office-loop-swatches-board.jpg
+    original: true
+    alt:
+      ar: لوحة ألوان موكيت المكاتب الخفيف بوبر حلقي بأرقامها، منها الفحمي والبني والأزرق والعنابي والذهبي والأخضر
+      en: Numbered colour board of lightweight loop-pile office carpet, including charcoal, brown, blue, burgundy, gold and green
 priceRange:
   min: 1.25
   max: 3
