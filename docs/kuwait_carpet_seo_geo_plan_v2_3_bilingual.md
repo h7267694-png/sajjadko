@@ -2506,7 +2506,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ---
 
-# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 10 أكتوبر 2026، بعد الخطوة 47؛ الملخص في القسم 29)
+# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 48؛ الملخص في القسم 29)
 
 ## 28.1 القاعدة الإلزامية
 
@@ -2901,9 +2901,20 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 **الخطوة 48 المرشحة:** دليل سجاد المسجد وقياسه، وصور حقيقية للأقسام عند وصولها، ثم Bing Webmaster.
 **مؤجل بقرار العميل:** رابط موقع سالفورد. **تذكير:** لا ملف GBP.
 
+**الخطوة 48 (11 أكتوبر 2026) [تم]: صور الأقسام، منتجات من صور العميل، وأعمالنا الأخيرة**
+
+- أيقونات حقيقية لأقسام «تسوق حسب القسم» (600×600): بلاط السجاد، المكاتب، سجاد بالمتر، الموكيت، المساجد، المصليات، الزوالي، الأطفال، غرف النوم، المجالس والديوانيات، الممرات، الدرج.
+- 50 منتجًا جديدًا بأسماء رسمية ووصف عربي وإنجليزي كامل (الإجمالي 66): سجاد مشجر، بلاط سجاد، موكيت مكاتب، سادة ومشجر بالمتر، سجاد مساجد، زوالي، أطفال، غرف نوم، مجالس (حفر يدوي، فريز، تركي مخملي، ناعم).
+- **أعمالنا الأخيرة (14 عملًا جديدًا):** الأحمدي (شقة: ممرات وغرف)، سلوى (درج وممرات)، صباح السالم (صالة)، الدوحة (غرفة نوم ماستر)، الأندلس (صالة وممر وغرفة)، حطين (غرفة نوم)، صباح الأحمد (غرفة)، الجهراء (غرفة نوم، فيلا المفتاح اليوناني، ثلاثة مجالس محفورة، زولية مثمنة)، الفروانية (مسجد). كل عمل منتج واحد يظهر في كل قسم يشمله (`places`)، وعنوانه يجمع «موكيت/سجاد + المكان + المنطقة».
+- حقل `services` للمنتج: صفحة الحفر اليدوي تعرض أعمال الحفر، وصفحة التركيب تعرض الأعمال المركّبة.
+- كل صور المنتجات والأقسام WebP بجودة 80 وأقصى 1600 بكسل (مثل لوحة الإدارة).
+- أسئلة السعر والزيارة المجانية بالعربي والإنجليزي على كل منتج.
+- استُبعدت صورتان تحملان علامة مائية لحساب آخر، وقُصّت أغراض شخصية من صور قبل التركيب.
+- صور غرف النوم المخملية الأربع ذات الطراز البريطاني منشورة كمنتج بلا «أعمالنا» (لم تُؤكَّد كأعمال).
+
 ---
 
-# 29. ملخص الحالة والمتابعة (10 أكتوبر 2026، بعد الخطوة 41)
+# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 48)
 
 ## 29.1 ما تم إنجازه
 
@@ -2923,16 +2934,16 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - عربي فقط: الزوالي والزل (جاهزة، بالمتر، تفصيل، مع جدول المقاسات الشائعة)، محل سجاد الضجيج، سجاد المجالس والديوانيات، سجاد غرف النوم، سجاد الأطفال.
 - **الرئيسية بواجهة متجر:** تسوق حسب القسم، العروض (عند وجود عرض ساري)، كل المنتجات ببطاقات وتصفية بالنوع. LCP نصي نحو ثانية على جوال مُبطّأ.
 
-**المنتجات (16) بأسماء رسمية:** 9 موكيت، 3 سجاد ممرات، 3 زوالي تفصيل، وعمل منفّذ في القصر بالجهراء ضمن «أعمالنا الأخيرة».
+**المنتجات (66) بأسماء رسمية ووصف عربي وإنجليزي:** موكيت وسجاد بالمتر، ممرات، درج، مكاتب وبلاط سجاد، مساجد، زوالي جاهزة وتفصيل، أطفال، غرف نوم، مجالس. **أعمالنا الأخيرة: 15 عملًا** في القصر والجهراء والأحمدي وسلوى وصباح السالم والدوحة والأندلس وحطين وصباح الأحمد والفروانية.
 
 ## 29.2 بانتظار التنفيذ
 
 **بانتظار العميل**
 
 1. ~~مراجعة الصفحات المكتوبة~~ **[تم، الخطوة 42]**.
-2. **تغيير صور «تسوق حسب القسم» في الرئيسية:** الأقسام تعرض الآن صورة منتج مستعارة (غالبًا لوحة عينات). المطلوب صورة حقيقية لكل قسم: سجاد بالمتر، الموكيت، محل الضجيج (واجهة المحل)، غرف النوم، الزوالي، الأطفال، المجالس والديوانيات، الممرات، الدرج، المكاتب، بلاط السجاد. تُستبدل في `src/components/widgets/HomePage.astro` (حقل `img`)، والأفضل صورة عمل منفّذ لكل قسم.
+2. **[تم معظمها، الخطوة 48]** ~~تغيير صور «تسوق حسب القسم»~~؛ الباقي: واجهة محل الضجيج، قص السجاد، التركيب، الحفر، الريد كاربت. الأصل: الأقسام تعرض الآن صورة منتج مستعارة (غالبًا لوحة عينات). المطلوب صورة حقيقية لكل قسم: سجاد بالمتر، الموكيت، محل الضجيج (واجهة المحل)، غرف النوم، الزوالي، الأطفال، المجالس والديوانيات، الممرات، الدرج، المكاتب، بلاط السجاد. تُستبدل في `src/components/widgets/HomePage.astro` (حقل `img`)، والأفضل صورة عمل منفّذ لكل قسم.
 3. **عروض حقيقية** لقسم العروض (المنتج، السعر قبل وبعد، آخر يوم)، أو تُضاف من لوحة الإدارة.
-4. **مناطق الزوالي الثلاث المفصلة** لإضافتها إلى «أعمالنا الأخيرة».
+4. ~~مناطق الأعمال~~ **[تم، الخطوة 48: الجهراء]**؛ الزوليتان التفصيل نسق وكثبان ما زالتا بلا منطقة.
 5. **بيانات ناقصة:** مقاسات وأسعار الزوالي الجاهزة المتوفرة فعلًا، صور واجهة المحل وداخله، رابط إنستغرام، أيام العمل، سماكة وألوان بلاط السجاد، فيديو تركيب درج، صور مدات السدو.
 6. **أمان:** حذف التوكن الكامل الذي ظهر في المحادثة، وإنشاء توكن محدود (Contents على مستودع sajjadko فقط)، ثم تأمين لوحة الإدارة.
 
@@ -3031,3 +3042,114 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - [ ] `https://sajjadko.com/en/products/riwaq-tweed-office-carpet/`
 - [ ] `https://sajjadko.com/en/products/sidra-soft-touch/`
 - [ ] `https://sajjadko.com/en/products/wasan-soft-stair-carpet/`
+
+**جديد (الخطوة 48): منتجات الأقسام وأعمالنا الأخيرة** (100 رابطًا، الأولوية للأعمال المنفذة بالعربي):
+
+أعمال منفّذة بالعربي (14):
+
+- [ ] `https://sajjadko.com/products/ahmadi-apartment-light-grey-carpet/`
+- [ ] `https://sajjadko.com/products/andalous-house-beige-carpet/`
+- [ ] `https://sajjadko.com/products/bedroom-greek-key-relief-carpet/`
+- [ ] `https://sajjadko.com/products/custom-octagon-carved-border-rug/`
+- [ ] `https://sajjadko.com/products/doha-master-bedroom-taupe-carpet/`
+- [ ] `https://sajjadko.com/products/hitteen-bedroom-light-grey-carpet/`
+- [ ] `https://sajjadko.com/products/jahra-bedroom-beige-carpet/`
+- [ ] `https://sajjadko.com/products/majlis-carpet-carved-blue-star/`
+- [ ] `https://sajjadko.com/products/majlis-carpet-carved-grey-black-medallion/`
+- [ ] `https://sajjadko.com/products/majlis-carpet-carved-round-medallion/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-teal-floral-rows/`
+- [ ] `https://sajjadko.com/products/sabah-al-ahmad-room-grey-carpet/`
+- [ ] `https://sajjadko.com/products/sabah-al-salem-living-room-beige-carpet/`
+- [ ] `https://sajjadko.com/products/salwa-stair-hallway-grey-carpet/`
+
+منتجات الأقسام بالعربي (36):
+
+- [ ] `https://sajjadko.com/products/bedroom-classic-floral-rug/`
+- [ ] `https://sajjadko.com/products/bedroom-plain-plush-carpet/`
+- [ ] `https://sajjadko.com/products/bedroom-soft-stripe-rug/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-charcoal-orange-lines/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-grey-yellow-lines/`
+- [ ] `https://sajjadko.com/products/kids-alphabet-carpet-by-meter/`
+- [ ] `https://sajjadko.com/products/kids-animal-print-rugs/`
+- [ ] `https://sajjadko.com/products/kids-bunny-relief-rug/`
+- [ ] `https://sajjadko.com/products/kids-city-roads-carpet-by-meter/`
+- [ ] `https://sajjadko.com/products/kids-football-pitch-rug/`
+- [ ] `https://sajjadko.com/products/kids-road-map-rug/`
+- [ ] `https://sajjadko.com/products/kids-soft-print-rugs-girls/`
+- [ ] `https://sajjadko.com/products/majlis-frieze-plush-carpet/`
+- [ ] `https://sajjadko.com/products/majlis-soft-plush-carpet-beige-grey/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-floral-medallion/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-islamic-star/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-plain-border/`
+- [ ] `https://sajjadko.com/products/office-cut-pile-carpet-plain/`
+- [ ] `https://sajjadko.com/products/office-loop-carpet-12-colours/`
+- [ ] `https://sajjadko.com/products/office-tweed-blend-carpet/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-basket-weave/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-by-meter-faded-squares/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-by-meter-geometric/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-by-meter-heritage/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-crossed-lines/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-curved-lines/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-linear-texture/`
+- [ ] `https://sajjadko.com/products/plain-plush-carpet-by-meter-blue-grey/`
+- [ ] `https://sajjadko.com/products/plain-plush-carpet-by-meter-earth-tones/`
+- [ ] `https://sajjadko.com/products/turkish-velvet-short-pile-carpet/`
+- [ ] `https://sajjadko.com/products/zawali-carved-relief-beige/`
+- [ ] `https://sajjadko.com/products/zawali-classic-medallion/`
+- [ ] `https://sajjadko.com/products/zawali-classic-vase-floral/`
+- [ ] `https://sajjadko.com/products/zawali-modern-curved-stripes/`
+- [ ] `https://sajjadko.com/products/zawali-modern-frame-lines/`
+- [ ] `https://sajjadko.com/products/zawali-scroll-medallion/`
+
+النسخ الإنجليزية (50):
+
+- [ ] `https://sajjadko.com/en/products/ahmadi-apartment-light-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/andalous-house-beige-carpet/`
+- [ ] `https://sajjadko.com/en/products/bedroom-greek-key-relief-carpet/`
+- [ ] `https://sajjadko.com/en/products/custom-octagon-carved-border-rug/`
+- [ ] `https://sajjadko.com/en/products/doha-master-bedroom-taupe-carpet/`
+- [ ] `https://sajjadko.com/en/products/hitteen-bedroom-light-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/jahra-bedroom-beige-carpet/`
+- [ ] `https://sajjadko.com/en/products/majlis-carpet-carved-blue-star/`
+- [ ] `https://sajjadko.com/en/products/majlis-carpet-carved-grey-black-medallion/`
+- [ ] `https://sajjadko.com/en/products/majlis-carpet-carved-round-medallion/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-teal-floral-rows/`
+- [ ] `https://sajjadko.com/en/products/sabah-al-ahmad-room-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/sabah-al-salem-living-room-beige-carpet/`
+- [ ] `https://sajjadko.com/en/products/salwa-stair-hallway-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/bedroom-classic-floral-rug/`
+- [ ] `https://sajjadko.com/en/products/bedroom-plain-plush-carpet/`
+- [ ] `https://sajjadko.com/en/products/bedroom-soft-stripe-rug/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-charcoal-orange-lines/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-grey-yellow-lines/`
+- [ ] `https://sajjadko.com/en/products/kids-alphabet-carpet-by-meter/`
+- [ ] `https://sajjadko.com/en/products/kids-animal-print-rugs/`
+- [ ] `https://sajjadko.com/en/products/kids-bunny-relief-rug/`
+- [ ] `https://sajjadko.com/en/products/kids-city-roads-carpet-by-meter/`
+- [ ] `https://sajjadko.com/en/products/kids-football-pitch-rug/`
+- [ ] `https://sajjadko.com/en/products/kids-road-map-rug/`
+- [ ] `https://sajjadko.com/en/products/kids-soft-print-rugs-girls/`
+- [ ] `https://sajjadko.com/en/products/majlis-frieze-plush-carpet/`
+- [ ] `https://sajjadko.com/en/products/majlis-soft-plush-carpet-beige-grey/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-floral-medallion/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-islamic-star/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-plain-border/`
+- [ ] `https://sajjadko.com/en/products/office-cut-pile-carpet-plain/`
+- [ ] `https://sajjadko.com/en/products/office-loop-carpet-12-colours/`
+- [ ] `https://sajjadko.com/en/products/office-tweed-blend-carpet/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-basket-weave/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-by-meter-faded-squares/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-by-meter-geometric/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-by-meter-heritage/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-crossed-lines/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-curved-lines/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-linear-texture/`
+- [ ] `https://sajjadko.com/en/products/plain-plush-carpet-by-meter-blue-grey/`
+- [ ] `https://sajjadko.com/en/products/plain-plush-carpet-by-meter-earth-tones/`
+- [ ] `https://sajjadko.com/en/products/turkish-velvet-short-pile-carpet/`
+- [ ] `https://sajjadko.com/en/products/zawali-carved-relief-beige/`
+- [ ] `https://sajjadko.com/en/products/zawali-classic-medallion/`
+- [ ] `https://sajjadko.com/en/products/zawali-classic-vase-floral/`
+- [ ] `https://sajjadko.com/en/products/zawali-modern-curved-stripes/`
+- [ ] `https://sajjadko.com/en/products/zawali-modern-frame-lines/`
+- [ ] `https://sajjadko.com/en/products/zawali-scroll-medallion/`

@@ -1,6 +1,6 @@
 # روابط سجادكو الكويت بانتظار الفهرسة اليدوية
 
-نسخة مختصرة من القسم 29.3 في ملف الخطة (آخر تحديث: 10 أكتوبر 2026).
+نسخة مختصرة من القسم 29.3 في ملف الخطة (آخر تحديث: 11 أكتوبر 2026).
 
 فُهرست يدويًا (10 أكتوبر 2026): `https://sajjadko.com/`، `https://sajjadko.com/by-meter/`، `https://sajjadko.com/moquette/`، `https://sajjadko.com/en/`.
 
@@ -88,3 +88,114 @@
 - [ ] `https://sajjadko.com/en/products/riwaq-tweed-office-carpet/`
 - [ ] `https://sajjadko.com/en/products/sidra-soft-touch/`
 - [ ] `https://sajjadko.com/en/products/wasan-soft-stair-carpet/`
+
+**جديد (الخطوة 48): منتجات الأقسام وأعمالنا الأخيرة** (100 رابطًا، الأولوية للأعمال المنفذة بالعربي):
+
+أعمال منفّذة بالعربي (14):
+
+- [ ] `https://sajjadko.com/products/ahmadi-apartment-light-grey-carpet/`
+- [ ] `https://sajjadko.com/products/andalous-house-beige-carpet/`
+- [ ] `https://sajjadko.com/products/bedroom-greek-key-relief-carpet/`
+- [ ] `https://sajjadko.com/products/custom-octagon-carved-border-rug/`
+- [ ] `https://sajjadko.com/products/doha-master-bedroom-taupe-carpet/`
+- [ ] `https://sajjadko.com/products/hitteen-bedroom-light-grey-carpet/`
+- [ ] `https://sajjadko.com/products/jahra-bedroom-beige-carpet/`
+- [ ] `https://sajjadko.com/products/majlis-carpet-carved-blue-star/`
+- [ ] `https://sajjadko.com/products/majlis-carpet-carved-grey-black-medallion/`
+- [ ] `https://sajjadko.com/products/majlis-carpet-carved-round-medallion/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-teal-floral-rows/`
+- [ ] `https://sajjadko.com/products/sabah-al-ahmad-room-grey-carpet/`
+- [ ] `https://sajjadko.com/products/sabah-al-salem-living-room-beige-carpet/`
+- [ ] `https://sajjadko.com/products/salwa-stair-hallway-grey-carpet/`
+
+منتجات الأقسام بالعربي (36):
+
+- [ ] `https://sajjadko.com/products/bedroom-classic-floral-rug/`
+- [ ] `https://sajjadko.com/products/bedroom-plain-plush-carpet/`
+- [ ] `https://sajjadko.com/products/bedroom-soft-stripe-rug/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-charcoal-orange-lines/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-grey-yellow-lines/`
+- [ ] `https://sajjadko.com/products/kids-alphabet-carpet-by-meter/`
+- [ ] `https://sajjadko.com/products/kids-animal-print-rugs/`
+- [ ] `https://sajjadko.com/products/kids-bunny-relief-rug/`
+- [ ] `https://sajjadko.com/products/kids-city-roads-carpet-by-meter/`
+- [ ] `https://sajjadko.com/products/kids-football-pitch-rug/`
+- [ ] `https://sajjadko.com/products/kids-road-map-rug/`
+- [ ] `https://sajjadko.com/products/kids-soft-print-rugs-girls/`
+- [ ] `https://sajjadko.com/products/majlis-frieze-plush-carpet/`
+- [ ] `https://sajjadko.com/products/majlis-soft-plush-carpet-beige-grey/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-floral-medallion/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-islamic-star/`
+- [ ] `https://sajjadko.com/products/mosque-carpet-plain-border/`
+- [ ] `https://sajjadko.com/products/office-cut-pile-carpet-plain/`
+- [ ] `https://sajjadko.com/products/office-loop-carpet-12-colours/`
+- [ ] `https://sajjadko.com/products/office-tweed-blend-carpet/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-basket-weave/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-by-meter-faded-squares/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-by-meter-geometric/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-by-meter-heritage/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-crossed-lines/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-curved-lines/`
+- [ ] `https://sajjadko.com/products/patterned-carpet-linear-texture/`
+- [ ] `https://sajjadko.com/products/plain-plush-carpet-by-meter-blue-grey/`
+- [ ] `https://sajjadko.com/products/plain-plush-carpet-by-meter-earth-tones/`
+- [ ] `https://sajjadko.com/products/turkish-velvet-short-pile-carpet/`
+- [ ] `https://sajjadko.com/products/zawali-carved-relief-beige/`
+- [ ] `https://sajjadko.com/products/zawali-classic-medallion/`
+- [ ] `https://sajjadko.com/products/zawali-classic-vase-floral/`
+- [ ] `https://sajjadko.com/products/zawali-modern-curved-stripes/`
+- [ ] `https://sajjadko.com/products/zawali-modern-frame-lines/`
+- [ ] `https://sajjadko.com/products/zawali-scroll-medallion/`
+
+النسخ الإنجليزية (50):
+
+- [ ] `https://sajjadko.com/en/products/ahmadi-apartment-light-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/andalous-house-beige-carpet/`
+- [ ] `https://sajjadko.com/en/products/bedroom-greek-key-relief-carpet/`
+- [ ] `https://sajjadko.com/en/products/custom-octagon-carved-border-rug/`
+- [ ] `https://sajjadko.com/en/products/doha-master-bedroom-taupe-carpet/`
+- [ ] `https://sajjadko.com/en/products/hitteen-bedroom-light-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/jahra-bedroom-beige-carpet/`
+- [ ] `https://sajjadko.com/en/products/majlis-carpet-carved-blue-star/`
+- [ ] `https://sajjadko.com/en/products/majlis-carpet-carved-grey-black-medallion/`
+- [ ] `https://sajjadko.com/en/products/majlis-carpet-carved-round-medallion/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-teal-floral-rows/`
+- [ ] `https://sajjadko.com/en/products/sabah-al-ahmad-room-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/sabah-al-salem-living-room-beige-carpet/`
+- [ ] `https://sajjadko.com/en/products/salwa-stair-hallway-grey-carpet/`
+- [ ] `https://sajjadko.com/en/products/bedroom-classic-floral-rug/`
+- [ ] `https://sajjadko.com/en/products/bedroom-plain-plush-carpet/`
+- [ ] `https://sajjadko.com/en/products/bedroom-soft-stripe-rug/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-charcoal-orange-lines/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-grey-yellow-lines/`
+- [ ] `https://sajjadko.com/en/products/kids-alphabet-carpet-by-meter/`
+- [ ] `https://sajjadko.com/en/products/kids-animal-print-rugs/`
+- [ ] `https://sajjadko.com/en/products/kids-bunny-relief-rug/`
+- [ ] `https://sajjadko.com/en/products/kids-city-roads-carpet-by-meter/`
+- [ ] `https://sajjadko.com/en/products/kids-football-pitch-rug/`
+- [ ] `https://sajjadko.com/en/products/kids-road-map-rug/`
+- [ ] `https://sajjadko.com/en/products/kids-soft-print-rugs-girls/`
+- [ ] `https://sajjadko.com/en/products/majlis-frieze-plush-carpet/`
+- [ ] `https://sajjadko.com/en/products/majlis-soft-plush-carpet-beige-grey/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-floral-medallion/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-islamic-star/`
+- [ ] `https://sajjadko.com/en/products/mosque-carpet-plain-border/`
+- [ ] `https://sajjadko.com/en/products/office-cut-pile-carpet-plain/`
+- [ ] `https://sajjadko.com/en/products/office-loop-carpet-12-colours/`
+- [ ] `https://sajjadko.com/en/products/office-tweed-blend-carpet/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-basket-weave/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-by-meter-faded-squares/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-by-meter-geometric/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-by-meter-heritage/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-crossed-lines/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-curved-lines/`
+- [ ] `https://sajjadko.com/en/products/patterned-carpet-linear-texture/`
+- [ ] `https://sajjadko.com/en/products/plain-plush-carpet-by-meter-blue-grey/`
+- [ ] `https://sajjadko.com/en/products/plain-plush-carpet-by-meter-earth-tones/`
+- [ ] `https://sajjadko.com/en/products/turkish-velvet-short-pile-carpet/`
+- [ ] `https://sajjadko.com/en/products/zawali-carved-relief-beige/`
+- [ ] `https://sajjadko.com/en/products/zawali-classic-medallion/`
+- [ ] `https://sajjadko.com/en/products/zawali-classic-vase-floral/`
+- [ ] `https://sajjadko.com/en/products/zawali-modern-curved-stripes/`
+- [ ] `https://sajjadko.com/en/products/zawali-modern-frame-lines/`
+- [ ] `https://sajjadko.com/en/products/zawali-scroll-medallion/`

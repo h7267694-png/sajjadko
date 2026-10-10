@@ -119,7 +119,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Arabic hub `ar/carpets.md` (`carpets`) is the `parent` of hallway, stairs, bedroom, kids, diwaniya-majlis and mosque-carpets (Arabic files only; EN has no hub). Contact and about pages in both languages; Arabic prices guide `ar/carpet-prices-kuwait.md` (`guides/carpet-prices-kuwait`, a `pages` entry). Footer `secondaryLinks` per locale in `navigation.ts`.
 
-## Section images batch (local branch section-images, not pushed yet)
+## Step 48 (section images, 50 products, latest works)
 
 - Product field `services` (`hand-carving`, `carpet-cutting`, `carpet-installation`) links a product to a service page; `productGrid.services` filters by it (hand-carving page shows carved works).
 - All source images in `src/assets/products/` and `src/assets/sections/` are WebP q80, max 1600px (same as admin uploads; client 2026-10-10). Section icons are `sections/<translationKey>.webp`, 600×600. New photos must be saved the same way.
