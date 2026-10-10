@@ -1,0 +1,45 @@
+slug: red-carpet-runner-classic-pattern
+sku: SJ-EV-REDRUN
+status: published
+category: red-carpet
+places:
+  - hallway
+  - hotel
+services:
+  - carpet-cutting
+specs:
+  material: سجاد ممر يُقص بالطول / Runner cut to length
+images:
+  - src: ../../assets/products/red-carpet-runner-classic-pattern.webp
+    original: true
+    alt:
+      ar: سجاد ممر أحمر بنقش كلاسيكي أسود ممدود على أرضية رخام
+      en: Red runner with a black classic pattern laid on a marble floor
+ar:
+  name: سجاد ممر أحمر بنقش كلاسيكي للمناسبات
+  directAnswer: سجاد ممر أحمر بنقش كلاسيكي داكن وإطار متصل على الجانبين، يُقص بالطول الذي تحتاجه لمداخل الأعراس والقاعات والافتتاحات. يُباع بالطول، ويتوفر للتأجير في المناسبات. نؤكد السعر عبر واتساب حسب الطول.
+  usage: ممر لاستقبال الضيوف من الباب إلى القاعة أو المنصة، ويناسب أيضًا الممرات الطويلة في البيوت والديوانيات.
+  care: في التأجير نفك الفرش ونأخذه بعد المناسبة. وفي الشراء نظّفه بالمكنسة الكهربائية وخزّنه ملفوفًا في مكان جاف.
+  seoTitle: سجاد ممر أحمر للمناسبات والمداخل في الكويت — سجادكو
+  seoDescription: سجاد ممر أحمر بنقش كلاسيكي يُقص بالطول لمداخل الأعراس والقاعات والافتتاحات، بيع وتأجير في الكويت.
+  reviewed: true
+  faq:
+    - q: هل يُقص بالطول الذي أحتاجه؟
+      a: نعم، نقصه على طول المدخل أو الممر. أرسل الطول عبر واتساب ونؤكد لك السعر.
+    - q: هل يتوفر للتأجير؟
+      a: نعم، يتوفر للبيع وللتأجير في المناسبات، والتأجير شامل التوصيل والتركيب والفك.
+    - q: هل تزورون المكان قبل المناسبة؟
+      a: نعم، نزور المكان مجانًا للقياس عند الحاجة، أو نقدّر المساحة من الصور والمقاسات التي ترسلها عبر واتساب.
+en:
+  name: Red Event Runner with a Classic Pattern
+  directAnswer: A red runner with a dark classic pattern and continuous side borders, cut to length for wedding, hall and opening entrances. Sold by length and available to rent for events; we confirm the price on WhatsApp.
+  usage: A guest route from the door to the hall or stage; also suits long hallways at home.
+  care: For rentals we lift and take the carpet away after the event. If you buy, vacuum it and store it rolled in a dry place.
+  seoTitle: Red Event Runner for Entrances in Kuwait | Sajjadko
+  seoDescription: Red runner with a classic pattern cut to length for wedding, hall and opening entrances in Kuwait. Sale and rental.
+  reviewed: true
+  faq:
+    - q: How much is it?
+      a: Priced by length. Send the length on WhatsApp and we confirm the price, for sale or rental.
+    - q: Do you visit the venue first?
+      a: Yes, we visit free of charge to measure when needed, or estimate the area from photos and sizes you send on WhatsApp.

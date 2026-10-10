@@ -73,7 +73,7 @@ export const CATEGORY_LABELS: Record<(typeof PRODUCT_CATEGORIES)[number], { ar: 
   moquette: { ar: 'موكيت', en: 'Wall-to-wall carpet' },
   zawali: { ar: 'زوالي', en: 'Rugs (zawali)' },
   'carpet-tiles': { ar: 'بلاط سجاد', en: 'Carpet tiles' },
-  'red-carpet': { ar: 'ريد كاربت', en: 'Red carpet' },
+  'red-carpet': { ar: 'سجاد المناسبات والريد كاربت', en: 'Red carpet and event carpet' },
   'mosque-carpet': { ar: 'سجاد مساجد', en: 'Mosque carpet' },
 };
 export const PLACE_LABELS: Record<(typeof PLACES)[number], { ar: string; en: string }> = {

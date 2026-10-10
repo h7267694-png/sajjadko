@@ -1,0 +1,62 @@
+slug: event-carpet-tents-exhibitions-conferences
+sku: SJ-EV-TENT
+status: published
+category: red-carpet
+places:
+  - hotel
+  - office
+services:
+  - carpet-installation
+specs:
+  material: موكيت فعاليات خفيف / Light event carpet
+images:
+  - src: ../../assets/products/event-tent-grey-carpet-white-chairs.webp
+    original: true
+    alt:
+      ar: خيمة فعالية كبيرة مفروشة بموكيت رمادي من الجدار للجدار وصفوف كراسي بيضاء
+      en: Large event tent carpeted wall to wall in grey with rows of white chairs
+  - src: ../../assets/products/event-tent-purple-aisle-runner.webp
+    original: true
+    alt:
+      ar: ممر سجاد بنفسجي بإطار مزخرف فوق موكيت رمادي في خيمة فعالية
+      en: Purple aisle runner with a patterned border over grey carpet in an event tent
+  - src: ../../assets/products/conference-hall-grey-carpet.webp
+    original: true
+    alt:
+      ar: قاعة مؤتمرات مفروشة بموكيت رمادي وصفوف كراسي
+      en: Conference hall laid with grey carpet and rows of chairs
+  - src: ../../assets/products/event-room-blue-carpet-tables.webp
+    original: true
+    alt:
+      ar: قاعة فعالية بموكيت أزرق وطاولات وقوف
+      en: Event room with blue carpet and standing tables
+ar:
+  name: موكيت خيام ومعارض ومؤتمرات بالألوان
+  directAnswer: موكيت فعاليات خفيف يُفرش من الجدار للجدار في الخيام الكبيرة وقاعات المؤتمرات والمعارض، مع ممرات ملونة للدخول والمنصة. فرشنا به خيمة فعالية بصفوف طويلة من الكراسي، وممرًا بنفسجيًا بإطار مزخرف، وقاعة مؤتمرات بالرمادي، وقاعة بالأزرق. يتوفر بأكثر من 12 لونًا. التأجير 0.750 د.ك للمتر المربع داخل القاعات و1 د.ك في الأماكن الخارجية، شامل التوصيل والتركيب والفك بعد المناسبة، والبيع متوفر.
+  usage: يغطي أرضية الخيمة أو القاعة كلها فيخفي الأرض ويخفف الصوت، والممر الملون يحدد طريق الضيوف إلى المنصة. يناسب المعارض والمؤتمرات وحفلات التخرج وفعاليات الشركات والمدارس والخيام الرمضانية والغبقات.
+  care: في التأجير نفك الفرش ونأخذه بعد المناسبة. وفي الشراء نظّفه بالمكنسة الكهربائية وخزّنه ملفوفًا في مكان جاف.
+  seoTitle: موكيت خيام ومعارض ومؤتمرات للإيجار في الكويت — سجادكو
+  seoDescription: تأجير وبيع موكيت للخيام والمعارض والمؤتمرات بأكثر من 12 لونًا مع ممرات ملونة، من 0.750 د.ك للمتر شامل التركيب والفك.
+  reviewed: true
+  faq:
+    - q: كم سعر تأجير موكيت المعارض والخيام؟
+      a: 0.750 د.ك للمتر المربع داخل القاعات و1 د.ك في الأماكن الخارجية، شامل التوصيل والتركيب والفك. خيمة خارجية 20×30 م (600 م²) مثلًا 600 د.ك.
+    - q: هل تفرشون الخيام الكبيرة بالكامل؟
+      a: نعم، نفرش أرضية الخيمة كاملة من الجدار للجدار، ونحدد مدة العمل وعدد العمال حسب المساحة وموعد المناسبة.
+    - q: هل يتوفر ممر بلون مختلف للمدخل والمنصة؟
+      a: نعم، نفرش ممرًا بلون مختلف فوق الموكيت الأساسي، مثل الأحمر أو البنفسجي، والألوان أكثر من 12 لونًا.
+    - q: هل تزورون المكان قبل المناسبة؟
+      a: نعم، نزور المكان مجانًا للقياس عند الحاجة، أو نقدّر المساحة من الصور والمقاسات التي ترسلها عبر واتساب.
+en:
+  name: Event Carpet for Tents, Exhibitions and Conferences
+  directAnswer: Light event carpet laid wall to wall in large tents, conference halls and exhibitions, with coloured aisles to the entrance and stage. We have carpeted an event tent with long rows of chairs, a purple aisle with a patterned border, a grey conference hall and a blue event room. Over 12 colours. Rental is 0.750 KWD per m² indoors and 1 KWD outdoors, including delivery, laying and removal after the event; sale is also available.
+  usage: Covers the whole tent or hall floor, hides the ground and softens sound; a coloured aisle marks the guest route to the stage. Suits exhibitions, conferences, graduations, corporate and school events and Ramadan tents.
+  care: For rentals we lift and take the carpet away after the event. If you buy, vacuum it and store it rolled in a dry place.
+  seoTitle: Event Carpet Rental for Tents and Exhibitions in Kuwait | Sajjadko
+  seoDescription: Event carpet rental and sale for tents, exhibitions and conferences in Kuwait, 12+ colours, from 0.750 KWD per m² with laying and removal.
+  reviewed: true
+  faq:
+    - q: How much is exhibition and tent carpet rental?
+      a: 0.750 KWD per m² indoors and 1 KWD outdoors, including delivery, laying and removal.
+    - q: Do you visit the venue first?
+      a: Yes, we visit free of charge to measure when needed, or estimate the area from photos and sizes you send on WhatsApp.
