@@ -118,3 +118,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Steps 43–46
 
 - Arabic hub `ar/carpets.md` (`carpets`) is the `parent` of hallway, stairs, bedroom, kids, diwaniya-majlis and mosque-carpets (Arabic files only; EN has no hub). Contact and about pages in both languages; Arabic prices guide `ar/carpet-prices-kuwait.md` (`guides/carpet-prices-kuwait`, a `pages` entry). Footer `secondaryLinks` per locale in `navigation.ts`.
+
+## Section images batch (local branch section-images, not pushed yet)
+
+- Product field `services` (`hand-carving`, `carpet-cutting`, `carpet-installation`) links a product to a service page; `productGrid.services` filters by it (hand-carving page shows carved works).

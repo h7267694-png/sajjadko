@@ -28,6 +28,14 @@ export const PLACES = [
   'hotel',
 ] as const;
 
+// الخدمة المنفَّذة في المنتج (تربط المنتج بصفحة الخدمة: شبكة نماذج الحفر مثلًا)
+export const PRODUCT_SERVICES = ['hand-carving', 'carpet-cutting', 'carpet-installation'] as const;
+export const SERVICE_LABELS: Record<(typeof PRODUCT_SERVICES)[number], { ar: string; en: string }> = {
+  'hand-carving': { ar: 'حفر يدوي', en: 'Hand carving' },
+  'carpet-cutting': { ar: 'قص وحبكة', en: 'Cutting and binding' },
+  'carpet-installation': { ar: 'تركيب', en: 'Installation' },
+};
+
 // نوع الموقع في المشاريع
 export const PROJECT_SITE_TYPES = [
   'mosque',

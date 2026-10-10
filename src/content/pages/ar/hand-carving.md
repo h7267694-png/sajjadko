@@ -6,6 +6,8 @@ status: published
 noTranslation: true
 kind: service
 waType: carving
+productGrid:
+  services: [hand-carving]
 title: 'حفر السجاد والزوالي يدويًا في الكويت — سجادكو الكويت'
 description: 'حفر ونقش السجاد والزوالي يدويًا حسب نقشتك ومقاسك في الكويت. أرسل النقشة أو الصورة عبر واتساب ونؤكد لك السعر.'
 h1: 'حفر السجاد والزوالي يدويًا حسب النقشة والمقاس'

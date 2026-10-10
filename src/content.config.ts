@@ -74,6 +74,7 @@ import {
   LANGS,
   PRODUCT_CATEGORIES,
   PLACES,
+  PRODUCT_SERVICES,
   PROJECT_SITE_TYPES,
   SPEC_UNITS,
   PRICE_UNITS,
@@ -117,6 +118,7 @@ const productsCollection = defineCollection({
         status,
         category: z.enum(PRODUCT_CATEGORIES),
         places: z.array(z.enum(PLACES)).min(1),
+        services: z.array(z.enum(PRODUCT_SERVICES)).optional(), // صفحات الخدمة التي يظهر فيها المنتج
         specs: z
           .object({
             material: z.string().optional(),
@@ -322,6 +324,7 @@ const pagesCollection = defineCollection({
         .object({
           categories: z.array(z.enum(PRODUCT_CATEGORIES)).optional(),
           places: z.array(z.enum(PLACES)).optional(),
+          services: z.array(z.enum(PRODUCT_SERVICES)).optional(),
         })
         .optional(),
     }),

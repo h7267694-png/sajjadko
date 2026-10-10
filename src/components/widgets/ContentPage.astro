@@ -31,5 +31,5 @@ const { Content } = await render(entry);
   pageName={d.h1}
 >
   <div class="prose dark:prose-invert max-w-none"><Content /></div>
-  {d.productGrid && <ProductGrid categories={d.productGrid.categories} places={d.productGrid.places} pageName={d.h1} />}
+  {d.productGrid && <ProductGrid categories={d.productGrid.categories} places={d.productGrid.places} services={d.productGrid.services} pageName={d.h1} />}
 </CategoryLayout>

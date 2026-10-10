@@ -1,7 +1,7 @@
 // إعداد لوحة الإدارة (Sveltia CMS) مولَّد وقت البناء من قوائم المخطط نفسها، فلا تختلف اللوحة عن الموقع.
 // YAML يقبل JSON، فيُكتب JSON. الصور تُحوَّل WebP وتُصغَّر عند الرفع (ميزانية LCP، 16.1).
 import areas from '~/data/kuwait-areas.json';
-import { CATEGORY_LABELS, PLACE_LABELS, PRICE_UNIT_LABELS, SPEC_UNITS } from '~/utils/taxonomy';
+import { CATEGORY_LABELS, PLACE_LABELS, SERVICE_LABELS, PRICE_UNIT_LABELS, SPEC_UNITS } from '~/utils/taxonomy';
 
 const opts = (o: Record<string, { ar: string }>) => Object.entries(o).map(([value, l]) => ({ label: l.ar, value }));
 const govs = areas.governorates as Record<string, { ar: string }>;
@@ -153,6 +153,15 @@ const config = {
           multiple: true,
           min: 1,
           options: opts(PLACE_LABELS),
+        },
+        {
+          name: 'services',
+          label: 'الخدمة المنفذة (اختياري)',
+          hint: 'يظهر المنتج في صفحة الخدمة، مثل الحفر اليدوي',
+          widget: 'select',
+          multiple: true,
+          required: false,
+          options: opts(SERVICE_LABELS),
         },
         {
           name: 'images',

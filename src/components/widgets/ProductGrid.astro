@@ -8,6 +8,7 @@ import { getProducts, productHref } from '~/utils/products';
 export interface Props {
   categories?: string[];
   places?: string[];
+  services?: string[];
   pageName: string;
   /** حد أقصى للبطاقات (الرئيسية) */
   limit?: number;
@@ -20,13 +21,14 @@ export interface Props {
   eager?: number;
 }
 
-const { categories, places, pageName, limit, title, compact = false, carousel = false, eager = 0 } = Astro.props;
+const { categories, places, services, pageName, limit, title, compact = false, carousel = false, eager = 0 } = Astro.props;
 const locale = toLocale(Astro.currentLocale);
 const settings = await getSettings();
 
 const sorted = (await getProducts(locale))
   .filter((p) => !categories?.length || categories.includes(p.data.category))
   .filter((p) => !places?.length || p.data.places.some((x) => places.includes(x)))
+  .filter((p) => !services?.length || (p.data.services ?? []).some((x) => services.includes(x)))
   .sort((a, b) => a.data.sku.localeCompare(b.data.sku));
 
 // مع حد أقصى: تناوب بين الأنواع حتى تظهر عينة من كل نوع (الرئيسية)
