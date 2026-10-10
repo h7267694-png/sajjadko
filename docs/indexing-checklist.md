@@ -199,3 +199,39 @@
 - [ ] `https://sajjadko.com/en/products/zawali-modern-curved-stripes/`
 - [ ] `https://sajjadko.com/en/products/zawali-modern-frame-lines/`
 - [ ] `https://sajjadko.com/en/products/zawali-scroll-medallion/`
+
+**جديد (الخطوة 51): منتجات الحفر اليدوي** (32 رابطًا):
+
+- [ ] `https://sajjadko.com/products/carved-carpet-black-medallion-workshop/`
+- [ ] `https://sajjadko.com/products/carved-diwaniya-carpet-navy-gold-border/`
+- [ ] `https://sajjadko.com/products/carved-entrance-rug-shaped-border/`
+- [ ] `https://sajjadko.com/products/carved-freeform-rug-cream-wave-lines/`
+- [ ] `https://sajjadko.com/products/carved-hall-carpet-multicolour-floral/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-blue-grey-rosettes/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-brown-green-medallion/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-gold-navy-scrolls/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-grey-navy-medallion/`
+- [ ] `https://sajjadko.com/products/carved-rug-beige-navy-scroll-border/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-black-frame-scrolls/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-floral-navy-border/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-gold-navy-classic/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-navy-bronze-scrolls/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-oval-grey-frame/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-red-olive-scrolls/`
+
+- [ ] `https://sajjadko.com/en/products/carved-carpet-black-medallion-workshop/`
+- [ ] `https://sajjadko.com/en/products/carved-diwaniya-carpet-navy-gold-border/`
+- [ ] `https://sajjadko.com/en/products/carved-entrance-rug-shaped-border/`
+- [ ] `https://sajjadko.com/en/products/carved-freeform-rug-cream-wave-lines/`
+- [ ] `https://sajjadko.com/en/products/carved-hall-carpet-multicolour-floral/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-blue-grey-rosettes/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-brown-green-medallion/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-gold-navy-scrolls/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-grey-navy-medallion/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-beige-navy-scroll-border/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-black-frame-scrolls/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-floral-navy-border/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-gold-navy-classic/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-navy-bronze-scrolls/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-oval-grey-frame/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-red-olive-scrolls/`

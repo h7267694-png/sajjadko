@@ -2506,7 +2506,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ---
 
-# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 50؛ الملخص في القسم 29)
+# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 51؛ الملخص في القسم 29)
 
 ## 28.1 القاعدة الإلزامية
 
@@ -2928,9 +2928,16 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - صفحة قص السجاد صارت تعرض منتجاتها (`productGrid.services: [carpet-cutting]`): درج سلوى، الزولية المثمنة، وزوالي التفصيل الثلاث. وزوليتا التفصيل نسق وكثبان أُضيفتا لصفحة الحفر اليدوي (إطارهما محفور يدويًا حسب وصفهما المنشور).
 - **أقسام بلا منتجات أو قليلة (تنتظر صور العميل):** الريد كاربت (لا منتجات ولا أيقونة)، بلاط السجاد (منتجان)، الدرج (3)، المساجد والمصليات (4). محل الضجيج يبقى بصورة منتج (قرار العميل).
 
+**الخطوة 51 (11 أكتوبر 2026) [تم]: 16 عمل حفر يدوي**
+
+- 16 منتجًا جديدًا من صور العميل للحفر اليدوي (الإجمالي 82): 7 موكيت محفور من الجدار للجدار (ديوانيات ومجالس وصالة)، و9 زوالي تفصيل محفورة (صالات ومدخل). كلها بلا سعر (السعر حسب المقاس والنقشة) فلا تُصدر `Product`.
+- تظهر في صفحة الحفر اليدوي (22 منتجًا الآن)، وفي صفحة سجاد المجالس والديوانيات، والمدخل في الممرات. أيقونة الحفر صارت صورة الورشة بقوالب الحفر الخشبية.
+- لم تُضف إلى «أعمالنا الأخيرة» لأن المنطقة غير معروفة. قُصّت علامة باهتة من أسفل صورة واحدة.
+- صورتان تبدوان صورًا تسويقية معالجة (المجلس الرمادي بالزخرفة البنية والخضراء، والزولية بالزهور العنابية)؛ نُشرتا بطلب العميل كنماذج للحفر.
+
 ---
 
-# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 50)
+# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 51)
 
 ## 29.1 ما تم إنجازه
 
@@ -2950,7 +2957,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - عربي فقط: الزوالي والزل (جاهزة، بالمتر، تفصيل، مع جدول المقاسات الشائعة)، محل سجاد الضجيج، سجاد المجالس والديوانيات، سجاد غرف النوم، سجاد الأطفال.
 - **الرئيسية بواجهة متجر:** تسوق حسب القسم، العروض (عند وجود عرض ساري)، كل المنتجات ببطاقات وتصفية بالنوع. LCP نصي نحو ثانية على جوال مُبطّأ.
 
-**المنتجات (66) بأسماء رسمية ووصف عربي وإنجليزي:** موكيت وسجاد بالمتر، ممرات، درج، مكاتب وبلاط سجاد، مساجد، زوالي جاهزة وتفصيل، أطفال، غرف نوم، مجالس. **أعمالنا الأخيرة: 15 عملًا** في القصر والجهراء والأحمدي وسلوى وصباح السالم والدوحة والأندلس وحطين وصباح الأحمد والفروانية.
+**المنتجات (82) بأسماء رسمية ووصف عربي وإنجليزي:** موكيت وسجاد بالمتر، ممرات، درج، مكاتب وبلاط سجاد، مساجد، زوالي جاهزة وتفصيل، أطفال، غرف نوم، مجالس. **أعمالنا الأخيرة: 15 عملًا** في القصر والجهراء والأحمدي وسلوى وصباح السالم والدوحة والأندلس وحطين وصباح الأحمد والفروانية.
 
 ## 29.2 بانتظار التنفيذ
 
@@ -3190,3 +3197,39 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - [ ] `https://sajjadko.com/en/products/zawali-modern-curved-stripes/`
 - [ ] `https://sajjadko.com/en/products/zawali-modern-frame-lines/`
 - [ ] `https://sajjadko.com/en/products/zawali-scroll-medallion/`
+
+**جديد (الخطوة 51): منتجات الحفر اليدوي** (32 رابطًا):
+
+- [ ] `https://sajjadko.com/products/carved-carpet-black-medallion-workshop/`
+- [ ] `https://sajjadko.com/products/carved-diwaniya-carpet-navy-gold-border/`
+- [ ] `https://sajjadko.com/products/carved-entrance-rug-shaped-border/`
+- [ ] `https://sajjadko.com/products/carved-freeform-rug-cream-wave-lines/`
+- [ ] `https://sajjadko.com/products/carved-hall-carpet-multicolour-floral/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-blue-grey-rosettes/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-brown-green-medallion/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-gold-navy-scrolls/`
+- [ ] `https://sajjadko.com/products/carved-majlis-carpet-grey-navy-medallion/`
+- [ ] `https://sajjadko.com/products/carved-rug-beige-navy-scroll-border/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-black-frame-scrolls/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-floral-navy-border/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-gold-navy-classic/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-navy-bronze-scrolls/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-oval-grey-frame/`
+- [ ] `https://sajjadko.com/products/carved-rug-cream-red-olive-scrolls/`
+
+- [ ] `https://sajjadko.com/en/products/carved-carpet-black-medallion-workshop/`
+- [ ] `https://sajjadko.com/en/products/carved-diwaniya-carpet-navy-gold-border/`
+- [ ] `https://sajjadko.com/en/products/carved-entrance-rug-shaped-border/`
+- [ ] `https://sajjadko.com/en/products/carved-freeform-rug-cream-wave-lines/`
+- [ ] `https://sajjadko.com/en/products/carved-hall-carpet-multicolour-floral/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-blue-grey-rosettes/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-brown-green-medallion/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-gold-navy-scrolls/`
+- [ ] `https://sajjadko.com/en/products/carved-majlis-carpet-grey-navy-medallion/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-beige-navy-scroll-border/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-black-frame-scrolls/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-floral-navy-border/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-gold-navy-classic/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-navy-bronze-scrolls/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-oval-grey-frame/`
+- [ ] `https://sajjadko.com/en/products/carved-rug-cream-red-olive-scrolls/`
