@@ -4,17 +4,17 @@
 
 فُهرست يدويًا (10 أكتوبر 2026): `https://sajjadko.com/`، `https://sajjadko.com/by-meter/`، `https://sajjadko.com/moquette/`، `https://sajjadko.com/en/`.
 
-الباقي 49 رابطًا. الحد اليومي نحو 10 طلبات، فالترتيب حسب الأولوية. ضع علامة ✓ عند الانتهاء:
+الباقي 42 رابطًا (فُهرس منها 7 من اليوم 1 في 10 أكتوبر 2026). الحد اليومي نحو 10 طلبات، فالترتيب حسب الأولوية. ضع علامة ✓ عند الانتهاء:
 
 **اليوم 1: الصفحات العربية (الأعلى طلبًا)** (10):
 
-- [ ] `https://sajjadko.com/zawali/`
-- [ ] `https://sajjadko.com/carpet-shop-dajeej/`
-- [ ] `https://sajjadko.com/carpets/diwaniya-majlis/`
-- [ ] `https://sajjadko.com/carpets/bedroom/`
-- [ ] `https://sajjadko.com/carpets/kids/`
-- [ ] `https://sajjadko.com/carpets/hallway/`
-- [ ] `https://sajjadko.com/carpets/stairs/`
+- [x] `https://sajjadko.com/zawali/` (فُهرس 10 أكتوبر 2026)
+- [x] `https://sajjadko.com/carpet-shop-dajeej/` (فُهرس 10 أكتوبر 2026)
+- [x] `https://sajjadko.com/carpets/diwaniya-majlis/` (فُهرس 10 أكتوبر 2026)
+- [x] `https://sajjadko.com/carpets/bedroom/` (فُهرس 10 أكتوبر 2026)
+- [x] `https://sajjadko.com/carpets/kids/` (فُهرس 10 أكتوبر 2026)
+- [x] `https://sajjadko.com/carpets/hallway/` (فُهرس 10 أكتوبر 2026)
+- [x] `https://sajjadko.com/carpets/stairs/` (فُهرس 10 أكتوبر 2026)
 - [ ] `https://sajjadko.com/commercial-flooring/offices/`
 - [ ] `https://sajjadko.com/commercial-flooring/carpet-tiles/`
 - [ ] `https://sajjadko.com/projects/`
