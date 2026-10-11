@@ -137,3 +137,7 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 
 - Turkish carpet, thicker moquette, zawali cut by the metre and thick stair carpet: **5–15 KWD per running metre of a 4 m wide roll** (`priceRange.unit: linear-m`, schema MTR). Metres = min(ceil(W/4)×L, ceil(L/4)×W); 3×4 room = 3 m. Hallway runners: 5–15 KWD per running metre of runner.
 - Per m² stays only for lightweight carpet (1.250–3), mosque/musalla (6/7/8), carpet tiles (5–6) and red carpet rental (0.750/1). Never write "5 to 15 per m²" again.
+
+## Step 60
+
+- Home `.cat-tile` and `.aisle` use `content-visibility: auto` (+ `contain-intrinsic-size`) so off-screen lazy images are not fetched during load (Chrome prefetches lazy images 1250–2500px ahead; 41 → 18 image requests). Keep it when adding sections or products.

@@ -132,7 +132,7 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
         {tiles.map((x) => {
           const src = sectionImg(x.key) ?? (x.img ? byId.get(x.img)?.data.images[0]?.src : undefined);
           return (
-            <li class="snap-start shrink-0 w-28 md:w-auto">
+            <li class="cat-tile snap-start shrink-0 w-28 md:w-auto">
               <a href={x.href} class="group block text-center">
                 <span class="block overflow-hidden rounded-xl bg-primary/5 dark:bg-slate-800 aspect-square">
                   {src ? (
@@ -254,6 +254,17 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
 <script is:inline set:html={JS} />
 
 <style>
+  /* لا تُحمَّل صور الأقسام والأروقة البعيدة عن الشاشة أثناء فتح الصفحة: content-visibility:auto يؤجل رسمها،
+     فلا يطلب المتصفح صورها الكسولة حتى تقترب من الشاشة (Chrome يحمّل الكسول مسبقًا حتى 1250–2500px، فيطول Speed Index).
+     HTML كامل كما هو للزواحف وقارئات الشاشة. */
+  .cat-tile {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 112px auto 150px;
+  }
+  .aisle {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 640px;
+  }
   /* رواق المنتجات: لوحة القسم بلون الهوية بجانب منتجين، والباقي يُكشف بالزر */
   .aisle-grid {
     display: grid;
