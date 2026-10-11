@@ -3015,7 +3015,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 **يبقى خارج الكود (قرار العميل):** تنبيه «مدة التخزين القصيرة» سببه استضافة GitHub Pages (عشر دقائق ثابتة). علاجه الوحيد Cloudflare أمام الدومين. أثره على الزيارات المتكررة فقط، لا على أول زيارة ولا على قياس PageSpeed للأداء.
 
-**الخطوة 62 (11 أكتوبر 2026) [المنطقة Active، الإعدادات اليدوية جارية]: Cloudflare أمام الدومين (علاج «مدة التخزين القصيرة» من مستوى الاستضافة)**
+**الخطوة 62 (11 أكتوبر 2026) [تم]: Cloudflare أمام الدومين (علاج «مدة التخزين القصيرة» من مستوى الاستضافة)**
 
 - أُنشئت منطقة `sajjadko.com` في Cloudflare (خطة مجانية). سجلات DNS: ‏A ×4 ‏(185.199.108–111.153) و AAAA ×4 ‏(2606:50c0:8000–8003::153) لـGitHub Pages، و CNAME ‏`www` ← `h7267694-png.github.io`، كلها Proxied. لا سجلات MX (لا بريد على الدومين).
 - سجل TXT ‏`google-site-verification=CVUcioBXuDqJCh3TeozaWyUGMNyh9z14uQwMW7T6Zck` على `@` (DNS only) نُقل من Hostinger، وتحقّقنا من ظهوره عالميًا، فبقيت خاصية النطاق في Search Console متحققة. Bing مربوط عبر Search Console ولا يحتاج سجلًا.
@@ -3023,7 +3023,9 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - الإعدادات المطلوبة يدويًا في Cloudflare: SSL ‏Full، Always Use HTTPS، Automatic HTTPS Rewrites، أدنى TLS ‏1.2؛ Brotli و HTTP/3 و Early Hints؛ **Rocket Loader معطّل** و Email Obfuscation معطّل؛ Browser Cache TTL على Respect Existing Headers؛ Bot Fight Mode معطّل وسياسات زواحف الذكاء الاصطناعي الثلاث Allow و robots.txt المُدار معطّل (ملفنا يبقى كما هو).
 - قاعدة كاش واحدة فقط: `/_astro/` و `/fonts/` بتخزين سنة (Edge و Browser)، لأن أسماء ملفاتها تتغير مع كل بناء. **لا قاعدة لصفحات HTML**: روابطنا تنتهي بـ`/` لا بـ`.html`، و Cloudflare لا يخزّن HTML افتراضيًا، فتظهر التحديثات فورًا.
 - في GitHub Pages يبقى Enforce HTTPS مفعّلًا (لا حلقة تحويل مع وضع Full).
-- المتبقي: تأكيد Active، ثم فحص مرور الموقع عبر Cloudflare و HTTPS وترويسة التخزين لملفات `/_astro/`، ثم إعادة قياس PageSpeed على الجوال مرتين.
+- نُفّذت الإعدادات يدويًا من لوحة Cloudflare وراجعناها بالصور (11 أكتوبر 2026، 19:23): Always Use HTTPS وAutomatic HTTPS Rewrites مفعّلان، وأدنى TLS ‏1.2، و HTTP/2 و HTTP/3 و TLS 1.3 و Early Hints مفعّلة، و**Rocket Loader معطّل** (كان قد تفعّل خطأً فأُوقف)، و Speed Brain و RUM و 0-RTT معطّلة، و Polish و APO غير متاحين في الخطة المجانية. Browser Cache TTL على Respect Existing Headers (كان 4 ساعات)، و Caching Level ‏Standard. قاعدة الكاش الوحيدة `static assets` مفعّلة: `starts_with(uri.path, "/_astro/") or starts_with(uri.path, "/fonts/")`، Eligible، Edge TTL سنة متجاهلًا cache-control، Browser TTL سنة. Bot Fight Mode و AI Labyrinth معطّلان، وكل زواحف AI Crawl Control غير محظورة.
+- **قرارات:** HSTS مؤجل حتى يستقر الموقع أسبوعًا على Cloudflare (التراجع عنه صعب). لا يُضغط «Enable all available settings» في صفحة Speed (يضيف سكربت RUM و Speed Brain).
+- المتبقي (سابقًا): تأكيد Active، ثم فحص مرور الموقع عبر Cloudflare و HTTPS وترويسة التخزين لملفات `/_astro/`، ثم إعادة قياس PageSpeed على الجوال مرتين.
 
 ---
 
@@ -3040,7 +3042,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - لوحة إدارة `/admin/` (منتجات، صور WebP تلقائيًا، أعمالنا الأخيرة بالمنطقة، العروض).
 - قائمة بخمسة عناصر أعلى كحد أقصى بقوائم منسدلة، وكل عناوين الأقسام تحمل «سجاد/موكيت» (قاعدة الاستهداف بكلمة المنتج).
 - Search Console: خاصية نطاق متحققة، والخريطة مرسلة.
-- Cloudflare أمام الدومين (الخطوة 62): DNS منقول، وسجل تحقق Google منقول، والنيمسيرفرز محوّلة؛ المنطقة Active، والإعدادات اليدوية جارية.
+- Cloudflare أمام الدومين (الخطوة 62): DNS منقول، وسجل تحقق Google منقول، والنيمسيرفرز محوّلة؛ المنطقة Active والإعدادات منفّذة. المتبقي: إعادة قياس PageSpeed مرتين.
 
 **الصفحات المنشورة**
 
@@ -3067,7 +3069,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 **قرار العميل لعرض المنتجات في الرئيسية (11 أكتوبر 2026):** منتجان من كل قسم فقط، وزر «عرض المزيد» يعرض للزائر بقية منتجات القسم (رابط لصفحة القسم أو تحميل عند الطلب دون صور مسبقة). يُنفَّذ في الرسالة التالية من العميل.
 
-**[نُفّذ الجزء الأول، الخطوة 49]:** الأروقة بمنتجين وزر «عرض المزيد»، وتقليص CSS، وإزالة إعادة التدفق. **الباقي:** إعادة قياس PageSpeed على الموقع المنشور مرتين؛ إن بقي Speed Index أعلى من 3.4 ث يُفحص فيلم التحميل في التقرير. ومدة التخزين: وافق العميل على Cloudflare ونُفّذ النقل وصارت المنطقة Active (الخطوة 62). المتبقي: الإعدادات اليدوية وإعادة القياس.
+**[نُفّذ الجزء الأول، الخطوة 49]:** الأروقة بمنتجين وزر «عرض المزيد»، وتقليص CSS، وإزالة إعادة التدفق. **الباقي:** إعادة قياس PageSpeed على الموقع المنشور مرتين؛ إن بقي Speed Index أعلى من 3.4 ث يُفحص فيلم التحميل في التقرير. ومدة التخزين: وافق العميل على Cloudflare ونُفّذ النقل وصارت المنطقة Active (الخطوة 62). المتبقي: إعادة قياس PageSpeed على الجوال مرتين (يُتوقع اختفاء تنبيه مدة التخزين القصيرة).
 
 **طريقة التنفيذ:** قياس قبل وبعد على الجوال لكل تغيير، وتسجيل الأرقام هنا. ولا يُقبل أي حل يبطئ صفحة أخرى أو يكسر حواجز الجودة.
 

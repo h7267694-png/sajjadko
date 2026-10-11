@@ -148,7 +148,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - CSS is inlined (`build.inlineStylesheets: 'always'`); HTML budget is 55KB gz including CSS.
 - Quality gate fails on: >70 `<img>` per page, >3 non-lazy images, >40 product cards, any external `<script src>`; warns at 80% of HTML budget. LHCI asserts SI ≤ 3.4 s, TBT ≤ 200 ms, LCP ≤ 2.5 s on home, /en/, /zawali/ and a product page.
 
-## Step 62 (Cloudflare, active 2026-10-11)
+## Step 62 (Cloudflare, done 2026-10-11)
 
 - DNS moved to Cloudflare (nameservers ada/colin; DNSSEC off at Hostinger). Records: GitHub Pages A ×4, AAAA ×4, CNAME www (proxied) and the Google TXT verification on `@` (DNS only, keeps Search Console verified). No MX.
 - Only one cache rule: `/_astro/` and `/fonts/` cached 1 year. Do not add an HTML cache/bypass rule (URLs end in `/`; Cloudflare does not cache HTML by default). Rocket Loader must stay off. AI crawler policies Allow, managed robots.txt off.
+- Browser Cache TTL: Respect Existing Headers. Bot Fight Mode and AI Labyrinth off. HSTS deferred. Never press "Enable all available settings" on the Speed page (adds RUM beacon and Speed Brain).
