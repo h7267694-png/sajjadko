@@ -116,7 +116,13 @@ export const getFooterData = (l: Locale) => ({
         { text: 'Contact', href: '/en/contact/' },
         { text: 'Our recent work', href: '/en/projects/' },
       ]) as { text: string; href: string }[],
-  socialLinks: [] as { ariaLabel?: string; href: string; icon?: string }[],
+  socialLinks: [
+    {
+      ariaLabel: l === 'ar' ? 'سجادكو على إنستغرام' : 'Sajjadko on Instagram',
+      href: 'https://www.instagram.com/sajjadko.kw/',
+      icon: 'tabler:brand-instagram',
+    },
+  ] as { ariaLabel?: string; href: string; icon?: string }[],
   footNote:
     l === 'ar' ? `© ${new Date().getFullYear()} سجادكو الكويت` : `© ${new Date().getFullYear()} Sajjadko Kuwait`,
 });

@@ -10,4 +10,6 @@ address:
 hours:
   ar: 'ساعات العمل: من 8 صباحًا حتى 8 مساءً'
   en: 'Hours: 8 AM to 8 PM'
-# تُضاف عند توفرها من العميل (لا تخمين): social.instagram
+# حسابات التواصل الرسمية (sameAs في Schema وروابط التذييل). تُضاف عند فتحها فقط، لا تخمين.
+social:
+  instagram: 'https://www.instagram.com/sajjadko.kw/'
