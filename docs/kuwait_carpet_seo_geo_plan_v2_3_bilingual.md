@@ -2506,7 +2506,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ---
 
-# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 52؛ الملخص في القسم 29)
+# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 53؛ الملخص في القسم 29)
 
 ## 28.1 القاعدة الإلزامية
 
@@ -2943,9 +2943,14 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - **كلمات مستهدفة (القسم 22):** ريد كاربت، تأجير ريد كاربت، سجاد مناسبات، سجاد أحمر للمناسبات، سجاد خيام، سجاد قاعات، موكيت قاعات، سجاد معارض، سجاد أعراس؛ وبالإنجليزية red carpet kuwait (30) وred carpet rental (10). أداة Ubersuggest لم تُرجع أحجامًا عربية جديدة للكويت.
 - قُصّت الجبال من صور المناسبات الخارجية والعلم من صورة قاعة المؤتمرات (طلب العميل). لا تُنسب هذه الأعمال لمنطقة ولا تدخل «أعمالنا الأخيرة».
 
+**الخطوة 53 (11 أكتوبر 2026) [تم]: بلاط السجاد 40×40**
+
+- عملان في «أعمالنا الأخيرة»: مكتبة وممرات مبنى تعليمي في **حولي** (بلاط رمادي مخطط مع عنابي، 4 صور بينها صورة الممر من المشروع نفسه)، ومكاتب شركة في **شرق** (بني وبيج بنقشة رقعة الشطرنج، صورتان).
+- منتجان: بلاط بنقش أزرق ورمادي، وبلاط فحمي مخطط بإطار رمادي. كلها 5–6 د.ك للمتر (السعر المنشور). قسم بلاط السجاد صار فيه 6 منتجات.
+
 ---
 
-# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 52)
+# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 53)
 
 ## 29.1 ما تم إنجازه
 
@@ -2965,7 +2970,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - عربي فقط: الزوالي والزل (جاهزة، بالمتر، تفصيل، مع جدول المقاسات الشائعة)، محل سجاد الضجيج، سجاد المجالس والديوانيات، سجاد غرف النوم، سجاد الأطفال.
 - **الرئيسية بواجهة متجر:** تسوق حسب القسم، العروض (عند وجود عرض ساري)، كل المنتجات ببطاقات وتصفية بالنوع. LCP نصي نحو ثانية على جوال مُبطّأ.
 
-**المنتجات (84) بأسماء رسمية ووصف عربي وإنجليزي:** موكيت وسجاد بالمتر، ممرات، درج، مكاتب وبلاط سجاد، مساجد، زوالي جاهزة وتفصيل، أطفال، غرف نوم، مجالس. **أعمالنا الأخيرة: 15 عملًا** في القصر والجهراء والأحمدي وسلوى وصباح السالم والدوحة والأندلس وحطين وصباح الأحمد والفروانية.
+**المنتجات (88) بأسماء رسمية ووصف عربي وإنجليزي:** موكيت وسجاد بالمتر، ممرات، درج، مكاتب وبلاط سجاد، مساجد، زوالي جاهزة وتفصيل، أطفال، غرف نوم، مجالس. **أعمالنا الأخيرة: 15 عملًا** في القصر والجهراء والأحمدي وسلوى وصباح السالم والدوحة والأندلس وحطين وصباح الأحمد والفروانية.
 
 ## 29.2 بانتظار التنفيذ
 
@@ -3249,3 +3254,15 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - [ ] `https://sajjadko.com/en/products/red-carpet-runner-classic-pattern/`
 - [ ] `https://sajjadko.com/en/products/event-rugs-outdoor-weddings-gatherings/`
 - [ ] `https://sajjadko.com/en/products/wedding-hall-white-carpet-rugs/`
+
+**جديد (الخطوة 53): بلاط السجاد 40×40** (8 روابط):
+
+- [ ] `https://sajjadko.com/products/hawalli-library-carpet-tiles-grey-red/`
+- [ ] `https://sajjadko.com/products/sharq-office-carpet-tiles-brown-beige/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-blue-grey-pattern/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-charcoal-grey-stripes/`
+
+- [ ] `https://sajjadko.com/en/products/hawalli-library-carpet-tiles-grey-red/`
+- [ ] `https://sajjadko.com/en/products/sharq-office-carpet-tiles-brown-beige/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-blue-grey-pattern/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-charcoal-grey-stripes/`

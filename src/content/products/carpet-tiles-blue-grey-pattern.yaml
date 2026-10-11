@@ -1,0 +1,55 @@
+slug: carpet-tiles-blue-grey-pattern
+sku: SJ-CT-BLUE
+status: published
+category: carpet-tiles
+places:
+  - office
+  - hotel
+services:
+  - carpet-installation
+specs:
+  material: بلاط سجاد بوبر حلقي / Loop-pile carpet tiles
+  installation: يُركّب بلاطة بلاطة، والبلاطة التالفة تُبدل وحدها / Laid tile by tile; a damaged tile is replaced on its own
+sizes:
+  - 40 × 40 سم / 40 × 40 cm
+priceRange:
+  min: 5
+  max: 6
+  unit: m2
+  updated: '2026-10-11'
+colors:
+  - أزرق وكحلي ورمادي / Blue, navy and grey
+images:
+  - src: ../../assets/products/carpet-tiles-blue-grey-pattern.webp
+    original: true
+    alt:
+      ar: بلاط سجاد 40×40 بنقش مستطيلات بالأزرق والكحلي والرمادي حول عمود مكتب
+      en: 40×40 carpet tiles with a blue, navy and grey rectangle pattern around an office column
+ar:
+  name: بلاط سجاد 40×40 بنقش أزرق ورمادي
+  directAnswer: بلاط سجاد 40×40 سم بوبر حلقي، بنقش مستطيلات متداخلة بالأزرق والكحلي والرمادي، تتصل بين البلاطات فتغطي الأرضية بنقش متصل. يُقص حول الأعمدة والزوايا المنحنية. يُباع بالمتر المربع من 5 إلى 6 د.ك.
+  usage: النقش المتداخل يخفي آثار الحركة والبقع الصغيرة، فيناسب المكاتب المفتوحة وممرات الفنادق وقاعات الاجتماعات.
+  care: نظّفه بالمكنسة الكهربائية بانتظام، وامسح البقع فور وقوعها بقطعة قماش مبللة. البلاطة التي يتعذر تنظيفها تُرفع وتُبدل بأخرى من الطلبية نفسها.
+  seoTitle: بلاط سجاد 40×40 أزرق ورمادي للمكاتب — سجادكو
+  seoDescription: بلاط سجاد مكاتب 40×40 بنقش أزرق وكحلي ورمادي، من 5 إلى 6 د.ك للمتر المربع في الكويت مع القياس والتركيب.
+  reviewed: true
+  faq:
+    - q: كم سعر بلاط السجاد بالمتر؟
+      a: من 5 إلى 6 د.ك للمتر المربع، والمتر فيه 6.25 بلاطة. مكتب 50 م² يحتاج نحو 313 بلاطة بكلفة بين 250 و300 د.ك قبل التركيب.
+    - q: هل يمكن تبديل بلاطة واحدة؟
+      a: نعم، البلاطة التالفة تُرفع وتوضع مكانها بلاطة جديدة دون المساس بالباقي، لذلك ننصح بالاحتفاظ ببضع بلاطات احتياطية.
+    - q: هل الزيارة والقياس مجانًا؟
+      a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
+en:
+  name: Blue and Grey Patterned 40×40 Carpet Tiles
+  directAnswer: 40×40 cm loop-pile carpet tiles with interlocking rectangles in blue, navy and grey that run across tiles into one continuous pattern. Cut around columns and curves. 5 to 6 KWD per m².
+  usage: The pattern hides traffic marks and small stains, suiting open offices, hotel corridors and meeting rooms.
+  care: Vacuum regularly and blot spills straight away with a damp cloth. A tile that will not come clean is lifted and replaced with one from the same batch.
+  seoTitle: Blue and Grey 40×40 Office Carpet Tiles in Kuwait | Sajjadko
+  seoDescription: Blue, navy and grey patterned 40×40 office carpet tiles in Kuwait, 5 to 6 KWD per m².
+  reviewed: true
+  faq:
+    - q: How much are carpet tiles per m²?
+      a: 5 to 6 KWD per m², with 6.25 tiles per m². A 50 m² office needs about 313 tiles, 250 to 300 KWD before fitting.
+    - q: Is the home visit and measuring free?
+      a: Yes. We visit free of charge to measure and show samples, then send the price on WhatsApp.

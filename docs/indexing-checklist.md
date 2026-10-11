@@ -243,3 +243,15 @@
 - [ ] `https://sajjadko.com/en/products/red-carpet-runner-classic-pattern/`
 - [ ] `https://sajjadko.com/en/products/event-rugs-outdoor-weddings-gatherings/`
 - [ ] `https://sajjadko.com/en/products/wedding-hall-white-carpet-rugs/`
+
+**جديد (الخطوة 53): بلاط السجاد 40×40** (8 روابط):
+
+- [ ] `https://sajjadko.com/products/hawalli-library-carpet-tiles-grey-red/`
+- [ ] `https://sajjadko.com/products/sharq-office-carpet-tiles-brown-beige/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-blue-grey-pattern/`
+- [ ] `https://sajjadko.com/products/carpet-tiles-charcoal-grey-stripes/`
+
+- [ ] `https://sajjadko.com/en/products/hawalli-library-carpet-tiles-grey-red/`
+- [ ] `https://sajjadko.com/en/products/sharq-office-carpet-tiles-brown-beige/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-blue-grey-pattern/`
+- [ ] `https://sajjadko.com/en/products/carpet-tiles-charcoal-grey-stripes/`
