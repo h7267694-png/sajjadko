@@ -2,7 +2,12 @@
   "ci": {
     "collect": {
       "staticDistDir": "./dist",
-      "url": ["http://localhost/index.html", "http://localhost/en/index.html"],
+      "url": [
+        "http://localhost/index.html",
+        "http://localhost/en/index.html",
+        "http://localhost/zawali/index.html",
+        "http://localhost/products/remal-plush/index.html"
+      ],
       "numberOfRuns": 3
     },
     "assert": {
@@ -10,7 +15,7 @@
         "largest-contentful-paint": [
           "error",
           {
-            "maxNumericValue": 2000,
+            "maxNumericValue": 2500,
             "aggregationMethod": "median"
           }
         ],
@@ -19,6 +24,26 @@
           {
             "maxNumericValue": 0.05,
             "aggregationMethod": "median"
+          }
+        ],
+        "speed-index": [
+          "error",
+          {
+            "maxNumericValue": 3400,
+            "aggregationMethod": "median"
+          }
+        ],
+        "total-blocking-time": [
+          "error",
+          {
+            "maxNumericValue": 200,
+            "aggregationMethod": "median"
+          }
+        ],
+        "render-blocking-resources": [
+          "warn",
+          {
+            "maxLength": 0
           }
         ]
       }

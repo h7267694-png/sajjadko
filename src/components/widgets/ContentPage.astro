@@ -34,6 +34,7 @@ const { Content } = await render(entry);
   {
     d.productGrid && (
       <ProductGrid
+        listKey={d.translationKey}
         categories={d.productGrid.categories}
         places={d.productGrid.places}
         services={d.productGrid.services}

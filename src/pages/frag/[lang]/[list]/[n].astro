@@ -1,0 +1,47 @@
+---
+// صفحات «عرض المزيد» (الخطوة 61): HTML لبطاقات فقط، يُجلب عند الضغط ويُضاف للقائمة.
+// محظورة في robots.txt وخارج الخريطة وحواجز الجودة. لا تُبنى إلا للصفحات 2 فما بعد.
+import type { GetStaticPaths } from 'astro';
+import GridCard from '~/components/ui/GridCard.astro';
+import WorkCard from '~/components/ui/WorkCard.astro';
+import { gridLists, worksList, chunk, PAGE_SIZE } from '~/utils/lists';
+import { getSettings, type Locale } from '~/utils/site';
+import type { ProductEntry } from '~/utils/products';
+
+export const getStaticPaths = (async () => {
+  const paths: {
+    params: { lang: Locale; list: string; n: string };
+    props: { kind: 'grid' | 'works'; items: ProductEntry[]; pageName: string };
+  }[] = [];
+  for (const lang of ['ar', 'en'] as Locale[]) {
+    for (const { key, items } of await gridLists(lang))
+      chunk(items, PAGE_SIZE)
+        .slice(1)
+        .forEach((c, i) =>
+          paths.push({
+            params: { lang, list: `grid-${key}`, n: String(i + 2) },
+            props: { kind: 'grid', items: c, pageName: key },
+          })
+        );
+    chunk(await worksList(lang), PAGE_SIZE)
+      .slice(1)
+      .forEach((c, i) =>
+        paths.push({
+          params: { lang, list: 'works', n: String(i + 2) },
+          props: { kind: 'works', items: c, pageName: 'works' },
+        })
+      );
+  }
+  return paths;
+}) satisfies GetStaticPaths;
+
+const { lang } = Astro.params as { lang: Locale };
+const { kind, items, pageName } = Astro.props;
+const settings = await getSettings();
+---
+
+{
+  kind === 'grid'
+    ? items.map((p) => <GridCard entry={p} lang={lang} pageName={pageName} whatsapp={settings?.whatsapp} />)
+    : items.map((p) => <WorkCard entry={p} lang={lang} />)
+}

@@ -1,0 +1,63 @@
+---
+// زر «عرض المزيد» لقائمة محدودة: يجلب الصفحة التالية من /frag/ ويضيفها للقائمة. بلا مكتبات.
+// الصفحات الإضافية لا تُحمَّل إلا عند الضغط، فحجم الصفحة الأصلية ثابت مهما زادت العناصر.
+import { fragHref } from '~/utils/lists';
+import type { Locale } from '~/utils/site';
+
+export interface Props {
+  lang: Locale;
+  list: string;
+  /** عدد ملفات /frag/ (الصفحات بعد الأولى) */
+  pages: number;
+  /** عدد العناصر المتبقية */
+  rest: number;
+  target: string;
+}
+const { lang, list, pages, rest, target } = Astro.props;
+const ar = lang === 'ar';
+const label = ar ? `عرض المزيد (${rest})` : `Show more (${rest})`;
+const JS = `document.querySelectorAll('[data-load-more]').forEach(function(b){if(b.dataset.ready)return;b.dataset.ready=1;b.addEventListener('click',function(){var n=+b.dataset.next,ul=document.getElementById(b.dataset.target);b.disabled=true;b.setAttribute('aria-busy','true');fetch(b.dataset.base.replace('/0/','/'+n+'/')).then(function(r){if(!r.ok)throw 0;return r.text()}).then(function(h){var t=document.createElement('template');t.innerHTML=h;t.content.querySelectorAll('.grid-card').forEach(function(li){ul.appendChild(li)});n++;b.dataset.next=n;b.disabled=false;b.removeAttribute('aria-busy');if(n>+b.dataset.pages)b.remove();}).catch(function(){b.disabled=false;b.removeAttribute('aria-busy')})})});`;
+---
+
+{
+  pages > 0 && (
+    <>
+      <button
+        type="button"
+        class="load-more"
+        data-load-more
+        data-base={fragHref(lang, list, 0)}
+        data-next="2"
+        data-pages={pages + 1}
+        data-target={target}
+        aria-controls={target}
+      >
+        {label}
+      </button>
+      <script is:inline set:html={JS} />
+    </>
+  )
+}
+
+<style>
+  .load-more {
+    margin-top: 1rem;
+    width: 100%;
+    min-height: 2.75rem;
+    border-radius: 0.75rem;
+    border: 1.5px dashed var(--aw-color-accent);
+    color: var(--aw-color-primary);
+    font-weight: 700;
+    background: color-mix(in srgb, var(--aw-color-accent) 8%, transparent);
+  }
+  :global(.dark) .load-more {
+    color: #fff;
+  }
+  .load-more:focus-visible {
+    outline: 3px solid var(--aw-color-accent);
+    outline-offset: 2px;
+  }
+  .load-more[disabled] {
+    opacity: 0.6;
+  }
+</style>

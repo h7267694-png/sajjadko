@@ -1,0 +1,53 @@
+---
+// بطاقة عمل منفّذ في «من أعمالنا الأخيرة» (في الصفحة وفي ملفات «عرض المزيد» /frag/)
+import { Image } from 'astro:assets';
+import { productHref, type ProductEntry } from '~/utils/products';
+import { areaLabel } from '~/utils/taxonomy';
+import type { Locale } from '~/utils/site';
+
+export interface Props {
+  entry: ProductEntry;
+  lang: Locale;
+  eager?: boolean;
+}
+const { entry: p, lang, eager = false } = Astro.props;
+const tx = p.data[lang]!;
+const w = p.data.latestWork!;
+const img = p.data.images[0];
+---
+
+<li class="grid-card rounded-lg border border-gray-200 dark:border-slate-700 overflow-hidden">
+  {
+    img && (
+      <Image
+        src={img.src}
+        alt={img.alt[lang] ?? tx.name}
+        widths={[360, 640]}
+        sizes="(min-width: 640px) 420px, 100vw"
+        loading={eager ? 'eager' : 'lazy'}
+        decoding="async"
+        class="w-full aspect-[4/3] object-cover"
+      />
+    )
+  }
+  <div class="p-4">
+    <h2 class="text-lg font-semibold">
+      <a href={productHref(lang, p.id)} class="hover:underline">{tx.name}</a>
+    </h2>
+    <p class="text-sm mt-1">
+      {lang === 'ar' ? 'في' : 'in'}
+      {areaLabel(w.area!, lang)}
+      {
+        w.date && (
+          <>
+            {' · '}
+            <time datetime={w.date.toISOString().slice(0, 10)}>
+              <bdi dir="ltr">{w.date.toISOString().slice(0, 7)}</bdi>
+            </time>
+          </>
+        )
+      }
+    </p>
+    {w.note[lang] && <p class="text-sm text-muted mt-2">{w.note[lang]}</p>}
+  </div>
+</li>

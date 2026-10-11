@@ -81,6 +81,8 @@ const aisles = [...new Set(products.map((p) => p.data.category))]
   })
   .sort((a, b) => b.items.length - a.items.length);
 const SHOWN = 2;
+// حد البطاقات في الرواق (ظاهرة + مخفية): الباقي في صفحة القسم. حجم الرئيسية ثابت مهما زادت المنتجات.
+const MAX_IN_AISLE = 6;
 
 const t = ar
   ? {
@@ -91,6 +93,7 @@ const t = ar
       more: (n: number) => `عرض المزيد (${n})`,
       less: 'عرض أقل',
       page: 'صفحة القسم',
+      seeAll: (n: number) => `كل منتجات القسم (${n})`,
       count: (n: number) => (n === 1 ? 'منتج واحد' : n === 2 ? 'منتجان' : n <= 10 ? `${n} منتجات` : `${n} منتجًا`),
     }
   : {
@@ -101,6 +104,7 @@ const t = ar
       more: (n: number) => `Show more (${n})`,
       less: 'Show less',
       page: 'Section page',
+      seeAll: (n: number) => `All products in this section (${n})`,
       count: (n: number) => `${n} product${n === 1 ? '' : 's'}`,
     };
 
@@ -109,12 +113,14 @@ const schema = products.length
       '@context': 'https://schema.org',
       '@type': 'ItemList',
       name: t.all,
-      itemListElement: products.map((p, i) => ({
-        '@type': 'ListItem',
-        position: i + 1,
-        name: p.data[lang]!.name,
-        url: new URL(productHref(lang, p.id), Astro.site).href,
-      })),
+      itemListElement: aisles
+        .flatMap((a) => a.items.slice(0, MAX_IN_AISLE))
+        .map((p, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: p.data[lang]!.name,
+          url: new URL(productHref(lang, p.id), Astro.site).href,
+        })),
     }
   : null;
 
@@ -189,7 +195,9 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
       <div class="space-y-8 md:space-y-10">
         {aisles.map((a) => {
           const label = CATEGORY_LABELS[a.c][lang];
-          const rest = a.items.length - SHOWN;
+          const shown = a.items.slice(0, MAX_IN_AISLE);
+          const rest = shown.length - SHOWN;
+          const beyond = a.items.length - shown.length;
           const listId = `aisle-${a.c}`;
           return (
             <section class="aisle" aria-labelledby={`${listId}-h`}>
@@ -225,7 +233,7 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
                     </a>
                   )}
                 </li>
-                {a.items.map((p, i) => (
+                {shown.map((p, i) => (
                   <ProductCard entry={p} lang={lang} pageName={pageName} extra={i >= SHOWN} noBadge />
                 ))}
               </ul>
@@ -241,6 +249,11 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
                 >
                   {t.more(rest)}
                 </button>
+              )}
+              {beyond > 0 && a.href && (
+                <a href={a.href} class="aisle-all">
+                  {t.seeAll(a.items.length)}
+                </a>
               )}
             </section>
           );
@@ -319,6 +332,15 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
   }
   :global(.dark) .aisle-more {
     color: #fff;
+  }
+  .aisle-all {
+    display: block;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    text-decoration: underline;
+    text-underline-offset: 4px;
   }
   .aisle-more:hover {
     background: color-mix(in srgb, var(--aw-color-accent) 16%, transparent);

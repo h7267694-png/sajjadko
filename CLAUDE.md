@@ -141,3 +141,9 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 ## Step 60
 
 - Home `.cat-tile` and `.aisle` use `content-visibility: auto` (+ `contain-intrinsic-size`) so off-screen lazy images are not fetched during load (Chrome prefetches lazy images 1250–2500px ahead; 41 → 18 image requests). Keep it when adding sections or products.
+
+## Step 61 (bounded lists, permanent speed guards)
+
+- Lists never grow with content: category grids and `/projects/` render the first `PAGE_SIZE` (12) items; «عرض المزيد» (`ui/LoadMore.astro`) fetches `/frag/<lang>/<list>/<n>/` card fragments (`src/pages/frag/`, cards from `ui/GridCard.astro` / `ui/WorkCard.astro`, logic in `utils/lists.ts`). `/frag/` is disallowed in robots, excluded from sitemap and quality gates. Home aisles cap at 6 cards (2 shown) then link to the category page.
+- CSS is inlined (`build.inlineStylesheets: 'always'`); HTML budget is 55KB gz including CSS.
+- Quality gate fails on: >70 `<img>` per page, >3 non-lazy images, >40 product cards, any external `<script src>`; warns at 80% of HTML budget. LHCI asserts SI ≤ 3.4 s, TBT ≤ 200 ms, LCP ≤ 2.5 s on home, /en/, /zawali/ and a product page.

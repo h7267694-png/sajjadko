@@ -1,0 +1,86 @@
+---
+// بطاقة شبكة النماذج في صفحات الأقسام (تُستعمل في الصفحة وفي ملفات «عرض المزيد» /frag/)
+import { Image } from 'astro:assets';
+import { productHref, type ProductEntry } from '~/utils/products';
+import type { Locale } from '~/utils/site';
+
+export interface Props {
+  entry: ProductEntry;
+  lang: Locale;
+  pageName: string;
+  whatsapp?: string;
+}
+const { entry: p, lang, pageName, whatsapp } = Astro.props;
+const tx = p.data[lang]!;
+const img = p.data.images[0];
+const t =
+  lang === 'ar'
+    ? { colors: 'الألوان', ask: 'اسأل عن هذا الموكيت', code: 'رمز اللون', size: 'المقاس' }
+    : { colors: 'Colours', ask: 'Ask about this carpet', code: 'Colour code', size: 'Size' };
+const colorLabel = (c: string) => {
+  const [code, rest = ''] = c.split(/ (.+)/);
+  const [ar, en] = rest.split(' / ');
+  return { code, name: (lang === 'ar' ? ar : en) ?? rest };
+};
+const msg =
+  lang === 'ar'
+    ? `مرحبًا، أرغب بالاستفسار عن ${tx.name}. ${t.code}: [الرمز]. ${t.size}: [الطول × العرض]. (من صفحة: ${pageName})`
+    : `Hello, I would like to ask about ${tx.name}. ${t.code}: [code]. ${t.size}: [length × width]. (From page: ${pageName})`;
+const wa = whatsapp ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}` : undefined;
+---
+
+<li
+  class="grid-card rounded-lg border border-gray-200 dark:border-slate-700 overflow-hidden flex flex-col bg-white dark:bg-slate-900"
+>
+  {
+    img && (
+      <Image
+        src={img.src}
+        alt={img.alt[lang] ?? tx.name}
+        widths={[360, 640]}
+        sizes="(min-width: 640px) 360px, 100vw"
+        loading="lazy"
+        decoding="async"
+        class="w-full aspect-[4/3] bg-gray-50 dark:bg-slate-800 object-contain"
+      />
+    )
+  }
+  <div class="p-4 flex flex-col gap-2 grow">
+    <h3 class="text-lg font-semibold">
+      <a href={productHref(lang, p.id)} class="hover:underline">{tx.name}</a>
+    </h3>
+    <p class="text-sm text-muted">{tx.directAnswer}</p>
+    {
+      p.data.colors.length > 0 && (
+        <p class="text-sm">
+          <span class="font-semibold">
+            {t.colors} ({p.data.colors.length}):{' '}
+          </span>
+          {p.data.colors.map((c) => {
+            const l = colorLabel(c);
+            return (
+              <span class="inline-block me-2" dir="auto">
+                <bdi>{l.code}</bdi> {l.name}
+              </span>
+            );
+          })}
+        </p>
+      )
+    }
+    {
+      wa && (
+        <a
+          href={wa}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-secondary mt-auto inline-flex justify-center min-h-11"
+          data-wa-type="product"
+          data-wa-position="card"
+          data-wa-source={tx.name}
+        >
+          {t.ask}
+        </a>
+      )
+    }
+  </div>
+</li>

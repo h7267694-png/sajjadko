@@ -4,6 +4,7 @@
 User-agent: *
 Disallow: /admin/
 Disallow: /invoice/
+Disallow: /frag/
 
 # AI search and assistant crawlers (explicitly allowed)
 User-agent: GPTBot
@@ -20,3 +21,4 @@ User-agent: Bingbot
 Allow: /
 Disallow: /admin/
 Disallow: /invoice/
+Disallow: /frag/

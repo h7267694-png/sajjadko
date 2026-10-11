@@ -13,7 +13,11 @@ const SITE = String(yaml.load(fs.readFileSync(path.join(ROOT, 'src/config.yaml')
 );
 
 // ميزانية الأداء (16.1) بالبايت المضغوط gzip
-const BUDGET = { html: 40 * 1024, css: 30 * 1024, js: 30 * 1024, fonts: 60 * 1024, fontFiles: 2 };
+// HTML يشمل CSS المضمّن منذ الخطوة 61 (لا ملف CSS منفصل): 40KB للمحتوى + نحو 15KB للتنسيق
+const BUDGET = { html: 55 * 1024, css: 30 * 1024, js: 30 * 1024, fonts: 60 * 1024, fontFiles: 2 };
+// حدود تمنع رجوع مشكلة Speed Index مع نمو المحتوى (الخطوة 61):
+// عدد الصور في HTML، والصور غير الكسولة، وعدد بطاقات المنتجات في الصفحة الواحدة.
+const LIMITS = { imgs: 70, eagerImgs: 3, cards: 40, warnAt: 0.8 };
 
 const errors = [];
 const warnings = [];
@@ -40,7 +44,7 @@ const htmlFiles = walk(DIST).filter(
   (f) =>
     f.endsWith('.html') &&
     !f.endsWith('404.html') &&
-    !['admin', 'invoice', 'verify'].some((d) => f.includes(`${path.sep}${d}${path.sep}`)) // لوحة الإدارة وتطبيق الفواتير وصفحة التحقق خارج الحواجز
+    !['admin', 'invoice', 'verify', 'frag'].some((d) => f.includes(`${path.sep}${d}${path.sep}`)) // لوحة الإدارة وتطبيق الفواتير وصفحة التحقق خارج الحواجز
 );
 const pages = new Map();
 for (const f of htmlFiles) {
@@ -73,6 +77,19 @@ for (const [url, p] of pages) {
 
   // الميزانية: HTML
   if (gz(p.html) > BUDGET.html) e(`HTML ${(gz(p.html) / 1024).toFixed(1)}KB يتجاوز ${BUDGET.html / 1024}KB`);
+  else if (gz(p.html) > BUDGET.html * LIMITS.warnAt)
+    warnings.push(`${url}: HTML ${(gz(p.html) / 1024).toFixed(1)}KB قريب من الحد ${BUDGET.html / 1024}KB`);
+  const imgs = p.root.querySelectorAll('img');
+  if (imgs.length > LIMITS.imgs)
+    e(`${imgs.length} صورة في الصفحة تتجاوز ${LIMITS.imgs} (اجعل القائمة محدودة بـ«عرض المزيد»)`);
+  const eager = imgs.filter((i) => i.getAttribute('loading') !== 'lazy').length;
+  if (eager > LIMITS.eagerImgs) e(`${eager} صورة غير كسولة تتجاوز ${LIMITS.eagerImgs}`);
+  const cards = p.root.querySelectorAll('.store-card, .grid-card').length;
+  if (cards > LIMITS.cards) e(`${cards} بطاقة منتج في الصفحة تتجاوز ${LIMITS.cards}`);
+  for (const sc of p.root.querySelectorAll('script[src]')) {
+    const src = sc.getAttribute('src') ?? '';
+    if (/^(https?:)?\/\//.test(src)) e(`سكربت خارجي ${src}: ممنوع (يبطئ الصفحة)`);
+  }
 
   // CSS و JS و خطوط
   let css = 0,

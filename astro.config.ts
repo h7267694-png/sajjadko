@@ -31,6 +31,9 @@ export default defineConfig({
   site: SITE,
   output: 'static',
   trailingSlash: 'always',
+  // CSS داخل الصفحة: لا طلب يحظر الرسم الأول (PageSpeed: توفير 300 ملي ثانية). تخزين GitHub Pages عشر دقائق فقط،
+  // فملف CSS منفصل لا يفيد التخزين. حجم الصفحات محدود بالقوائم المحدودة (الخطوة 61) فيبقى ضمن الميزانية.
+  build: { inlineStylesheets: 'always' },
   // الروابط القديمة قبل نقل العربية إلى الجذر (10 أكتوبر 2026): صفحات تحويل مع canonical، خارج الخريطة
   redirects: legacy.redirects,
   i18n: {
@@ -42,7 +45,8 @@ export default defineConfig({
   integrations: [
     // hreflang من translationKey لا من تطابق المسار (24.5)
     sitemap({
-      filter: (page) => !page.includes('/admin/') && !(new URL(page).pathname in legacy.redirects),
+      filter: (page) =>
+        !page.includes('/admin/') && !page.includes('/frag/') && !(new URL(page).pathname in legacy.redirects),
       serialize: (item) => {
         const m = sitemapMeta.get(item.url);
         return { ...item, links: m?.links, lastmod: m?.lastmod };
