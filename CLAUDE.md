@@ -147,3 +147,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - Lists never grow with content: category grids and `/projects/` render the first `PAGE_SIZE` (12) items; «عرض المزيد» (`ui/LoadMore.astro`) fetches `/frag/<lang>/<list>/<n>/` card fragments (`src/pages/frag/`, cards from `ui/GridCard.astro` / `ui/WorkCard.astro`, logic in `utils/lists.ts`). `/frag/` is disallowed in robots, excluded from sitemap and quality gates. Home aisles cap at 6 cards (2 shown) then link to the category page.
 - CSS is inlined (`build.inlineStylesheets: 'always'`); HTML budget is 55KB gz including CSS.
 - Quality gate fails on: >70 `<img>` per page, >3 non-lazy images, >40 product cards, any external `<script src>`; warns at 80% of HTML budget. LHCI asserts SI ≤ 3.4 s, TBT ≤ 200 ms, LCP ≤ 2.5 s on home, /en/, /zawali/ and a product page.
+
+## Step 62 (Cloudflare, in activation)
+
+- DNS moved to Cloudflare (nameservers ada/colin; DNSSEC off at Hostinger). Records: GitHub Pages A ×4, AAAA ×4, CNAME www (proxied) and the Google TXT verification on `@` (DNS only, keeps Search Console verified). No MX.
+- Only one cache rule: `/_astro/` and `/fonts/` cached 1 year. Do not add an HTML cache/bypass rule (URLs end in `/`; Cloudflare does not cache HTML by default). Rocket Loader must stay off. AI crawler policies Allow, managed robots.txt off.
