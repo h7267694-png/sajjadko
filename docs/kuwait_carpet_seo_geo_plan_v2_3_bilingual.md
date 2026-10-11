@@ -3018,7 +3018,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 1. ~~نشر الصفحات المكتوبة~~ **[تم، الخطوة 42]**.
 2. ~~صفحة السجاد الأم وتواصل ومن نحن~~ **[تم، الخطوات 43–45]**، ودليل الأسعار **[تم، 46]**.
-3. **Bing Webmaster (بانتظار العميل، دقيقتان):** bing.com/webmasters ← الدخول بحساب Microsoft أو Google ← Import from Google Search Console ← اختيار sajjadko.com. يستورد التحقق والخريطة تلقائيًا. ثم GA4 ومراقبة التوفر (19.1).
+3. **Bing Webmaster [تم 11 أكتوبر 2026]:** استُورد الموقع من Search Console، وأُرسلت `sitemap-index.xml` (بلا أخطاء، الاكتشاف قيد المعالجة حتى 48 ساعة). الباقي: إرسال الروابط المهمة من URL Submission. الأصل: bing.com/webmasters ← الدخول بحساب Microsoft أو Google ← Import from Google Search Console ← اختيار sajjadko.com. يستورد التحقق والخريطة تلقائيًا. ثم GA4 ومراقبة التوفر (19.1).
 4. أدلة عربية: حساب الكمية والسجاد مقابل الموكيت **[تم، 47]**، ودليل سجاد المسجد **[تم، 54]**.
 
 ## 29.3 روابط بانتظار الفهرسة اليدوية في Search Console
