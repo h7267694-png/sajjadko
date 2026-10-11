@@ -268,3 +268,7 @@
 **جديد (الخطوة 56)** (1):
 
 - [ ] `https://sajjadko.com/guides/carpet-sizes/`
+
+**جديد (الخطوة 58)** (1):
+
+- [ ] `https://sajjadko.com/en/kids-rugs/`

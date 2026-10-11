@@ -6,7 +6,6 @@ parent: carpets
 status: published
 kind: category
 waType: bedroom-kids
-noTranslation: true
 productGrid:
   places: [kids, bedroom]
 title: 'سجاد أطفال وموكيت غرف أطفال بالمتر في الكويت — سجادكو'
