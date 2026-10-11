@@ -264,3 +264,7 @@
 **جديد (الخطوة 55)** (1):
 
 - [ ] `https://sajjadko.com/carpets/living-room/`
+
+**جديد (الخطوة 56)** (1):
+
+- [ ] `https://sajjadko.com/guides/carpet-sizes/`
