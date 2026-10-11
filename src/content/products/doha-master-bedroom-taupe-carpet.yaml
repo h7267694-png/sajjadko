@@ -11,7 +11,7 @@ specs:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: '2026-10-11'
 colors:
   - رمادي بني فاتح / Light taupe
@@ -55,7 +55,7 @@ latestWork:
     en: A large master bedroom in Doha fitted wall to wall with light taupe plush carpet, with a metal trim at the door and marble edge.
 ar:
   name: موكيت غرفة نوم ماستر رمادي بني مخملي
-  directAnswer: موكيت غرف نوم مخملي بلون رمادي بني فاتح ركّبناه من الجدار للجدار في غرفة نوم ماستر واسعة بمنطقة الدوحة، يغطي الأرضية كاملة تحت السرير وركن الجلوس، مع نهاية معدنية عند الباب وحد الرخام. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، والقياس مجاني.
+  directAnswer: موكيت غرف نوم مخملي بلون رمادي بني فاتح ركّبناه من الجدار للجدار في غرفة نوم ماستر واسعة بمنطقة الدوحة، يغطي الأرضية كاملة تحت السرير وركن الجلوس، مع نهاية معدنية عند الباب وحد الرخام. السعر من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة، والقياس مجاني.
   usage: الوبر المخملي الكثيف دافئ تحت القدم ويخفف صدى الصوت في غرف النوم الكبيرة. اللون الرمادي البني محايد يتناسق مع الستائر الرمادية والأثاث الفضي ولمسات العنابي.
   care: نظّفه بالمكنسة الكهربائية مرة أو مرتين أسبوعيًا، وامسح البقع فور وقوعها بقطعة قماش مبللة دون فرك.
   seoTitle: موكيت غرف نوم من الجدار للجدار في الدوحة — سجادكو
@@ -63,7 +63,7 @@ ar:
   reviewed: true
   faq:
     - q: كم يكلف فرش غرفة نوم ماستر بالموكيت؟
-      a: نحسب مساحة الغرفة بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر. غرفة 6×5 م (30 م²) مثلًا بين 150 و450 د.ك قبل التركيب.
+      a: نحسب الأمتار الطولية من مقاس الغرفة، والسعر من 5 إلى 15 د.ك للمتر. غرفة 6×5 م تحتاج 10 أمتار طولية، فتكلف بين 50 و150 د.ك قبل التركيب.
     - q: هل تركّبون الموكيت والأثاث موجود في الغرفة؟
       a: نعم، ننقل الأثاث داخل الغرفة أثناء العمل ونفرش جزءًا بعد جزء، والأفضل أن يكون السرير مفككًا كما في هذا العمل.
     - q: ما أفضل موكيت لغرف النوم؟
@@ -72,15 +72,15 @@ ar:
       a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Light Taupe Plush Master Bedroom Carpet
-  directAnswer: Light taupe plush carpet we fitted wall to wall in a large master bedroom in Doha, covering the floor under the bed and seating corner, with a metal trim at the door and marble edge. 5 to 15 KWD per m² depending on thickness and density, with free measuring.
+  directAnswer: Light taupe plush carpet we fitted wall to wall in a large master bedroom in Doha, covering the floor under the bed and seating corner, with a metal trim at the door and marble edge. 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density, with free measuring.
   usage: Dense plush is warm underfoot and softens echo in large bedrooms. Light taupe is neutral and pairs with grey curtains, silver furniture and burgundy accents.
   care: Vacuum once or twice a week and blot spills straight away with a damp cloth without rubbing.
   seoTitle: Bedroom Wall-to-Wall Carpet in Doha, Kuwait | Sajjadko
-  seoDescription: Light taupe plush master bedroom carpet fitted wall to wall in Doha, Kuwait, with a metal trim. 5 to 15 KWD per m², free measuring.
+  seoDescription: Light taupe plush master bedroom carpet fitted wall to wall in Doha, Kuwait, with a metal trim. 5 to 15 KWD per running metre of a 4 m wide roll, free measuring.
   reviewed: true
   faq:
     - q: How much does it cost to carpet a master bedroom?
-      a: Carpet is 5 to 15 KWD per m². A 6×5 m bedroom (30 m²) is about 150 to 450 KWD before fitting.
+      a: Carpet is 5 to 15 KWD per running metre of a 4 m wide roll. A 6 × 5 m room needs 10 running metres, about 50 to 150 KWD before fitting.
     - q: What is the best carpet for bedrooms?
       a: 'Dense cut-pile plush is the most requested for bedrooms: soft, warm and quiet. Neutral shades like taupe and beige suit most furniture.'
     - q: Is the home visit and measuring free?

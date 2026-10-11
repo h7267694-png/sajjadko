@@ -88,7 +88,7 @@ Carpet cost before installation = area in m² × price per m² for the thickness
 - Medium: 7 KWD per m² (0.650 KWD per sq ft)
 - Thick: 8 KWD per m² (0.743 KWD per sq ft)
 
-These prices are for mosque and prayer room carpet only. Turkish carpet and wall-to-wall carpet for other uses cost 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), by thickness, pile pressure and density.
+These prices are for mosque and prayer room carpet only. Turkish carpet and wall-to-wall carpet for other uses cost 5 to 15 KWD per running metre of a 4 m (13.1 ft) wide roll, by thickness, pile pressure and density.
 
 Example: a room of 4 × 5 m (13.1 × 16.4 ft) is 20 m². The carpet then costs 120 KWD for light, 140 KWD for medium or 160 KWD for thick. The installation fee is separate and agreed by area and location.
 

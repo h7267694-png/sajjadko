@@ -8,16 +8,16 @@ waType: cutting
 title: 'Carpet Cut to Size in Kuwait | Sajjadko Kuwait'
 description: 'We cut and tailor carpet and wall-to-wall carpet to your exact size in Kuwait, from a regular room to a mosque. Send your size on WhatsApp.'
 h1: 'Carpet and Wall-to-Wall Carpet Cut to Size in Kuwait'
-directAnswer: 'Sajjadko Kuwait cuts and tailors carpet and wall-to-wall carpet to the size of your room or mosque in Kuwait, so the space does not have to fit the roll. Send the length and width on WhatsApp and we check the measurements with you before cutting, because a cut cannot be undone. Carpet is priced per m²: 5 to 15 KWD for Turkish carpet and wall-to-wall carpet, and 6 to 8 KWD for mosque carpet. Installation is separate.'
+directAnswer: 'Sajjadko Kuwait cuts and tailors carpet and wall-to-wall carpet to the size of your room or mosque in Kuwait, so the space does not have to fit the roll. Send the length and width on WhatsApp and we check the measurements with you before cutting, because a cut cannot be undone. Turkish and wall-to-wall carpet is 5 to 15 KWD per running metre of a 4 m wide roll, and mosque carpet 6 to 8 KWD per m². Installation is separate.'
 updated: 2026-10-07
 reviewed: false
 faq:
   - q: 'Who cuts carpet to size in Kuwait?'
     a: 'We cut and tailor carpet and wall-to-wall carpet to size for homes, mosques and prayer rooms in Kuwait. Send the length, width and type of place on WhatsApp. We agree the type, check the measurements with you before cutting, and then install it if you ask for installation.'
   - q: 'How much does carpet cutting cost?'
-    a: 'The quantity is priced per m² at the price of the type you choose: 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) for Turkish carpet and wall-to-wall carpet, and 6 to 8 KWD per m² for mosque carpet. Installation is separate. For the cost of cutting a special size, send the size on WhatsApp.'
+    a: 'The price depends on the type you choose: 5 to 15 KWD per running metre of a 4 m wide roll for Turkish carpet and wall-to-wall carpet, and 6 to 8 KWD per m² for mosque carpet. Installation is separate. For the cost of cutting a special size, send the size on WhatsApp.'
   - q: 'Do you cut wall-to-wall carpet too?'
-    a: 'Yes. We cut wall-to-wall carpet to the size of your space just as we cut carpet. It is 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), set by thickness, pile pressure and density. Send the length and width on WhatsApp and we confirm the type and price.'
+    a: 'Yes. We cut wall-to-wall carpet to the size of your space just as we cut carpet. Thicker carpet is 5 to 15 KWD per running metre of a 4 m (13.1 ft) wide roll, and lightweight carpet 1.250 to 3 KWD per m², priced set by thickness, pile pressure and density. Send the length and width on WhatsApp and we confirm the type and price.'
   - q: 'Can you cut carpet for an irregular room or around a column?'
     a: 'Yes. We cut carpet around columns, entrances and irregular corners to follow the shape of the place. Mention any columns and openings in your message and send a photo of the space if you can, so we check the cut with you before cutting.'
   - q: 'What should I send to get a cutting quote?'
@@ -60,7 +60,7 @@ faq:
 
 ## How cutting is priced
 
-The quantity is measured in m², which is length times width. The price is the price of the type you choose: 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) for Turkish carpet and wall-to-wall carpet, set by thickness, pile pressure and density, and 6 to 8 KWD per m² for mosque and prayer room carpet. The installation fee is separate from the price per m². For the cost of cutting a special size, send the size on WhatsApp.
+Thicker carpet is measured in running metres of a 4 m wide roll; lightweight and mosque carpet in m². The price depends on the type you choose: 5 to 15 KWD per running metre of a 4 m wide roll for Turkish carpet and wall-to-wall carpet, set by thickness, pile pressure and density, and 6 to 8 KWD per m² for mosque and prayer room carpet. The installation fee is separate from the price per m². For the cost of cutting a special size, send the size on WhatsApp.
 
 ## What we need from you
 

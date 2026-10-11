@@ -37,7 +37,7 @@ images:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: '2026-10-07'
 colors:
   - رمادي على عاجي / Grey on ivory
@@ -47,14 +47,14 @@ colors:
   - برتقالي وخردلي وزيتي / Orange, mustard and sage
 ar:
   name: سجاد ممر مورد
-  directAnswer: سجاد ممرات بنقشة أغصان وأزهار على أرضية عاجية، بنقش بارز، وبخمسة ألوان للأزهار من الرمادي إلى البرتقالي. يُباع بالمتر المربع ويُقص على طول ممرك، والسعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
+  directAnswer: سجاد ممرات بنقشة أغصان وأزهار على أرضية عاجية، بنقش بارز، وبخمسة ألوان للأزهار من الرمادي إلى البرتقالي. يُباع بالمتر الطولي ويُقص على طول ممرك، والسعر من 5 إلى 15 د.ك للمتر الطولي حسب السماكة والكثافة.
   usage: يناسب ممر غرف النوم ومدخل البيت الطويل وجانب السرير. الأرضية العاجية تجعل الممر الضيق يبدو أوسع، والأزهار الملونة تضيف نقشًا على طول الممرات الطويلة.
   care: نظّفه بالمكنسة الكهربائية بانتظام في اتجاه الوبر، وعالج البقع فور وقوعها بقطعة قماش مبللة دون فرك.
   seoTitle: سجاد ممر مورد بالطول في الكويت — سجادكو الكويت
-  seoDescription: سجاد ممرات بنقشة أغصان وأزهار بخمسة ألوان، يُقص بطول ممرك في الكويت من 5 إلى 15 د.ك للمتر المربع.
+  seoDescription: سجاد ممرات بنقشة أغصان وأزهار بخمسة ألوان، يُقص بطول ممرك في الكويت من 5 إلى 15 د.ك للمتر الطولي.
   faq:
     - q: كم سعر سجاد الممر المورد بالمتر؟
-      a: 'يُسعّر بالمتر المربع من 5 إلى 15 د.ك حسب السماكة والكثافة. اضرب الطول في العرض لتعرف المساحة: مدة 0.8 × 5 م مساحتها 4 م²، فكلفتها بين 20 و60 د.ك قبل التركيب.'
+      a: 'يُسعّر بالمتر الطولي من 5 إلى 15 د.ك حسب السماكة والكثافة. اضرب طول المدة في سعر المتر: مدة طولها 5 م كلفتها بين 25 و75 د.ك قبل التركيب.'
     - q: هل تقصّونها بطول ممر طويل؟
       a: نعم، نقص المدة على الطول الذي تحتاجه بالضبط، فلا يقيدك مقاس جاهز. أرسل طول الممر وعرضه عبر واتساب، ونراجع المقاس معك قبل القص لأن القص لا يُعاد.
     - q: كيف أقيس الممر؟
@@ -66,14 +66,14 @@ ar:
   reviewed: false
 en:
   name: Floral Hallway Runner
-  directAnswer: This is a hallway carpet runner with a branch-and-flower pattern on an ivory ground, carved in relief. It comes in five flower colourways, from grey to orange, and is cut to the exact length of your hallway. Sold by the m² and cut to your hallway length, from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) depending on thickness and density.
+  directAnswer: This is a hallway carpet runner with a branch-and-flower pattern on an ivory ground, carved in relief. It comes in five flower colourways, from grey to orange, and is cut to the exact length of your hallway. Sold by the running metre and cut to your hallway length, from 5 to 15 KWD per running metre depending on thickness and density.
   usage: Suitable for bedroom corridors, entrance halls and the side of the bed. The ivory ground makes a narrow hallway appear wider, and the flowers add a pattern along a long corridor. Grey or black suit a modern hall, and mustard or orange add warmer colour.
   care: Vacuum regularly in the direction of the pile, and blot spills straight away with a damp cloth without rubbing.
   seoTitle: Floral Hallway Runner Cut to Length in Kuwait | Sajjadko Kuwait
-  seoDescription: Ivory carpet runner with a carved floral pattern in five colourways, cut to any hallway length in Kuwait. 5 to 15 KWD per m².
+  seoDescription: Ivory carpet runner with a carved floral pattern in five colourways, cut to any hallway length in Kuwait. 5 to 15 KWD per running metre.
   faq:
     - q: How much does the Floral Hallway Runner cost in Kuwait?
-      a: 'Runners are priced per m², from 5 to 15 KWD (0.465 to 1.394 KWD per sq ft) depending on thickness and density. Multiply length by width for the area: a 0.8 × 5 m (2.6 × 16.4 ft) runner is 4 m², so 20 to 60 KWD before installation.'
+      a: 'Runners are priced per running metre, from 5 to 15 KWD depending on thickness and density. Multiply the runner length by the price per metre: a 5 m (16.4 ft) runner costs 25 to 75 KWD before installation.'
     - q: Can you cut a long hallway runner, like 15 ft or 20 ft?
       a: Yes. We cut the runner to the exact length you need, so you are not limited to stock sizes. 15 ft is about 4.6 m and 20 ft about 6.1 m. Send your hallway length and width on WhatsApp, in metres or feet, and we confirm before cutting.
     - q: Is this runner suitable for a bedroom or an entrance?

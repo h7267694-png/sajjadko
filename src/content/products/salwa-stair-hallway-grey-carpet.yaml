@@ -13,7 +13,7 @@ specs:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: '2026-10-11'
 colors:
   - رمادي / Grey
@@ -62,7 +62,7 @@ latestWork:
     en: Fitted a two-flight indoor staircase, landing and upstairs hallway in Salwa with grey plush carpet cut to each step over underlay.
 ar:
   name: سجاد درج وممرات رمادي مخملي
-  directAnswer: 'سجاد درج داخلي وممرات بلون رمادي مخملي ركّبناه في بيت بمنطقة سلوى: درج من دورين والبسطة والممر العلوي حتى أبواب الغرف. نقص السجاد على مقاس كل درجة ونثبّته فوق بطانة، ونترك حافة الجرانيت ظاهرة على الجانب. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، والقياس مجاني.'
+  directAnswer: 'سجاد درج داخلي وممرات بلون رمادي مخملي ركّبناه في بيت بمنطقة سلوى: درج من دورين والبسطة والممر العلوي حتى أبواب الغرف. نقص السجاد على مقاس كل درجة ونثبّته فوق بطانة، ونترك حافة الجرانيت ظاهرة على الجانب. السعر من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة، والقياس مجاني.'
   usage: سجاد الدرج يقلل الانزلاق وصوت الخطوات ويحمي حواف الدرج، والرمادي يخفي آثار الاستعمال اليومي في السلالم والممرات كثيرة المرور. نفرش البسطة والممر بنفس اللون حتى يبدو الدور العلوي متصلًا.
   care: نظّفه بالمكنسة الكهربائية مرة أسبوعيًا على الأقل، خصوصًا مقدمة الدرجات لأنها الأكثر احتكاكًا، وامسح البقع فور وقوعها دون فرك.
   seoTitle: تركيب سجاد درج وممرات في سلوى الكويت — سجادكو
@@ -70,7 +70,7 @@ ar:
   reviewed: true
   faq:
     - q: كم تكلفة فرش الدرج بالسجاد؟
-      a: نحسب مساحة الدرجات والبسطة بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر حسب نوع السجاد. نقيس الدرج مجانًا ونرسل السعر قبل البدء.
+      a: نقيس الدرجات والبسطة، والسعر من 5 إلى 15 د.ك للمتر حسب نوع السجاد. نقيس الدرج مجانًا ونرسل السعر قبل البدء.
     - q: هل تقصون السجاد على مقاس كل درجة؟
       a: نعم، نقص كل درجة على مقاسها ونثبّت السجاد فوق بطانة، ويمكن ترك حافة الرخام أو الجرانيت ظاهرة أو تغطيتها كاملة حسب رغبتك.
     - q: هل تركّبون سجاد الدرج والممر معًا؟
@@ -79,15 +79,15 @@ ar:
       a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Grey Plush Stair and Hallway Carpet
-  directAnswer: 'Grey plush carpet we fitted on an indoor staircase in Salwa: two flights, the landing and the upstairs hallway up to the bedroom doors. Each step is cut to size and fixed over underlay, leaving the granite side edge visible. 5 to 15 KWD per m² depending on thickness and density, with free measuring.'
+  directAnswer: 'Grey plush carpet we fitted on an indoor staircase in Salwa: two flights, the landing and the upstairs hallway up to the bedroom doors. Each step is cut to size and fixed over underlay, leaving the granite side edge visible. 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density, with free measuring.'
   usage: Stair carpet reduces slipping and footstep noise and protects the step edges; grey hides daily wear on busy stairs and hallways. Carpeting the landing and hallway in the same colour keeps the upper floor continuous.
   care: Vacuum at least weekly, especially the step noses, and blot spills straight away without rubbing.
   seoTitle: Stair and Hallway Carpet Installation in Salwa, Kuwait | Sajjadko
-  seoDescription: Grey plush stair carpet and hallway carpet cut to each step and fitted over underlay in Salwa. 5 to 15 KWD per m², free measuring.
+  seoDescription: Grey plush stair carpet and hallway carpet cut to each step and fitted over underlay in Salwa. 5 to 15 KWD per running metre of a 4 m wide roll, free measuring.
   reviewed: true
   faq:
     - q: What does it cost to carpet stairs?
-      a: We measure the steps and landing in square metres; carpet is 5 to 15 KWD per m² depending on type. Measuring is free and we send the price before starting.
+      a: We measure the steps and landing; carpet is 5 to 15 KWD per running metre of a 4 m wide roll depending on type. Measuring is free and we send the price before starting.
     - q: Do you cut the carpet to each step?
       a: Yes. Each step is cut to size and fixed over underlay; the stone edge can stay visible or be fully covered.
     - q: Is the home visit and measuring free?

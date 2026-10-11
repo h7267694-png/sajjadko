@@ -8,14 +8,14 @@ waType: hallway
 productGrid:
   places: [hallway]
 title: 'Hallway Runners in Kuwait, Any Length | Sajjadko Kuwait'
-description: 'Carpet runners for hallways in Kuwait, cut to your length and width. 5 to 15 KWD per m². Sadu runners also available. Send your measurements on WhatsApp.'
+description: 'Carpet runners for hallways in Kuwait, cut to your length and width. 5 to 15 KWD per running metre. Sadu runners also available. Send your measurements on WhatsApp.'
 h1: 'Hallway Runners Cut to Any Length'
-directAnswer: 'We cut hallway runners from Turkish carpet or wall-to-wall carpet to the exact length and width of your hallway, so you are not limited to stock sizes. Prices run from 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft), depending on thickness, pile pressure and density. Cost is length × width × price per m². Sadu runners are also available. Installation is priced separately. Send the length and width on WhatsApp.'
+directAnswer: 'We cut hallway runners from Turkish carpet or wall-to-wall carpet to the exact length and width of your hallway, so you are not limited to stock sizes. Prices run from 5 to 15 KWD per running metre of runner, depending on thickness, pile pressure and density. Cost is runner length × price per metre. Sadu runners are also available. Installation is priced separately. Send the length and width on WhatsApp.'
 updated: 2026-10-07
 reviewed: true
 faq:
   - q: 'How much does a carpet runner cost in Kuwait?'
-    a: 'Runners are priced per m², from 5 to 15 KWD (0.465 to 1.394 KWD per sq ft), by thickness, pile pressure and density. Multiply length by width for the area, then by the price per m². A 0.8 × 5 m (2.6 × 16.4 ft) runner is 4 m², so it costs 20 to 60 KWD before installation.'
+    a: 'Runners are priced per running metre, from 5 to 15 KWD by thickness, pile pressure and density. Multiply the runner length by the price per metre. A 5 m (16.4 ft) runner costs 25 to 75 KWD before installation.'
   - q: 'Can you make a long hallway runner, like 15 ft or 20 ft?'
     a: 'Yes. We cut the runner to any length you need. 15 ft is about 4.6 m and 20 ft is about 6.1 m. Send the hallway length and width on WhatsApp, in metres or feet, and we confirm the runner width and the gap left on each side before cutting.'
   - q: 'Do you have Sadu runners?'
@@ -34,7 +34,7 @@ faq:
 | ------------------ | ----------------------------------------------------------- |
 | Material           | Turkish carpet or wall-to-wall carpet                       |
 | How it is sold     | By the m², cut to your length and width                     |
-| Price              | 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft)           |
+| Price              | 5 to 15 KWD per running metre of runner                     |
 | Price depends on   | Thickness, pile pressure and density                        |
 | Sadu runners       | Available; sizes and prices depend on stock                 |
 | Installation       | Separate from the carpet price, agreed by area and location |
@@ -63,7 +63,7 @@ Sadu runners are available. Sadu is a traditional Gulf weave pattern that suits 
 
 Runner cost before installation = length × width × price per m².
 
-**Example:** a hallway 1.2 m (3.9 ft) wide and 6 m (19.7 ft) long, with a runner 0.8 m (2.6 ft) wide and 5.5 m (18 ft) long. The runner is 4.4 m² (47.4 sq ft). It costs 22 KWD at 5 KWD per m², or 66 KWD at 15 KWD per m². The actual price depends on the material you choose. Installation is separate.
+**Example:** a hallway 1.2 m (3.9 ft) wide and 6 m (19.7 ft) long, with a runner 0.8 m (2.6 ft) wide and 5.5 m (18 ft) long. It costs 27.5 KWD at 5 KWD per running metre, or 82.5 KWD at 15 KWD per running metre. The actual price depends on the material you choose. Installation is separate.
 
 ## Where runners work well
 

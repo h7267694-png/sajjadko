@@ -132,3 +132,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - Keep store images lazy + `fetchpriority=low`: eager section tiles delayed the text LCP (1.4 → 1.9 s). Inlining CSS broke the 40KB HTML budget; not used.
 - Unused AstroWind widgets were deleted (CSS 131 → 86KB). Do not re-add template widgets that are not used.
 - Header sticky state uses an IntersectionObserver sentinel, never `scrollY` reads (forced reflow).
+
+## Step 59 (price units, client 2026-10-11)
+
+- Turkish carpet, thicker moquette, zawali cut by the metre and thick stair carpet: **5–15 KWD per running metre of a 4 m wide roll** (`priceRange.unit: linear-m`, schema MTR). Metres = min(ceil(W/4)×L, ceil(L/4)×W); 3×4 room = 3 m. Hallway runners: 5–15 KWD per running metre of runner.
+- Per m² stays only for lightweight carpet (1.250–3), mosque/musalla (6/7/8), carpet tiles (5–6) and red carpet rental (0.750/1). Never write "5 to 15 per m²" again.

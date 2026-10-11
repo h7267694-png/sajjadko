@@ -10,7 +10,7 @@ places:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: 2026-10-10
 specs:
   material: سجاد مشجر بالمتر بنقش بارز وأرضية منسوجة / Patterned carpet by the metre with a raised design on a woven ground
@@ -38,15 +38,15 @@ images:
       en: Close-up of raised heritage patterns in blue, grey and black
 ar:
   name: سجاد مشجر بالمتر بنقوش تراثية هندسية
-  directAnswer: 'سجاد مشجر بالمتر بنقوش تراثية هندسية بارزة على أرضية منسوجة: معيّنات ومثلثات ودوائر متكررة، بخمس مجموعات ألوان منها الأبيض مع الأزرق الفاتح، والأسود والأبيض مع الذهبي، والأبيض مع الأزرق والعنابي. يُقص من الرول على مقاس المكان أو كزولية، من 5 إلى 15 د.ك للمتر المربع.'
+  directAnswer: 'سجاد مشجر بالمتر بنقوش تراثية هندسية بارزة على أرضية منسوجة: معيّنات ومثلثات ودوائر متكررة، بخمس مجموعات ألوان منها الأبيض مع الأزرق الفاتح، والأسود والأبيض مع الذهبي، والأبيض مع الأزرق والعنابي. يُقص من الرول على مقاس المكان أو كزولية، من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م.'
   usage: النقوش التراثية تناسب الديوانيات والمجالس العربية والممرات الطويلة، وتعطي المكان طابعًا محليًا. الأسود والأبيض مع الذهبي للمجالس الحديثة، والأبيض مع الأزرق والعنابي للجلسات الشعبية.
   care: نظّفه بالمكنسة الكهربائية بانتظام، وامسح البقع فور وقوعها بقطعة قماش مبللة دون فرك.
   seoTitle: سجاد مشجر بالمتر بنقوش تراثية في الكويت — سجادكو
-  seoDescription: سجاد مشجر بالمتر بنقوش تراثية هندسية بالأزرق والأسود والأبيض والذهبي للديوانيات والمجالس والممرات، من 5 إلى 15 د.ك للمتر المربع.
+  seoDescription: سجاد مشجر بالمتر بنقوش تراثية هندسية بالأزرق والأسود والأبيض والذهبي للديوانيات والمجالس والممرات، من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م.
   reviewed: true
   faq:
     - q: كم سعر السجاد المشجر التراثي بالمتر؟
-      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والضغط والكثافة. ديوانية 6×10 م (60 م²) تكلف بين 300 و900 د.ك قبل التركيب.
+      a: من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والضغط والكثافة. ديوانية 6×10 م تحتاج 18 أمتار طولية، فتكلف بين 90 و270 د.ك قبل التركيب.
     - q: هل يُقص على مقاس غرفتي أو كزولية؟
       a: نعم، يُقص بالمتر من الرول على مقاس الغرفة من الجدار إلى الجدار، أو قطعة بمقاس منطقة الجلسة تُستخدم زولية. نراجع المقاس معك قبل القص.
     - q: هل يناسب الديوانيات؟
@@ -55,15 +55,15 @@ ar:
       a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Patterned Carpet by the Metre with Heritage Geometric Designs
-  directAnswer: 'This is a patterned carpet by the metre with raised heritage geometric designs on a woven ground: repeating diamonds, triangles and circles, in five colour sets including white with light blue, black and white with gold, and white with blue and burgundy. Cut from the roll to your space or as a rug, at 5 to 15 KWD per m².'
+  directAnswer: 'This is a patterned carpet by the metre with raised heritage geometric designs on a woven ground: repeating diamonds, triangles and circles, in five colour sets including white with light blue, black and white with gold, and white with blue and burgundy. Cut from the roll to your space or as a rug, at 5 to 15 KWD per running metre of a 4 m wide roll.'
   usage: Heritage designs suit diwaniyas, Arabic majlis rooms and long hallways, giving the room a local character. Black and white with gold suits modern majlis rooms; white with blue and burgundy suits traditional seating.
   care: Vacuum regularly and blot spills straight away with a damp cloth.
   seoTitle: Heritage Patterned Carpet by the Metre, Kuwait | Sajjadko
-  seoDescription: Patterned carpet by the metre with heritage geometric designs in blue, black, white and gold for diwaniyas, majlis and hallways, 5 to 15 KWD per m².
+  seoDescription: Patterned carpet by the metre with heritage geometric designs in blue, black, white and gold for diwaniyas, majlis and hallways, 5 to 15 KWD per running metre.
   reviewed: true
   faq:
-    - q: How much is this carpet per m²?
-      a: 5 to 15 KWD per m². A 60 m² diwaniya costs about 300 to 900 KWD before installation.
+    - q: How much is this carpet per metre?
+      a: 5 to 15 KWD per running metre of a 4 m wide roll. A 6 × 10 m room needs 18 running metres, about 90 to 270 KWD before fitting.
     - q: Can it be cut to my room or as a rug?
       a: Yes. It is cut from the roll by the metre to fit the room wall to wall, or to the size of your seating area as a rug. We confirm measurements before cutting.
     - q: Is the home visit and measuring free?

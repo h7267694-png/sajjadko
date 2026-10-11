@@ -11,7 +11,7 @@ specs:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: '2026-10-10'
 colors:
   - 240 أصفر زيتي فاتح / Light olive yellow
@@ -33,7 +33,7 @@ images:
       en: Frieze carpet swatches from an angle showing the pile height
 ar:
   name: موكيت مجالس بوبر كثيف ملتف بستة ألوان
-  directAnswer: 'موكيت بوبر كثيف ملتف يعطي سطحًا محببًا ناعمًا تحت القدم، بستة ألوان: أصفر زيتي فاتح وبيج ورمادي فاتح وأزرق رمادي ورمادي وبني رمادي. يُقص على مقاس المجلس أو الديوانية ويُركّب من الجدار للجدار. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
+  directAnswer: 'موكيت بوبر كثيف ملتف يعطي سطحًا محببًا ناعمًا تحت القدم، بستة ألوان: أصفر زيتي فاتح وبيج ورمادي فاتح وأزرق رمادي ورمادي وبني رمادي. يُقص على مقاس المجلس أو الديوانية ويُركّب من الجدار للجدار. السعر من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة.'
   usage: الوبر الملتف يخفي آثار الأقدام وكثرة الجلوس أكثر من الوبر المستقيم، فيناسب المجالس والديوانيات التي يكثر فيها الضيوف، ويصلح أيضًا للصالات وغرف النوم.
   care: نظّفه بالمكنسة الكهربائية مرة أو مرتين أسبوعيًا، وامسح البقع والسوائل فور وقوعها بقطعة قماش مبللة دون فرك.
   seoTitle: موكيت مجالس كثيف الوبر بالمتر في الكويت — سجادكو
@@ -41,21 +41,21 @@ ar:
   reviewed: true
   faq:
     - q: كم سعر المتر؟
-      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
+      a: من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة. أرسل مقاس المجلس ورقم اللون عبر واتساب ونرسل السعر.
     - q: هل يمكن حفر نقشة في وسطه؟
       a: نعم، نحفر النقشة يدويًا وندمجها في الموكيت بالألوان التي تختارها، والسعر حسب حجم النقشة.
     - q: هل الزيارة والقياس مجانًا؟
       a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Frieze Majlis Carpet in Six Colours
-  directAnswer: 'A dense twisted frieze pile with a soft textured surface, in six colours: light olive yellow, beige, light grey, slate blue, grey and taupe. Cut to the majlis or diwaniya and fitted wall to wall. 5 to 15 KWD per m² depending on thickness and density.'
+  directAnswer: 'A dense twisted frieze pile with a soft textured surface, in six colours: light olive yellow, beige, light grey, slate blue, grey and taupe. Cut to the majlis or diwaniya and fitted wall to wall. 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density.'
   usage: Twisted pile hides footprints and heavy seating better than straight pile, so it suits busy majlis and diwaniya.
   care: Vacuum once or twice a week and blot spills straight away with a damp cloth without rubbing.
   seoTitle: Frieze Majlis Carpet by the Metre in Kuwait | Sajjadko
-  seoDescription: Dense twisted frieze carpet in six colours for majlis and diwaniya, fitted wall to wall. 5 to 15 KWD per m².
+  seoDescription: Dense twisted frieze carpet in six colours for majlis and diwaniya, fitted wall to wall. 5 to 15 KWD per running metre of a 4 m wide roll.
   reviewed: true
   faq:
     - q: How much is it per metre?
-      a: 5 to 15 KWD per m² depending on thickness and density.
+      a: 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density.
     - q: Is the home visit and measuring free?
       a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

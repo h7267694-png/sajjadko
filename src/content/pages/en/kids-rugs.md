@@ -8,14 +8,14 @@ waType: bedroom-kids
 productGrid:
   places: [kids]
 title: 'Kids Rugs and Children’s Carpet in Kuwait | Sajjadko Kuwait'
-description: 'Kids rugs and children’s carpet in Kuwait: playful ready-made rugs, round rugs and soft wall-to-wall carpet cut to the room, from 1.250 to 15 KWD per m².'
+description: 'Kids rugs and children’s carpet in Kuwait: playful ready-made rugs, round rugs and soft wall-to-wall carpet cut to the room, from 1.250 KWD per m².'
 h1: 'Kids Rugs and Children’s Carpet in Kuwait'
-directAnswer: 'We supply kids rugs in two ways: ready-made children’s rugs with road, football pitch, animal and soft girls’ designs, priced by size, and soft carpet cut to the room and fitted wall to wall, from 5 to 15 KWD per m² for dense carpet or 1.250 to 3 KWD for lightweight carpet. Fitted carpet does not slip on marble. A 3 × 4 m kids room costs 60 to 180 KWD in dense carpet before fitting. Measuring visits are free.'
+directAnswer: 'We supply kids rugs in two ways: ready-made children’s rugs with road, football pitch, animal and soft girls’ designs, priced by size, and soft carpet cut to the room and fitted wall to wall, from 5 to 15 KWD per running metre of a 4 m wide roll for dense carpet or 1.250 to 3 KWD per m² for lightweight carpet. Fitted carpet does not slip on marble. A 3 × 4 m kids room needs 3 running metres of dense carpet, 15 to 45 KWD before fitting. Measuring visits are free.'
 updated: 2026-10-11
 reviewed: true
 faq:
   - q: 'How much are kids rugs in Kuwait?'
-    a: 'Ready-made kids rugs are priced by size; send the size you need on WhatsApp and we confirm stock and price. Carpet cut to the room is 5 to 15 KWD per m² for dense soft carpet and 1.250 to 3 KWD for lightweight carpet, so a 3 × 4 m (12 m², 129 sq ft) room is 60 to 180 KWD or 15 to 36 KWD before fitting.'
+    a: 'Ready-made kids rugs are priced by size; send the size you need on WhatsApp and we confirm stock and price. Dense soft carpet is 5 to 15 KWD per running metre of a 4 m wide roll, and lightweight carpet 1.250 to 3 KWD per m². A 3 × 4 m (9.8 × 13.1 ft) room needs 3 running metres of dense carpet (15 to 45 KWD) or 12 m² of lightweight carpet (15 to 36 KWD) before fitting.'
   - q: 'What kids rug designs do you have?'
     a: 'Ready-made designs include a road and cars rug, a football pitch rug, a road map rug, a raised bunny rug, animal print rugs and soft printed rugs for girls. For playrooms and nurseries we also cut carpet by the metre with an alphabet or city roads pattern.'
   - q: 'Do you have round rugs for kids rooms?'
@@ -34,7 +34,7 @@ faq:
 | -------------------- | ----------------------------------------------------- |
 | Ready-made kids rugs | Priced by size, confirmed on WhatsApp                 |
 | Round rugs           | Ready-made 200 cm, or cut to any diameter             |
-| Dense soft carpet    | 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft)     |
+| Dense soft carpet    | 5 to 15 KWD per running metre of a 4 m wide roll      |
 | Lightweight carpet   | 1.250 to 3 KWD per m², in many bright colours         |
 | Fitting              | Wall to wall, or a piece cut to the play area         |
 | Finish               | A metal trim at the marble edge holds the carpet down |

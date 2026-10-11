@@ -13,7 +13,7 @@ specs:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: '2026-10-10'
 colors:
   - رمادي فاتح / Light grey
@@ -52,7 +52,7 @@ latestWork:
     en: 'A full apartment in Ahmadi fitted wall to wall with light grey carpet: hallways, hall and bedrooms, with a gold metal trim at every change to tiles.'
 ar:
   name: موكيت شقة رمادي فاتح للممرات والغرف
-  directAnswer: 'موكيت سادة مخملي رمادي فاتح ركّبناه من الجدار للجدار في شقة كاملة بمنطقة الأحمدي: الممرات والصالة وغرف النوم، مع نهاية ذهبية معدنية عند حدود البلاط. اللون الفاتح يوسّع الممرات الضيقة ويتناسق مع الأبواب الداكنة والستائر الرمادية. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.'
+  directAnswer: 'موكيت سادة مخملي رمادي فاتح ركّبناه من الجدار للجدار في شقة كاملة بمنطقة الأحمدي: الممرات والصالة وغرف النوم، مع نهاية ذهبية معدنية عند حدود البلاط. اللون الفاتح يوسّع الممرات الضيقة ويتناسق مع الأبواب الداكنة والستائر الرمادية. السعر من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة.'
   usage: نقص الموكيت على مسار الممر وندخله في الغرف بقطعة متصلة قدر الإمكان حتى لا تظهر فواصل عند الأبواب، ونركّب نهاية معدنية حيث يلتقي الموكيت بالبلاط. الرمادي الفاتح يناسب الشقق ذات الجدران البيضاء والأبواب الداكنة.
   care: نظّفه بالمكنسة الكهربائية مرة أو مرتين أسبوعيًا، خصوصًا في الممرات لأنها الأكثر مرورًا، وامسح البقع فور وقوعها دون فرك.
   seoTitle: موكيت شقة للممرات والغرف في الأحمدي — سجادكو
@@ -64,17 +64,17 @@ ar:
     - q: ما فائدة النهاية الذهبية؟
       a: تحمي طرف الموكيت عند التقائه بالبلاط من التقشر وتعطي حدًا مستقيمًا مرتبًا.
     - q: كم سعر المتر؟
-      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة.
+      a: من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة.
 en:
   name: Light Grey Apartment Carpet for Hallways and Rooms
-  directAnswer: 'Plain light grey plush carpet we fitted wall to wall across a full apartment in Ahmadi: hallways, hall and bedrooms, with a gold metal trim at the tile edges. The light shade opens up narrow hallways and suits dark doors and grey curtains. 5 to 15 KWD per m² depending on thickness and density.'
+  directAnswer: 'Plain light grey plush carpet we fitted wall to wall across a full apartment in Ahmadi: hallways, hall and bedrooms, with a gold metal trim at the tile edges. The light shade opens up narrow hallways and suits dark doors and grey curtains. 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density.'
   usage: We cut the carpet along the hallway and carry it into the rooms in continuous pieces where possible, so no seams show at doorways, and fit metal trims where carpet meets tile.
   care: Vacuum once or twice a week, especially hallways, and blot spills straight away without rubbing.
   seoTitle: Apartment Carpet for Hallways and Rooms in Ahmadi | Sajjadko
-  seoDescription: Light grey wall-to-wall carpet fitted across a full apartment in Ahmadi with gold metal trims. 5 to 15 KWD per m².
+  seoDescription: Light grey wall-to-wall carpet fitted across a full apartment in Ahmadi with gold metal trims. 5 to 15 KWD per running metre of a 4 m wide roll.
   reviewed: true
   faq:
     - q: How much is it per metre?
-      a: 5 to 15 KWD per m² depending on thickness and density.
+      a: 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density.
     - q: Is the home visit and measuring free?
       a: Yes. Our representative visits you free of charge to measure and show samples, then we send the price on WhatsApp before you commit.

@@ -17,7 +17,7 @@ faq:
   - q: 'How much does installation cost?'
     a: 'The installation fee is agreed by area and location, and it is charged separately from the price per m². That is why we do not give a fixed figure here. Send the area and district on WhatsApp and we confirm the fee before the work starts.'
   - q: 'Is installation included in the price per m²?'
-    a: 'No. The price per m² covers the carpet or wall-to-wall carpet only: 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) for Turkish carpet and wall-to-wall carpet, and 6 to 8 KWD per m² for mosque and prayer room carpet. The installation fee is separate. Send the area and district on WhatsApp.'
+    a: 'No. The carpet price covers the carpet or wall-to-wall carpet only: 5 to 15 KWD per running metre of a 4 m wide roll for Turkish carpet and wall-to-wall carpet, and 6 to 8 KWD per m² for mosque and prayer room carpet. The installation fee is separate. Send the area and district on WhatsApp.'
   - q: 'How is mosque and prayer room carpet fixed in place?'
     a: 'We fix carpet in mosques and prayer rooms with Botex, double-sided tape, or an iron carpet edge strip, depending on the floor and the place. Send the area and district on WhatsApp and we agree the right fixing method with you.'
   - q: 'Do you visit the place before installing?'
@@ -62,7 +62,7 @@ faq:
 
 ## How installation is priced
 
-The installation fee is separate from the price of the carpet or wall-to-wall carpet, and it is agreed by area and location. The type itself is priced per m²: 5 to 15 KWD per m² (0.465 to 1.394 KWD per sq ft) for Turkish carpet and wall-to-wall carpet, set by thickness, pile pressure and density, and 6 to 8 KWD per m² for mosque and prayer room carpet. We do not give a fixed figure for the fee because it changes with area and location. Send the area and district on WhatsApp and we confirm the fee.
+The installation fee is separate from the price of the carpet or wall-to-wall carpet, and it is agreed by area and location. The carpet itself is priced as follows: 5 to 15 KWD per running metre of a 4 m wide roll for Turkish carpet and wall-to-wall carpet, set by thickness, pile pressure and density, and 6 to 8 KWD per m² for mosque and prayer room carpet. We do not give a fixed figure for the fee because it changes with area and location. Send the area and district on WhatsApp and we confirm the fee.
 
 ## What we need from you
 

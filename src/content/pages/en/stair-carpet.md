@@ -10,12 +10,12 @@ productGrid:
 title: 'Stair Carpet & Runners in Kuwait, Measured & Fitted | Sajjadko Kuwait'
 description: 'Stair carpet and stair runners cut to fit each step and installed in Kuwait, from 1.250 to 3 KWD per m². Send your step count and width on WhatsApp.'
 h1: 'Stair Carpet and Runners in Kuwait'
-directAnswer: 'We cut stair carpet and stair runners to fit your steps and install them, whether you want full wall-to-wall coverage or a runner down the middle. Lightweight carpet costs 1.250 to 3 KWD per m², and thicker Turkish carpet and wall-to-wall carpet 5 to 15 KWD per m². Area = step width × (tread + riser) × number of steps. Installation is separate, with a two-day follow-up. Send your step count and width on WhatsApp.'
+directAnswer: 'We cut stair carpet and stair runners to fit your steps and install them, whether you want full wall-to-wall coverage or a runner down the middle. Lightweight carpet costs 1.250 to 3 KWD per m², and thicker Turkish carpet and wall-to-wall carpet 5 to 15 KWD per running metre of a 4 m wide roll. Area = step width × (tread + riser) × number of steps. Installation is separate, with a two-day follow-up. Send your step count and width on WhatsApp.'
 updated: 2026-10-07
 reviewed: true
 faq:
   - q: 'What is the cost to carpet stairs in Kuwait?'
-    a: 'Stair carpet is priced per m²: lightweight carpet from 1.250 to 3 KWD, thicker Turkish and wall-to-wall carpet from 5 to 15 KWD. A staircase of 14 steps, 1 m (3.3 ft) wide, with a 28 cm tread and 17 cm riser, needs about 6.3 m² (68 sq ft), so roughly 7.9 to 18.9 KWD in lightweight carpet, or 31.5 to 94.5 KWD in thicker carpet, before installation.'
+    a: 'Lightweight carpet is priced per m² from 1.250 to 3 KWD; thicker Turkish and wall-to-wall carpet per running metre of a 4 m wide roll, from 5 to 15 KWD, cut into strips the width of your steps. A staircase of 14 steps, 1 m (3.3 ft) wide, with a 28 cm tread and 17 cm riser, needs about 6.3 m² (68 sq ft), so roughly 7.9 to 18.9 KWD in lightweight carpet before installation. For thicker carpet we count the running metres after measuring.'
   - q: 'How do I measure stairs for carpet?'
     a: 'Measure the step width, the tread depth from the nose to the back, and the riser height, then count the steps and measure any landing. Send the numbers on WhatsApp, in metres or feet, and we check the calculation with you before cutting.'
   - q: 'Should I choose full stair carpet or a stair runner?'
@@ -30,16 +30,16 @@ faq:
 
 ## Options and prices
 
-| Item               | Details                                                                         |
-| ------------------ | ------------------------------------------------------------------------------- |
-| Coverage           | Full step, wall to wall, or a stair runner down the middle                      |
-| Material           | Lightweight carpet, or thicker Turkish and wall-to-wall carpet                  |
-| Price              | Lightweight 1.250–3 KWD per m² (0.116–0.279 per sq ft); thicker 5–15 KWD per m² |
-| Price depends on   | Thickness, pile pressure and density                                            |
-| Area               | Step width × (tread + riser) × number of steps                                  |
-| Cutting            | To fit each step, after checking measurements with you                          |
-| Installation       | Separate, agreed by area and location                                           |
-| After installation | Two days of follow-up to fix installation errors                                |
+| Item               | Details                                                                                               |
+| ------------------ | ----------------------------------------------------------------------------------------------------- |
+| Coverage           | Full step, wall to wall, or a stair runner down the middle                                            |
+| Material           | Lightweight carpet, or thicker Turkish and wall-to-wall carpet                                        |
+| Price              | Lightweight 1.250–3 KWD per m² (0.116–0.279 per sq ft); thicker 5–15 KWD per running metre (4 m roll) |
+| Price depends on   | Thickness, pile pressure and density                                                                  |
+| Area               | Step width × (tread + riser) × number of steps                                                        |
+| Cutting            | To fit each step, after checking measurements with you                                                |
+| Installation       | Separate, agreed by area and location                                                                 |
+| After installation | Two days of follow-up to fix installation errors                                                      |
 
 ## Full stair carpet or a stair runner?
 
@@ -58,7 +58,7 @@ Approximate area = step width × (tread + riser) × number of steps, plus the la
 
 ## How much does it cost to carpet stairs?
 
-**Example:** 14 steps, each 1 m (3.3 ft) wide, with a 28 cm (11 in) tread and a 17 cm (6.7 in) riser. Area = 1 × (0.28 + 0.17) × 14 = 6.3 m² (68 sq ft). Lightweight carpet costs 7.9 to 18.9 KWD (1.250 to 3 KWD per m²), and thicker carpet 31.5 to 94.5 KWD (5 to 15 KWD per m²), before installation. The actual price depends on the material you choose.
+**Example:** 14 steps, each 1 m (3.3 ft) wide, with a 28 cm (11 in) tread and a 17 cm (6.7 in) riser. Area = 1 × (0.28 + 0.17) × 14 = 6.3 m² (68 sq ft). Lightweight carpet costs 7.9 to 18.9 KWD (1.250 to 3 KWD per m²) before installation. Thicker carpet is sold per running metre of a 4 m wide roll and cut into strips, so we count the metres after measuring. The actual price depends on the material you choose.
 
 ## Choosing carpet for stairs
 

@@ -12,7 +12,7 @@ specs:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: '2026-10-11'
 colors:
   - بيج شامبين / Champagne beige
@@ -36,7 +36,7 @@ latestWork:
     en: A living room in Sabah Al-Salem fitted wall to wall with beige plush carpet, finished with a gold metal trim at the marble edge.
 ar:
   name: موكيت صالة بيج مخملي من الجدار للجدار
-  directAnswer: موكيت صالات بيج مخملي ركّبناه من الجدار للجدار في صالة جلوس بمنطقة صباح السالم، مع نهاية ذهبية معدنية عند حد الرخام. يغطي أرضية الصالة كلها بقطعة متصلة تحت الكنب وطاولة الوسط، ويناسب الصالات الكبيرة والمودرن. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، والقياس مجاني.
+  directAnswer: موكيت صالات بيج مخملي ركّبناه من الجدار للجدار في صالة جلوس بمنطقة صباح السالم، مع نهاية ذهبية معدنية عند حد الرخام. يغطي أرضية الصالة كلها بقطعة متصلة تحت الكنب وطاولة الوسط، ويناسب الصالات الكبيرة والمودرن. السعر من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة، والقياس مجاني.
   usage: البيج يتناسق مع الكنب الفاتح والخشب الداكن والإضاءة الدافئة، ويُبقي الصالة هادئة ومضيئة. الفرش من الجدار للجدار يغني عن قطع السجاد المتفرقة، ويمكن وضع زولية صغيرة فوقه تحت طاولة الوسط لتحديد الجلسة.
   care: نظّفه بالمكنسة الكهربائية مرة أو مرتين أسبوعيًا، وغيّر مكان الأثاث الثقيل قليلًا كل فترة حتى لا تبقى آثار ضغط، وامسح البقع فور وقوعها دون فرك.
   seoTitle: موكيت صالة بيج من الجدار للجدار في صباح السالم — سجادكو
@@ -44,7 +44,7 @@ ar:
   reviewed: true
   faq:
     - q: كم يكلف فرش صالة بالموكيت؟
-      a: نحسب مساحة الصالة بالمتر المربع، والسعر من 5 إلى 15 د.ك للمتر حسب السماكة والكثافة. صالة 5×6 م (30 م²) مثلًا بين 150 و450 د.ك قبل التركيب.
+      a: نحسب الأمتار الطولية من مقاس الصالة، والسعر من 5 إلى 15 د.ك للمتر حسب السماكة والكثافة. صالة 5×6 م تحتاج 10 أمتار طولية، فتكلف بين 50 و150 د.ك قبل التركيب.
     - q: موكيت من الجدار للجدار أم زولية للصالة؟
       a: 'الموكيت يغطي الصالة كلها بقطعة متصلة ويعطي دفئًا وهدوءًا للصوت، والزولية تحدد الجلسة وتُنقل بسهولة. كثير من العملاء يجمعون الاثنين: موكيت للأرضية وزولية صغيرة تحت الطاولة.'
     - q: ما لون الموكيت المناسب للصالة؟
@@ -53,15 +53,15 @@ ar:
       a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Beige Plush Living Room Carpet, Wall to Wall
-  directAnswer: Beige plush carpet we fitted wall to wall in a living room in Sabah Al-Salem, with a gold metal trim at the marble edge. One continuous piece covers the room under the sofas and coffee table, suiting large and modern living rooms. 5 to 15 KWD per m² depending on thickness and density, with free measuring.
+  directAnswer: Beige plush carpet we fitted wall to wall in a living room in Sabah Al-Salem, with a gold metal trim at the marble edge. One continuous piece covers the room under the sofas and coffee table, suiting large and modern living rooms. 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density, with free measuring.
   usage: Beige pairs with light sofas, dark wood and warm lighting. Wall-to-wall carpet replaces scattered rugs, and a small rug can sit on top under the coffee table.
   care: Vacuum once or twice a week, shift heavy furniture slightly now and then to avoid dents, and blot spills straight away.
   seoTitle: Living Room Wall-to-Wall Carpet in Sabah Al-Salem | Sajjadko
-  seoDescription: Beige plush living room carpet fitted wall to wall in Sabah Al-Salem, Kuwait, with a gold trim. 5 to 15 KWD per m², free measuring.
+  seoDescription: Beige plush living room carpet fitted wall to wall in Sabah Al-Salem, Kuwait, with a gold trim. 5 to 15 KWD per running metre of a 4 m wide roll, free measuring.
   reviewed: true
   faq:
     - q: How much does it cost to carpet a living room?
-      a: Carpet is 5 to 15 KWD per m². A 5×6 m living room (30 m²) is about 150 to 450 KWD before fitting.
+      a: Carpet is 5 to 15 KWD per running metre of a 4 m wide roll. A 5 × 6 m room needs 10 running metres, about 50 to 150 KWD before fitting.
     - q: Wall-to-wall carpet or a rug for the living room?
       a: Wall-to-wall covers the whole room and softens sound; a rug defines the seating and is easy to move. Many customers use both.
     - q: Is the home visit and measuring free?

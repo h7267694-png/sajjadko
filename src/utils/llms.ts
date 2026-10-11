@@ -33,7 +33,7 @@ function facts(s: Awaited<ReturnType<typeof getSettings>>) {
     `- ${s?.hours?.en ?? 'Hours: 8 AM to 8 PM'}.`,
     `- Contact: WhatsApp only, ${phone} (https://wa.me/${s?.whatsapp ?? ''}). No online checkout or payment on the site.`,
     '- Free home visit: a representative visits your home or site in Kuwait to take measurements and show material and colour samples, free of charge.',
-    '- Turkish carpet and wall-to-wall carpet: 5–15 KWD per m² depending on thickness, pile pressure and density. Cut to size.',
+    '- Turkish carpet and wall-to-wall carpet: 5–15 KWD per running metre of a 4 m wide roll (one metre covers 4 m²), depending on thickness, pile pressure and density. Hallway runners: 5–15 KWD per running metre of runner. Cut to size.',
     '- Lightweight carpet (used for offices and stairs): from 1.250 to 3 KWD per m². Office carpet tiles (nylon and polypropylene): 5–6 KWD per m².',
     '- Mosque and prayer room carpet: 6 / 7 / 8 KWD per m² (light / medium / thick), rolls 1.33 m or 4 m wide, rows aligned with the qibla.',
     '- Red carpet rental: 1 KWD per m² outdoor, 0.750 KWD per m² indoor, delivery, laying and removal included.',

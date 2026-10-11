@@ -11,7 +11,7 @@ specs:
 priceRange:
   min: 5
   max: 15
-  unit: m2
+  unit: linear-m
   updated: '2026-10-11'
 colors:
   - رمادي فاتح مائل للعاجي / Pale grey
@@ -45,7 +45,7 @@ latestWork:
     en: A bedroom in Hitteen changed from a marble floor to pale grey plush wall-to-wall carpet.
 ar:
   name: موكيت غرفة نوم رمادي فاتح مخملي
-  directAnswer: موكيت غرف نوم مخملي بلون رمادي فاتح مائل للعاجي ركّبناه من الجدار للجدار فوق أرضية رخام في غرفة نوم بمنطقة حطين. يحوّل الغرفة من بلاط بارد إلى أرضية دافئة وهادئة. السعر من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة، والقياس مجاني.
+  directAnswer: موكيت غرف نوم مخملي بلون رمادي فاتح مائل للعاجي ركّبناه من الجدار للجدار فوق أرضية رخام في غرفة نوم بمنطقة حطين. يحوّل الغرفة من بلاط بارد إلى أرضية دافئة وهادئة. السعر من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة، والقياس مجاني.
   usage: تركيب الموكيت فوق الرخام لا يحتاج إزالة البلاط، ويخفف برودة الأرضية وصدى الصوت في الغرف الكبيرة. الرمادي الفاتح يتناسق مع الأثاث الأبيض والستائر البنية والرمادية.
   care: نظّفه بالمكنسة الكهربائية مرة أو مرتين أسبوعيًا، وامسح البقع فور وقوعها بقطعة قماش مبللة دون فرك.
   seoTitle: موكيت غرف نوم رمادي فاتح في حطين — سجادكو
@@ -55,20 +55,20 @@ ar:
     - q: هل يُركّب الموكيت فوق الرخام مباشرة؟
       a: نعم، نركّبه فوق الرخام أو البلاط دون إزالته، مع بطانة تحت الموكيت ونهاية معدنية عند الباب.
     - q: كم سعر موكيت غرفة النوم؟
-      a: من 5 إلى 15 د.ك للمتر المربع حسب السماكة والكثافة. غرفة 4×5 م (20 م²) مثلًا بين 100 و300 د.ك قبل التركيب.
+      a: من 5 إلى 15 د.ك للمتر الطولي من رول عرضه 4 م حسب السماكة والكثافة. غرفة 4×5 م تحتاج 5 أمتار طولية، فتكلف بين 25 و75 د.ك قبل التركيب.
     - q: هل الزيارة والقياس مجانًا؟
       a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Pale Grey Plush Bedroom Carpet
-  directAnswer: Pale grey plush carpet we fitted wall to wall over a marble floor in a bedroom in Hitteen, turning cold tiles into a warm, quiet floor. 5 to 15 KWD per m² depending on thickness and density, with free measuring.
+  directAnswer: Pale grey plush carpet we fitted wall to wall over a marble floor in a bedroom in Hitteen, turning cold tiles into a warm, quiet floor. 5 to 15 KWD per running metre of a 4 m wide roll depending on thickness and density, with free measuring.
   usage: Carpet goes over marble without removing the tiles, cutting floor chill and echo in large rooms. Pale grey suits white furniture and brown or grey curtains.
   care: Vacuum once or twice a week and blot spills straight away with a damp cloth without rubbing.
   seoTitle: Bedroom Carpet over Marble in Hitteen, Kuwait | Sajjadko
-  seoDescription: Pale grey plush bedroom carpet fitted wall to wall over marble in Hitteen, Kuwait. 5 to 15 KWD per m², free measuring.
+  seoDescription: Pale grey plush bedroom carpet fitted wall to wall over marble in Hitteen, Kuwait. 5 to 15 KWD per running metre of a 4 m wide roll, free measuring.
   reviewed: true
   faq:
     - q: How much is bedroom carpet?
-      a: 5 to 15 KWD per m². A 4×5 m bedroom (20 m²) is about 100 to 300 KWD before fitting.
+      a: 5 to 15 KWD per running metre of a 4 m wide roll. A 4 × 5 m room needs 5 running metres, about 25 to 75 KWD before fitting.
     - q: Can carpet be fitted over marble?
       a: Yes, over marble or tiles without removing them, with underlay and a metal trim at the door.
     - q: Is the home visit and measuring free?

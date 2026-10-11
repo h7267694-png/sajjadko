@@ -31,7 +31,7 @@ export const activeOffer = (p: ProductEntry, now = new Date()) => {
   return end >= now ? o : undefined;
 };
 
-/** نص السعر المختصر للبطاقات: «من 5 إلى 15 د.ك للمتر المربع» أو «حسب المقاس» */
+/** نص السعر المختصر للبطاقات: «من 5 إلى 15 د.ك للمتر الطولي» أو «حسب المقاس» */
 export const priceLine = (p: ProductEntry, lang: Locale) => {
   const d = p.data;
   const ar = lang === 'ar';

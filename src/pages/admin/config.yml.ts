@@ -203,7 +203,7 @@ const config = {
           widget: 'object',
           required: false,
           collapsed: true,
-          hint: 'أدنى وأعلى سعر حقيقي، مثل 5 إلى 15 د.ك للمتر المربع. يظهر في جوجل.',
+          hint: 'أدنى وأعلى سعر حقيقي، مثل 5 إلى 15 د.ك للمتر الطولي (اختر الوحدة: متر طولي للتركي والموكيت والمدات، ومتر مربع للخفيف والمساجد والبلاط). يظهر في جوجل.',
           fields: [
             { name: 'min', label: 'من (د.ك)', widget: 'number', value_type: 'float' },
             { name: 'max', label: 'إلى (د.ك)', widget: 'number', value_type: 'float' },
