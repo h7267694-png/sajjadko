@@ -2,15 +2,17 @@
 lang: en
 translationKey: red-carpet
 urlPath: red-carpet-events
-status: draft
+status: published
 kind: category
 waType: red-carpet
-title: 'Red Carpet in Kuwait: Rent or Buy for Events | Sajjadko Kuwait'
+productGrid:
+  categories: [red-carpet]
+title: 'Red Carpet Rental in Kuwait for Events and Exhibitions | Sajjadko'
 description: 'Red carpet rental in Kuwait at 0.750 KWD per m² indoors and 1 KWD per m² outdoors, with delivery, laying and removal included. Sales available.'
-h1: 'Red Carpet for Weddings and Events: Rent or Buy'
+h1: 'Red Carpet and Event Carpet in Kuwait: Rent or Buy'
 directAnswer: 'Sajjadko Kuwait rents red carpet for weddings and events at 0.750 KWD per m² (0.070 KWD per sq ft) indoors and 1 KWD per m² (0.093 KWD per sq ft) outdoors. The price includes delivery, laying and removal after the event. The carpet is Amazon-type, light, 6 mm (0.24 in) thick, in more than 12 colours. Buying is also available. Send the date, approximate area and venue on WhatsApp to confirm your price.'
-updated: 2026-10-07
-reviewed: false
+updated: 2026-10-11
+reviewed: true
 faq:
   - q: 'How much does red carpet rental cost in Kuwait?'
     a: 'Rental is 0.750 KWD per m² (0.070 KWD per sq ft) indoors and 1 KWD per m² (0.093 KWD per sq ft) outdoors. The price includes delivery, laying and removal after the event. The cost is the area in m² times the price per m². Send the approximate area and the venue on WhatsApp.'
@@ -24,6 +26,8 @@ faq:
     a: 'Yes, sales are available. Buying suits halls and organisations that hold events often. Renting suits a single event. Send the approximate quantity on WhatsApp and we give you the sale price.'
   - q: 'How do I work out the area I need?'
     a: 'Area in m² is length times width. For example, a 10 m (32.8 ft) aisle that is 2 m (6.6 ft) wide is 20 m². At the outdoor price of 1 KWD per m², renting it costs 20 KWD. If you do not know the area, send the venue and we help you estimate it.'
+  - q: 'Do you rent carpet for exhibitions and large tents?'
+    a: 'Yes. We carpet exhibition and conference floors and large tents wall to wall at the same rental price: 0.750 KWD per m² indoors and 1 KWD outdoors, including laying and removal.'
 ---
 
 ## Red Carpet Specifications
@@ -46,12 +50,18 @@ Rental cost is the area in m² times the price per m². The price is 0.750 KWD p
 
 Example: 30 m² (323 sq ft) costs 22.5 KWD in an indoor venue and 30 KWD in an outdoor venue.
 
-## When Is a Red Carpet Used?
+## Where We Lay Red Carpet and Event Carpet
 
-- **Weddings.** The entrance aisle to a hall or tent, indoors or outdoors.
-- **Tents and camps.** A path or entrance laid for an outdoor occasion.
-- **Openings and events.** A guest welcome path at a shop opening or an event.
-- **Halls and venues.** An organisation that holds events often and wants its own carpet.
+| Occasion                                 | What we lay                                                 |
+| ---------------------------------------- | ----------------------------------------------------------- |
+| Weddings and engagement parties          | A red carpet entrance aisle, or the whole hall or tent      |
+| Graduations                              | An aisle to the stage and carpet for the hall or tent       |
+| Shop openings and trade exhibitions      | A welcome aisle at the entrance and carpet for stands       |
+| Conferences, corporate and school events | Wall-to-wall hall carpet in your colour, with a stage aisle |
+| Ramadan tents and gatherings             | Tent floor carpet or rugs for seating                       |
+| Outdoor receptions                       | Rugs laid edge to edge on grass and courtyards              |
+
+With more than 12 colours, the aisle need not be red: we have laid purple, blue and white aisles and grey and blue exhibition floors. Photos of our event work are in the products below.
 
 ## Rent or Buy?
 

@@ -255,3 +255,8 @@
 - [ ] `https://sajjadko.com/en/products/sharq-office-carpet-tiles-brown-beige/`
 - [ ] `https://sajjadko.com/en/products/carpet-tiles-blue-grey-pattern/`
 - [ ] `https://sajjadko.com/en/products/carpet-tiles-charcoal-grey-stripes/`
+
+**جديد (الخطوة 54)** (2):
+
+- [ ] `https://sajjadko.com/guides/mosque-carpet/`
+- [ ] `https://sajjadko.com/en/red-carpet-events/`

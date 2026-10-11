@@ -3,7 +3,6 @@ lang: ar
 translationKey: red-carpet
 urlPath: red-carpet
 status: published
-noTranslation: true
 kind: category
 waType: red-carpet
 productGrid:

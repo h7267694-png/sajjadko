@@ -60,7 +60,7 @@ const NAV: Item[] = [
       '/services/carpet-installation/',
       'ar'
     ),
-    item('Red carpet', 'الريد كاربت للمناسبات', '/en/red-carpet-events/', '/red-carpet/', 'ar'),
+    item('Red carpet', 'الريد كاربت للمناسبات', '/en/red-carpet-events/', '/red-carpet/', true),
   ]),
   item('More', 'المزيد', '/en/contact/', '/contact/', false, [
     item('Carpet shop in Al Dajeej', 'محل سجاد الضجيج', '/en/carpet-store-al-dajeej/', '/carpet-shop-dajeej/', 'ar'),

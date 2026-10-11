@@ -2506,7 +2506,7 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 ---
 
-# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 53؛ الملخص في القسم 29)
+# 28. سجل التنفيذ وحالة الخطوات (آخر تحديث: 11 أكتوبر 2026، بعد الخطوة 54؛ الملخص في القسم 29)
 
 ## 28.1 القاعدة الإلزامية
 
@@ -2948,9 +2948,15 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - عملان في «أعمالنا الأخيرة»: مكتبة وممرات مبنى تعليمي في **حولي** (بلاط رمادي مخطط مع عنابي، 4 صور بينها صورة الممر من المشروع نفسه)، ومكاتب شركة في **شرق** (بني وبيج بنقشة رقعة الشطرنج، صورتان).
 - منتجان: بلاط بنقش أزرق ورمادي، وبلاط فحمي مخطط بإطار رمادي. كلها 5–6 د.ك للمتر (السعر المنشور). قسم بلاط السجاد صار فيه 6 منتجات.
 
+**الخطوة 54 (11 أكتوبر 2026) [تم]: دليل سجاد المسجد، والريد كاربت بالإنجليزية، وBing**
+
+- دليل عربي `ar/mosque-carpet-guide.md` (`guides/mosque-carpet`، الأب: سجاد المساجد): المساحة، عدد الصفوف (العمق ÷ 1.33)، رول 1.33 أو 4 م، السماكة واللون، جدول تكلفة لأربع مساحات (6/7/8 د.ك)، تجهيز المسجد، و6 أسئلة. يستهدف «فرش مسجد» و«تكلفة فرش مسجد» و«سجاد مساجد». كل الأرقام من صفحة المساجد المنشورة. رابط إليه من صفحة المساجد.
+- صفحة الريد كاربت الإنجليزية `/en/red-carpet-events/` نُشرت (red carpet kuwait 30، red carpet rental 10) بجدول الاستخدامات وشبكة المنتجات وسؤال المعارض، وصار للصفحة العربية زوج hreflang، والقائمة تعرضها باللغتين.
+- **Bing Webmaster:** خطوات العميل (استيراد من Search Console) في 29.2.
+
 ---
 
-# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 53)
+# 29. ملخص الحالة والمتابعة (11 أكتوبر 2026، بعد الخطوة 54)
 
 ## 29.1 ما تم إنجازه
 
@@ -3006,8 +3012,8 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 
 1. ~~نشر الصفحات المكتوبة~~ **[تم، الخطوة 42]**.
 2. ~~صفحة السجاد الأم وتواصل ومن نحن~~ **[تم، الخطوات 43–45]**، ودليل الأسعار **[تم، 46]**.
-3. Bing Webmaster وGA4 ومراقبة التوفر (19.1).
-4. أدلة عربية: حساب الكمية والسجاد مقابل الموكيت **[تم، 47]**، ودليل سجاد المسجد (التالي).
+3. **Bing Webmaster (بانتظار العميل، دقيقتان):** bing.com/webmasters ← الدخول بحساب Microsoft أو Google ← Import from Google Search Console ← اختيار sajjadko.com. يستورد التحقق والخريطة تلقائيًا. ثم GA4 ومراقبة التوفر (19.1).
+4. أدلة عربية: حساب الكمية والسجاد مقابل الموكيت **[تم، 47]**، ودليل سجاد المسجد **[تم، 54]**.
 
 ## 29.3 روابط بانتظار الفهرسة اليدوية في Search Console
 
@@ -3266,3 +3272,8 @@ majlis carpet, diwaniya carpet, mosque carpet kuwait, hotel carpet, office carpe
 - [ ] `https://sajjadko.com/en/products/sharq-office-carpet-tiles-brown-beige/`
 - [ ] `https://sajjadko.com/en/products/carpet-tiles-blue-grey-pattern/`
 - [ ] `https://sajjadko.com/en/products/carpet-tiles-charcoal-grey-stripes/`
+
+**جديد (الخطوة 54)** (2):
+
+- [ ] `https://sajjadko.com/guides/mosque-carpet/`
+- [ ] `https://sajjadko.com/en/red-carpet-events/`
