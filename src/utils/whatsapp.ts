@@ -13,6 +13,7 @@ export const WA_TYPES = [
   'commercial',
   'diwaniya',
   'bedroom-kids',
+  'living-room',
   'musalla',
   'hallway',
   'stairs',
@@ -150,6 +151,13 @@ export const WA_TEMPLATES: Record<WaType, { ar: Tpl; en: Tpl }> = {
   'bedroom-kids': {
     ar: { label: 'اسأل عن المتوفر', msg: 'مرحبًا، أرغب بسجاد/موكيت لـ[غرفة نوم/غرفة أطفال]. المقاس: [المقاس].' },
     en: { label: 'Ask what is available', msg: 'Hello, I would like carpet for a [bedroom/kids room]. Size: [size].' },
+  },
+  'living-room': {
+    ar: { label: 'اسأل عن سجاد الصالة', msg: 'مرحبًا، أرغب بسجاد للصالة. أبعاد الصالة: [الطول×العرض].' },
+    en: {
+      label: 'Ask about living room carpet',
+      msg: 'Hello, I would like carpet for my living room. Size: [length × width].',
+    },
   },
   'red-carpet': {
     ar: {

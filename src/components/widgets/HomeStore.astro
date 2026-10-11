@@ -58,7 +58,10 @@ const CAT_LINE: Record<string, { ar: string; en: string }> = {
   zawali: { ar: 'جاهزة، وبالمتر، وتفصيل على المقاس', en: 'Ready-made, by the metre and made to size' },
   'mosque-carpet': { ar: 'بخطوط الصفوف، يُقص على مساحة المسجد', en: 'With prayer rows, cut to the mosque' },
   'carpet-tiles': { ar: 'بلاط 40×40 للمكاتب والمساحات التجارية', en: '40×40 tiles for offices and commercial spaces' },
-  'red-carpet': { ar: 'تأجير وبيع للأعراس والفعاليات والمعارض', en: 'Rental and sale for weddings, events and exhibitions' },
+  'red-carpet': {
+    ar: 'تأجير وبيع للأعراس والفعاليات والمعارض',
+    en: 'Rental and sale for weddings, events and exhibitions',
+  },
 };
 const pages = (await getCollection('pages')).filter((e) => e.data.status === 'published' && e.data.lang === lang);
 const workDate = (p: (typeof products)[number]) => {

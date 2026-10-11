@@ -260,3 +260,7 @@
 
 - [ ] `https://sajjadko.com/guides/mosque-carpet/`
 - [ ] `https://sajjadko.com/en/red-carpet-events/`
+
+**جديد (الخطوة 55)** (1):
+
+- [ ] `https://sajjadko.com/carpets/living-room/`

@@ -41,6 +41,7 @@ const NAV: Item[] = [
       '/carpets/diwaniya-majlis/',
       'ar'
     ),
+    item('Living room carpet', 'سجاد الصالات', '/en/living-room-rugs/', '/carpets/living-room/', 'ar'),
     item('Bedroom carpet', 'سجاد غرف النوم', '/en/bedroom-carpet/', '/carpets/bedroom/', 'ar'),
     item('Kids rugs', 'سجاد الأطفال', '/en/kids-rugs/', '/carpets/kids/', 'ar'),
     item('Zawali rugs', 'الزوالي والزل', '/en/zawali-rugs/', '/zawali/', 'ar'),
