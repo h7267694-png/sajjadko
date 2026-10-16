@@ -137,17 +137,17 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
 
 {
   tiles.length > 0 && (
-    <section class="mt-8 mb-10" aria-labelledby="shop-cats">
-      <h2 id="shop-cats" class="text-2xl md:text-3xl font-bold mb-4">
+    <section class="mt-9 mb-10" aria-labelledby="shop-cats">
+      <h2 id="shop-cats" class="sec-title">
         {t.shop}
       </h2>
-      <ul class="flex gap-3 overflow-x-auto snap-x pb-2 -mx-4 px-4 md:mx-0 md:px-0 md:grid md:grid-cols-4 lg:grid-cols-6 md:overflow-visible">
+      <ul class="flex gap-3 overflow-x-auto snap-x pb-2 -mx-4 px-4 md:mx-0 md:px-0 md:grid md:grid-cols-4 lg:grid-cols-6 md:gap-x-4 md:gap-y-6 md:overflow-visible">
         {tiles.map((x) => {
           const src = sectionImg(x.key) ?? (x.img ? byId.get(x.img)?.data.images[0]?.src : undefined);
           return (
             <li class="cat-tile snap-start shrink-0 w-28 md:w-auto">
               <a href={x.href} class="group block text-center">
-                <span class="block overflow-hidden rounded-xl bg-primary/5 dark:bg-slate-800 aspect-square">
+                <span class="cat-ring">
                   {src ? (
                     <Image
                       src={src}
@@ -157,7 +157,7 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
                       loading="lazy"
                       decoding="async"
                       fetchpriority="low"
-                      class="w-full h-full object-cover transition-transform duration-300 motion-safe:group-hover:scale-105"
+                      class="w-full h-full object-cover rounded-full transition-transform duration-300 motion-safe:group-hover:scale-105"
                     />
                   ) : (
                     <span class="flex h-full items-center justify-center text-3xl text-primary/60" aria-hidden="true">
@@ -165,7 +165,9 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
                     </span>
                   )}
                 </span>
-                <span class="mt-2 block text-sm font-semibold leading-snug group-hover:underline">{x.t}</span>
+                <span class="mt-2 block text-[0.8rem] md:text-sm font-bold leading-snug group-hover:text-accent">
+                  {x.t}
+                </span>
               </a>
             </li>
           );
@@ -179,7 +181,7 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
   offers.length > 0 && (
     <section class="my-10 rounded-2xl bg-accent/10 p-4 md:p-6" aria-labelledby="offers" data-offers>
       <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-        <h2 id="offers" class="text-2xl md:text-3xl font-bold">
+        <h2 id="offers" class="sec-title !mb-0">
           {t.offers}
         </h2>
         <p class="text-sm text-muted">{t.offersSub}</p>
@@ -196,7 +198,7 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
 {
   aisles.length > 0 && (
     <section class="my-10" aria-labelledby="all-products">
-      <h2 id="all-products" class="text-2xl md:text-3xl font-bold mb-5">
+      <h2 id="all-products" class="sec-title">
         {t.all}
       </h2>
       <div class="space-y-8 md:space-y-10">
@@ -280,6 +282,25 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
   .cat-tile {
     content-visibility: auto;
     contain-intrinsic-size: auto 112px auto 150px;
+  }
+  /* بلاطة القسم دائرية بإطار ذهبي (نفس مقاسات الصورة السابقة فلا تتغير عروض srcset) */
+  .cat-ring {
+    display: block;
+    aspect-ratio: 1;
+    padding: 3px;
+    border-radius: 50%;
+    background: var(--brand-sand);
+    box-shadow: inset 0 0 0 2px rgb(199 157 88 / 0.55);
+    transition: box-shadow 0.2s;
+  }
+  .group:hover .cat-ring {
+    box-shadow: inset 0 0 0 3px var(--brand-gold);
+  }
+  .cat-ring > :global(span) {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .aisle {
     content-visibility: auto;

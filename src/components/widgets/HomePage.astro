@@ -10,6 +10,8 @@ import FaqList from '~/components/ui/FaqList.astro';
 import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
 import FreeVisit from '~/components/ui/FreeVisit.astro';
 import HomeStore from '~/components/widgets/HomeStore.astro';
+import HeroSlider from '~/components/widgets/HeroSlider.astro';
+import { Icon } from 'astro-icon/components';
 import { getSettings, toLocale, formatPhone } from '~/utils/site';
 import { buildHomeSchema } from '~/utils/schema';
 import { pageHref } from '~/utils/pages';
@@ -350,6 +352,22 @@ const tiles = offers.flatMap((o) => {
 });
 const otherServices = offers.filter((o) => !linkOf(o.key));
 const projectsHref = ar ? '/projects/' : '/en/projects/';
+const TRUST_ICONS = [
+  'tabler:home-check',
+  'tabler:building-store',
+  'tabler:receipt-2',
+  'tabler:ruler-measure',
+  'tabler:tool',
+];
+const WHY_ICONS = [
+  'tabler:home-check',
+  'tabler:building-store',
+  'tabler:receipt-2',
+  'tabler:scissors',
+  'tabler:tool',
+  'tabler:language',
+  'tabler:brand-whatsapp',
+];
 ---
 
 <PageLayout
@@ -360,45 +378,31 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
 >
   <StructuredData slot="head" schema={schema} />
 
-  <section class="bg-primary/5 dark:bg-slate-800/40">
-    <div class="mx-auto max-w-5xl px-4 pt-6 pb-5 md:pt-14 md:pb-10">
-      <div class="flex flex-wrap items-center justify-between gap-3 mb-3">
-        <p class="text-sm font-semibold text-accent">{c.eyebrow}</p>
-        <a
-          href={ar ? '/en/' : '/'}
-          lang={ar ? 'en' : 'ar'}
-          hreflang={ar ? 'en-KW' : 'ar-KW'}
-          class="inline-flex items-center gap-2 min-h-11 px-4 rounded-full bg-white dark:bg-slate-900 border-2 border-primary text-primary dark:text-white font-bold shadow-sm hover:bg-primary hover:text-white"
-        >
-          {ar ? 'English version' : 'النسخة العربية'}
-        </a>
-      </div>
-      <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-4 max-w-3xl">{c.h1}</h1>
-      <p class="text-lg md:text-xl text-muted max-w-2xl mb-6">{c.lead}</p>
-      <div class="flex flex-wrap gap-3">
-        <WhatsAppButton type="home" pageName={ar ? 'الرئيسية' : 'Home'} position="top" />
-        {
-          byMeter && (
-            <a href={byMeter} class="btn-secondary inline-flex items-center min-h-11">
-              {c.cta2}
-            </a>
-          )
-        }
-      </div>
-      <ul class="mt-5 hidden md:flex flex-wrap gap-x-5 gap-y-1.5 max-w-3xl text-sm">
-        {
-          c.trust.map((x) => (
-            <li class="flex items-start gap-2">
-              <span aria-hidden="true" class="text-accent">
-                ✓
-              </span>
-              {x}
-            </li>
-          ))
-        }
-      </ul>
-    </div>
-  </section>
+  <div class="mx-auto max-w-5xl px-2 sm:px-4 pt-2 md:pt-5">
+    <HeroSlider
+      lang={lang}
+      pageName={ar ? 'الرئيسية' : 'Home'}
+      eyebrow={c.eyebrow}
+      title={c.h1}
+      lead={c.lead}
+      cta2={c.cta2}
+      byMeterHref={byMeter}
+      carvingHref={linkOf('hand-carving')}
+      mosqueHref={linkOf('mosque-carpets')}
+    />
+    <ul class="trust-strip" aria-label={ar ? 'مميزات سجادكو' : 'Why customers choose us'}>
+      {
+        c.trust.map((x, i) => (
+          <li>
+            <span class="trust-ico" aria-hidden="true">
+              <Icon name={TRUST_ICONS[i] ?? 'tabler:check'} />
+            </span>
+            <span>{x}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
 
   <div class="mx-auto max-w-5xl px-4">
     <HomeStore lang={lang} pageName={ar ? 'الرئيسية' : 'Home'} tiles={tiles} />
@@ -412,18 +416,6 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
       )
     }
 
-    <ul class="md:hidden -mt-4 mb-8 grid gap-1.5 text-sm">
-      {
-        c.trust.map((x) => (
-          <li class="flex items-start gap-2">
-            <span aria-hidden="true" class="text-accent">
-              ✓
-            </span>
-            {x}
-          </li>
-        ))
-      }
-    </ul>
     <div class="max-w-3xl">
       <AnswerBox answer={c.answer} label={c.short} />
       <FreeVisit pageName={ar ? 'الرئيسية' : 'Home'} />
@@ -432,12 +424,12 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
     {
       otherServices.length > 0 && (
         <section class="my-12" aria-labelledby="offer">
-          <h2 id="offer" class="text-2xl md:text-3xl font-bold mb-6">
+          <h2 id="offer" class="sec-title">
             {c.offerTitle}
           </h2>
           <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {otherServices.map((o) => (
-              <li class="rounded-lg border border-gray-200 dark:border-slate-700 p-4">
+              <li class="svc-card">
                 <h3 class="font-semibold mb-1">{o.t}</h3>
                 <p class="text-sm text-muted">{o.d}</p>
               </li>
@@ -448,29 +440,21 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
     }
 
     <section class="my-12" aria-labelledby="prices">
-      <h2 id="prices" class="text-2xl md:text-3xl font-bold mb-4">{c.pricesTitle}</h2>
-      <div class="overflow-x-auto">
-        <table class="w-full text-start text-sm md:text-base border-collapse">
+      <h2 id="prices" class="sec-title">{c.pricesTitle}</h2>
+      <div class="price-wrap">
+        <table class="price-table">
           <thead>
-            <tr class="border-b-2 border-primary">
-              {
-                c.priceHead.map((h) => (
-                  <th scope="col" class="py-2 pe-4 text-start font-semibold">
-                    {h}
-                  </th>
-                ))
-              }
+            <tr>
+              {c.priceHead.map((h) => <th scope="col">{h}</th>)}
             </tr>
           </thead>
           <tbody>
             {
               c.prices.map((r) => (
-                <tr class="border-b border-gray-200 dark:border-slate-700">
-                  <th scope="row" class="py-2 pe-4 text-start font-medium">
-                    {r[0]}
-                  </th>
-                  <td class="py-2 pe-4">{r[1]}</td>
-                  <td class="py-2 pe-4 text-muted">{r[2]}</td>
+                <tr>
+                  <th scope="row">{r[0]}</th>
+                  <td class="price-val">{r[1]}</td>
+                  <td class="text-muted">{r[2]}</td>
                 </tr>
               ))
             }
@@ -483,12 +467,14 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
     </section>
 
     <section class="my-12" aria-labelledby="steps">
-      <h2 id="steps" class="text-2xl md:text-3xl font-bold mb-4">{c.stepsTitle}</h2>
+      <h2 id="steps" class="sec-title">{c.stepsTitle}</h2>
       <ol class="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         {
           c.steps.map((s, i) => (
-            <li class="rounded-lg bg-primary/5 dark:bg-slate-800 p-4">
-              <span class="block text-2xl font-bold text-accent mb-1">{i + 1}</span>
+            <li class="step-card">
+              <span class="step-num" aria-hidden="true">
+                {i + 1}
+              </span>
               {s}
             </li>
           ))
@@ -498,12 +484,15 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
     </section>
 
     <section class="my-12" aria-labelledby="why">
-      <h2 id="why" class="text-2xl md:text-3xl font-bold mb-6">{c.whyTitle}</h2>
-      <ul class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <h2 id="why" class="sec-title">{c.whyTitle}</h2>
+      <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {
-          c.why.map(([h, d]) => (
-            <li>
-              <h3 class="font-semibold mb-1">{h}</h3>
+          c.why.map(([h, d], i) => (
+            <li class="why-card">
+              <span class="why-ico" aria-hidden="true">
+                <Icon name={WHY_ICONS[i] ?? 'tabler:check'} />
+              </span>
+              <h3 class="font-bold mb-1">{h}</h3>
               <p class="text-sm text-muted">{d}</p>
             </li>
           ))
@@ -513,12 +502,12 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
 
     {
       hasWorks && (
-        <section class="my-12 rounded-lg border border-accent/40 bg-accent/5 p-6" aria-labelledby="works">
-          <h2 id="works" class="text-2xl font-bold mb-2">
+        <section class="works-band" aria-labelledby="works">
+          <h2 id="works" class="text-2xl md:text-3xl font-extrabold mb-2">
             {c.worksTitle}
           </h2>
           <p class="mb-3">{c.worksText}</p>
-          <a href={projectsHref} class="font-semibold text-primary dark:text-white hover:underline">
+          <a href={projectsHref} class="works-link">
             {c.worksLink} {ar ? '←' : '→'}
           </a>
         </section>
@@ -528,7 +517,7 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
     <div class="max-w-3xl"><FaqList items={c.faq} title={c.faqTitle} /></div>
 
     <section class="my-12" aria-labelledby="visit">
-      <h2 id="visit" class="text-2xl md:text-3xl font-bold mb-3">{c.visitTitle}</h2>
+      <h2 id="visit" class="sec-title">{c.visitTitle}</h2>
       <p class="mb-3 max-w-3xl">{c.visitText}</p>
       {
         settings && (
@@ -547,3 +536,161 @@ const projectsHref = ar ? '/projects/' : '/en/projects/';
     </section>
   </div>
 </PageLayout>
+
+<style>
+  /* شريط المميزات: صف أفقي يُسحب على الجوال، وخمسة أعمدة على الحاسوب */
+  .trust-strip {
+    display: flex;
+    gap: 0.5rem;
+    margin: 0.75rem -0.5rem 0;
+    padding: 0 0.5rem 0.25rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .trust-strip li {
+    display: flex;
+    flex: none;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0.8rem 0.45rem 0.6rem;
+    border-radius: 999px;
+    background: var(--brand-sand);
+    font-size: 0.78rem;
+    font-weight: 600;
+    line-height: 1.4;
+    white-space: nowrap;
+    scroll-snap-align: start;
+  }
+  @media (min-width: 1024px) {
+    .trust-strip {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      margin-inline: 0;
+      padding: 0;
+      overflow: visible;
+    }
+    .trust-strip li {
+      border-radius: 0.875rem;
+      white-space: normal;
+    }
+  }
+  .trust-ico,
+  .why-ico {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--brand-navy);
+    color: var(--brand-gold);
+  }
+  .trust-ico {
+    width: 1.85rem;
+    height: 1.85rem;
+  }
+  .trust-ico :global(svg) {
+    width: 1.15rem;
+    height: 1.15rem;
+  }
+  .svc-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--brand-line);
+    border-top: 3px solid var(--brand-gold);
+    background: var(--aw-color-bg-page);
+  }
+  .price-wrap {
+    overflow-x: auto;
+    border-radius: 1rem;
+    border: 1px solid var(--brand-line);
+  }
+  .price-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+    text-align: start;
+  }
+  .price-table th,
+  .price-table td {
+    padding: 0.7rem 0.9rem;
+    text-align: start;
+    vertical-align: top;
+  }
+  .price-table thead th {
+    background: var(--brand-navy);
+    color: #fff;
+    font-weight: 700;
+  }
+  .price-table tbody tr:nth-child(even) {
+    background: var(--brand-sand);
+  }
+  .price-table tbody th {
+    font-weight: 600;
+  }
+  .price-val {
+    font-weight: 700;
+    color: var(--aw-color-text-heading);
+  }
+  .step-card {
+    position: relative;
+    padding: 1rem;
+    border-radius: 1rem;
+    background: var(--brand-sand);
+  }
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    background: var(--brand-gold);
+    color: var(--brand-navy);
+    font-weight: 800;
+  }
+  .why-card {
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--brand-line);
+  }
+  .why-ico {
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-bottom: 0.6rem;
+  }
+  .why-ico :global(svg) {
+    width: 1.35rem;
+    height: 1.35rem;
+  }
+  .works-band {
+    margin-block: 3rem;
+    padding: 1.5rem;
+    border-radius: 1.25rem;
+    background: var(--brand-navy);
+    color: #fff;
+    border-inline-start: 6px solid var(--brand-gold);
+  }
+  .works-band h2 {
+    color: #fff;
+  }
+  .works-link {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1.15rem;
+    border-radius: 999px;
+    background: var(--brand-gold);
+    color: var(--brand-navy);
+    font-weight: 800;
+  }
+  @media (min-width: 768px) {
+    .price-table {
+      font-size: 1rem;
+    }
+  }
+</style>

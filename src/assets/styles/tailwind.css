@@ -170,3 +170,26 @@
     scroll-behavior: smooth;
   }
 }
+
+/* عنوان قسم موحد (2026-10-17): عريض بشريط ذهبي قصير تحته */
+.sec-title {
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.3;
+  color: var(--aw-color-text-heading);
+}
+.sec-title::after {
+  content: '';
+  display: block;
+  width: 3rem;
+  height: 4px;
+  margin-top: 0.55rem;
+  border-radius: 999px;
+  background: var(--brand-gold);
+}
+@media (width >= 48rem) {
+  .sec-title {
+    font-size: 1.875rem;
+  }
+}
