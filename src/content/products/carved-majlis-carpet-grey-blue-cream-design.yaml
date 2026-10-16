@@ -15,12 +15,18 @@ images:
     alt:
       ar: مجلس أرضي بمساند بيضاء ورفوف دلال مضاءة، وموكيت رمادي يتوسطه نقش طولي أزرق وكريمي محفور يدويًا
       en: Floor-seating majlis with white cushions and lit shelves of coffee pots, with grey carpet and a long hand-carved blue and cream design in the centre
+latestWork:
+  show: true
+  area: mubarak-al-kabeer
+  note:
+    ar: 'من أعمالنا في محافظة مبارك الكبير: موكيت مجلس رمادي بنقش طولي أزرق وكريمي محفور، حفر يدوي في ورشتنا وتركيب في الموقع.'
+    en: 'One of our jobs in Mubarak Al-Kabeer governorate: Grey Majlis Carpet with a Long Carved Blue and Cream Design, hand-carved in our workshop and fitted on site.'
 ar:
   name: موكيت مجلس رمادي بنقش طولي أزرق وكريمي محفور
   directAnswer: موكيت رمادي مخملي من الجدار للجدار في مجلس أرضي، يتوسطه نقش طولي بأغصان زرقاء رمادية على أرضية كريمية داخل إطار أزرق، محفور يدويًا ومدمج في الموكيت. نركّبه ونقصه على مقاس المكان. السعر حسب المقاس وحجم النقشة، ونؤكده عبر واتساب.
   usage: النقش الطولي يملأ وسط المجلس المستطيل ويتناسق مع المساند البيضاء والخشب الداكن.
   care: نظّفه بالمكنسة الكهربائية بانتظام في اتجاه الوبر، وامسح البقع فور وقوعها دون فرك حتى تبقى حواف الحفر واضحة.
-  seoTitle: موكيت مجلس رمادي بنقش طولي محفور | حفر يدوي بالكويت — سجادكو
+  seoTitle: موكيت مجلس رمادي بنقش طولي أزرق وكريمي محفور في مبارك الكبير — سجادكو
   seoDescription: موكيت مجلس رمادي بنقش طولي أزرق وكريمي محفور، سجاد حفر يدوي مدمج في الموكيت بالمقاس والنقش الذي تختاره للمجالس والديوانيات في الكويت. السعر حسب المساحة.
   reviewed: true
   faq:
@@ -35,7 +41,7 @@ en:
   directAnswer: Grey plush wall-to-wall carpet in a floor-seating majlis, with a long centre design of blue-grey scrolls on a cream ground inside a blue outline, hand-carved and inlaid into the carpet. We cut and fit it to your room. Priced by size and design; we confirm on WhatsApp.
   usage: The long design fills the centre of a rectangular majlis and works with white cushions and dark wood.
   care: Vacuum regularly along the pile and blot spills straight away without rubbing so the carved edges stay crisp.
-  seoTitle: Grey Majlis Carpet with a Carved Blue Design in Kuwait | Sajjadko
+  seoTitle: Grey Carved Majlis Carpet, Blue Design, Mubarak Al-Kabeer
   seoDescription: Grey wall-to-wall majlis carpet with a long hand-carved blue and cream design, made in our workshop to your room and colours in Kuwait.
   reviewed: true
   faq:

@@ -8,6 +8,7 @@ places:
 services:
   - hand-carving
   - carpet-cutting
+  - carpet-installation
 specs:
   material: زولية تفصيل بحفر يدوي / Custom hand-carved rug
 images:
@@ -26,12 +27,18 @@ images:
     alt:
       ar: الزولية بحوافها المفصّلة بجانب جلسة بيضاء بمخدات زيتية وجدار رخامي
       en: The rug with its shaped edges beside white seating with olive cushions and a marble wall
+latestWork:
+  show: true
+  area: mubarak-al-kabeer
+  note:
+    ar: 'من أعمالنا في محافظة مبارك الكبير: زولية مجلس تفصيل بإطار هندسي متدرج محفور، حفر يدوي في ورشتنا وتركيب في الموقع.'
+    en: 'One of our jobs in Mubarak Al-Kabeer governorate: Majlis Rug with a Carved Stepped Geometric Border, hand-carved in our workshop and fitted on site.'
 ar:
   name: زولية مجلس تفصيل بإطار هندسي متدرج محفور
   directAnswer: زولية تفصيل كريمية مخملية بحواف مفصّلة على شكل درجات، يحيط بوسطها إطار هندسي من خطوط متداخلة بدرجات البيج والبني الرمادي، محفور يدويًا. تُفصّل بالمقاس والشكل الذي تريده. السعر حسب المقاس وحجم النقشة، ونؤكده عبر واتساب.
   usage: الألوان الترابية الهادئة تتناسق مع الخشب والرخام الأبيض في المجالس الحديثة.
   care: نظّفه بالمكنسة الكهربائية بانتظام في اتجاه الوبر، وامسح البقع فور وقوعها دون فرك حتى تبقى حواف الحفر واضحة.
-  seoTitle: زولية مجلس بإطار هندسي متدرج محفور | حفر يدوي بالكويت — سجادكو
+  seoTitle: زولية مجلس تفصيل بإطار هندسي متدرج محفور في مبارك الكبير — سجادكو
   seoDescription: زولية مجلس كريمية بإطار هندسي متدرج محفور بدرجات البيج، سجاد حفر يدوي وتفصيل سجاد بالمقاس والشكل الذي تختاره للمجالس والصالات في الكويت. السعر حسب المقاس.
   reviewed: true
   faq:
@@ -46,7 +53,7 @@ en:
   directAnswer: A custom cream plush rug with stepped shaped edges and a geometric border of interlocking lines in shades of beige and greyish brown, hand-carved. Made to the size and shape you want. Priced by size and design; we confirm on WhatsApp.
   usage: The calm earthy tones work with wood and white marble in modern majlis rooms.
   care: Vacuum regularly along the pile and blot spills straight away without rubbing so the carved edges stay crisp.
-  seoTitle: Majlis Rug with a Carved Geometric Border in Kuwait | Sajjadko
+  seoTitle: Majlis Rug with a Carved Stepped Geometric Border, Mubarak Al-Kabeer
   seoDescription: Hand-carved majlis rug with a stepped geometric border in beige tones, made in our workshop to your size and shape for majlis and living rooms in Kuwait.
   reviewed: true
   faq:

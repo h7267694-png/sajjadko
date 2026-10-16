@@ -8,6 +8,7 @@ places:
 services:
   - hand-carving
   - carpet-cutting
+  - carpet-installation
 specs:
   material: زولية تفصيل بحفر يدوي / Custom hand-carved rug
 images:
@@ -26,12 +27,18 @@ images:
     alt:
       ar: الزولية نفسها تحت طاولة خشبية في المجلس، والزخارف الكحلية في زواياها
       en: The same rug under a wooden coffee table in the majlis, with navy designs at its corners
+latestWork:
+  show: true
+  area: mubarak-al-kabeer
+  note:
+    ar: 'من أعمالنا في محافظة مبارك الكبير: زولية مجلس محفورة بزوايا أغصان كحلية، حفر يدوي في ورشتنا وتركيب في الموقع.'
+    en: 'One of our jobs in Mubarak Al-Kabeer governorate: Carved Majlis Rug with Navy Corner Scrolls, hand-carved in our workshop and fitted on site.'
 ar:
   name: زولية مجلس محفورة بزوايا أغصان كحلية
   directAnswer: زولية تفصيل كريمية مخملية كبيرة، في زواياها أغصان كحلية ملتفة بلمسات بنية محفورة يدويًا، ووسطها سادة واسع. تُفصّل بالمقاس الذي تريده وتوضع على الرخام بين جلسات المجلس. السعر حسب المقاس وحجم النقشة، ونؤكده عبر واتساب.
   usage: الوسط السادة الواسع يناسب المجالس الكبيرة ذات الكنب الأبيض، والزوايا الكحلية تبرز دون أن تزحم المكان.
   care: نظّفه بالمكنسة الكهربائية بانتظام في اتجاه الوبر، وامسح البقع فور وقوعها دون فرك حتى تبقى حواف الحفر واضحة.
-  seoTitle: زولية مجلس محفورة بزوايا أغصان كحلية | حفر يدوي بالكويت — سجادكو
+  seoTitle: زولية مجلس محفورة بزوايا أغصان كحلية في مبارك الكبير — سجادكو
   seoDescription: زولية مجلس كريمية بزوايا أغصان كحلية، سجاد حفر يدوي وتفصيل سجاد بالمقاس والنقش الذي تختاره، للمجالس والديوانيات والصالات في الكويت. السعر حسب المقاس.
   reviewed: true
   faq:
@@ -46,7 +53,7 @@ en:
   directAnswer: A large custom cream plush rug with curling navy scrolls and brown accents hand-carved into its corners, around a wide plain centre. Made to your size for the floor between majlis seating. Priced by size and design; we confirm on WhatsApp.
   usage: The wide plain centre suits large majlis rooms with white sofas, and the navy corners stand out without crowding the space.
   care: Vacuum regularly along the pile and blot spills straight away without rubbing so the carved edges stay crisp.
-  seoTitle: Carved Majlis Rug with Navy Corner Scrolls in Kuwait | Sajjadko
+  seoTitle: Carved Majlis Rug with Navy Corner Scrolls, Mubarak Al-Kabeer
   seoDescription: Hand-carved majlis rug with navy corner scrolls, made in our workshop to your size and colours for majlis, diwaniya and living rooms in Kuwait.
   reviewed: true
   faq:
