@@ -8,6 +8,7 @@ places:
 services:
   - hand-carving
   - carpet-cutting
+  - carpet-installation
 specs:
   material: زولية تفصيل بحفر يدوي / Custom hand-carved rug
 images:
@@ -21,12 +22,18 @@ images:
     alt:
       ar: الزولية نفسها من الجانب، تظهر الشرائط البرتقالية والبيج والحافة الكحلية المتعرجة أمام ستائر بيج
       en: The same rug from the side, showing the orange and beige bands and the curved navy edge in front of beige curtains
+latestWork:
+  show: true
+  area: mubarak-al-kabeer
+  note:
+    ar: 'من أعمالنا في محافظة مبارك الكبير: زولية صالة تفصيل بإطار محفور كحلي وبرتقالي، حفر يدوي في ورشتنا وتركيب في الموقع.'
+    en: 'One of our jobs in Mubarak Al-Kabeer governorate: Shaped Living Room Rug with a Carved Navy and Orange Frame, hand-carved in our workshop and fitted on site.'
 ar:
   name: زولية صالة تفصيل بإطار محفور كحلي وبرتقالي
   directAnswer: زولية تفصيل كريمية بشكل غير مستطيل، يحدّها خط كحلي متعرج، وفي داخلها إطار من شرائط برتقالية وبيج محفورة يدويًا مع زخارف عند الوسط والأطراف. تُفصّل بالمقاس والشكل الذي تريده. السعر حسب المقاس وحجم النقشة، ونؤكده عبر واتساب.
   usage: الكحلي والبرتقالي يتناسقان مع المخدات الملونة، وشكلها المفصّل يتبع توزيع الكنب في الصالة.
   care: نظّفه بالمكنسة الكهربائية بانتظام في اتجاه الوبر، وامسح البقع فور وقوعها دون فرك حتى تبقى حواف الحفر واضحة.
-  seoTitle: زولية صالة بإطار محفور كحلي وبرتقالي | حفر يدوي بالكويت — سجادكو
+  seoTitle: زولية صالة تفصيل بإطار محفور كحلي وبرتقالي في مبارك الكبير — سجادكو
   seoDescription: زولية صالة كريمية بإطار محفور كحلي وبرتقالي وشكل مفصّل، سجاد حفر يدوي وتفصيل سجاد بالمقاس والنقش الذي تختاره للصالات والمجالس في الكويت. السعر حسب المقاس.
   reviewed: true
   faq:
@@ -41,7 +48,7 @@ en:
   directAnswer: A custom cream rug with a non-rectangular shape, edged by a curving navy line, with an inner frame of orange and beige bands hand-carved with motifs at the centre and ends. Made to the size and shape you want. Priced by size and design; we confirm on WhatsApp.
   usage: The navy and orange pick up coloured cushions, and the custom shape follows the layout of the sofas.
   care: Vacuum regularly along the pile and blot spills straight away without rubbing so the carved edges stay crisp.
-  seoTitle: Shaped Carved Living Room Rug, Navy and Orange, Kuwait | Sajjadko
+  seoTitle: Carved Navy and Orange Living Room Rug, Mubarak Al-Kabeer
   seoDescription: Hand-carved living room rug with a shaped navy and orange frame, made in our workshop to your size, shape and colours for living rooms and majlis in Kuwait.
   reviewed: true
   faq:

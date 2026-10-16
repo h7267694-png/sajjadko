@@ -25,12 +25,18 @@ images:
     alt:
       ar: 'تفاصيل الحفر: مثلثات بنية واضحة الحواف على موكيت أبيض مخملي'
       en: 'Close-up of the carving: brown triangles with crisp edges on white plush carpet'
+latestWork:
+  show: true
+  area: mubarak-al-kabeer
+  note:
+    ar: 'من أعمالنا في محافظة مبارك الكبير: موكيت مجلس بإطار مثلثات بنية محفورة، حفر يدوي في ورشتنا وتركيب في الموقع.'
+    en: 'One of our jobs in Mubarak Al-Kabeer governorate: Majlis Carpet with a Carved Brown Triangle Border, hand-carved in our workshop and fitted on site.'
 ar:
   name: موكيت مجلس بإطار مثلثات بنية محفورة
   directAnswer: موكيت مخملي فاتح من الجدار للجدار، يتوسطه إطار عريض من مثلثات بنية متناثرة بين خطين بنيين، محفور يدويًا ومدمج في الموكيت. نركّبه ونقصه على مقاس المكان، ونرسم الإطار بالمقاس الذي يناسب الجلسة. السعر حسب المقاس وحجم النقشة، ونؤكده عبر واتساب.
   usage: الإطار الهندسي يحدد مساحة الجلسة في المجلس الأرضي، ويناسب الديكور الحديث بالألوان الهادئة.
   care: نظّفه بالمكنسة الكهربائية بانتظام في اتجاه الوبر، وامسح البقع فور وقوعها دون فرك حتى تبقى حواف الحفر واضحة.
-  seoTitle: موكيت مجلس بإطار مثلثات بنية محفورة | حفر يدوي بالكويت — سجادكو
+  seoTitle: موكيت مجلس بإطار مثلثات بنية محفورة في مبارك الكبير — سجادكو
   seoDescription: موكيت مجلس فاتح بإطار مثلثات بنية محفورة، سجاد حفر يدوي مدمج في الموكيت بالمقاس والنقش الذي تختاره، للمجالس والديوانيات في الكويت. السعر حسب المساحة.
   reviewed: true
   faq:
@@ -45,7 +51,7 @@ en:
   directAnswer: Light plush wall-to-wall carpet with a wide border of scattered brown triangles between two brown lines, hand-carved and inlaid into the carpet. We cut and fit it to your room and size the border to the seating. Priced by size and design; we confirm on WhatsApp.
   usage: The geometric border marks out the seating area of a floor majlis and suits modern interiors in calm colours.
   care: Vacuum regularly along the pile and blot spills straight away without rubbing so the carved edges stay crisp.
-  seoTitle: Majlis Carpet with a Carved Triangle Border in Kuwait | Sajjadko
+  seoTitle: Majlis Carpet with a Carved Brown Triangle Border, Mubarak Al-Kabeer
   seoDescription: Wall-to-wall majlis carpet with a hand-carved brown triangle border, made in our workshop to your room and colours for majlis and diwaniya in Kuwait.
   reviewed: true
   faq:

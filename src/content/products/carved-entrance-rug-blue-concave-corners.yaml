@@ -7,6 +7,7 @@ places:
 services:
   - hand-carving
   - carpet-cutting
+  - carpet-installation
 specs:
   material: زولية تفصيل بحفر يدوي / Custom hand-carved rug
 images:
@@ -15,12 +16,18 @@ images:
     alt:
       ar: زولية فاتحة بإطار أزرق محفور وزوايا مقعرة أمام باب خشبي داكن وبجانب درج
       en: Light rug with a carved blue frame and concave corners in front of a dark wooden door beside a staircase
+latestWork:
+  show: true
+  area: mubarak-al-kabeer
+  note:
+    ar: 'من أعمالنا في محافظة مبارك الكبير: زولية مدخل محفورة بإطار أزرق وزوايا مقعرة، حفر يدوي في ورشتنا وتركيب في الموقع.'
+    en: 'One of our jobs in Mubarak Al-Kabeer governorate: Carved Entrance Rug with a Blue Frame and Concave Corners, hand-carved in our workshop and fitted on site.'
 ar:
   name: زولية مدخل محفورة بإطار أزرق وزوايا مقعرة
   directAnswer: زولية تفصيل فاتحة مخملية للمدخل، يحيط بوسطها إطار أزرق محفور يدويًا بزوايا مقعرة، وحوله حافة سادة. تُفصّل على مقاس المدخل أو الممر. السعر حسب المقاس وحجم النقشة، ونؤكده عبر واتساب.
   usage: مقاسها المفصّل يناسب المساحة أمام الباب أو أعلى الدرج، والإطار الأزرق يحدد المكان بهدوء.
   care: نظّفه بالمكنسة الكهربائية بانتظام في اتجاه الوبر، وامسح البقع فور وقوعها دون فرك حتى تبقى حواف الحفر واضحة.
-  seoTitle: زولية مدخل محفورة بإطار أزرق | حفر يدوي بالكويت — سجادكو
+  seoTitle: زولية مدخل محفورة بإطار أزرق وزوايا مقعرة في مبارك الكبير — سجادكو
   seoDescription: زولية مدخل فاتحة بإطار أزرق محفور وزوايا مقعرة، سجاد حفر يدوي وتفصيل سجاد على مقاس المدخل أو الممر في الكويت. السعر حسب المقاس.
   reviewed: true
   faq:
@@ -35,7 +42,7 @@ en:
   directAnswer: A custom light plush entrance rug with a hand-carved blue frame with concave corners around the centre and a plain outer edge. Made to the size of your entrance or landing. Priced by size and design; we confirm on WhatsApp.
   usage: The custom size fits the space in front of a door or at the top of the stairs, and the blue frame marks it out quietly.
   care: Vacuum regularly along the pile and blot spills straight away without rubbing so the carved edges stay crisp.
-  seoTitle: Carved Entrance Rug with a Blue Frame in Kuwait | Sajjadko
+  seoTitle: Carved Blue-Frame Entrance Rug in Mubarak Al-Kabeer
   seoDescription: Hand-carved entrance rug with a blue frame and concave corners, made in our workshop to the size of your entrance or landing in Kuwait.
   reviewed: true
   faq:
