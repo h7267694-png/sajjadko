@@ -154,3 +154,8 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - Only one cache rule: `/_astro/` and `/fonts/` cached 1 year. Do not add an HTML cache/bypass rule (URLs end in `/`; Cloudflare does not cache HTML by default). Rocket Loader must stay off. AI crawler policies Allow, managed robots.txt off.
 - Browser Cache TTL: Respect Existing Headers. Bot Fight Mode and AI Labyrinth off. HSTS deferred. Never press "Enable all available settings" on the Speed page (adds RUM beacon and Speed Brain).
 - Result: PageSpeed mobile performance back to 100 after Cloudflare (client, 2026-10-11).
+
+## Step 63 (responsive image widths, keyword pull)
+
+- PageSpeed flagged "properly size images" on the home category tile (zawali): 112px tile × DPR 1.75 = 196px but the srcset only had 120/240w. Fix: `src/utils/img-widths.ts` `dprWidths(cssWidths, max)` builds widths for DPR 1, 1.75, 2, 3 from the CSS sizes. Home tiles use `dprWidths([112, 150, 225], 600)`, aisle signs `dprWidths([64, 480], 960)`. New `<Image>` lists should use `dprWidths` with every CSS width in `sizes`. Local Lighthouse after fix: home, /zawali/, /en/ responsive-images pass, perf 100.
+- Plan 22.5: hand-carving / diwaniya / living-room / «تفصيل سجاد» / «سجاد نقش» volumes (2026-10-16). Carving terms are 10–20/month; target each product by place + type (diwaniya, majlis, living room, zawali), linked to `services: [hand-carving]`.
