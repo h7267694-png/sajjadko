@@ -3,6 +3,7 @@
 // وزر «عرض المزيد» يكشف بقية المنتجات. المخفي بـhidden لا تُحمَّل صوره (كسولة)، وروابطه في HTML للزواحف.
 // LCP نصي (16.2): كل الصور كسولة بأولوية منخفضة (التحميل الفوري لصور الأقسام أخّر خط العنوان فأبطأ LCP في القياس).
 import { Image } from 'astro:assets';
+import { dprWidths } from '~/utils/img-widths';
 import type { ImageMetadata } from 'astro';
 import ProductCard from '~/components/ui/ProductCard.astro';
 import { getProducts, activeOffer, productHref } from '~/utils/products';
@@ -125,6 +126,12 @@ const schema = products.length
   : null;
 
 // «عرض المزيد» لكل رواق + إخفاء العروض المنتهية قبل البناء اليومي التالي
+// عروض الصور من مقاسات CSS في sizes أعلاه × كثافات الشاشة (utils/img-widths.ts):
+// البلاطة 112px جوال، 22vw بين 768 و1023 (حتى 225px)، 150px حاسوب؛ صور الأقسام أصلها 600px.
+const TILE_WIDTHS = dprWidths([112, 150, 225], 600);
+// لوحة الرواق: 64px جوال و480px حاسوب.
+const AISLE_WIDTHS = dprWidths([64, 480], 960);
+
 const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(function(b){b.addEventListener('click',function(){var open=b.getAttribute('aria-expanded')!=='true',l=document.getElementById(b.getAttribute('aria-controls'));l.querySelectorAll('[data-extra]').forEach(function(li){li.hidden=!open});b.setAttribute('aria-expanded',open);b.textContent=open?b.dataset.less:b.dataset.more;if(!open)l.closest('section').scrollIntoView({block:'start'})})});var d=new Date().toISOString().slice(0,10),s=document.querySelector('[data-offers]');if(s){s.querySelectorAll('[data-offer-until]').forEach(function(li){if(li.dataset.offerUntil<d)li.remove()});if(!s.querySelector('[data-offer-until]'))s.remove()}})();`;
 ---
 
@@ -145,7 +152,7 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
                     <Image
                       src={src}
                       alt={x.t}
-                      widths={[120, 240]}
+                      widths={TILE_WIDTHS}
                       sizes="(min-width: 1024px) 150px, (min-width: 768px) 22vw, 112px"
                       loading="lazy"
                       decoding="async"
@@ -207,7 +214,7 @@ const JS = `(function(){document.querySelectorAll('[data-aisle-more]').forEach(f
                     <Image
                       src={a.img}
                       alt={label}
-                      widths={[96, 192, 480, 720]}
+                      widths={AISLE_WIDTHS}
                       sizes="(min-width: 1024px) 480px, 64px"
                       loading="lazy"
                       decoding="async"
