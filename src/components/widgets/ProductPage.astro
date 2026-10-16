@@ -2,6 +2,7 @@
 // قالب صفحة المنتج (6.3، كتالوج بلا شراء): الاسم والصور وواتساب، إجابة مباشرة، جدول مواصفات،
 // الألوان والمقاسات، السعر عند توفره مع التاريخ، الاستخدامات، العناية والتركيب، الأسئلة، منتجات مشابهة.
 // Schema: Product كامل (صور، SKU، علامة، خامة، ألوان، بلد الصنع، عرض سعر حقيقي فقط) + FAQPage + BreadcrumbList.
+import { dprWidths } from '~/utils/img-widths';
 import { getImage, Image } from 'astro:assets';
 import PageLayout from '~/layouts/PageLayout.astro';
 import StructuredData from '~/components/common/StructuredData.astro';
@@ -223,6 +224,11 @@ const crumbs = [{ text: t.home, href: ar ? '/' : '/en/' }, { text: tx.name }];
 const waVars: Record<string, string> = ar
   ? { 'اسم المنتج': tx.name, الرمز: d.sku }
   : { 'product name': tx.name, code: d.sku };
+// عروض صور المعرض من مقاساتها الفعلية في CSS (utils/img-widths.ts): الحاوية max-w-3xl (768px) بحشوة px-4،
+// فالصورة الرئيسية 736px على الحاسوب و«100vw - 32px» على الجوال (328/380/398 لشاشات 360/412/430)،
+// والمصغّرات ثلث العرض ناقص الفراغات. كان المعرض 100vw و33vw بلا حشوة فنبّه PageSpeed «تحسين عرض الصور».
+const MAIN_WIDTHS = dprWidths([328, 380, 398, 736], 1600);
+const THUMB_WIDTHS = dprWidths([104, 121, 127, 240], 800);
 ---
 
 <PageLayout
@@ -248,8 +254,8 @@ const waVars: Record<string, string> = ar
           <Image
             src={d.images[0].src}
             alt={alt(0)}
-            widths={[400, 768, 1200]}
-            sizes="(min-width: 768px) 768px, 100vw"
+            widths={MAIN_WIDTHS}
+            sizes="(min-width: 768px) 736px, calc(100vw - 32px)"
             loading="eager"
             fetchpriority="high"
             class="w-full rounded-lg bg-gray-50 dark:bg-slate-800 object-contain max-h-[70vh]"
@@ -260,8 +266,8 @@ const waVars: Record<string, string> = ar
                 <Image
                   src={img.src}
                   alt={alt(i + 1)}
-                  widths={[240, 400]}
-                  sizes="33vw"
+                  widths={THUMB_WIDTHS}
+                  sizes="(min-width: 768px) 240px, calc((100vw - 48px) / 3)"
                   loading="lazy"
                   class="w-full aspect-square object-cover rounded"
                 />
