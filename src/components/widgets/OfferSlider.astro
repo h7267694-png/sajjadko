@@ -1,0 +1,615 @@
+---
+/**
+ * سلايدر العروض في الرئيسية (2026-10-17، طلب العميل): بانرات بنسبة 21:9 بعرض حاوية الموقع، كل بانر رابط كامل،
+ * بأسهم جانبية ونقاط تحته وتبديل تلقائي، على طريقة سلايدر almasathath.com (التصميم والصور والنصوص لسجادكو فقط).
+ * المحتوى عروض حقيقية فقط:
+ *   1) الزيارة المجانية (ثابتة أولًا: صورتها عنصر LCP مستقر).
+ *   2) عروض المنتجات السارية من حقل offer في المنتج (تظهر وتختفي تلقائيًا بتاريخ until).
+ *   3) أسعار البدء المعلنة للأقسام المنشورة (موكيت المكاتب، سجاد المساجد، الريد كاربت، بلاط السجاد).
+ * لا عروض مخترعة ولا أسعار «قبل» غير حقيقية.
+ * حماية LCP: الشريحة الأولى eager + fetchpriority=high ومقصوصة 21:9 عند البناء (صغيرة الحجم). البقية display:none
+ * حتى بعد load بثانيتين، ثم تُجهَّز التالية فقط فتُطلب صورتها قبل ظهورها.
+ */
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { getSettings } from '~/utils/site';
+import { buildWaLink } from '~/utils/whatsapp';
+import { getProducts, activeOffer, productHref, kwd } from '~/utils/products';
+import { PRICE_UNIT_LABELS } from '~/utils/taxonomy';
+
+import visitImg from '~/assets/products/sabah-al-salem-living-room-carpet.webp';
+import officeImg from '~/assets/products/office-loop-carpet-12-colours-swatches.webp';
+import mosqueImg from '~/assets/products/mosque-farwaniya-rows.webp';
+import redImg from '~/assets/products/red-carpet-runner-classic-pattern.webp';
+import tilesImg from '~/assets/products/sharq-office-carpet-tiles-workstations.webp';
+
+export interface Props {
+  lang: 'ar' | 'en';
+  pageName: string;
+  /** روابط الصفحات المنشورة بالمفتاح (translationKey)؛ الشريحة بلا صفحة منشورة لا تظهر */
+  links: Record<string, string | undefined>;
+}
+
+const { lang, pageName, links } = Astro.props;
+const ar = lang === 'ar';
+const cur = ar ? 'د.ك' : 'KWD';
+const settings = await getSettings();
+
+type Slide = {
+  key: string;
+  href?: string;
+  external?: boolean;
+  image: ImageMetadata;
+  alt: string;
+  badge: string;
+  title: string;
+  price: string;
+  note?: string;
+  pos: string;
+  until?: string;
+};
+
+const visitWa = settings?.whatsapp ? buildWaLink(settings.whatsapp, lang, 'visit', pageName) : undefined;
+const slides: Slide[] = [
+  {
+    key: 'visit',
+    href: visitWa?.href,
+    external: true,
+    image: visitImg,
+    alt: ar
+      ? 'صالة في صباح السالم مفروشة بموكيت بيج مخملي من الجدار للجدار'
+      : 'A living room in Sabah Al-Salem fitted wall to wall with beige plush carpet',
+    badge: ar ? 'مجانًا' : 'Free',
+    title: ar ? 'زيارة مجانية للقياس وعرض العينات' : 'Free home visit to measure and show samples',
+    price: ar ? 'دون أي رسوم' : 'No charge',
+    note: ar ? 'اطلبها عبر واتساب' : 'Book on WhatsApp',
+    pos: 'center',
+  },
+];
+
+// عروض المنتجات السارية (حقيقية من لوحة الإدارة)
+for (const p of await getProducts(lang)) {
+  const o = activeOffer(p);
+  const img = p.data.images[0];
+  if (!o || !img) continue;
+  slides.push({
+    key: `offer-${p.id}`,
+    href: productHref(lang, p.id),
+    image: img.src,
+    alt: img.alt[lang] ?? p.data[lang]!.name,
+    badge: (ar ? o.label.ar : o.label.en) ?? (ar ? 'عرض' : 'Offer'),
+    title: p.data[lang]!.name,
+    price: `${kwd(o.price)} ${cur} ${PRICE_UNIT_LABELS[o.unit][lang]}`,
+    note: `${o.was ? `${ar ? 'بدل' : 'was'} ${kwd(o.was)} ${cur} · ` : ''}${ar ? 'حتى' : 'until'} ${o.until.toISOString().slice(0, 10)}`,
+    pos: 'center',
+    until: o.until.toISOString().slice(0, 10),
+  });
+}
+
+slides.push(
+  {
+    key: 'offices',
+    href: links['offices'],
+    image: officeImg,
+    alt: ar
+      ? 'لوحة عينات موكيت مكاتب بوبر حلقي باثني عشر لونًا مرقمًا من العاجي إلى الكحلي الداكن'
+      : 'Swatch board of loop-pile office carpet in twelve numbered colours from ivory to dark navy',
+    badge: ar ? 'يبدأ من' : 'From',
+    title: ar ? 'موكيت المكاتب والدرج' : 'Office and stair carpet',
+    price: ar ? 'من 1.250 د.ك للمتر المربع' : 'From 1.250 KWD per m²',
+    pos: 'center',
+  },
+  {
+    key: 'mosque-carpets',
+    href: links['mosque-carpets'],
+    image: mosqueImg,
+    alt: ar
+      ? 'صفوف سجاد مسجد أزرق مخضر بنقوش زهور بعد التركيب في الفروانية'
+      : 'Teal floral mosque carpet rows after installation in Farwaniya',
+    badge: ar ? 'للمساجد' : 'Mosques',
+    title: ar ? 'سجاد المساجد والمصليات' : 'Mosque and prayer room carpet',
+    price: ar ? '6 / 7 / 8 د.ك للمتر المربع' : '6 / 7 / 8 KWD per m²',
+    pos: 'center',
+  },
+  {
+    key: 'red-carpet',
+    href: links['red-carpet'],
+    image: redImg,
+    alt: ar
+      ? 'سجاد ممر أحمر بنقش كلاسيكي أسود ممدود على أرضية رخام'
+      : 'Red runner with a black classic pattern laid on a marble floor',
+    badge: ar ? 'تأجير' : 'Rental',
+    title: ar ? 'ريد كاربت للمناسبات' : 'Red carpet for events',
+    price: ar ? 'من 0.750 د.ك للمتر المربع' : 'From 0.750 KWD per m²',
+    note: ar ? 'شامل التوصيل والتركيب والفك' : 'Delivery, laying and removal included',
+    pos: 'center',
+  },
+  {
+    key: 'carpet-tiles',
+    href: links['carpet-tiles'],
+    image: tilesImg,
+    alt: ar
+      ? 'بلاط سجاد بني وبيج أمام مكاتب العمل المغلقة في شرق مع إطار بيج مخطط حول الأطراف'
+      : 'Brown and beige carpet tiles in front of enclosed workstations in Sharq with a striped beige border',
+    badge: ar ? 'يبدأ من' : 'From',
+    title: ar ? 'بلاط السجاد 40×40' : 'Carpet tiles 40×40',
+    price: ar ? 'من 5 إلى 6 د.ك للمتر المربع' : '5 to 6 KWD per m²',
+    pos: 'bottom',
+  }
+);
+
+const shown = slides.filter((s) => s.href);
+const WIDTHS = [480, 640, 828, 1080];
+const SIZES = '(min-width: 1280px) 1248px, (min-width: 768px) calc(100vw - 32px), 100vw';
+---
+
+{
+  shown.length > 0 && (
+    <section
+      class="os"
+      data-os
+      aria-roledescription={ar ? 'عارض عروض' : 'carousel'}
+      aria-label={ar ? 'عروض سجادكو' : 'Sajjadko offers'}
+    >
+      <div class="os-frame">
+        {shown.map((s, i) => (
+          <a
+            href={s.href}
+            class:list={['os-slide', { 'is-active': i === 0 }]}
+            data-os-slide
+            data-until={s.until}
+            aria-hidden={i === 0 ? undefined : 'true'}
+            tabindex={i === 0 ? undefined : -1}
+            {...(s.external
+              ? { target: '_blank', rel: 'noopener noreferrer', 'data-wa-type': 'visit', 'data-wa-position': 'slider' }
+              : {})}
+          >
+            <Image
+              src={s.image}
+              alt={s.alt}
+              width={1080}
+              height={463}
+              fit="cover"
+              position={s.pos}
+              widths={WIDTHS}
+              sizes={SIZES}
+              quality={60}
+              loading={i === 0 ? 'eager' : 'lazy'}
+              decoding={i === 0 ? 'sync' : 'async'}
+              fetchpriority={i === 0 ? 'high' : 'low'}
+              class="os-img"
+            />
+            <span class="os-text">
+              <span class="os-badge">{s.badge}</span>
+              <span class="os-title">{s.title}</span>
+              <span class="os-price">{s.price}</span>
+              {s.note && (
+                <span class="os-note">
+                  <bdi>{s.note}</bdi>
+                </span>
+              )}
+            </span>
+          </a>
+        ))}
+        {shown.length > 1 && (
+          <>
+            <button
+              type="button"
+              class="os-arrow os-prev"
+              data-os-prev
+              aria-label={ar ? 'العرض السابق' : 'Previous offer'}
+            >
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="m15 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+              </svg>
+            </button>
+            <button type="button" class="os-arrow os-next" data-os-next aria-label={ar ? 'العرض التالي' : 'Next offer'}>
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="m9 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+              </svg>
+            </button>
+          </>
+        )}
+      </div>
+      {shown.length > 1 && (
+        <div class="os-bar">
+          <div class="os-dots">
+            {shown.map((_, i) => (
+              <button
+                type="button"
+                class:list={['os-dot', { 'is-active': i === 0 }]}
+                data-os-dot={i}
+                aria-label={ar ? `العرض ${i + 1}` : `Offer ${i + 1}`}
+                aria-current={i === 0 ? 'true' : undefined}
+              />
+            ))}
+          </div>
+          <button
+            type="button"
+            class="os-pause"
+            data-os-toggle
+            aria-pressed="false"
+            aria-label={ar ? 'إيقاف التبديل التلقائي' : 'Pause slides'}
+            data-l-pause={ar ? 'إيقاف التبديل التلقائي' : 'Pause slides'}
+            data-l-play={ar ? 'تشغيل التبديل التلقائي' : 'Play slides'}
+          >
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" class="os-i-pause">
+              <path d="M8 5v14M16 5v14" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" />
+            </svg>
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" class="os-i-play">
+              <path d="M8 5.5v13l10-6.5z" fill="currentColor" />
+            </svg>
+          </button>
+        </div>
+      )}
+    </section>
+  )
+}
+
+<style>
+  .os {
+    max-width: 80rem;
+    margin-inline: auto;
+  }
+  .os-frame {
+    position: relative;
+    isolation: isolate;
+    aspect-ratio: 21 / 9;
+    overflow: hidden;
+    background: var(--brand-sand);
+  }
+  .os-slide {
+    position: absolute;
+    inset: 0;
+    display: none;
+    color: #fff;
+  }
+  .os-slide.is-active {
+    display: block;
+    z-index: 1;
+  }
+  [data-ready] .os-slide.is-armed,
+  [data-ready] .os-slide.is-active {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+      opacity 0.5s ease,
+      visibility 0.5s;
+  }
+  [data-ready] .os-slide.is-active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .os-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* النص على جانب البداية فوق تدرج كحلي، والجانب الآخر صورة صافية */
+  .os-text {
+    position: absolute;
+    inset-block: 0;
+    inset-inline-start: 0;
+    display: flex;
+    width: 68%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 0 2.9rem;
+    padding-inline-end: 2.5rem;
+    background: linear-gradient(to var(--os-to, right), rgb(2 46 79 / 0.92) 0%, rgb(2 46 79 / 0.7) 60%, transparent);
+  }
+  :global([dir='rtl']) .os-text {
+    --os-to: left;
+  }
+  .os-badge {
+    padding: 0.05rem 0.5rem;
+    border-radius: 999px;
+    background: var(--brand-gold);
+    color: var(--brand-navy);
+    font-size: 0.65rem;
+    font-weight: 800;
+  }
+  .os-title {
+    font-size: 0.95rem;
+    font-weight: 800;
+    line-height: 1.35;
+  }
+  .os-price {
+    color: #f3dfb8;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .os-note {
+    font-size: 0.68rem;
+    opacity: 0.9;
+  }
+  .os-arrow {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgb(255 255 255 / 0.92);
+    color: var(--brand-navy);
+    box-shadow: 0 2px 10px rgb(0 0 0 / 0.2);
+    transform: translateY(-50%);
+  }
+  .os-prev {
+    left: 0.6rem;
+  }
+  .os-next {
+    right: 0.6rem;
+  }
+  /* في العربية: «السابق» على اليمين و«التالي» على اليسار */
+  :global([dir='rtl']) .os-prev {
+    left: auto;
+    right: 0.6rem;
+  }
+  :global([dir='rtl']) .os-next {
+    right: auto;
+    left: 0.6rem;
+  }
+  :global([dir='rtl']) .os-arrow svg {
+    transform: scaleX(-1);
+  }
+  [data-ready] .os-arrow {
+    display: inline-flex;
+  }
+  .os-arrow:hover {
+    background: var(--brand-gold);
+  }
+  .os-bar {
+    position: relative;
+    display: flex;
+    min-height: 1.75rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.35rem;
+  }
+  .os-dots {
+    display: flex;
+  }
+  .os-dot {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .os-dot::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 999px;
+    background: rgb(2 46 79 / 0.25);
+    transform: translate(-50%, -50%);
+    transition: width 0.2s;
+  }
+  .os-dot.is-active::before {
+    width: 1.3rem;
+    background: var(--brand-gold);
+  }
+  :global(.dark) .os-dot::before {
+    background: rgb(255 255 255 / 0.35);
+  }
+  .os-pause {
+    position: absolute;
+    inset-inline-end: 0.5rem;
+    display: inline-flex;
+    width: 1.75rem;
+    height: 1.75rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--aw-color-text-muted);
+  }
+  .os-i-play,
+  .os-pause[aria-pressed='true'] .os-i-pause {
+    display: none;
+  }
+  .os-pause[aria-pressed='true'] .os-i-play {
+    display: block;
+  }
+  .os-slide:focus-visible,
+  .os-arrow:focus-visible,
+  .os-dot:focus-visible,
+  .os-pause:focus-visible {
+    outline: 3px solid var(--brand-gold);
+    outline-offset: -3px;
+  }
+  @media (min-width: 768px) {
+    .os {
+      padding-inline: 1rem;
+      padding-top: 1rem;
+    }
+    .os-frame {
+      border-radius: 1rem;
+    }
+    .os-text {
+      width: 55%;
+      gap: 0.5rem;
+      padding: 0 5rem;
+      padding-inline-end: 5rem;
+    }
+    .os-badge {
+      padding: 0.15rem 0.8rem;
+      font-size: 0.85rem;
+    }
+    .os-title {
+      font-size: 2.1rem;
+    }
+    .os-price {
+      font-size: 1.25rem;
+    }
+    .os-note {
+      font-size: 0.9rem;
+    }
+    .os-arrow {
+      width: 2.9rem;
+      height: 2.9rem;
+    }
+    .os-prev {
+      left: 1rem;
+    }
+    .os-next {
+      right: 1rem;
+    }
+    :global([dir='rtl']) .os-prev {
+      right: 1rem;
+    }
+    :global([dir='rtl']) .os-next {
+      left: 1rem;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-ready] .os-slide {
+      transition: none;
+    }
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    const root = document.querySelector('[data-os]');
+    if (!root || root.dataset.init) return;
+    root.dataset.init = '1';
+    // عرض انتهى قبل البناء اليومي التالي: يُحذف فورًا
+    const today = new Date().toISOString().slice(0, 10);
+    root.querySelectorAll('[data-until]').forEach(function (s) {
+      if (s.dataset.until < today) {
+        const k = [].indexOf.call(root.querySelectorAll('[data-os-slide]'), s);
+        const d = root.querySelectorAll('[data-os-dot]')[k];
+        if (d) d.remove();
+        s.remove();
+      }
+    });
+    const slides = root.querySelectorAll('[data-os-slide]');
+    const dots = root.querySelectorAll('[data-os-dot]');
+    const toggle = root.querySelector('[data-os-toggle]');
+    if (slides.length < 2 || !toggle) return;
+    dots.forEach(function (d, k) {
+      d.dataset.osDot = k;
+    });
+    const rm = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let i = 0;
+    let timer = 0;
+    let paused = rm.matches;
+    let hold = false;
+    let x0 = null;
+    const arm = function (n) {
+      slides[(n + slides.length) % slides.length].classList.add('is-armed');
+    };
+    const show = function (n) {
+      i = (n + slides.length) % slides.length;
+      arm(i);
+      arm(i + 1);
+      slides.forEach(function (s, k) {
+        const on = k === i;
+        s.classList.toggle('is-active', on);
+        if (on) {
+          s.removeAttribute('aria-hidden');
+          s.removeAttribute('tabindex');
+        } else {
+          s.setAttribute('aria-hidden', 'true');
+          s.setAttribute('tabindex', '-1');
+        }
+      });
+      dots.forEach(function (d, k) {
+        d.classList.toggle('is-active', k === i);
+        if (k === i) d.setAttribute('aria-current', 'true');
+        else d.removeAttribute('aria-current');
+      });
+    };
+    const stop = function () {
+      clearInterval(timer);
+      timer = 0;
+    };
+    const run = function () {
+      stop();
+      toggle.setAttribute('aria-pressed', String(paused));
+      toggle.setAttribute('aria-label', paused ? toggle.dataset.lPlay : toggle.dataset.lPause);
+      if (!paused && !hold && !document.hidden)
+        timer = setInterval(function () {
+          show(i + 1);
+        }, 5000);
+    };
+    const go = function (n) {
+      show(n);
+      run();
+    };
+    const ready = function () {
+      setTimeout(function () {
+        root.setAttribute('data-ready', '');
+        arm(1);
+        run();
+      }, 2000);
+    };
+    if (document.readyState === 'complete') ready();
+    else window.addEventListener('load', ready, { once: true });
+    root.querySelector('[data-os-prev]').addEventListener('click', function () {
+      go(i - 1);
+    });
+    root.querySelector('[data-os-next]').addEventListener('click', function () {
+      go(i + 1);
+    });
+    dots.forEach(function (d) {
+      d.addEventListener('click', function () {
+        go(+d.dataset.osDot);
+      });
+    });
+    toggle.addEventListener('click', function () {
+      paused = !paused;
+      run();
+    });
+    root.addEventListener('mouseenter', function () {
+      hold = true;
+      stop();
+    });
+    root.addEventListener('mouseleave', function () {
+      hold = false;
+      run();
+    });
+    root.addEventListener('focusin', function () {
+      hold = true;
+      stop();
+    });
+    root.addEventListener('focusout', function (e) {
+      if (!root.contains(e.relatedTarget)) {
+        hold = false;
+        run();
+      }
+    });
+    document.addEventListener('visibilitychange', run);
+    const frame = root.querySelector('.os-frame');
+    frame.addEventListener(
+      'touchstart',
+      function (e) {
+        x0 = e.touches[0].clientX;
+      },
+      { passive: true }
+    );
+    frame.addEventListener(
+      'touchend',
+      function (e) {
+        if (x0 === null || !root.hasAttribute('data-ready')) return;
+        const dx = e.changedTouches[0].clientX - x0;
+        x0 = null;
+        if (Math.abs(dx) > 40) {
+          const rtl = document.documentElement.dir === 'rtl';
+          go(i + (dx < 0 !== rtl ? 1 : -1));
+        }
+      },
+      { passive: true }
+    );
+  })();
+</script>

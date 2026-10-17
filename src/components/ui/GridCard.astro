@@ -30,7 +30,7 @@ const wa = whatsapp ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}
 ---
 
 <li
-  class="grid-card rounded-lg border border-gray-200 dark:border-slate-700 overflow-hidden flex flex-col bg-white dark:bg-slate-900"
+  class="grid-card rounded-2xl border border-[var(--brand-line)] overflow-hidden flex flex-col bg-white dark:bg-slate-900 transition-[border-color,box-shadow] hover:border-[var(--brand-gold)] hover:shadow-[0_10px_24px_-12px_rgb(2_46_79/0.35)]"
 >
   {
     img && (
@@ -41,12 +41,12 @@ const wa = whatsapp ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}
         sizes="(min-width: 640px) 360px, 100vw"
         loading="lazy"
         decoding="async"
-        class="w-full aspect-[4/3] bg-gray-50 dark:bg-slate-800 object-contain"
+        class="w-full aspect-[4/3] bg-[var(--brand-sand)] object-contain"
       />
     )
   }
   <div class="p-4 flex flex-col gap-2 grow">
-    <h3 class="text-lg font-semibold">
+    <h3 class="text-lg font-bold text-heading">
       <a href={productHref(lang, p.id)} class="hover:underline">{tx.name}</a>
     </h3>
     <p class="text-sm text-muted">{tx.directAnswer}</p>
@@ -73,7 +73,7 @@ const wa = whatsapp ? `https://wa.me/${whatsapp}?text=${encodeURIComponent(msg)}
           href={wa}
           target="_blank"
           rel="noopener noreferrer"
-          class="btn-secondary mt-auto inline-flex justify-center min-h-11"
+          class="btn-primary mt-auto inline-flex justify-center min-h-11 !rounded-xl"
           data-wa-type="product"
           data-wa-position="card"
           data-wa-source={tx.name}
