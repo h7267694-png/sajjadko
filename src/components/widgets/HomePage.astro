@@ -10,7 +10,7 @@ import FaqList from '~/components/ui/FaqList.astro';
 import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
 import FreeVisit from '~/components/ui/FreeVisit.astro';
 import HomeStore from '~/components/widgets/HomeStore.astro';
-import HeroSlider from '~/components/widgets/HeroSlider.astro';
+import OfferSlider from '~/components/widgets/OfferSlider.astro';
 import { Icon } from 'astro-icon/components';
 import { getSettings, toLocale, formatPhone } from '~/utils/site';
 import { buildHomeSchema } from '~/utils/schema';
@@ -378,18 +378,42 @@ const WHY_ICONS = [
 >
   <StructuredData slot="head" schema={schema} />
 
-  <div class="mx-auto max-w-5xl px-2 sm:px-4 pt-2 md:pt-5">
-    <HeroSlider
-      lang={lang}
-      pageName={ar ? 'الرئيسية' : 'Home'}
-      eyebrow={c.eyebrow}
-      title={c.h1}
-      lead={c.lead}
-      cta2={c.cta2}
-      byMeterHref={byMeter}
-      carvingHref={linkOf('hand-carving')}
-      mosqueHref={linkOf('mosque-carpets')}
-    />
+  <OfferSlider
+    lang={lang}
+    pageName={ar ? 'الرئيسية' : 'Home'}
+    links={{
+      offices: linkOf('offices'),
+      'mosque-carpets': linkOf('mosque-carpets'),
+      'red-carpet': linkOf('red-carpet'),
+      'carpet-tiles': linkOf('carpet-tiles'),
+    }}
+  />
+  <div class="mx-auto max-w-5xl px-4">
+    <section class="home-intro">
+      <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+        <p class="text-sm font-semibold text-accent">{c.eyebrow}</p>
+        <a
+          href={ar ? '/en/' : '/'}
+          lang={ar ? 'en' : 'ar'}
+          hreflang={ar ? 'en-KW' : 'ar-KW'}
+          class="inline-flex items-center min-h-10 px-3.5 rounded-full border-2 border-primary text-primary dark:text-white text-sm font-bold hover:bg-primary hover:text-white"
+        >
+          {ar ? 'English version' : 'النسخة العربية'}
+        </a>
+      </div>
+      <h1 class="text-2xl md:text-4xl font-extrabold leading-snug mb-2 max-w-3xl">{c.h1}</h1>
+      <p class="text-base md:text-lg text-muted max-w-3xl mb-4">{c.lead}</p>
+      <div class="flex flex-wrap gap-2.5">
+        <WhatsAppButton type="home" pageName={ar ? 'الرئيسية' : 'Home'} position="top" />
+        {
+          byMeter && (
+            <a href={byMeter} class="btn-secondary inline-flex items-center min-h-11">
+              {c.cta2}
+            </a>
+          )
+        }
+      </div>
+    </section>
     <ul class="trust-strip" aria-label={ar ? 'مميزات سجادكو' : 'Why customers choose us'}>
       {
         c.trust.map((x, i) => (
@@ -538,6 +562,9 @@ const WHY_ICONS = [
 </PageLayout>
 
 <style>
+  .home-intro {
+    padding-top: 1.1rem;
+  }
   /* شريط المميزات: صف أفقي يُسحب على الجوال، وخمسة أعمدة على الحاسوب */
   .trust-strip {
     display: flex;
