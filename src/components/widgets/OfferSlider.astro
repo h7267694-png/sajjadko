@@ -22,6 +22,7 @@ import officeImg from '~/assets/products/office-loop-carpet-12-colours-swatches.
 import mosqueImg from '~/assets/products/mosque-farwaniya-rows.webp';
 import redImg from '~/assets/products/red-carpet-runner-classic-pattern.webp';
 import tilesImg from '~/assets/products/sharq-office-carpet-tiles-workstations.webp';
+import mosqueAdImg from '~/assets/products/mosque-homes-ad-banner.webp';
 
 export interface Props {
   lang: 'ar' | 'en';
@@ -63,6 +64,20 @@ const slides: Slide[] = [
     title: ar ? 'زيارة مجانية للقياس وعرض العينات' : 'Free home visit to measure and show samples',
     price: ar ? 'دون أي رسوم' : 'No charge',
     note: ar ? 'اطلبها عبر واتساب' : 'Book on WhatsApp',
+    pos: 'center',
+  },
+  // إعلان العميل (2026-10-24): سجاد المساجد والدور السكنية — ثانيًا بعد الزيارة المجانية (لا يمس LCP: الشرائح بعد الأولى تُحمَّل بعد load)
+  {
+    key: 'mosque-homes-ad',
+    href: links['mosque-carpets'],
+    image: mosqueAdImg,
+    alt: ar
+      ? 'قاعة صلاة مفروشة بسجاد مساجد أحمر بصفوف مزخرفة أمام المحراب'
+      : 'Prayer hall laid with red mosque carpet in patterned rows facing the mihrab',
+    badge: ar ? 'للمساجد والدور السكنية' : 'Mosques and homes',
+    title: ar ? 'موكيت مساجد بمواصفات خاصة وتصاميم متنوعة' : 'Mosque carpet to spec, in many designs',
+    price: ar ? '6 / 7 / 8 د.ك للمتر المربع' : '6 / 7 / 8 KWD per m²',
+    note: ar ? 'توريد وتركيب · 65061072' : 'Supply and installation on schedule · 65061072',
     pos: 'center',
   },
 ];
