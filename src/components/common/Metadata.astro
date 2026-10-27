@@ -89,9 +89,21 @@ const mergedTwitter = merge(
     : {}
 );
 
+// قالب العنوان: لا يُضاف اسم العلامة إن كان العنوان يحمله أصلًا (كان يتكرر «سجادكو الكويت | Sajjadko Kuwait»
+// ويطيل العنوان فوق ما يعرضه جوجل)، ويُضاف بلغة الصفحة: عربي للصفحات العربية وإنجليزي للإنجليزية.
+const pageTitle = title || METADATA?.title?.default || '';
+const hasBrand = /سجادكو|sajjadko/i.test(pageTitle);
+const isEn = (Astro.currentLocale ?? I18N?.language) === 'en';
+const titleTemplate =
+  ignoreTitleTemplate || hasBrand
+    ? '%s'
+    : isEn
+      ? METADATA?.title?.template || '%s | Sajjadko Kuwait'
+      : '%s — سجادكو الكويت';
+
 const seoProps: SEOProps = {
-  title: title || METADATA?.title?.default || '',
-  titleTemplate: ignoreTitleTemplate ? '%s' : METADATA?.title?.template || '%s',
+  title: pageTitle,
+  titleTemplate,
   canonical: canonical,
   noindex:
     typeof robots?.index !== 'undefined'

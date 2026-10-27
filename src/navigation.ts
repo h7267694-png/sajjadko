@@ -50,6 +50,7 @@ const NAV: Item[] = [
   item('Office carpet', 'سجاد المكاتب', '/en/office-carpet/', '/commercial-flooring/offices/', true, [
     item('Office carpet', 'سجاد وموكيت المكاتب', '/en/office-carpet/', '/commercial-flooring/offices/', true),
     item('Carpet tiles 40×40', 'بلاط السجاد 40×40', '/en/carpet-tiles/', '/commercial-flooring/carpet-tiles/', true),
+    item('Hotel carpet', 'سجاد وموكيت الفنادق', '/en/hotel-carpet/', '/commercial-flooring/hotels/', 'ar'),
   ]),
   item('Services', 'الخدمات', '/en/services/carpet-cutting/', '/services/carpet-cutting/', false, [
     item('Carpet cutting', 'قص السجاد', '/en/services/carpet-cutting/', '/services/carpet-cutting/', 'ar'),
