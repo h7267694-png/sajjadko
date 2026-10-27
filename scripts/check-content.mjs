@@ -51,6 +51,20 @@ for (const p of products) {
   else seen.set(sku, p.file);
 }
 
+// 1ب) حدود أطوال نصوص المنتج — نفس حدود src/content.config.ts، حتى يُكتشف الخطأ قبل البناء لا في CI
+const TEXT_LIMITS = { name: 70, seoTitle: 70, seoDescription: 170 };
+for (const p of products) {
+  for (const lang of ['ar', 'en']) {
+    const t = p.data[lang];
+    if (!t) continue;
+    for (const [field, max] of Object.entries(TEXT_LIMITS)) {
+      const v = t[field];
+      if (typeof v === 'string' && v.length > max)
+        errors.push(`${p.file}: ${lang}.${field} طوله ${v.length} حرفًا والحد ${max}`);
+    }
+  }
+}
+
 // 2) ثبات الروابط
 const lock = fs.existsSync(LOCK)
   ? JSON.parse(fs.readFileSync(LOCK, 'utf8'))
