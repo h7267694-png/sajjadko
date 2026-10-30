@@ -178,3 +178,13 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - Keyword gaps filled from plan section 2 volumes (no URL changes): «سجاد قص بالكويت» 170 + «سجاد قص» 70 (carpet-cutting title, section, FAQ), «سجاد رخيص بالكويت» 260 (prices guide section + FAQ), «محلات سجاد» 170 (Dajeej shop section + FAQ), «زولية أطفال» 70 (kids section + FAQ), «سجاد تركي» 90 and «سجاد اون لاين» 90 (carpets hub), zawali title now leads with «زولية» (720).
 - New Arabic-only page `ar/hotels.md` (`commercial-flooring/hotels`, key `hotels`, waType `commercial`, grid `places: [hotel]`) for «سجاد فنادق» 70 + «موكيت فنادق» 50, under the Office carpet dropdown; facts only from existing approved prices and the offices FAQ (hotels and halls served). No hotel projects claimed.
 - Search Console via connectors was unavailable (Windsor free plan over its account limit, Supermetrics GSC not authenticated, Ahrefs plan); `check-content.mjs` now also enforces product name/seoTitle/seoDescription lengths.
+
+## Step 67 (SEO audit fixes, 2026-10-30, branch `seo/audit-fixes-2026-10-30`)
+
+- Audit with Search Console via Windsor (client freed the free-plan slot). Top 5 pages by clicks (1–27 Oct), **protected from title/H1/URL/content changes without client approval**: `/`, `/mosque-carpets/`, `/en/`, `/carpet-shop-dajeej/`, `/en/mosque-carpet/`.
+- F1: `/products/` and `/en/products/` (`widgets/ProductsIndexPage.astro`): text-link index of every published product by category, in sitemap with hreflang, footer link. 26 products had been reachable only from the sitemap (grids show 12, the rest come from robots-blocked `/frag/`). Text only, no cards/images.
+- F2/F3/F4: price-unit wording fixed in about (ar/en), `llms.ts` header, runner cost formula (length × running-metre price) in hallway pages and the quantity guide, "separate from the carpet price" in EN installation/cutting.
+- F6: client (2026-10-30): open **every day 8:00–20:00**. `site.yaml` `openingHours` → store `openingHoursSpecification` (+ `image`); hours text and contact pages say every day. The Dajeej shop page (protected) still says 8–8 without days; change only with approval.
+- F8: quantity guide description rewritten (243 impressions, CTR 0.4%).
+- F5 (manual, Cloudflare Redirect Rules): 301 `/ar/*` → `/${1}` plus 6 EN legacy paths. Search Console showed legacy URLs still taking ~15% of impressions 17 days after the move. Meta-refresh pages stay as fallback.
+- Client: «السجادة التسعاوية» is not a size they know or sell; do not write about it.
