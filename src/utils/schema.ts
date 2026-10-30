@@ -57,6 +57,15 @@ export function buildHomeSchema(s: SettingsData, l: Locale, site: URL) {
     inLanguage: l,
     telephone,
     address: postalAddress(s, l),
+    image: `${base}/brand/icon-512.png`,
+    openingHoursSpecification: s.openingHours
+      ? {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: s.openingHours.days.map((d) => `https://schema.org/${d}`),
+          opens: s.openingHours.opens,
+          closes: s.openingHours.closes,
+        }
+      : undefined,
     areaServed: KUWAIT,
     parentOrganization: { '@id': orgId },
     sameAs,

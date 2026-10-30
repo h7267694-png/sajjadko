@@ -111,11 +111,13 @@ export const getFooterData = (l: Locale) => ({
         { text: 'محل سجاد الضجيج', href: '/carpet-shop-dajeej/' },
         { text: 'أسعار السجاد والموكيت', href: '/guides/carpet-prices-kuwait/' },
         { text: 'كل أقسام السجاد', href: '/carpets/' },
+        { text: 'كل المنتجات', href: '/products/' },
       ]
     : [
         { text: 'About us', href: '/en/about/' },
         { text: 'Contact', href: '/en/contact/' },
         { text: 'Our recent work', href: '/en/projects/' },
+        { text: 'All products', href: '/en/products/' },
       ]) as { text: string; href: string }[],
   socialLinks: [
     {

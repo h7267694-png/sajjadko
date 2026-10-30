@@ -9,7 +9,7 @@ title: 'Carpet Cut to Size in Kuwait | Sajjadko Kuwait'
 description: 'We cut and tailor carpet and wall-to-wall carpet to your exact size in Kuwait, from a regular room to a mosque. Send your size on WhatsApp.'
 h1: 'Carpet and Wall-to-Wall Carpet Cut to Size in Kuwait'
 directAnswer: 'Sajjadko Kuwait cuts and tailors carpet and wall-to-wall carpet to the size of your room or mosque in Kuwait, so the space does not have to fit the roll. Send the length and width on WhatsApp and we check the measurements with you before cutting, because a cut cannot be undone. Turkish and wall-to-wall carpet is 5 to 15 KWD per running metre of a 4 m wide roll, and mosque carpet 6 to 8 KWD per m². Installation is separate.'
-updated: 2026-10-07
+updated: 2026-10-30
 reviewed: false
 faq:
   - q: 'Who cuts carpet to size in Kuwait?'
@@ -60,7 +60,7 @@ faq:
 
 ## How cutting is priced
 
-Thicker carpet is measured in running metres of a 4 m wide roll; lightweight and mosque carpet in m². The price depends on the type you choose: 5 to 15 KWD per running metre of a 4 m wide roll for Turkish carpet and wall-to-wall carpet, set by thickness, pile pressure and density, and 6 to 8 KWD per m² for mosque and prayer room carpet. The installation fee is separate from the price per m². For the cost of cutting a special size, send the size on WhatsApp.
+Thicker carpet is measured in running metres of a 4 m wide roll; lightweight and mosque carpet in m². The price depends on the type you choose: 5 to 15 KWD per running metre of a 4 m wide roll for Turkish carpet and wall-to-wall carpet, set by thickness, pile pressure and density, and 6 to 8 KWD per m² for mosque and prayer room carpet. The installation fee is separate from the carpet price. For the cost of cutting a special size, send the size on WhatsApp.
 
 ## What we need from you
 

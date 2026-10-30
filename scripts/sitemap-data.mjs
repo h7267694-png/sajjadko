@@ -85,6 +85,16 @@ export function sitemapData(root, site) {
     sources: ['src/components/widgets/HomePage.astro', 'src/content/pages', ...allProductSources],
   });
 
+  // فهرس كل المنتجات (تدقيق 30 أكتوبر 2026): يتغير بتغير أي منتج منشور
+  if (products.length)
+    groups.push({
+      entries: [
+        { lang: 'ar', url: url('/products/') },
+        { lang: 'en', url: url('/en/products/') },
+      ],
+      sources: ['src/components/widgets/ProductsIndexPage.astro', ...products.map((p) => rel(p.f))],
+    });
+
   // أعمالنا الأخيرة: تُبنى فقط إن وُجد منتج مفعّل فيه الخيار
   const works = products.filter((p) => p.d.latestWork?.show && p.d.latestWork?.area);
   if (works.length)

@@ -1,0 +1,75 @@
+---
+// فهرس كل المنتجات (تدقيق 30 أكتوبر 2026، البند F1): روابط نصية حقيقية لكل منتج منشور، مجمّعة حسب التصنيف.
+// السبب: شبكات الأقسام تعرض أول 12 منتجًا، والباقي يُجلب بزر «عرض المزيد» من /frag/ المحظور على الزواحف،
+// فبقيت منتجات لا يصلها Google إلا من الخريطة. هذه الصفحة تربطها كلها على عمق نقرتين من الرئيسية.
+// نص فقط بلا صور ولا بطاقات: حجم صغير لا يمس ميزانية الأداء ولا حد البطاقات في بوابة الجودة.
+import PageLayout from '~/layouts/PageLayout.astro';
+import Breadcrumbs from '~/components/common/Breadcrumbs.astro';
+import WhatsAppButton from '~/components/ui/WhatsAppButton.astro';
+import { getProducts, productHref } from '~/utils/products';
+import { CATEGORY_LABELS, PRODUCT_CATEGORIES } from '~/utils/taxonomy';
+import { toLocale } from '~/utils/site';
+
+const lang = toLocale(Astro.currentLocale);
+const ar = lang === 'ar';
+const products = await getProducts(lang);
+const groups = PRODUCT_CATEGORIES.map((c) => ({
+  key: c,
+  label: CATEGORY_LABELS[c][lang],
+  items: products
+    .filter((p) => p.data.category === c)
+    .map((p) => ({ href: productHref(lang, p.id), name: (ar ? p.data.ar?.name : p.data.en?.name) ?? p.id }))
+    .sort((a, b) => a.name.localeCompare(b.name, lang)),
+})).filter((g) => g.items.length);
+
+const t = ar
+  ? {
+      title: 'كل منتجات السجاد والموكيت والزوالي — سجادكو الكويت',
+      desc: `فهرس كل منتجات سجادكو الكويت (${products.length} منتجًا): سجاد وموكيت بالمتر، زوالي، سجاد مساجد، بلاط سجاد وريد كاربت، مرتبة حسب التصنيف.`,
+      h1: 'كل منتجات سجادكو الكويت',
+      intro: 'قائمة بكل المنتجات المنشورة في الموقع حسب التصنيف. اضغط على اسم المنتج لترى صوره ومواصفاته وسعره.',
+      home: 'الرئيسية',
+      count: (n: number) => `${n} منتج`,
+    }
+  : {
+      title: 'All Carpet, Rug and Wall-to-Wall Carpet Products | Sajjadko Kuwait',
+      desc: `Index of all ${products.length} Sajjadko Kuwait products: carpet and wall-to-wall carpet by the metre, rugs, mosque carpet, carpet tiles and red carpet, by category.`,
+      h1: 'All Sajjadko Kuwait products',
+      intro:
+        'Every product published on the site, grouped by category. Tap a product name to see its photos, specifications and price.',
+      home: 'Home',
+      count: (n: number) => `${n} products`,
+    };
+---
+
+<PageLayout
+  pageType="category"
+  pageName={t.h1}
+  alternates={{ ar: '/products/', en: '/en/products/' }}
+  metadata={{ title: t.title, ignoreTitleTemplate: true, description: t.desc }}
+>
+  <Breadcrumbs bar items={[{ text: t.home, href: ar ? '/' : '/en/' }, { text: t.h1 }]} />
+  <section class="mx-auto max-w-4xl px-4 py-8 md:py-12">
+    <h1 class="text-3xl md:text-4xl font-bold mb-3">{t.h1}</h1>
+    <p class="mb-8 text-muted">{t.intro}</p>
+    {
+      groups.map((g) => (
+        <section class="mb-8" aria-labelledby={`cat-${g.key}`}>
+          <h2 id={`cat-${g.key}`} class="text-xl font-bold mb-3">
+            {g.label} <span class="text-sm font-normal text-muted">({t.count(g.items.length)})</span>
+          </h2>
+          <ul class="grid gap-x-6 gap-y-2 sm:grid-cols-2 list-disc ps-5">
+            {g.items.map((i) => (
+              <li>
+                <a class="underline-offset-2 hover:underline" href={i.href}>
+                  {i.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+    <div class="my-10"><WhatsAppButton type="category" pageName={t.h1} position="end" /></div>
+  </section>
+</PageLayout>

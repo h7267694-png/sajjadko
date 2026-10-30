@@ -343,6 +343,13 @@ const settingsCollection = defineCollection({
       .optional(),
     address: z.object({ en: z.string().optional(), ar: z.string().optional() }).optional(),
     hours: z.object({ en: z.string().optional(), ar: z.string().optional() }).optional(),
+    openingHours: z
+      .object({
+        days: z.array(z.enum(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'])).min(1),
+        opens: z.string().regex(/^\d{2}:\d{2}$/),
+        closes: z.string().regex(/^\d{2}:\d{2}$/),
+      })
+      .optional(),
     social: z.object({ instagram: z.url().optional() }).optional(),
   }),
 });
