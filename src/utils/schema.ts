@@ -11,6 +11,8 @@ export interface SettingsData {
   whatsapp?: string;
   address?: Bi;
   hours?: Bi;
+  /** للـSchema فقط: أيام schema.org الإنجليزية ووقت 24 ساعة (site.yaml) */
+  openingHours?: { days: string[]; opens: string; closes: string };
   social?: { instagram?: string };
 }
 
