@@ -11,7 +11,7 @@ title: 'Hallway Runners in Kuwait, Any Length | Sajjadko Kuwait'
 description: 'Carpet runners for hallways in Kuwait, cut to your length and width. 5 to 15 KWD per running metre. Sadu runners also available. Send your measurements on WhatsApp.'
 h1: 'Hallway Runners Cut to Any Length'
 directAnswer: 'We cut hallway runners from Turkish carpet or wall-to-wall carpet to the exact length and width of your hallway, so you are not limited to stock sizes. Prices run from 5 to 15 KWD per running metre of runner, depending on thickness, pile pressure and density. Cost is runner length × price per metre. Sadu runners are also available. Installation is priced separately. Send the length and width on WhatsApp.'
-updated: 2026-10-07
+updated: 2026-10-30
 reviewed: true
 faq:
   - q: 'How much does a carpet runner cost in Kuwait?'
@@ -23,7 +23,7 @@ faq:
   - q: 'How do I measure my hallway for a runner?'
     a: 'Measure the full length, and the width at the narrowest point. Check any door that opens over the runner, and the threshold height. Decide how much floor to leave showing on each side, usually 10 to 20 cm (4 to 8 in). Then send the numbers on WhatsApp.'
   - q: 'Can I use a runner in a bedroom or a long entrance?'
-    a: 'Yes. A runner can be cut for any long, narrow space: a bedroom corridor, beside the bed, or a long entrance. The cost works the same way: length × width × price per m². We do not sell small ready-made doormats, only runners cut to size.'
+    a: 'Yes. A runner can be cut for any long, narrow space: a bedroom corridor, beside the bed, or a long entrance. The cost works the same way: runner length in metres × price per running metre. We do not sell small ready-made doormats, only runners cut to size.'
   - q: 'Do you install hallway runners?'
     a: 'Yes, we install the runners we supply. Installation is priced separately from the carpet and agreed by area and location. After installation we follow up for two days to fix any installation error. We do not install carpet bought elsewhere.'
 ---
@@ -61,7 +61,7 @@ Sadu runners are available. Sadu is a traditional Gulf weave pattern that suits 
 
 ## How runner cost is calculated
 
-Runner cost before installation = length × width × price per m².
+Runner cost before installation = runner length in metres × price per running metre.
 
 **Example:** a hallway 1.2 m (3.9 ft) wide and 6 m (19.7 ft) long, with a runner 0.8 m (2.6 ft) wide and 5.5 m (18 ft) long. It costs 27.5 KWD at 5 KWD per running metre, or 82.5 KWD at 15 KWD per running metre. The actual price depends on the material you choose. Installation is separate.
 

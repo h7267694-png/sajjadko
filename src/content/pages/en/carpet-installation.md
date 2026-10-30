@@ -8,15 +8,15 @@ waType: installation
 title: 'Carpet Installation in Kuwait | Sajjadko Kuwait'
 description: 'We install carpet and wall-to-wall carpet in homes, mosques and prayer rooms in Kuwait, with a site visit and measuring when needed. Send your area on WhatsApp.'
 h1: 'Carpet and Wall-to-Wall Carpet Installation in Kuwait'
-directAnswer: 'Sajjadko Kuwait installs carpet and wall-to-wall carpet in homes, mosques and prayer rooms in Kuwait. Send the approximate area and your district on WhatsApp, and we arrange a site visit and measuring when needed. The installation fee is separate from the price per m² and is agreed by area and location. For two days after installation we follow up to fix any installation error. Orders are on WhatsApp only, with no online ordering.'
-updated: 2026-10-07
+directAnswer: 'Sajjadko Kuwait installs carpet and wall-to-wall carpet in homes, mosques and prayer rooms in Kuwait. Send the approximate area and your district on WhatsApp, and we arrange a site visit and measuring when needed. The installation fee is separate from the carpet price and is agreed by area and location. For two days after installation we follow up to fix any installation error. Orders are on WhatsApp only, with no online ordering.'
+updated: 2026-10-30
 reviewed: false
 faq:
   - q: 'Who installs carpet and wall-to-wall carpet in Kuwait?'
     a: 'We install carpet and wall-to-wall carpet in homes, mosques and prayer rooms in Kuwait. Send the approximate area and your district on WhatsApp. We agree the type, arrange a site visit and measuring when needed, and install once the measurements are confirmed with you.'
   - q: 'How much does installation cost?'
-    a: 'The installation fee is agreed by area and location, and it is charged separately from the price per m². That is why we do not give a fixed figure here. Send the area and district on WhatsApp and we confirm the fee before the work starts.'
-  - q: 'Is installation included in the price per m²?'
+    a: 'The installation fee is agreed by area and location, and it is charged separately from the carpet price. That is why we do not give a fixed figure here. Send the area and district on WhatsApp and we confirm the fee before the work starts.'
+  - q: 'Is installation included in the carpet price?'
     a: 'No. The carpet price covers the carpet or wall-to-wall carpet only: 5 to 15 KWD per running metre of a 4 m wide roll for Turkish carpet and wall-to-wall carpet, and 6 to 8 KWD per m² for mosque and prayer room carpet. The installation fee is separate. Send the area and district on WhatsApp.'
   - q: 'How is mosque and prayer room carpet fixed in place?'
     a: 'We fix carpet in mosques and prayer rooms with Botex, double-sided tape, or an iron carpet edge strip, depending on the floor and the place. Send the area and district on WhatsApp and we agree the right fixing method with you.'

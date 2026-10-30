@@ -6,10 +6,15 @@ whatsapp: '96565061072'
 address:
   ar: الكويت – الضجيج – مجمع علي عبدالوهاب – السرداب – مخزن رقم 3
   en: Kuwait – Al Dajeej – Ali Abdulwahab Complex – Basement – Warehouse No. 3
-# أيام العمل لم تُحدَّد بعد، فلا تُكتب في النص ولا في Schema (openingHoursSpecification تتطلب الأيام)
+# أيام العمل (العميل، 30 أكتوبر 2026): كل أيام الأسبوع من 8 صباحًا حتى 8 مساءً
 hours:
-  ar: 'ساعات العمل: من 8 صباحًا حتى 8 مساءً'
-  en: 'Hours: 8 AM to 8 PM'
+  ar: 'ساعات العمل: كل أيام الأسبوع من 8 صباحًا حتى 8 مساءً'
+  en: 'Hours: every day, 8 AM to 8 PM'
+# للـSchema فقط (openingHoursSpecification). الأيام بأسماء schema.org الإنجليزية، والوقت بصيغة 24 ساعة
+openingHours:
+  days: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+  opens: '08:00'
+  closes: '20:00'
 # حسابات التواصل الرسمية (sameAs في Schema وروابط التذييل). تُضاف عند فتحها فقط، لا تخمين.
 social:
   instagram: 'https://www.instagram.com/sajjadko.kw/'

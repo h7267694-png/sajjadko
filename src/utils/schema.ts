@@ -11,6 +11,8 @@ export interface SettingsData {
   whatsapp?: string;
   address?: Bi;
   hours?: Bi;
+  /** للـSchema فقط: أيام schema.org الإنجليزية ووقت 24 ساعة (site.yaml) */
+  openingHours?: { days: string[]; opens: string; closes: string };
   social?: { instagram?: string };
 }
 
@@ -57,6 +59,15 @@ export function buildHomeSchema(s: SettingsData, l: Locale, site: URL) {
     inLanguage: l,
     telephone,
     address: postalAddress(s, l),
+    image: `${base}/brand/icon-512.png`,
+    openingHoursSpecification: s.openingHours
+      ? {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: s.openingHours.days.map((d) => `https://schema.org/${d}`),
+          opens: s.openingHours.opens,
+          closes: s.openingHours.closes,
+        }
+      : undefined,
     areaServed: KUWAIT,
     parentOrganization: { '@id': orgId },
     sameAs,

@@ -6,10 +6,10 @@ status: published
 kind: about
 waType: home
 title: 'About Sajjadko Kuwait, Carpet Store in Al Dajeej'
-description: 'Sajjadko Kuwait is a carpet store in Al Dajeej selling carpet, wall-to-wall carpet, rugs, mosque and office carpet by the m², cut and installed across Kuwait.'
+description: 'Sajjadko Kuwait is a carpet store in Al Dajeej selling carpet, wall-to-wall carpet, rugs, mosque and office carpet by the metre, cut and installed across Kuwait.'
 h1: 'About Sajjadko Kuwait'
-directAnswer: 'Sajjadko Kuwait is a carpet store in Al Dajeej, Kuwait. We sell Turkish carpet, wall-to-wall carpet, rugs, hallway runners, mosque carpet, office carpet and carpet tiles by the square metre, cut to your size and installed across all governorates of Kuwait. Our representative visits for free to measure and show samples, and orders go through WhatsApp.'
-updated: 2026-10-10
+directAnswer: 'Sajjadko Kuwait is a carpet store in Al Dajeej, Kuwait. We sell Turkish carpet, wall-to-wall carpet, rugs, hallway runners, mosque carpet, office carpet and carpet tiles by the metre, cut to your size and installed across all governorates of Kuwait. Our representative visits for free to measure and show samples, and orders go through WhatsApp.'
+updated: 2026-10-30
 reviewed: true
 faq:
   - q: 'What does Sajjadko Kuwait sell?'
@@ -26,19 +26,19 @@ faq:
 
 ## What we do
 
-| Item               | Details                                                                          |
-| ------------------ | -------------------------------------------------------------------------------- |
-| Products           | Turkish carpet, wall-to-wall carpet, rugs, runners, mosque carpet, office carpet |
-| Sold by            | The square metre, cut and made to size                                           |
-| Prices             | 1.250 to 15 KWD per m² by type; mosque carpet 6, 7 or 8 KWD per m²               |
-| Services           | Measuring, cutting, installation, hand carving, red carpet for events            |
-| After installation | Two days of follow-up to fix installation errors                                 |
-| Areas              | All governorates of Kuwait                                                       |
-| Ordering           | WhatsApp, with a free home visit                                                 |
+| Item               | Details                                                                                                                                                                                     |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Products           | Turkish carpet, wall-to-wall carpet, rugs, runners, mosque carpet, office carpet                                                                                                            |
+| Sold by            | The running metre of a 4 m wide roll for Turkish carpet, thicker wall-to-wall carpet, rugs and runners; the m² for lightweight carpet, carpet tiles and mosque carpet; cut and made to size |
+| Prices             | 5 to 15 KWD per running metre for Turkish and thicker carpet; 1.250 to 3 KWD per m² for lightweight carpet; carpet tiles 5 to 6 KWD per m²; mosque carpet 6, 7 or 8 KWD per m²              |
+| Services           | Measuring, cutting, installation, hand carving, red carpet for events                                                                                                                       |
+| After installation | Two days of follow-up to fix installation errors                                                                                                                                            |
+| Areas              | All governorates of Kuwait                                                                                                                                                                  |
+| Ordering           | WhatsApp, with a free home visit                                                                                                                                                            |
 
 ## How we work
 
-**Clear per-m² prices.** We publish the price range for each type, so you can estimate cost before you message us.
+**Clear prices per metre.** We publish the price range and the unit for each type, so you can estimate cost before you message us.
 
 **Measure before cutting.** We confirm the measurements with you before cutting, because a cut cannot be undone.
 
