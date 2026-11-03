@@ -24,7 +24,7 @@ window.INVOICE_CONFIG = {
   keyDbName: 'sajjadko-invoice', // مخزن مفتاح التوقيع داخل الجهاز
   // ترقيم المستندات: بادئة + رقم بعدد خانات ثابت. يُعدَّل من الإعدادات أيضًا.
   // version: ارفعه عند تغيير البادئة أو رقم البداية هنا ليُطبَّق على الأجهزة المستخدمة من قبل
-  numbering: { version: 1, invoicePrefix: 'SJ/', invoiceStart: 1, quotePrefix: 'SQ/', quoteStart: 1, digits: 6 },
+  numbering: { version: 2, invoicePrefix: 'SJ/', invoiceStart: 5738, quotePrefix: 'SQ/', quoteStart: 5738, digits: 6 },
   quoteValidityDays: 14,
   verifyLang: 'en', // لغة صفحة التحقق الافتراضية (ar أو en)
   terms: {
