@@ -1,3 +1,6 @@
+/* خط الهوية Alexandria (نفس خط الموقع، مستضاف ذاتيًا في /fonts/) — يعمل بدون إنترنت ويُدرج في الـ PDF */
+@font-face { font-family: 'Alexandria'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/alexandria-arabic.woff2') format('woff2'); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: 'Alexandria'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/alexandria-latin.woff2') format('woff2'); unicode-range: U+0020-007E, U+00A0, U+00D7, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
 :root {
   --ink: #2b241f;
   --muted: #6f655d;
@@ -12,7 +15,7 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; }
 body {
-  font-family: 'Noto Kufi Arabic', system-ui, sans-serif;
+  font-family: 'Alexandria', system-ui, sans-serif;
   background: var(--cream);
   color: var(--ink);
   font-size: 15px;
@@ -66,33 +69,115 @@ button.wide { margin-top: 4px; }
 #toast { position: fixed; bottom: 18px; inset-inline: 16px; z-index: 50; text-align: center; pointer-events: none; }
 #toast span { display: inline-block; background: var(--brown); color: #fff; padding: 10px 16px; border-radius: 999px; font-size: 14px; }
 
-/* ورقة الفاتورة — خارج الشاشة، بعرض A4 تقريبًا */
+/* ورقة الفاتورة — خارج الشاشة، بعرض A4. تصميم 2026-11: طبقات وظلال وعمق، بألوان الهوية */
 #sheetWrap { position: fixed; left: -10000px; top: 0; }
-#sheet { width: 794px; background: #fff; color: #222; padding: 36px 40px; font-size: 13px; line-height: 1.7; }
-.sh-head { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 3px solid var(--brown); padding-bottom: 14px; }
-.sh-brand { display: flex; gap: 12px; align-items: center; }
-.sh-brand img { width: 70px; height: 70px; object-fit: contain; }
-.sh-brand h1 { margin: 0; font-size: 22px; color: var(--brown); }
-.sh-brand p { margin: 0; color: #555; font-size: 12px; }
-.sh-meta { text-align: left; font-size: 13px; }
-.sh-meta b { font-size: 16px; }
-.sh-cust { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 18px; margin: 14px 0; padding: 10px 12px; background: #f1f4f8; border-radius: 10px; }
-.sh-table { width: 100%; border-collapse: collapse; margin-top: 6px; }
-.sh-table th { background: var(--brown); color: #fff; font-weight: 600; padding: 7px 6px; font-size: 12px; text-align: right; }
-.sh-table td { border-bottom: 1px solid #ddd; padding: 7px 6px; vertical-align: top; font-size: 12px; }
-.sh-table .num { text-align: left; white-space: nowrap; direction: ltr; }
-.sh-spec { color: #555; font-size: 11px; }
-.sh-bottom { display: flex; gap: 18px; margin-top: 14px; }
-.sh-totals { flex: 1; }
-.sh-totals div { display: flex; justify-content: space-between; padding: 4px 0; border-bottom: 1px dashed #ddd; }
-.sh-totals .grand { font-size: 16px; font-weight: 700; color: var(--brown); border-bottom: 2px solid var(--brown); }
-.sh-qr { width: 170px; text-align: center; font-size: 10.5px; color: #555; }
-.sh-qr img { width: 150px; height: 150px; image-rendering: pixelated; }
-.sh-terms { margin-top: 14px; font-size: 11.5px; color: #444; }
+#sheet {
+  --sh-navy: #022e4f; --sh-navy2: #0a4a78; --sh-gold: #c79d58; --sh-gold2: #a77c38; --sh-goldlt: #f3e3c3;
+  --sh-ink: #1d2733; --sh-mute: #66717d; --sh-soft: #f4f7fa; --sh-line: #e3e9ef;
+  width: 794px; min-height: 1123px; background: #fff; color: var(--sh-ink); padding: 0 0 26px; font-size: 13px; line-height: 1.7;
+  display: flex; flex-direction: column;
+}
+#sheet > * { margin-inline: 34px; }
+/* الترويسة: شريط كحلي متدرّج بنقشة نسيج السجاد */
+#sheet > .sh-head {
+  margin: 0; padding: 28px 34px 58px; position: relative; color: #fff;
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 20px;
+  background:
+    radial-gradient(circle at 85% -20%, rgba(199,157,88,.28) 0, transparent 45%),
+    repeating-linear-gradient(45deg, rgba(199,157,88,.07) 0 1px, transparent 1px 12px),
+    repeating-linear-gradient(-45deg, rgba(255,255,255,.04) 0 1px, transparent 1px 12px),
+    linear-gradient(135deg, var(--sh-navy) 0%, #033a63 55%, var(--sh-navy2) 100%);
+  border-bottom: 5px solid var(--sh-gold);
+  border-radius: 0 0 50% 50% / 0 0 34px 34px;
+}
+.sh-brand { display: flex; gap: 14px; align-items: center; }
+.sh-brand img {
+  width: 76px; height: 76px; object-fit: contain; padding: 8px; background: #fff; border-radius: 18px;
+  box-shadow: 0 10px 22px rgba(0,0,0,.35), 0 2px 0 var(--sh-gold);
+}
+.sh-brand h1 { margin: 0; font-size: 25px; font-weight: 700; color: #fff; letter-spacing: .2px; text-shadow: 0 2px 6px rgba(0,0,0,.35); }
+.sh-brand p { margin: 0; color: #d8e2ec; font-size: 11.5px; }
+.sh-brand p:first-of-type { color: var(--sh-gold); font-weight: 600; font-size: 12.5px; }
+/* بطاقة رقم المستند تطفو فوق الترويسة */
+.sh-meta {
+  min-width: 215px; background: #fff; color: var(--sh-ink); border-radius: 16px; padding: 14px 18px 12px;
+  text-align: start; font-size: 12.5px; position: relative; top: 4px;
+  box-shadow: 0 16px 34px rgba(1,24,43,.35), 0 3px 0 var(--sh-gold);
+}
+.sh-meta b { font-size: 17px; color: var(--sh-navy); letter-spacing: .5px; }
+.sh-title {
+  display: block; text-align: center; margin: -2px -6px 8px; padding: 5px 12px; border-radius: 10px;
+  font-size: 15px; font-weight: 700; color: #fff;
+  background: linear-gradient(180deg, #d9b273 0%, var(--sh-gold) 45%, var(--sh-gold2) 100%);
+  box-shadow: 0 4px 10px rgba(167,124,56,.45);
+  text-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
+/* بطاقة العميل */
+.sh-cust {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4px 18px; margin-top: -30px; margin-bottom: 18px; padding: 14px 18px;
+  background: #fff; border-radius: 16px; position: relative;
+  border-inline-start: 5px solid var(--sh-gold);
+  box-shadow: 0 12px 28px rgba(2,46,79,.14), 0 1px 0 var(--sh-line);
+}
+.sh-cust div:first-child { font-weight: 700; color: var(--sh-navy); font-size: 14px; }
+/* جدول البنود داخل بطاقة بظل */
+.sh-table {
+  width: calc(100% - 68px); border-collapse: separate; border-spacing: 0; border-radius: 14px; overflow: hidden;
+  box-shadow: 0 10px 26px rgba(2,46,79,.12); border: 1px solid var(--sh-line);
+}
+.sh-table th {
+  background: linear-gradient(180deg, var(--sh-navy2) 0%, var(--sh-navy) 100%); color: #fff; font-weight: 600;
+  padding: 10px 10px; font-size: 12px; text-align: start; border-bottom: 3px solid var(--sh-gold);
+}
+.sh-table td { padding: 10px 10px; vertical-align: top; font-size: 12.5px; border-bottom: 1px solid var(--sh-line); }
+.sh-table tbody tr:nth-child(even) td { background: var(--sh-soft); }
+.sh-table tbody tr:last-child td { border-bottom: none; }
+.sh-table td:first-child {
+  width: 34px; text-align: center; font-weight: 700; color: var(--sh-navy);
+}
+.sh-table td:nth-child(2) > div:first-child { font-weight: 600; color: var(--sh-navy); }
+.sh-table td:last-child { font-weight: 700; color: var(--sh-navy); }
+.sh-table .num { text-align: end; white-space: nowrap; direction: ltr; }
+.sh-table th:nth-last-child(-n+3) { text-align: end; }
+.sh-spec { color: var(--sh-mute); font-size: 11px; }
+/* المجاميع والباركود */
+.sh-bottom { display: flex; gap: 18px; margin-top: 20px; align-items: stretch; }
+.sh-totals {
+  flex: 1; background: #fff; border-radius: 16px; padding: 12px 16px; border: 1px solid var(--sh-line);
+  box-shadow: 0 10px 26px rgba(2,46,79,.10);
+}
+.sh-totals div { display: flex; justify-content: space-between; padding: 6px 2px; border-bottom: 1px dashed var(--sh-line); }
+.sh-totals div span:last-child { direction: ltr; font-weight: 600; }
+.sh-totals .grand {
+  margin: 10px -6px 6px; padding: 12px 16px; border: none; border-radius: 12px;
+  font-size: 18px; font-weight: 700; color: var(--sh-navy);
+  background: linear-gradient(160deg, #ecd3a3 0%, #d9b273 38%, var(--sh-gold) 62%, var(--sh-gold2) 100%);
+  border-top: 1px solid #f6e7c8;
+  box-shadow: 0 12px 22px rgba(167,124,56,.40), 0 3px 0 var(--sh-navy);
+}
+.sh-totals .grand span:last-child { font-size: 21px; text-shadow: 0 1px 0 rgba(255,255,255,.45); }
+.sh-totals p { margin: 8px 2px 0; color: var(--sh-mute); font-size: 12px; }
+.sh-qr {
+  width: 178px; text-align: center; font-size: 10.5px; color: var(--sh-mute); background: #fff; border-radius: 16px; padding: 12px 10px;
+  border: 1px solid var(--sh-line); box-shadow: 0 10px 26px rgba(2,46,79,.10); border-top: 4px solid var(--sh-gold);
+}
+.sh-qr img { width: 140px; height: 140px; image-rendering: pixelated; }
+.sh-qr div:last-child { color: var(--sh-navy); font-weight: 600; direction: ltr; }
+/* الشروط */
+.sh-terms {
+  margin-top: 20px; font-size: 11.5px; color: #3c4855; background: var(--sh-soft); border-radius: 14px; padding: 12px 18px;
+  border-inline-start: 4px solid var(--sh-navy);
+}
+.sh-terms b { color: var(--sh-navy); font-size: 13px; }
 .sh-terms ol { margin: 4px 0 0; padding-inline-start: 18px; }
-.sh-sign { display: flex; justify-content: space-between; margin-top: 30px; font-size: 12px; }
-.sh-sign div { width: 40%; border-top: 1px solid #999; padding-top: 6px; text-align: center; }
-.sh-foot { margin-top: 18px; text-align: center; font-size: 11px; color: #777; }
+/* التواقيع والتذييل */
+.sh-sign { display: flex; justify-content: space-between; margin-top: auto; padding-top: 34px; font-size: 12px; color: var(--sh-mute); }
+.sh-sign div { width: 40%; border-top: 2px solid var(--sh-navy); padding-top: 8px; text-align: center; position: relative; }
+#sheet > .sh-foot {
+  margin: 22px 0 0; padding: 12px 34px; text-align: center; font-size: 11.5px; color: #e6edf3; letter-spacing: .3px;
+  background: linear-gradient(135deg, var(--sh-navy) 0%, var(--sh-navy2) 100%); border-top: 4px solid var(--sh-gold);
+}
+#sheet { padding-bottom: 0; }
 
 /* ---- نوع المستند واللغة ---- */
 dialog { border: none; border-radius: 18px; padding: 0; width: min(420px, calc(100% - 32px)); box-shadow: 0 20px 60px rgba(0,0,0,.25); }
@@ -109,8 +194,4 @@ body.is-quote .invoice-only, body:not(.is-quote) .quote-only { display: none !im
 .row .tag { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 999px; background: var(--sand); margin-inline-start: 6px; }
 
 /* ---- ورقة إنجليزية (LTR) ---- */
-#sheet[dir='ltr'] { font-family: 'Noto Kufi Arabic', Arial, sans-serif; }
-#sheet[dir='ltr'] .sh-meta { text-align: right; }
-#sheet[dir='ltr'] .sh-table th { text-align: left; }
-#sheet[dir='ltr'] .sh-table .num { text-align: right; }
-.sh-title { display: inline-block; background: var(--brown); color: #fff; padding: 2px 12px; border-radius: 999px; font-size: 13px; margin-bottom: 4px; }
+#sheet { font-family: 'Alexandria', Arial, sans-serif; }

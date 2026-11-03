@@ -543,7 +543,7 @@ function buildSheet() {
         : null),
     h('div', { class: 'sh-terms' }, h('b', { text: D.terms }), h('ol', {}, terms.map((s) => h('li', { text: s })))),
     h('div', { class: 'sh-sign' }, h('div', { text: quote ? D.approveCust : D.signCust }), h('div', { text: D.signShop(S.name) })),
-    h('div', { class: 'sh-foot', text: [S.name, CFG.site.replace('https://', ''), CFG.shop.instagram && `${D.insta} ${CFG.shop.instagram}`].filter(Boolean).join(' · ') })
+    h('div', { class: 'sh-foot', text: [S.name, `${D.phoneLbl} ${S.phone}`, CFG.site.replace('https://', ''), CFG.shop.instagram && `${D.insta} ${CFG.shop.instagram}`].filter(Boolean).join('  •  ') })
   );
   return sheet;
 }
@@ -556,12 +556,22 @@ async function makePdf() {
   if (!inv.savedAt) await saveDoc();
   if (!inv.savedAt) return;
   toast(t('pdfWait'));
-  await loadScript('/invoice/vendor/html2canvas.min.js');
   await loadScript('/invoice/vendor/jspdf.umd.min.js');
   const sheet = buildSheet();
   await Promise.all([...sheet.querySelectorAll('img')].map((im) => (im.complete ? 0 : new Promise((r) => { im.onload = im.onerror = r; }))));
   if (document.fonts && document.fonts.ready) await document.fonts.ready;
-  const canvas = await html2canvas(sheet, { scale: 2, backgroundColor: '#ffffff' }); // eslint-disable-line no-undef
+  // محرّك المتصفح (modern-screenshot) يحفظ الظلال والتدرجات؛ وhtml2canvas احتياطي إذا فشل
+  let canvas = null;
+  try {
+    await loadScript('/invoice/vendor/modern-screenshot.js');
+    canvas = await window.modernScreenshot.domToCanvas(sheet, { scale: 2, backgroundColor: '#ffffff' });
+  } catch (_) {
+    canvas = null;
+  }
+  if (!canvas || !canvas.width) {
+    await loadScript('/invoice/vendor/html2canvas.min.js');
+    canvas = await html2canvas(sheet, { scale: 2, backgroundColor: '#ffffff' }); // eslint-disable-line no-undef
+  }
   const { jsPDF } = window.jspdf;
   const pdf = new jsPDF({ unit: 'pt', format: 'a4' });
   const pw = pdf.internal.pageSize.getWidth();

@@ -13,6 +13,12 @@ const LIBS = [
     sha256: 'e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb',
   },
   {
+    // يحوّل ورقة المستند إلى صورة بمحرّك المتصفح نفسه، فتبقى الظلال والتدرجات كما تظهر على الشاشة
+    file: 'modern-screenshot.js',
+    pkg: 'modern-screenshot@4.6.6/dist/index.js',
+    sha256: 'b7c474fbf3e18159d48c9312993d57635aee091bdb5a50351c9c48cefae7278a',
+  },
+  {
     file: 'jspdf.umd.min.js',
     pkg: 'jspdf@2.5.2/dist/jspdf.umd.min.js',
     sha256: '85ba2cc3ff858a20fa49fe6e457bec863ea40b55a9f3725e58a940e62f6f61a4',
