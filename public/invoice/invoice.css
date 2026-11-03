@@ -1,3 +1,6 @@
+/* خط الهوية Alexandria (نفس خط الموقع، مستضاف ذاتيًا في /fonts/) — يعمل بدون إنترنت ويُدرج في الـ PDF */
+@font-face { font-family: 'Alexandria'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/alexandria-arabic.woff2') format('woff2'); unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC; }
+@font-face { font-family: 'Alexandria'; font-style: normal; font-weight: 400 700; font-display: swap; src: url('/fonts/alexandria-latin.woff2') format('woff2'); unicode-range: U+0020-007E, U+00A0, U+00D7, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026; }
 :root {
   --ink: #2b241f;
   --muted: #6f655d;
@@ -12,7 +15,7 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; }
 body {
-  font-family: 'Noto Kufi Arabic', system-ui, sans-serif;
+  font-family: 'Alexandria', system-ui, sans-serif;
   background: var(--cream);
   color: var(--ink);
   font-size: 15px;
@@ -191,4 +194,4 @@ body.is-quote .invoice-only, body:not(.is-quote) .quote-only { display: none !im
 .row .tag { display: inline-block; font-size: 11px; padding: 1px 8px; border-radius: 999px; background: var(--sand); margin-inline-start: 6px; }
 
 /* ---- ورقة إنجليزية (LTR) ---- */
-#sheet[dir='ltr'] { font-family: 'Noto Kufi Arabic', Arial, sans-serif; }
+#sheet { font-family: 'Alexandria', Arial, sans-serif; }
