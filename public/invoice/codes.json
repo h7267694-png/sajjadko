@@ -48,6 +48,16 @@
       "unit": "pc",
       "en": "Turkish rug"
     },
+    "12": {
+      "name": "ثيل صناعي",
+      "unit": "m2",
+      "en": "Artificial grass"
+    },
+    "13": {
+      "name": "باركيه صناعي",
+      "unit": "m2",
+      "en": "Laminate parquet flooring"
+    },
     "9": {
       "name": "سجاد أحمر — بيع",
       "unit": "m",
@@ -120,6 +130,8 @@
     "5",
     "6",
     "11",
+    "12",
+    "13",
     "9",
     "10",
     "7",
