@@ -11,6 +11,7 @@ import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import Intersect from '~/components/common/Intersect.astro';
+import { waSrcScript } from '~/utils/wa-src';
 
 import type { MetaData as MetaDataType } from '~/types';
 
@@ -64,5 +65,6 @@ const textDirection = language === 'ar' ? 'rtl' : 'ltr';
     <slot />
 
     <Intersect />
+    <script is:inline set:html={waSrcScript('سجادكو')} />
   </body>
 </html>
