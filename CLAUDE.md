@@ -188,3 +188,10 @@ See [AGENTS.md](./AGENTS.md) for all project documentation and AI agent instruct
 - F8: quantity guide description rewritten (243 impressions, CTR 0.4%).
 - F5 **done 2026-10-30** (client, Cloudflare dashboard → Rules → Redirect Rules, 7 Single Redirects, all 301 + preserve query string, verified live): `ar-legacy` `https://sajjadko.com/ar/*` → `https://sajjadko.com/${1}`, and `en-by-meter`, `en-office`, `en-hallway`, `en-stairs`, `en-tiles`, `en-moquette` as `https://sajjadko.com/<old-path>/*` → `https://sajjadko.com/en/<old-path>/`. The match is on the full URI, so a pattern without a trailing `*` misses URLs with a query string. The Cloudflare agent's API token could not create rulesets (needs ruleset write scopes); do not widen its permissions, use the dashboard. Reason: Search Console showed legacy URLs still taking ~15% of impressions 17 days after the move. Meta-refresh pages stay as fallback; keep `legacy-redirects.json` in sync with these rules.
 - Client: «السجادة التسعاوية» is not a size they know or sell; do not write about it.
+
+## Step 68 (home Speed Index, slider wake-up, 2026-11-16)
+
+- PageSpeed mobile on `/` showed Speed Index 3.8 s (FCP 1.1 s) and 5KB image savings. Cause: `OfferSlider` woke 2 s after `load` (arrows appeared, next banner fetched) and autoplay then swapped the top banner while the measurement was still recording, so the viewport kept changing after it was complete. Reproduced locally with `lighthouse --throttling-method=devtools`: SI 4.8 s, last visual change 14 s; after the fix SI 1.4 s.
+- Fix: arrows are visible from first paint; the slider activates (`data-ready`, arm next slide, autoplay) on the first visitor interaction (`pointerdown`, `touchstart`, `keydown`, `scroll`, `pointermove`) or 10 s after `load`, whichever comes first. Arrows, dots and swipe work before activation. Do not bring back a short post-load timer, and do not fetch slide 2+ during load.
+- Home category tiles use `quality={62}` (the zawali tile was 11KB at 200w; circles are at most 225px).
+- Simulated Lighthouse (LHCI) cannot see this class of problem: check slider/animation changes with `--throttling-method=devtools` as well.
