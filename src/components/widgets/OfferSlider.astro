@@ -347,7 +347,8 @@ const SIZES = '(min-width: 1280px) 1248px, (min-width: 768px) calc(100vw - 32px)
     position: absolute;
     z-index: 3;
     top: 50%;
-    display: none;
+    /* ظاهرة من أول رسم: إظهارها لاحقًا كان تغييرًا مرئيًا متأخرًا يرفع Speed Index */
+    display: inline-flex;
     width: 2rem;
     height: 2rem;
     align-items: center;
@@ -375,9 +376,6 @@ const SIZES = '(min-width: 1280px) 1248px, (min-width: 768px) calc(100vw - 32px)
   }
   :global([dir='rtl']) .os-arrow svg {
     transform: scaleX(-1);
-  }
-  [data-ready] .os-arrow {
-    display: inline-flex;
   }
   .os-arrow:hover {
     background: var(--brand-gold);
@@ -511,7 +509,12 @@ const SIZES = '(min-width: 1280px) 1248px, (min-width: 768px) calc(100vw - 32px)
     const slides = root.querySelectorAll('[data-os-slide]');
     const dots = root.querySelectorAll('[data-os-dot]');
     const toggle = root.querySelector('[data-os-toggle]');
-    if (slides.length < 2 || !toggle) return;
+    if (slides.length < 2 || !toggle) {
+      root.querySelectorAll('.os-arrow, .os-bar').forEach(function (el) {
+        el.hidden = true;
+      });
+      return;
+    }
     dots.forEach(function (d, k) {
       d.dataset.osDot = k;
     });
@@ -520,6 +523,7 @@ const SIZES = '(min-width: 1280px) 1248px, (min-width: 768px) calc(100vw - 32px)
     let timer = 0;
     let paused = rm.matches;
     let hold = false;
+    let active = false;
     let x0 = null;
     const arm = function (n) {
       slides[(n + slides.length) % slides.length].classList.add('is-armed');
@@ -553,24 +557,41 @@ const SIZES = '(min-width: 1280px) 1248px, (min-width: 768px) calc(100vw - 32px)
       stop();
       toggle.setAttribute('aria-pressed', String(paused));
       toggle.setAttribute('aria-label', paused ? toggle.dataset.lPlay : toggle.dataset.lPause);
-      if (!paused && !hold && !document.hidden)
+      if (active && !paused && !hold && !document.hidden)
         timer = setInterval(function () {
           show(i + 1);
         }, 5000);
     };
+    // التفعيل (تجهيز الشريحة التالية + التبديل التلقائي) يبدأ عند أول تفاعل للزائر
+    // (لمس، تمرير، حركة مؤشر، مفتاح) أو بعد 10 ثوانٍ من اكتمال التحميل، أيهما أسبق.
+    // السبب (PageSpeed 2026-11-15، Speed Index 3.8 ث): التفعيل بعد ثانيتين من load كان
+    // يجلب صورة الشريحة التالية ثم يبدّل الشريحة أثناء فترة القياس، فتتغير أعلى
+    // الصفحة بعد اكتمالها ويُحسب ذلك تأخرًا في الاكتمال المرئي. لا تُرجع المهلة القصيرة.
+    const wake = ['pointerdown', 'touchstart', 'keydown', 'scroll', 'pointermove'];
+    const activate = function () {
+      if (active) return;
+      active = true;
+      wake.forEach(function (ev) {
+        window.removeEventListener(ev, activate);
+      });
+      root.setAttribute('data-ready', '');
+      arm(i + 1);
+      run();
+    };
     const go = function (n) {
+      activate();
       show(n);
       run();
     };
-    const ready = function () {
-      setTimeout(function () {
-        root.setAttribute('data-ready', '');
-        arm(1);
-        run();
-      }, 2000);
+    wake.forEach(function (ev) {
+      window.addEventListener(ev, activate, { passive: true });
+    });
+    const idle = function () {
+      setTimeout(activate, 10000);
     };
-    if (document.readyState === 'complete') ready();
-    else window.addEventListener('load', ready, { once: true });
+    if (document.readyState === 'complete') idle();
+    else window.addEventListener('load', idle, { once: true });
+    run();
     root.querySelector('[data-os-prev]').addEventListener('click', function () {
       go(i - 1);
     });
@@ -616,7 +637,7 @@ const SIZES = '(min-width: 1280px) 1248px, (min-width: 768px) calc(100vw - 32px)
     frame.addEventListener(
       'touchend',
       function (e) {
-        if (x0 === null || !root.hasAttribute('data-ready')) return;
+        if (x0 === null) return;
         const dx = e.changedTouches[0].clientX - x0;
         x0 = null;
         if (Math.abs(dx) > 40) {
