@@ -9,6 +9,18 @@ import { execFileSync } from 'node:child_process';
 import yaml from 'js-yaml';
 
 const HREFLANG = { en: 'en-KW', ar: 'ar-KW' };
+
+// النشر المجدول (src/utils/live.ts): المنتج ذو publishDate القادم لا يدخل الخريطة، وlastmod له هو الأحدث
+// بين آخر commit ويوم ظهوره (الملف يُرفع قبل موعده بأيام).
+const todayKuwait = () =>
+  new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Kuwait', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+const dayOf = (d) => (d instanceof Date ? d.toISOString() : String(d)).slice(0, 10);
+const isDue = (d) => !d || dayOf(d) <= todayKuwait();
+const laterOf = (git, pub) => {
+  if (!pub) return git;
+  const p = `${dayOf(pub)}T00:05:00+03:00`;
+  return !git || new Date(p) > new Date(git) ? p : git;
+};
 // العربية على الجذر والإنجليزية على /en/ (10 أكتوبر 2026)
 const pre = (lang) => (lang === 'en' ? '/en' : '');
 
@@ -48,7 +60,7 @@ export function sitemapData(root, site) {
   const productFiles = list(path.join(root, 'src/content/products'), /\.(ya?ml|json)$/);
   const products = productFiles
     .map((f) => ({ f, d: yaml.load(fs.readFileSync(f, 'utf8')) }))
-    .filter(({ d }) => d && d.status === 'published');
+    .filter(({ d }) => d && d.status === 'published' && isDue(d.publishDate));
   const productSources = (p) => [
     rel(p.f),
     ...(p.d.images ?? [])
@@ -61,7 +73,7 @@ export function sitemapData(root, site) {
     const entries = [];
     if (p.d.ar) entries.push({ lang: 'ar', url: url(`/products/${id}/`) });
     if (p.d.en?.reviewed) entries.push({ lang: 'en', url: url(`/en/products/${id}/`) });
-    groups.push({ entries, sources: productSources(p) });
+    groups.push({ entries, sources: productSources(p), publishDate: p.d.publishDate });
   }
 
   // الصفحات: الأزواج بـtranslationKey. صفحة تعرض شبكة منتجات تتغير بتغيرها
@@ -108,7 +120,7 @@ export function sitemapData(root, site) {
 
   const map = new Map();
   for (const g of groups) {
-    const lastmod = gitDate(root, [...new Set(g.sources)]);
+    const lastmod = laterOf(gitDate(root, [...new Set(g.sources)]), g.publishDate);
     const links = g.entries.length > 1 ? g.entries.map((e) => ({ lang: HREFLANG[e.lang], url: e.url })) : undefined;
     for (const e of g.entries) map.set(e.url, { links, lastmod });
   }
