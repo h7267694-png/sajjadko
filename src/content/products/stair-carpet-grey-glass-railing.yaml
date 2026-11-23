@@ -32,13 +32,20 @@ images:
     alt:
       ar: سجاد الدرج الداخلي الرمادي من أعلى السلم بعد التركيب حتى البسطة
       en: The grey indoor stair carpet seen from the top of the stairs down to the landing after fitting
+latestWork:
+  show: true
+  area: salwa
+  date: 2026-11-23
+  note:
+    ar: تركيب سجاد درج داخلي رمادي في سلوى، مقصوص على مقاس كل درجة ويغطي الدرجة ومقدمتها، على درج بدرابزين زجاج وإضاءة جدارية.
+    en: Fitted grey carpet on an indoor staircase in Salwa with a glass railing, cut to each step and wrapping tread and riser.
 ar:
   name: سجاد درج رمادي لدرج داخلي بدرابزين زجاج
-  directAnswer: 'سجاد درج رمادي كثيف ركّبناه على درج داخلي بدرابزين زجاج وإضاءة جدارية، مقصوص على مقاس كل درجة ويغطي الدرجة ومقدمتها بقطعة واحدة. السعر 7 د.ك للمتر الطولي، والقياس مجاني.'
+  directAnswer: 'سجاد درج رمادي كثيف ركّبناه في بيت بمنطقة سلوى على درج داخلي بدرابزين زجاج وإضاءة جدارية، مقصوص على مقاس كل درجة ويغطي الدرجة ومقدمتها بقطعة واحدة. السعر 7 د.ك للمتر الطولي، والقياس مجاني.'
   usage: سجاد السلم يقلل الانزلاق وصوت الخطوات ويحمي حواف الدرج، والرمادي يخفي آثار الاستعمال اليومي في السلالم كثيرة المرور.
   care: نظّفه بالمكنسة الكهربائية مرة أسبوعيًا على الأقل، خصوصًا مقدمة الدرجات لأنها الأكثر احتكاكًا، وامسح البقع فور وقوعها دون فرك.
-  seoTitle: سجاد درج رمادي — 7 د.ك للمتر الطولي | سجادكو
-  seoDescription: سجاد درج رمادي لسلم داخلي، مقصوص على مقاس كل درجة ويغطي مقدمتها، بسعر 7 د.ك للمتر الطولي مع قياس مجاني وتركيب في الكويت.
+  seoTitle: تركيب سجاد درج رمادي في سلوى — 7 د.ك للمتر | سجادكو
+  seoDescription: سجاد درج رمادي لسلم داخلي في سلوى، مقصوص على مقاس كل درجة ويغطي مقدمتها، بسعر 7 د.ك للمتر الطولي مع قياس مجاني وتركيب في الكويت.
   reviewed: true
   faq:
     - q: كم سعر سجاد الدرج بالمتر؟
@@ -49,11 +56,11 @@ ar:
       a: نعم، مندوبنا يزورك مجانًا للقياس وعرض العينات، ثم نرسل لك السعر عبر واتساب قبل أي التزام.
 en:
   name: Grey Stair Carpet for an Indoor Staircase with Glass Railing
-  directAnswer: 'Dense grey stair carpet we fitted on an indoor staircase with a glass railing and wall lights, cut to each step and wrapping the tread and riser in one piece. 7 KWD per running metre, with free measuring.'
+  directAnswer: 'Dense grey stair carpet we fitted in a house in Salwa on an indoor staircase with a glass railing and wall lights, cut to each step and wrapping the tread and riser in one piece. 7 KWD per running metre, with free measuring.'
   usage: Stair carpet reduces slipping and footstep noise and protects the step edges, and grey hides everyday wear on busy stairs.
   care: Vacuum at least weekly, especially the step noses, and blot spills straight away without rubbing.
-  seoTitle: Grey Stair Carpet, 7 KWD per Metre, Kuwait | Sajjadko
-  seoDescription: Grey stair carpet for indoor stairs, cut to each step and wrapping the riser, at 7 KWD per running metre with free measuring and fitting in Kuwait.
+  seoTitle: Grey Stair Carpet Fitted in Salwa, Kuwait | Sajjadko
+  seoDescription: Grey stair carpet fitted on indoor stairs in Salwa, cut to each step and wrapping the riser, at 7 KWD per running metre with free measuring and fitting in Kuwait.
   reviewed: true
   faq:
     - q: How much is stair carpet per metre?
