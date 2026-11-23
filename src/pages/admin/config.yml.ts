@@ -145,6 +145,17 @@ const config = {
           ],
           default: 'draft',
         },
+        {
+          name: 'publishDate',
+          label: '📅 تاريخ النشر',
+          widget: 'datetime',
+          date_format: 'YYYY-MM-DD',
+          time_format: false,
+          format: 'YYYY-MM-DD',
+          picker_utc: true,
+          required: false,
+          hint: 'فارغ = يظهر فورًا. تاريخ قادم = يبقى مخفيًا ويظهر تلقائيًا بعد منتصف ليل ذلك اليوم (يلزم «منشور»)',
+        },
         { name: 'category', label: 'النوع', widget: 'select', options: opts(CATEGORY_LABELS) },
         {
           name: 'places',

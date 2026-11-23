@@ -116,6 +116,8 @@ const productsCollection = defineCollection({
           .optional(),
         sku: z.string().min(2), // التفرد بين الملفات يفحصه حاجز الجودة لاحقًا
         status,
+        // النشر المجدول: يظهر المنتج المنشور صباح هذا اليوم بتوقيت الكويت (src/utils/live.ts). فارغ = فورًا
+        publishDate: z.coerce.date().optional(),
         category: z.enum(PRODUCT_CATEGORIES),
         places: z.array(z.enum(PLACES)).min(1),
         services: z.array(z.enum(PRODUCT_SERVICES)).optional(), // صفحات الخدمة التي يظهر فيها المنتج

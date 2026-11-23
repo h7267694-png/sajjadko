@@ -1,6 +1,7 @@
 // ملفات أدوات الذكاء الاصطناعي (llms.txt): تُولَّد وقت البناء من المحتوى المنشور فقط، فتتحدث مع كل نشر
 // ومع كل منتج يُضاف من لوحة الإدارة. الحقائق من site.yaml والصفحات والمنتجات نفسها، لا نص مكرر يدويًا.
 import { getCollection } from 'astro:content';
+import { isDue } from '~/utils/live';
 import { getSettings, formatPhone } from '~/utils/site';
 import { pageHref } from '~/utils/pages';
 import { productHref } from '~/utils/products';
@@ -12,7 +13,7 @@ const abs = (p: string) => new URL(p, SITE).href;
 async function data() {
   const settings = await getSettings();
   const pages = (await getCollection('pages')).filter((p) => p.data.status === 'published' && p.data.kind !== 'home');
-  const products = (await getCollection('products')).filter((p) => p.data.status === 'published');
+  const products = (await getCollection('products')).filter((p) => p.data.status === 'published' && isDue(p.data.publishDate));
   return { settings, pages, products };
 }
 

@@ -3,13 +3,14 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { localePrefix, type Locale } from '~/utils/site';
 import { PRICE_UNIT_LABELS } from '~/utils/taxonomy';
+import { isDue } from '~/utils/live';
 
 export type ProductEntry = CollectionEntry<'products'>;
 
 export const productHref = (lang: Locale, id: string) => `${localePrefix(lang)}/products/${id}/`;
 
 const visible = (p: ProductEntry) =>
-  p.data.status === 'published' || (import.meta.env.DEV && p.data.status === 'draft');
+  (p.data.status === 'published' && isDue(p.data.publishDate)) || (import.meta.env.DEV && p.data.status === 'draft');
 
 /** هل تُبنى صفحة المنتج بهذه اللغة؟ */
 export const hasLang = (p: ProductEntry, lang: Locale) =>
